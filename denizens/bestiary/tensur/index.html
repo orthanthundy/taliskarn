@@ -12,16 +12,14 @@
 
 <body>
     <header role="banner" id="banner">
-    <div style="overflow: hidden;">
-        <div style="float:left; padding: 3px;" class="nav-mobile">
-            <div>
-                <button id="burger-btn" class="text-white focus:outline-none">
-                    ☰
-                </button>
-            </div>
-            <div id="mobile-menu" class="mobile-menu bg-gray-900 text-white p-4">
-                <ul class="navigation">
-                    <li><a href="/">Home</a>
+
+    <div class="nav-mobile">
+        <button id="burger-btn" class="burger-btn text-white focus:outline-none" aria-label="Открыть меню">
+            ☰
+        </button>
+        <div id="mobile-menu" class="mobile-menu bg-gray-900 text-white p-4">
+            <ul class="navigation">
+                <li><a href="/">Home</a>
         <ul class="submenu">
                 <li>
                         <a href="/two_taliskarns">The Two Taliskarns</a>
@@ -135,34 +133,40 @@
                 <li><a href="/about/links">Links</a></li>-->
 
         </ul> 
-</li></ul>
-            </div>
+</li>
+            </ul>
         </div>
-        <div style="float: left;">
-            <h1 style="margin-top : 0.2em; 
-    margin-bottom : 0.2em; 
-    font-family: 'Constantine';
-    src: url('/assets/fonts/Constantine.ttf') format('ttf'),
-         url('/assets/fonts/ConstantineBold.ttf') format('ttf'); 
-    font-size: 32px;
-    font-weight : 800; 
-    background-color: c9ad6a;
-    letter-spacing: 1px;"><a style="color: white; text-decoration: none;" href="/">Taliskarn</a>
+    </div>
+
+    <div class="header-content">
+
+        <div class="header-brand">
+            <h1 class="site-title">
+                <a href="/">Taliskarn</a>
             </h1>
+            <div class="header-contacts">
+                | <a href="https://discord.gg/Dr4BA8CCx3" class="contact-link">Discord</a>
+                | <a href="mailto:orthanthundy@gmail.com" class="contact-link">orthanthundy@gmail.com</a>
+            </div>
         </div>
-        <div class="header-search" style="float: right;">
-            <div style="text-align: right; margin-bottom: 8px; margin-top: 0px;">
+
+
+        <div class="header-actions">
+
+            <div class="language-switcher">
                 
                 
-                <a style="color: white;" href="/ru/denizens/bestiary/tensur/">Russian</a>
+                <a href="/ru/denizens/bestiary/tensur/">Russian</a>
                 
             </div>
+
             <form class="header-search-form" action="/search/" method="get">
                 <input type="text" id="search-box" name="query">
                 <input type="submit" value="search">
             </form>
         </div>
     </div>
+
     <div class="nav-desktop">
         <ul class="navigation">
             <li><a href="/">Home</a>
@@ -282,9 +286,6 @@
 </li>
         </ul>
     </div>
-
-
-
 </header>
 
 <div class="notification_banner">
@@ -368,6 +369,14 @@
         window.changeImage = changeImage;
     });
 
+    document.addEventListener('DOMContentLoaded', function () {
+        const burgerBtn = document.getElementById('burger-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        burgerBtn.addEventListener('click', function () {
+            mobileMenu.classList.toggle('active');
+        });
+    });
 </script>
 
     <main role="main" id="main" class="phb">
