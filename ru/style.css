@@ -564,6 +564,18 @@ body {
   margin-bottom: 10px;
 }
 
+@font-face {
+  font-family: "Constantine";
+  src: url("/assets/fonts/Constantine.woff2") format("woff2"), url("/assets/fonts/Constantine.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Constantine";
+  src: url("/assets/fonts/ConstantineBold.woff2") format("woff2"), url("/assets/fonts/ConstantineBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
 body {
   max-width: 1250px;
   min-width: 580px;
