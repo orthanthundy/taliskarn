@@ -19,18 +19,21 @@
 
 <body>
     <header role="banner" id="banner">
+    <div class="header-content">
 
-    <div class="nav-mobile">
-        <button id="burger-btn" class="burger-btn text-white focus:outline-none" aria-label="Открыть меню">
-            ☰
-        </button>
-        <div id="mobile-menu" class="mobile-menu bg-gray-900 text-white p-4">
-            <ul class="navigation">
-                <li><a href="/">Home</a>
+        <div class="header-brand">
+
+            <div class="nav-mobile">
+                <button id="burger-btn" class="burger-btn text-white focus:outline-none">
+                    ☰
+                </button>
+                <div id="mobile-menu" class="mobile-menu bg-gray-900 text-white p-4">
+                    <ul class="navigation">
+                        <li><a href="/">Home</a><span class="submenu-toggle">▾</span>
         <ul class="submenu">
                 <li>
                         <a href="/two_taliskarns">The Two Taliskarns</a>
-                        <!-- <ul class="submenu">
+                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
                                 <li><a href="/two_taliskarns/taliskarn_dt">Dark Times (DT)</a></li>
                                 <li><a href="/two_taliskarns/taliskarn_nd">New Dawn (ND)</a></li>
                         </ul> -->
@@ -40,8 +43,7 @@
         </ul>
 </li>
 
-<li><a href="/malkona">Places</a>
-
+<li><a href="/malkona">Places</a> <span class="submenu-toggle">▾</span>
         <ul class="submenu">
                 <li><a href="/malkona/riku">Riku Highlands</a></li>
                 <li><a href="/malkona/verda">Verdant Verdas</a></li>
@@ -61,21 +63,22 @@
 
 
 <li><a href="/denizens">Denizens</a>
+        <span class="submenu-toggle">▾</span>
         <ul class="submenu">
                 <li><a href="/denizens/races/prymars">Prymars</a></li>
-        <li><a href="/denizens/races/arydars">Arydars</a></li>
-        <li> <a href="/denizens/races/brunars">Brunars</a> </li>
-        <li><a href="/denizens/races/saltuars">Saltuars</a></li>
-        <li><a href="/denizens/races/bryleahns">Bryleahns</a></li>
-        <li><a href="/denizens/races/kyonnhs">Kyönnhs</a></li>
-        <li><a href="/denizens/races/noctids">Noctids</a></li>
-        <li><a href="/denizens/races/flammars">Flammars</a></li>
+                <li><a href="/denizens/races/arydars">Arydars</a></li>
+                <li> <a href="/denizens/races/brunars">Brunars</a> </li>
+                <li><a href="/denizens/races/saltuars">Saltuars</a></li>
+                <li><a href="/denizens/races/bryleahns">Bryleahns</a></li>
+                <li><a href="/denizens/races/kyonnhs">Kyönnhs</a></li>
+                <li><a href="/denizens/races/noctids">Noctids</a></li>
+                <li><a href="/denizens/races/flammars">Flammars</a></li>
                 <!-- <li>
                         <a href="/denizens/races">Races</a>
-                        <ul class="submenu">
+                        <span class="submenu-toggle">▾</span><ul class="submenu">
                                 <li>
                                         <a href="/denizens/races/humans">Humans</a>
-                                        <ul class="submenu">
+                                        <span class="submenu-toggle">▾</span><ul class="submenu">
        
                                         </ul>
                                 </li> 
@@ -87,10 +90,11 @@
 </li>
 
 <li><a href="/wonders">Wonders</a>
+        <span class="submenu-toggle">▾</span>
         <ul class="submenu">
                 <li>
                         <a href="/wonders/pantheon">Pantheon</a>
-                        <!-- <ul class="submenu">
+                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
                                 <li><a href="/wonders/pantheon/fluere">Fluere</a></li>
                                 <li><a href="/wonders/pantheon/kaelesta">Kaelesta</a></li>
                                 <li><a href="/wonders/pantheon/solkalor">Solkalor</a></li>
@@ -104,7 +108,7 @@
                 </li>
                 <!-- <li>
                         <a href="/">Religions</a>
-                        <ul class="submenu">
+                        <span class="submenu-toggle">▾</span><ul class="submenu">
                                 <li><a href="/wonders/religions/cult_of_currents">Cult of Currents</a></li>
                                 <li><a href="/wonders/religions/cult_of_spirits">Cult of Spirits</a></li>
                                 <li><a href="/wonders/religions/ancestor_cult">Ancestor Cult</a></li>
@@ -119,8 +123,10 @@
 </li>
 
 <li><a href="/extras">Extras</a>
+        <span class="submenu-toggle">▾</span>
         <ul class="submenu">
                 <li><a href="/extras/stories">Stories</a>
+                        <span class="submenu-toggle">▾</span>
                         <ul class="submenu">
                                 <li><a href="/extras/stories/myth">Myth</a></li>
                         </ul>
@@ -132,28 +138,26 @@
         </ul>
 </li>
 <li><a href="/about">About</a>
-<ul class="submenu">
-        <li><a href="/about/wip">Work in Progress</a></li>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/about/wip">Work in Progress</a></li>
                 <li><a href="/license">License</a></li>
-                      <!--   <li><a href="/about/roadmap">Roadmap</a></li>
+                <!--   <li><a href="/about/roadmap">Roadmap</a></li>
                 <li><a href="/about/credits">Credits</a></li>
                 <li><a href="/about/links">Links</a></li>-->
 
-        </ul> 
+        </ul>
 </li>
-            </ul>
-        </div>
-    </div>
+                    </ul>
+                </div>
+            </div>
 
-    <div class="header-content">
-
-        <div class="header-brand">
             <h1 class="site-title">
                 <a href="/">Taliskarn</a>
             </h1>
             <div class="header-contacts">
-                | <a href="https://discord.gg/Dr4BA8CCx3" class="contact-link">Discord</a>
-                | <a href="mailto:orthanthundy@gmail.com" class="contact-link">orthanthundy@gmail.com</a>
+                <a href="https://discord.gg/Dr4BA8CCx3" class="contact-link"> Join Discord</a><br>
+                <a href="mailto:orthanthundy@gmail.com" class="contact-link">orthanthundy@gmail.com</a>
             </div>
         </div>
 
@@ -176,11 +180,11 @@
 
     <div class="nav-desktop">
         <ul class="navigation">
-            <li><a href="/">Home</a>
+            <li><a href="/">Home</a><span class="submenu-toggle">▾</span>
         <ul class="submenu">
                 <li>
                         <a href="/two_taliskarns">The Two Taliskarns</a>
-                        <!-- <ul class="submenu">
+                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
                                 <li><a href="/two_taliskarns/taliskarn_dt">Dark Times (DT)</a></li>
                                 <li><a href="/two_taliskarns/taliskarn_nd">New Dawn (ND)</a></li>
                         </ul> -->
@@ -190,8 +194,7 @@
         </ul>
 </li>
 
-<li><a href="/malkona">Places</a>
-
+<li><a href="/malkona">Places</a> <span class="submenu-toggle">▾</span>
         <ul class="submenu">
                 <li><a href="/malkona/riku">Riku Highlands</a></li>
                 <li><a href="/malkona/verda">Verdant Verdas</a></li>
@@ -211,21 +214,22 @@
 
 
 <li><a href="/denizens">Denizens</a>
+        <span class="submenu-toggle">▾</span>
         <ul class="submenu">
                 <li><a href="/denizens/races/prymars">Prymars</a></li>
-        <li><a href="/denizens/races/arydars">Arydars</a></li>
-        <li> <a href="/denizens/races/brunars">Brunars</a> </li>
-        <li><a href="/denizens/races/saltuars">Saltuars</a></li>
-        <li><a href="/denizens/races/bryleahns">Bryleahns</a></li>
-        <li><a href="/denizens/races/kyonnhs">Kyönnhs</a></li>
-        <li><a href="/denizens/races/noctids">Noctids</a></li>
-        <li><a href="/denizens/races/flammars">Flammars</a></li>
+                <li><a href="/denizens/races/arydars">Arydars</a></li>
+                <li> <a href="/denizens/races/brunars">Brunars</a> </li>
+                <li><a href="/denizens/races/saltuars">Saltuars</a></li>
+                <li><a href="/denizens/races/bryleahns">Bryleahns</a></li>
+                <li><a href="/denizens/races/kyonnhs">Kyönnhs</a></li>
+                <li><a href="/denizens/races/noctids">Noctids</a></li>
+                <li><a href="/denizens/races/flammars">Flammars</a></li>
                 <!-- <li>
                         <a href="/denizens/races">Races</a>
-                        <ul class="submenu">
+                        <span class="submenu-toggle">▾</span><ul class="submenu">
                                 <li>
                                         <a href="/denizens/races/humans">Humans</a>
-                                        <ul class="submenu">
+                                        <span class="submenu-toggle">▾</span><ul class="submenu">
        
                                         </ul>
                                 </li> 
@@ -237,10 +241,11 @@
 </li>
 
 <li><a href="/wonders">Wonders</a>
+        <span class="submenu-toggle">▾</span>
         <ul class="submenu">
                 <li>
                         <a href="/wonders/pantheon">Pantheon</a>
-                        <!-- <ul class="submenu">
+                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
                                 <li><a href="/wonders/pantheon/fluere">Fluere</a></li>
                                 <li><a href="/wonders/pantheon/kaelesta">Kaelesta</a></li>
                                 <li><a href="/wonders/pantheon/solkalor">Solkalor</a></li>
@@ -254,7 +259,7 @@
                 </li>
                 <!-- <li>
                         <a href="/">Religions</a>
-                        <ul class="submenu">
+                        <span class="submenu-toggle">▾</span><ul class="submenu">
                                 <li><a href="/wonders/religions/cult_of_currents">Cult of Currents</a></li>
                                 <li><a href="/wonders/religions/cult_of_spirits">Cult of Spirits</a></li>
                                 <li><a href="/wonders/religions/ancestor_cult">Ancestor Cult</a></li>
@@ -269,8 +274,10 @@
 </li>
 
 <li><a href="/extras">Extras</a>
+        <span class="submenu-toggle">▾</span>
         <ul class="submenu">
                 <li><a href="/extras/stories">Stories</a>
+                        <span class="submenu-toggle">▾</span>
                         <ul class="submenu">
                                 <li><a href="/extras/stories/myth">Myth</a></li>
                         </ul>
@@ -282,16 +289,21 @@
         </ul>
 </li>
 <li><a href="/about">About</a>
-<ul class="submenu">
-        <li><a href="/about/wip">Work in Progress</a></li>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/about/wip">Work in Progress</a></li>
                 <li><a href="/license">License</a></li>
-                      <!--   <li><a href="/about/roadmap">Roadmap</a></li>
+                <!--   <li><a href="/about/roadmap">Roadmap</a></li>
                 <li><a href="/about/credits">Credits</a></li>
                 <li><a href="/about/links">Links</a></li>-->
 
-        </ul> 
+        </ul>
 </li>
         </ul>
+    </div>
+
+    <div class="header-contacts-mobile">
+       <a href="https://discord.gg/Dr4BA8CCx3" class="contact-link"> Join Discord</a> | <a href="mailto:orthanthundy@gmail.com" class="contact-link">orthanthundy@gmail.com</a>
     </div>
 </header>
 
@@ -315,13 +327,27 @@
 
 <script>
 
-    document.getElementById('burger-btn').addEventListener('click', function () {
-        document.getElementById('mobile-menu').classList.toggle('active');
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const burgerBtn = document.getElementById('burger-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        burgerBtn.addEventListener('click', function () {
+            mobileMenu.classList.toggle('active');
+        });
     });
 
     console.log("Image modal script loaded!");
 
     document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll('.submenu-toggle').forEach(button => {
+            button.addEventListener('click', function (event) {
+                event.stopPropagation();
+                let parent = this.closest('.has-submenu');
+                parent.classList.toggle('open');
+            });
+        });
+
         let images = Array.from(document.querySelectorAll("img.phb-image"));
         let modal = document.getElementById("imageModal");
         let modalImage = document.getElementById("modalImage");
@@ -373,15 +399,6 @@
         window.openModal = openModal;
         window.closeModal = closeModal;
         window.changeImage = changeImage;
-    });
-
-    document.addEventListener('DOMContentLoaded', function () {
-        const burgerBtn = document.getElementById('burger-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-
-        burgerBtn.addEventListener('click', function () {
-            mobileMenu.classList.toggle('active');
-        });
     });
 </script>
 

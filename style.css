@@ -653,7 +653,7 @@ body {
   margin-top: 5px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .taliskarn-title {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   }
@@ -822,7 +822,7 @@ body {
 }
 
 .navigation a {
-  display: block;
+  display: inline-block;
   padding: 10px 20px;
   color: white;
   text-decoration: none;
@@ -855,13 +855,37 @@ body {
   top: 0;
 }
 
+.submenu-toggle {
+  display: none;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 18px;
+  margin-left: 12px;
+}
+
+.has-submenu.open .submenu {
+  display: block;
+}
+
 .navigation-container.open .navigation {
   display: flex;
   flex-direction: column;
   width: 100%;
+  text-align: left;
 }
 
-@media (max-width: 768px) {
+.header-contacts-mobile {
+  display: none;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .header-contacts {
+    display: none;
+  }
+  .header-contacts-mobile {
+    display: block;
+  }
   .nav-desktop {
     display: none;
   }
@@ -876,6 +900,9 @@ body {
   .submenu {
     position: static;
     display: none;
+  }
+  .submenu-toggle {
+    display: inline-block;
   }
   .navigation li.open > .submenu {
     display: block;
@@ -1160,13 +1187,18 @@ header {
 
 .burger-btn {
   font-size: 24px;
-  background: none;
   border: none;
   cursor: pointer;
 }
 
 .mobile-menu {
   display: none;
+  position: absolute;
+  top: 64;
+  left: 0;
+  width: 100%;
+  background-color: #111;
+  z-index: 1001;
 }
 
 .mobile-menu.active {
@@ -1201,8 +1233,8 @@ header {
 }
 
 .header-contacts {
-  display: flex;
-  gap: 10px;
+  border-left: 1px white;
+  margin-top: 4px;
 }
 
 .contact-link {
@@ -1211,9 +1243,7 @@ header {
 }
 
 .header-actions {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+  text-align: right;
 }
 
 .language-switcher a {
@@ -1222,18 +1252,17 @@ header {
 }
 
 .header-search-form {
-  display: flex;
-  gap: 10px;
+  margin-top: 8px;
 }
 
 .header-search-form input[type=text] {
-  padding: 5px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  max-width: 140px;
 }
 
 .header-search-form button {
-  padding: 5px 10px;
+  padding: 0px 10px;
   background-color: #333;
   color: white;
   border: none;
@@ -1245,7 +1274,7 @@ header {
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .nav-mobile {
     display: none;
   }
@@ -1254,7 +1283,7 @@ header {
   }
   .nav-desktop .navigation {
     display: flex;
-    gap: 20px;
+    gap: 4px;
     list-style: none;
     padding: 0;
     margin: 0;

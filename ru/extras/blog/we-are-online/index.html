@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сайт Талискарна онлайн! Что, зачем, почему и куда смотреть | Талискарн : Мир Неначертанных Карт </title>
     <link rel="stylesheet" href="/style.css">
 </head>
@@ -18,18 +19,21 @@
 </script>
 <body>
     <header role="banner" id="banner">
+    <div class="header-content">
 
-    <div class="nav-mobile">
-        <button id="burger-btn" class="burger-btn text-white focus:outline-none" aria-label="Открыть меню">
-            ☰
-        </button>
-        <div id="mobile-menu" class="mobile-menu bg-gray-900 text-white p-4">
-            <ul class="navigation">
-                <li><a href="/ru/">Главная</a>
+        <div class="header-brand">
+
+            <div class="nav-mobile">
+                <button id="burger-btn" class="burger-btn text-white focus:outline-none">
+                    ☰
+                </button>
+                <div id="mobile-menu" class="mobile-menu bg-gray-900 text-white p-4">
+                    <ul class="navigation">
+                        <li><a href="/ru/">Главная</a><span class="submenu-toggle">▾</span>
         <ul class="submenu">
                 <li>
                         <a href="/ru/two_taliskarns">Два Талискарна</a>
-                        <!-- <ul class="submenu">
+                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
                                 <li><a href="/ru/two_taliskarns/taliskarn_dt">Тёмные Времена (ТВ)</a></li>
                                 <li><a href="/ru/two_taliskarns/taliskarn_nd">Новый Рассвет (НР)</a></li>
                         </ul> -->
@@ -39,8 +43,7 @@
         </ul>
 </li>
 
-<li><a href="/ru/malkona">Места</a>
-
+<li><a href="/ru/malkona">Места</a> <span class="submenu-toggle">▾</span>
         <ul class="submenu">
                 <li><a href="/ru/malkona/riku">Нагорье Рику</a></li>
                 <li><a href="/ru/malkona/verda">Зелёные Земли Верда</a></li>
@@ -60,21 +63,22 @@
 
 
 <li><a href="/ru/denizens">Обитатели</a>
+        <span class="submenu-toggle">▾</span>
         <ul class="submenu">
                 <li><a href="/ru/denizens/races/prymars">Примары</a></li>
-        <li><a href="/ru/denizens/races/arydars">Аридары</a></li>
-        <li> <a href="/ru/denizens/races/brunars">Брунары</a> </li>
-        <li><a href="/ru/denizens/races/saltuars">Салтуары</a></li>
-        <li><a href="/ru/denizens/races/bryleahns">Брилийцы</a></li>
-        <li><a href="/ru/denizens/races/kyonnhs">Кьённхи</a></li>
-        <li><a href="/ru/denizens/races/noctids">Ноктиды</a></li>
-        <li><a href="/ru/denizens/races/flammars">Фламмары</a></li>
+                <li><a href="/ru/denizens/races/arydars">Аридары</a></li>
+                <li> <a href="/ru/denizens/races/brunars">Брунары</a> </li>
+                <li><a href="/ru/denizens/races/saltuars">Салтуары</a></li>
+                <li><a href="/ru/denizens/races/bryleahns">Брилийцы</a></li>
+                <li><a href="/ru/denizens/races/kyonnhs">Кьённхи</a></li>
+                <li><a href="/ru/denizens/races/noctids">Ноктиды</a></li>
+                <li><a href="/ru/denizens/races/flammars">Фламмары</a></li>
                 <!-- <li>
                         <a href="/ru/denizens/races">Народы</a>
-                        <ul class="submenu">
+                        <span class="submenu-toggle">▾</span><ul class="submenu">
                                 <li>
                                         <a href="/ru/denizens/races/humans">Люди</a>
-                                        <ul class="submenu">
+                                        <span class="submenu-toggle">▾</span><ul class="submenu">
        
                                         </ul>
                                 </li> 
@@ -86,10 +90,11 @@
 </li>
 
 <li><a href="/ru/wonders">Чудеса</a>
+        <span class="submenu-toggle">▾</span>
         <ul class="submenu">
                 <li>
                         <a href="/ru/wonders/pantheon">Пантеон</a>
-                        <!-- <ul class="submenu">
+                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
                                 <li><a href="/ru/wonders/pantheon/fluere">Флуэрэ</a></li>
                                 <li><a href="/ru/wonders/pantheon/kaelesta">Келеста</a></li>
                                 <li><a href="/ru/wonders/pantheon/solkalor">Солкалор</a></li>
@@ -103,7 +108,7 @@
                 </li>
                 <!-- <li>
                         <a href="/ru/">Религии</a>
-                        <ul class="submenu">
+                        <span class="submenu-toggle">▾</span><ul class="submenu">
                                 <li><a href="/ru/wonders/religions/cult_of_currents">Культ Течений</a></li>
                                 <li><a href="/ru/wonders/religions/cult_of_spirits">Культ Духов</a></li>
                                 <li><a href="/ru/wonders/religions/ancestor_cult">Культ Предков</a></li>
@@ -118,8 +123,10 @@
 </li>
 
 <li><a href="/ru/extras">Дополнения</a>
+        <span class="submenu-toggle">▾</span>
         <ul class="submenu">
                 <li><a href="/ru/extras/stories">Истории</a>
+                        <span class="submenu-toggle">▾</span>
                         <ul class="submenu">
                                 <li><a href="/ru/extras/stories/myth">Миф</a></li>
                         </ul>
@@ -131,28 +138,26 @@
         </ul>
 </li>
 <li><a href="/ru/about">О проекте</a>
-<ul class="submenu">
-        <li><a href="/ru/about/wip">В процессе работы</a></li>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/ru/about/wip">В процессе работы</a></li>
                 <li><a href="/ru/license">License</a></li>
-                      <!--   <li><a href="/ru/about/roadmap">Планы и Хроника</a></li>
+                <!--   <li><a href="/ru/about/roadmap">Планы и Хроника</a></li>
                 <li><a href="/ru/about/credits">Авторы</a></li>
                 <li><a href="/ru/about/links">Ссылки</a></li>-->
 
-        </ul> 
+        </ul>
 </li>
-            </ul>
-        </div>
-    </div>
+                    </ul>
+                </div>
+            </div>
 
-    <div class="header-content">
-
-        <div class="header-brand">
             <h1 class="site-title">
                 <a href="/ru/">Талискарн</a>
             </h1>
             <div class="header-contacts">
-                | <a href="https://discord.gg/Dr4BA8CCx3" class="contact-link">Discord</a>
-                | <a href="mailto:orthanthundy@gmail.com" class="contact-link">orthanthundy@gmail.com</a>
+                <a href="https://discord.gg/Dr4BA8CCx3" class="contact-link"> Присоединяйся к Дискорду</a><br>
+                <a href="mailto:orthanthundy@gmail.com" class="contact-link">orthanthundy@gmail.com</a>
             </div>
         </div>
 
@@ -175,11 +180,11 @@
 
     <div class="nav-desktop">
         <ul class="navigation">
-            <li><a href="/ru/">Главная</a>
+            <li><a href="/ru/">Главная</a><span class="submenu-toggle">▾</span>
         <ul class="submenu">
                 <li>
                         <a href="/ru/two_taliskarns">Два Талискарна</a>
-                        <!-- <ul class="submenu">
+                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
                                 <li><a href="/ru/two_taliskarns/taliskarn_dt">Тёмные Времена (ТВ)</a></li>
                                 <li><a href="/ru/two_taliskarns/taliskarn_nd">Новый Рассвет (НР)</a></li>
                         </ul> -->
@@ -189,8 +194,7 @@
         </ul>
 </li>
 
-<li><a href="/ru/malkona">Места</a>
-
+<li><a href="/ru/malkona">Места</a> <span class="submenu-toggle">▾</span>
         <ul class="submenu">
                 <li><a href="/ru/malkona/riku">Нагорье Рику</a></li>
                 <li><a href="/ru/malkona/verda">Зелёные Земли Верда</a></li>
@@ -210,21 +214,22 @@
 
 
 <li><a href="/ru/denizens">Обитатели</a>
+        <span class="submenu-toggle">▾</span>
         <ul class="submenu">
                 <li><a href="/ru/denizens/races/prymars">Примары</a></li>
-        <li><a href="/ru/denizens/races/arydars">Аридары</a></li>
-        <li> <a href="/ru/denizens/races/brunars">Брунары</a> </li>
-        <li><a href="/ru/denizens/races/saltuars">Салтуары</a></li>
-        <li><a href="/ru/denizens/races/bryleahns">Брилийцы</a></li>
-        <li><a href="/ru/denizens/races/kyonnhs">Кьённхи</a></li>
-        <li><a href="/ru/denizens/races/noctids">Ноктиды</a></li>
-        <li><a href="/ru/denizens/races/flammars">Фламмары</a></li>
+                <li><a href="/ru/denizens/races/arydars">Аридары</a></li>
+                <li> <a href="/ru/denizens/races/brunars">Брунары</a> </li>
+                <li><a href="/ru/denizens/races/saltuars">Салтуары</a></li>
+                <li><a href="/ru/denizens/races/bryleahns">Брилийцы</a></li>
+                <li><a href="/ru/denizens/races/kyonnhs">Кьённхи</a></li>
+                <li><a href="/ru/denizens/races/noctids">Ноктиды</a></li>
+                <li><a href="/ru/denizens/races/flammars">Фламмары</a></li>
                 <!-- <li>
                         <a href="/ru/denizens/races">Народы</a>
-                        <ul class="submenu">
+                        <span class="submenu-toggle">▾</span><ul class="submenu">
                                 <li>
                                         <a href="/ru/denizens/races/humans">Люди</a>
-                                        <ul class="submenu">
+                                        <span class="submenu-toggle">▾</span><ul class="submenu">
        
                                         </ul>
                                 </li> 
@@ -236,10 +241,11 @@
 </li>
 
 <li><a href="/ru/wonders">Чудеса</a>
+        <span class="submenu-toggle">▾</span>
         <ul class="submenu">
                 <li>
                         <a href="/ru/wonders/pantheon">Пантеон</a>
-                        <!-- <ul class="submenu">
+                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
                                 <li><a href="/ru/wonders/pantheon/fluere">Флуэрэ</a></li>
                                 <li><a href="/ru/wonders/pantheon/kaelesta">Келеста</a></li>
                                 <li><a href="/ru/wonders/pantheon/solkalor">Солкалор</a></li>
@@ -253,7 +259,7 @@
                 </li>
                 <!-- <li>
                         <a href="/ru/">Религии</a>
-                        <ul class="submenu">
+                        <span class="submenu-toggle">▾</span><ul class="submenu">
                                 <li><a href="/ru/wonders/religions/cult_of_currents">Культ Течений</a></li>
                                 <li><a href="/ru/wonders/religions/cult_of_spirits">Культ Духов</a></li>
                                 <li><a href="/ru/wonders/religions/ancestor_cult">Культ Предков</a></li>
@@ -268,8 +274,10 @@
 </li>
 
 <li><a href="/ru/extras">Дополнения</a>
+        <span class="submenu-toggle">▾</span>
         <ul class="submenu">
                 <li><a href="/ru/extras/stories">Истории</a>
+                        <span class="submenu-toggle">▾</span>
                         <ul class="submenu">
                                 <li><a href="/ru/extras/stories/myth">Миф</a></li>
                         </ul>
@@ -281,16 +289,21 @@
         </ul>
 </li>
 <li><a href="/ru/about">О проекте</a>
-<ul class="submenu">
-        <li><a href="/ru/about/wip">В процессе работы</a></li>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/ru/about/wip">В процессе работы</a></li>
                 <li><a href="/ru/license">License</a></li>
-                      <!--   <li><a href="/ru/about/roadmap">Планы и Хроника</a></li>
+                <!--   <li><a href="/ru/about/roadmap">Планы и Хроника</a></li>
                 <li><a href="/ru/about/credits">Авторы</a></li>
                 <li><a href="/ru/about/links">Ссылки</a></li>-->
 
-        </ul> 
+        </ul>
 </li>
         </ul>
+    </div>
+
+    <div class="header-contacts-mobile">
+       <a href="https://discord.gg/Dr4BA8CCx3" class="contact-link"> Присоединяйся к Дискорду</a> | <a href="mailto:orthanthundy@gmail.com" class="contact-link">orthanthundy@gmail.com</a>
     </div>
 </header>
 
@@ -314,13 +327,27 @@
 
 <script>
 
-    document.getElementById('burger-btn').addEventListener('click', function () {
-        document.getElementById('mobile-menu').classList.toggle('active');
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const burgerBtn = document.getElementById('burger-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        burgerBtn.addEventListener('click', function () {
+            mobileMenu.classList.toggle('active');
+        });
     });
 
     console.log("Image modal script loaded!");
 
     document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll('.submenu-toggle').forEach(button => {
+            button.addEventListener('click', function (event) {
+                event.stopPropagation();
+                let parent = this.closest('.has-submenu');
+                parent.classList.toggle('open');
+            });
+        });
+
         let images = Array.from(document.querySelectorAll("img.phb-image"));
         let modal = document.getElementById("imageModal");
         let modalImage = document.getElementById("modalImage");
@@ -372,15 +399,6 @@
         window.openModal = openModal;
         window.closeModal = closeModal;
         window.changeImage = changeImage;
-    });
-
-    document.addEventListener('DOMContentLoaded', function () {
-        const burgerBtn = document.getElementById('burger-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-
-        burgerBtn.addEventListener('click', function () {
-            mobileMenu.classList.toggle('active');
-        });
     });
 </script>
 
