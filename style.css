@@ -424,7 +424,13 @@ body {
   break-after: always;
   -moz-column-break-after: always;
 }
-.phb p,
+.phb p {
+  z-index: 15;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  /* Firefox fix */
+}
 .phb blockquote,
 .phb table {
   z-index: 15;
@@ -709,9 +715,8 @@ body {
 }
 
 .wiki-article {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  display: inline-block;
+  margin-right: 15px;
 }
 
 .article-title {
@@ -1083,18 +1088,20 @@ details[open] summary {
 }
 
 .dnd-image-placeholder {
-  margin: 1em 0;
+  margin: 1em 0 1em 0;
   width: 300px;
 }
 
 .dnd-image-placeholder.left {
   float: left;
   margin-right: 1.5em;
+  max-width: 300px;
 }
 
 .dnd-image-placeholder.right {
   float: right;
   margin-left: 1.5em;
+  max-width: 300px;
 }
 
 .placeholder-container {
