@@ -421,13 +421,162 @@
 </div></div>
 
             <div class="wiki-article">
-                <h1 class="article-title" style="margin-bottom: 0px; width: 100%;">Malkona</h1>
+                <h1 class="article-title" style="width: 100%;">Malkona</h1>
 
                 <div class="article-content">
                     <div class="article-text" style="overflow: hidden;">
-                        <blockquote>
-  <p>Taliskarn is under active development. My native language is Russian, so the site was initially published in Russian, but I’m preparing the English version now.</p>
+                        <p><strong>Malkona, the “Land of Strife”</strong> – is a continent in the fictional world of Taliskarn, the primary setting for the planned novels and adventures. Its vast lands stretch nearly 5,000 miles from east to west and 3,000 miles from north to south, providing a home to diverse peoples and creatures.</p>
+
+<blockquote>
+  <p><strong>Margin Scribble</strong><br />
+Malkona – and Taliskarn as a whole – is designed to be the “ultimate sandbox” for me, my players, and anyone who finds my world worthy of their attention. There are many like it, but this one is mine, and it fully reflects the theme that fascinates me: adventures in a harsh, hostile, brutal, wild, and unexplored world.<br /><br />
+The local peoples have lived in isolation for too long: an era of change and Great Discoveries is coming, a time of cultural blending, and I invite you to live through this time with me. It’s time to chart the map of Taliskarn!</p>
 </blockquote>
+
+<h2 id="map-of-malkona"><strong>Map of Malkona</strong></h2>
+<p><strong>The map will be interactive</strong>, but right now, I am actively working on all the regions, and it gets updated almost daily. Cutting it into segments every time is an entirely unjustified effort, so for now, I am just posting it as an image. To open the full version (8k), click on the preview image below; at the bottom, there will be a link saying “Open in full size.”</p>
+
+<div class="phb-image-container">
+               <img src="/assets/maps/taliskarn_map_en_preview.webp" class="phb-image" alt="Map of Taliskarn" style="max-width: 100%;" data-fullsize="/assets/maps/taliskarn_map_en.webp" />
+                <p class="phb-image-caption"><em>The map of Malkona is regularly updated and expanded, with new locations and points of interest appearing.</em></p>
+            </div>
+
+<blockquote>
+  <p><strong>Work in Progress</strong><br />I’m actively working on creating Taliskarn right now. It’s an enormous amount of tasks, so at this stage, many pages on this website contain only the most basic information – my thoughts and ideas that I am gradually turning into reality. <br /><br />For more details on what’s coming next, you can check out the <a href="/about" target="_self">Roadmap</a>; I regularly publish current updates in the <a href="/extras/blog" target="_self">Blog</a>, and most importhantly, I’m always open to feedback. Even more than that – I’ll be incredibly grateful for it! <br /><br />If you have the time and inclination to read my notes, and if you happen to come up with any ideas, criticisms, or suggestions, please share them with me. All contact information is available on the <a href="/about#links" target="_self">About</a> page and in the header.<br /><br />And thank you for your interest in Taliskarn!</p>
+</blockquote>
+
+<h2 id="regions-of-malkona"><strong>Regions of Malkona</strong></h2>
+<p>Currently, the continent and the surrounding lands are divided into 12 key zones. Each of them is a unique region with its own wonders, characteristics, peoples, monsters, customs, and drama. Choose where your journey through Taliskarn will begin!</p>
+
+<div id="toc">
+    <h4>Table of Content</h4>
+    <div class="toc-list"></div>
+  </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const headers = Array.from(document.querySelectorAll('h2, h3'));
+    const tocList = document.querySelector('.toc-list');
+    
+    headers.forEach(header => {
+      const level = header.tagName.toLowerCase();
+      const link = document.createElement('a');
+      
+      const anchor = document.createElement('a');
+      anchor.name = header.textContent.toLowerCase().replace(/ /g, '-');
+      header.parentNode.insertBefore(anchor, header);
+  
+      link.href = `#${anchor.name}`;
+      link.innerHTML = header.textContent;
+      link.className = `toc-${level}`;
+      
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = document.querySelector(`[name="${anchor.name}"]`);
+        window.scrollTo({
+          top: target.offsetTop - 100,
+          behavior: 'smooth'
+        });
+      });
+  
+      tocList.appendChild(link);
+    });
+  });
+  </script>
+
+<h3 id="riku-highlands"><strong>Riku Highlands</strong></h3>
+<p>A land of mist, frost, ancient forests, and white rivers, home to the beast-like race of <a href="/denizens/races/kyonnhs" target="_self">Kyonnhs</a>. <a href="/malkona/riku" target="_self">Read more</a>.</p>
+
+<blockquote>
+  <p><strong>Region Theme</strong><br />
+Mysticism of the primordial north, untouched coniferous forests, lost mines hidden in frozen mountain spurs, and the impenetrable stone fortresses of local clans. Regarding material culture, Riku is the only part of continental Malkona rich in metals, and the Kyonnhs are master blacksmiths.</p>
+</blockquote>
+
+<h3 id="verda-plains"><strong>Verda Plains</strong></h3>
+<p>Vast arid steppes stretching for thousands of miles, the realm of free winds and the homeland of the resilient <a href="/denizens/races/arydars" target="_self">Arydars</a>. <a href="/malkona/verda#plains" target="_self">Read more</a>.</p>
+<blockquote>
+  <p><strong>Region Theme</strong><br />
+Nomadic tribes, barbaric customs, a cult of hunting and ancestor worship, constant movement, and freedom. In terms of material culture and aesthetics, Verda heavily relies on bone craftsmanship: the Arydars traditionally craft weapons, ornaments, tools, and more from specially treated bones. “If you take down a Taurok, you use all of the Taurok.”</p>
+</blockquote>
+
+<h3 id="verda-forests"><strong>Verda Forests</strong></h3>
+<p>In the northern foothills of Verda, along the lakes and rivers, lush temperate forests conceal the settlements of the pale-skinned <a href="/denizens/races/saltuars" target="_self">Saltuars</a>. <a href="/malkona/verda#forests" target="_self">Read more</a>.</p>
+<blockquote>
+  <p><strong>Region Theme</strong><br />
+Spirit worship, Slavic/Japanese aesthetics (Shinto in terms of nature deification), and quasi-Celtic druidic motifs. Their material culture is rooted in stone and wood, with northern regions also utilizing metals.</p>
+</blockquote>
+
+<h3 id="verda-south"><strong>Verda South</strong></h3>
+<p>The southern coast of Malkona, home to the proud <a href="/denizens/races/prymars" target="_self">Prymars</a>. <a href="/malkona/verda#coast" target="_self">Read more</a>.</p>
+<blockquote>
+  <p><strong>Region Theme</strong><br />
+Seafaring, the ocean, an advanced civilization by Taliskarn’s standards. I envision the Prymars, their customs, and lands with motifs reminiscent of the Eastern Roman Empire – Byzantium – and partly the Spanish of the Conquistador era, but adapted to Taliskarn’s mood and realities. Their material culture heavily relies on the gifts of the Ocean while eagerly adopting whatever they can from neighboring peoples. This region also houses one of the largest cities in Taliskarn, Varmego – a place that, in time, will become the “capital of the world.”</p>
+</blockquote>
+
+<h3 id="the-warm-sea"><strong>The Warm Sea</strong></h3>
+<p>A vast sea east of the continent, teeming with hidden currents. Here, before merging with the cold waters of the Ocean, the great current <strong>Amplectra</strong> makes its final stop, bringing life-giving warmth to the shores. <a href="/malkona/warm_sea" target="_self">Read more</a>.</p>
+<blockquote>
+  <p><strong>Region Theme</strong><br />
+A melting pot of cultures, cultural exchange, city-states, seafaring.</p>
+</blockquote>
+
+<h3 id="the-scarred-lands-of-bruna"><strong>The Scarred Lands of Bruna</strong></h3>
+<p>Savannas and deserts in central Malkona, scorched by the ominous crimson sun – battlefields of the Age of Wonders, where the land has yet to heal from its wounds. <a href="/malkona/scarred_lands" target="_self">Read more</a>.</p>
+<blockquote>
+  <p><strong>Region Theme</strong><br />
+Fantasy post-apocalypse, survival in deserts and wastelands, ancient artifacts and fortresses, war chimeras, and creatures twisted by Malkona’s cursed blood – <strong>Elgarim</strong>. Material culture revolves around Elgarim (<em>a dense, earthen oil with wondrous properties</em>), sand, glass, and ceramics.</p>
+</blockquote>
+
+<h3 id="bryleahn-jungles"><strong>Bryleahn Jungles</strong></h3>
+<p>Lush jungles in western Malkona, the “Shimmering Lands,” home to the amphibian-like <a href="/denizens/races/bryleahns" target="_self">Bryleahns</a>. Here, in the dense tropical forests along the azure <strong>Sanguama River</strong>, the continent’s most vibrant life thrives. <a href="/malkona/bryleahn_jungles" target="_self">Learn more</a>.</p>
+
+<blockquote>
+  <p><strong>Region Theme</strong><br />
+Jungles, living in harmony with nature, poisons, hunting. The local people, the Bryleahns, lag behind other nations in technological development but significantly surpass them in cultural depth and knowledge of nature. They are excellent alchemists and herbalists, and their tools are made from the transparent resin of local trees, <strong>lacrikael</strong>.</p>
+</blockquote>
+
+<h3 id="fetid-fens"><strong>Fetid Fens</strong></h3>
+<p>Poisonous swamps in the southwestern reaches of Bryleah, shrouded in clouds of foul, decaying vapors. <a href="/malkona/fetid_fens" target="_self">Learn more</a>.</p>
+
+<blockquote>
+  <p><strong>Region Theme</strong><br />
+Mutations, diseases, twisted beasts and creatures, corruption, swamps.</p>
+</blockquote>
+
+<h3 id="noctaria"><strong>Noctaria</strong></h3>
+<p>The hidden lands, guarded by the Phantom Moon Tranca—the goddess who veiled her children, the <a href="/denizens/races/noctids" target="_self">Noctids</a>, from the sun. The extraordinary life forms that have evolved here exist in a fragile harmony. <a href="/malkona/noctaria" target="_self">Learn more</a>.</p>
+
+<blockquote>
+  <p><strong>Region Theme</strong><br />
+Mysticism, twilight, fluorescence, living atolls, adorable Noctids, telepathy and empathy, illusions and madness.</p>
+</blockquote>
+
+<h3 id="shards-of-flammarg"><strong>Shards of Flammarg</strong></h3>
+<p>Scorched wastelands, separated from the rest of Malkona by the waters of the Boiling Sea—what remains of the ancient Flammarg Empire. In these deadly barrens, the outcast <a href="/denizens/races/flammars" target="_self">Flammars</a>, the winged people of the Molten Lands, struggle to survive. <a href="/malkona/flammarg_shards" target="_self">Learn more</a>.</p>
+
+<blockquote>
+  <p><strong>Region Theme</strong><br />
+Volcanoes, wastelands, rifts, fire, heat, rivers of molten glass. The foundation of the local material culture is volcanic glass.</p>
+</blockquote>
+
+<h3 id="wilderreach"><strong>Wilderreach</strong></h3>
+<p>Taiga, followed by tundra north of the Warm Sea—vast cold plains ending in the Mirror Desert and arid foothills. <a href="/malkona/wilderreach" target="_self">Learn more</a>.</p>
+
+<blockquote>
+  <p><strong>Region Theme</strong><br />
+Still under consideration, but tentatively, I see these lands as an uninhabited realm of contrasts, where giants coexist with tiny life forms. Perhaps gravitational anomalies will also be present, along with themes and vibes inspired by Bigby (<em>*“Glory of the Giants,” a book dedicated to giants in DnD</em>).</p>
+</blockquote>
+
+<h3 id="forbidden-isle-of-irmaris"><strong>Forbidden Isle of Irmaris</strong></h3>
+<p>Irmaris—the colossal stone with which the raging Ocean broke the back of his rebellious daughter, <a href="/wonders/pantheon#fluere" target="_self">Fluere</a>. The island’s flourishing lands bring only one thing to those who dare set foot on its shores: death. <a href="/malkona/irmaris" target="_self">Learn more</a>.</p>
+
+<blockquote>
+  <p><strong>Region Theme</strong><br />
+Primeval flora and fauna, insects, exotic diseases—the “lost world” of Taliskarn.</p>
+</blockquote>
+
+<p><em>The list will be expanded in the future with other locations, including the Regions of Wonders – such as the Valley of Origin and the Peak of Reflection – and areas still blank on Malkona’s map (such as the Far North). Stay tuned!</em></p>
+
 
                     </div>
                 </div>

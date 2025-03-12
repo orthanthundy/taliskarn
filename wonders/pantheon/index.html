@@ -433,13 +433,115 @@
 </div></div>
 
             <div class="wiki-article">
-                <h1 class="article-title" style="margin-bottom: 0px; width: 100%;">Pantheon</h1>
+                <h1 class="article-title" style="width: 100%;">Pantheon</h1>
 
                 <div class="article-content">
                     <div class="article-text" style="overflow: hidden;">
-                        <blockquote>
-  <p>Taliskarn is under active development. My native language is Russian, so the site was initially published in Russian, but I’m preparing the English version now.</p>
+                        <p>The Gods—or, as they are also called, the Forebears—of Taliskarn. You can learn more about their role in the world’s history and its peoples in the <a href="/extras/stories/myth" target="_self">Myth of Taliskarn</a>.</p>
+
+<blockquote>
+  <p><strong>Work in Progress</strong><br />
+This section—and with it, the Myth—is actively being refined and expanded as the details of all regions, peoples, and cultures are developed. Minor divine entities, demigods, and spirits will be added, along with descriptions of cults and beliefs in Malkona. It is possible—and even quite likely—that there will be some changes to the Myth. Only then will I unify this page, bringing it to a consistent format, possibly dividing it into subsections.<br />However, the core concept and an understanding of the elder gods can already be gathered from here and from the mythology.</p>
 </blockquote>
+
+<div id="toc">
+    <h4>Table of Content</h4>
+    <div class="toc-list"></div>
+  </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const headers = Array.from(document.querySelectorAll('h2, h3'));
+    const tocList = document.querySelector('.toc-list');
+    
+    headers.forEach(header => {
+      const level = header.tagName.toLowerCase();
+      const link = document.createElement('a');
+      
+      const anchor = document.createElement('a');
+      anchor.name = header.textContent.toLowerCase().replace(/ /g, '-');
+      header.parentNode.insertBefore(anchor, header);
+  
+      link.href = `#${anchor.name}`;
+      link.innerHTML = header.textContent;
+      link.className = `toc-${level}`;
+      
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = document.querySelector(`[name="${anchor.name}"]`);
+        window.scrollTo({
+          top: target.offsetTop - 100,
+          behavior: 'smooth'
+        });
+      });
+  
+      tocList.appendChild(link);
+    });
+  });
+  </script>
+
+<h2 id="ocean">Ocean</h2>
+<p><strong>Children:</strong> Kaelesta, Flueré
+<br />The primordial deity, still wrathful toward its children and striving to destroy <a href="/malkona/" target="_self">Malkona</a>.</p>
+
+<h2 id="sun">Sun</h2>
+<p><strong>Children:</strong> Solkalor
+<br />The primordial deity of the outer world. It serves as an object of worship for some peoples and cultures, though more often, prayers are directed to the Son of the Sun, Solkalor.</p>
+
+<h2 id="kaelesta">Kaelesta</h2>
+<p><strong>Other names:</strong> Mistress of the Winds, Patron of Storms, Wayward One, Mother of Deception
+<br /><strong>Domains:</strong> Storm, Deception
+<br /><strong>Children:</strong> <a href="/denizens/races/flammars" target="_self">Flammars</a>, Aurehjo, Tranqa
+<br />The Lady of the Wind, born from the breath of Ocean, Kelesta presides over the clear sky, storms, and inconstancy. She is revered as the goddess of tempestuous wrath and free-spiritedness, whose deception divided the peoples.</p>
+
+<h2 id="flueré">Flueré</h2>
+<p><strong>Other names:</strong> Mother of All Currents, Defiant Daughter, Protector
+<br /><strong>Domains:</strong> Life, Rest
+<br /><strong>Children:</strong> Merfolk (and merrow, respectively), <a href="/denizens/races/bryleahns" target="_self">Bryliehns</a>, Kustopha, Fluaht
+<br />Born from the trembling of the Ocean, the mother of the first life in Taliskarn. Patron of flowing waters, healing, and the passage of souls.</p>
+
+<h2 id="solkalor">Solkalor</h2>
+<p><strong>Other names:</strong> Son of the Sun, Scorcher
+<br /><strong>Domains:</strong> Life, Light, Order
+<br /><strong>Children:</strong> Flammars
+<br />The child of the Sun who descended to Taliskarn due to his blazing love for Flueré. His light brought life to the lands of Malkona, and his wrath dried and shattered them. Revered as the patron of law, light, and justice.</p>
+
+<h2 id="ferrudé">Ferrudé</h2>
+<p><strong>Other names:</strong> Lord of the Molten Depths, The Fierce One
+<br /><strong>Domains:</strong> Storm, War, Light, Forge
+<br /><strong>Children:</strong> Flammars
+<br />Awakened by Flueré, the ruler of volcanoes, fire, and underground forges. The strikes of his mace shaped the mountains, and his union with Kelesta birthed the Scourge of Malkona: the fierce people of the Flammars. Revered as the patron of destructive force, fury, and wild flame.</p>
+
+<h2 id="aurehjo">Aurehjo</h2>
+<p><strong>Other names:</strong> The Father, One-Handed, The Cripple
+<br /><strong>Domains:</strong> War, Order
+<br /><strong>Children:</strong> All humans (<a href="/denizens/races/prymars/" target="_self">Prymars</a>, <a href="/denizens/races/arydars/" target="_self">Arydars</a>, <a href="/denizens/races/saltuars/" target="_self">Saltuars</a>, <a href="/denizens/races/brunars/" target="_self">Brunars</a>), Kustopha, Fluaht
+<br />A golden-haired giant, deceitfully born of Kelesta by Solkalor, the Father of Humans. Patron of warriors, bravery, and honor.</p>
+
+<h2 id="tranqa">Tranqa</h2>
+<p><strong>Other names:</strong> The Phantom Moon
+<br /><strong>Domains:</strong> Magic, Peace, Twilight
+<br /><strong>Children:</strong> <a href="/denizens/races/noctids/" target="_self">Noctids</a>
+<br />Daughter of Kelesta, born of deception—the Phantom Moon shielding <a href="/malkona/noctaria/" target="_self">Noctaria</a> from the sun’s light. Revered as the goddess of peace, nocturnal mysteries, and the fragile balance between light and darkness.</p>
+
+<h2 id="dhfhalbh">Dh’Fhalbh</h2>
+<p><strong>Other names:</strong> The Departed
+<br /><strong>Domains:</strong> Knowledge, Magic, Forge
+<br /><strong>Children:</strong> <a href="/denizens/races/kyonnhs/" target="_self">Kyonnhs</a>
+<br />The name given to Solkalor by his last children before the Son of the Sun left Malkona. The god-patron of the Kyonnhs: they believe he still walks among them in the guise of a common craftsman. Patron of knowledge, technology, and free will.</p>
+
+<h2 id="kustopha">Kustopha</h2>
+<p><strong>Other names:</strong> Goddess of the Source, The Bleeding One
+<br /><strong>Domains:</strong> Nature, Peace, Magic
+<br /><strong>Followers:</strong> Bryliehns
+<br />Guardian of the Source, daughter of Flueré and Aurehjo. Her azure blood sustains life in the sacred river <a href="/malkona/bryleahn_jungles#sanguama" target="_self">Sanguama</a>, and thus, in all of <a href="/malkona/bryleahn_jungles" target="_self">Bryliehn</a>. She presides over harmony, the flow of rivers, and the natural order of things.</p>
+
+<h2 id="fluaht">Fluaht</h2>
+<p><strong>Other names:</strong> Flumorn, The Alchemist, The Renegade, The Exile
+<br /><strong>Domains:</strong> Knowledge, Death
+<br /><strong>Children:</strong> Neblings (tbd)
+<br />The son of Aurehjo and Flueré, who went too far in his care for the Bryliehns. Patron of disease, decay, corruption, and forbidden alchemy, the grim lord of the <a href="/malkona/fetid_fens" target="_self">Fetid Fens</a>.</p>
+
 
                     </div>
                 </div>

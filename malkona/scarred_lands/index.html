@@ -433,12 +433,392 @@
 </div></div>
 
             <div class="wiki-article">
-                <h1 class="article-title" style="margin-bottom: 0px; width: 100%;">Scarred Lands of Bruna</h1>
+                <h1 class="article-title" style="width: 100%;">Scarred Lands of Bruna</h1>
 
                 <div class="article-content">
                     <div class="article-text" style="overflow: hidden;">
-                        <blockquote>
-  <p>Taliskarn is under active development. My native language is Russian, so the site was initially published in Russian, but I’m preparing the English version now.</p>
+                        <div class="info-box">
+    <img src="/assets/maps/bruna.jpg" alt="places.scarred_lands" class="phb-image" />
+    <table>
+        <tr>
+            <th><strong>PEOPLES:</strong></th>
+            <th>Brunars</th>
+        </tr>
+        <tr>
+            <th><strong>AVERAGE DANGER LEVEL:</strong></th>
+            <th>HIGH/VERY HIGH</th>
+        </tr>
+    </table>
+</div>
+
+<p>“<em>In the south of <a href="/malkona" target="_self">Malkona</a>, forever dividing the <a href="/malkona/bryleahn_jungles" target="_self">Bryleahn Jungles</a> and the <a href="/malkona/verda" target="_self">Verdant Verdas</a>, stretches a scorched expanse of blistering deserts and stifling savannas, reaching deep into the continent. Once, this land was a flourishing plain, but by the will of the <a href="/wonders/pantheon" target="_self">Forebears</a>, it was destined to become the stage for the most merciless battles in Taliskarn’s history.</em></p>
+
+<p><em>It was here that the deceived <a href="/wonders/pantheon#solkalor" target="_self">Son of the Sun</a> raged in his searing wrath. Across these lands, the peoples of <a href="/wonders/pantheon#fluere" target="_self">Fluére</a> and <a href="/wonders/pantheon/aurehjo" target="_self">Aurehjo</a> clashed in bloody wars. Here, the <a href="/denizens/flammars/" target="_self">Flammar</a> Invasion was finally halted. And to this day, these lands bear terrible scars, from which oozes the thick, dark-blue ichor of poisoned Malkona’s blood: elgarim.</em></p>
+
+<p><em>If you see the crimson glow of the Wrathful Eye ahead, halt, traveler following in my footsteps, and think long and hard before proceeding. What lies before you is suffocating heat, the fury of wild chimeras, the ghosts of long-finished battles—and perhaps, if luck favors you, a few forgotten secrets of the Age of Wonders (which, by the way, will most certainly try to kill you). Take my advice, turn around, and leave. But if your curiosity burns as fiercely as mine, pull your hood low over your face and step forward—into the <strong>Scarred Lands</strong>!</em>”</p>
+
+<p><em>Here and beyond, I present excerpts from the epoch-defining work, “Notes on Taliskarn, Its Wonders, and the Creatures That Inhabit This World.”</em></p>
+
+<p>The Scarred Lands are among the most deadly and unforgiving places in Taliskarn. If you seek adventures in a dark, fantasy post-apocalypse setting—a world barely struggling to rise from centuries of stagnation—then Bruna is the perfect choice.</p>
+
+<details>
+<summary><strong>Key Takeaways (open if you're too lazy to read the full page but still curious)</strong></summary>
+Core themes and ideas behind Bruna:<br />
+<ul>
+<li>Fantasy post-apocalypse: a war with divine forces left the land scarred, filled with anomalies, ancient weapons, and war-forged creatures.</li>
+<li>Elgarim: the "Cursed Blood of Malkona"—tar-like pools capable of raising "mummies" and serving as a source of energy.</li>
+<li>The crimson sun, under which no one can survive unprotected.</li>
+<li>The aesthetic of deserts and perilous savannas on the borders.</li>
+<li>Ghosts and the restless past lingering in the southern savannas.</li>
+<li>Dark-skinned inhabitants, born warriors who have rejected the gods and built a culture around human excellence—a Spartan-like society with a Taliskarn twist.</li>
+<li>Secrets of forbidden alchemy and the creation of monsters—chimeras.</li>
+<li>Adventures centered on survival, exploration, ancient fortresses, and uncovering hidden knowledge.</li>
+</ul>
+</details>
+<p><br /></p>
+<div id="toc">
+    <h4>Table of Content</h4>
+    <div class="toc-list"></div>
+  </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const headers = Array.from(document.querySelectorAll('h2, h3'));
+    const tocList = document.querySelector('.toc-list');
+    
+    headers.forEach(header => {
+      const level = header.tagName.toLowerCase();
+      const link = document.createElement('a');
+      
+      const anchor = document.createElement('a');
+      anchor.name = header.textContent.toLowerCase().replace(/ /g, '-');
+      header.parentNode.insertBefore(anchor, header);
+  
+      link.href = `#${anchor.name}`;
+      link.innerHTML = header.textContent;
+      link.className = `toc-${level}`;
+      
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = document.querySelector(`[name="${anchor.name}"]`);
+        window.scrollTo({
+          top: target.offsetTop - 100,
+          behavior: 'smooth'
+        });
+      });
+  
+      tocList.appendChild(link);
+    });
+  });
+  </script>
+
+<h2 id="wonders">Wonders</h2>
+<p>All—or almost all—of the wonders of the Scarred Lands are directly tied to the legacy of the wars from the Age of Wonders. Some of them include:</p>
+
+<h3 id="the-wrathful-eye">The Wrathful Eye</h3>
+
+<p><em>“According to well-known <a href="/extras/stories/myth" target="_self">Mythology</a>, at the twilight of the Birth Time, the enraged <a href="/wonders/pantheon#solkalor" target="_self">Scorcher</a> hurled his spear into the body of <a href="/wonders/pantheon#tranqa" target="_self">Tranqa</a>, seeking to rid himself forever of his unwanted daughter. <a href="/wonders/pantheon#kaelesta" target="_self">Kaelesta, Mistress of the Winds</a>, shielded her beloved child, and the Scorcher’s blazing spear tore a gaping hole through her ethereal form. Since then, no salvation from the deadly rays of the Great Sun has existed over this place in Malkona—it burns in the sky as a sinister crimson disk, seeking to obliterate all life. A beautiful legend—and, by the Moon-Guardian, around noon, I begin to think it might be entirely true.”</em></p>
+
+<p>The sun over Bruna shines in a deep crimson hue: the closer you approach the heart of the desert, the darker and more menacing this shade becomes, and the more merciless the heat of the Great Light’s rays. Mortals call it the “Wrathful Eye,” preserving the memory of Solkalor’s fury.</p>
+
+<p>The Wrathful Eye grants no chance of survival to the plants and animals common in the rest of Malkona: leave a naked man at the desert’s edge in the morning, and by sundown, his skin will be completely stripped away. Only those who can escape the searing gaze of the crimson sun can endure in these lands—along with the chimeras and elgarim wanderers (<em>see below</em>).</p>
+
+<h3 id="echo-of-war">Echo of War</h3>
+<p>A grim legacy left upon the Scarred Lands by the wars of the Age of Wonders:</p>
+<div class="dnd-image-placeholder right">
+    
+    <div class="placeholder-container ">
+        <div class="inner-content">
+            <div class="placeholder-text"><strong>An illustration of a chimera or a wandering fortress will be here</strong></div>
+        </div>
+    </div>
+    
+</div>
+
+<ul>
+  <li><strong>Wandering fortresses and strongholds</strong>. Walking bastions—another symbol of the Age of Wonders. Most of them have long perished, swallowed by the sands, but you never know what you might encounter in the heart of the desert.</li>
+  <li><strong>Chimeras</strong>. Horrific creatures crafted by the alchemists of old—or perhaps by the gods themselves—whose sole purpose is to sow chaos and destruction. See more in the “Bestiary” section.</li>
+  <li><strong>Dead Mirrors</strong>. Sometimes, travelers stumble upon small desert lakes, their surfaces covered with a dull blue elgarim film (<em>see below</em>). At the bottom of each of these pools rests the body of a warrior from ages past—and if a wanderer is mad enough to submerge their face into these waters, the guardian of the spring will reveal their memories. Please them, and you shall be rewarded; fail, and you’ll have no one to blame but yourself.</li>
+</ul>
+
+<h2 id="geography">Geography</h2>
+<p>The Scarred Lands stretch 800 miles deep into Malkona, from the southern coast to the Zul’ar Crater, and 500 miles west to east, from the foothills of the Windbreaking Mountains to the Sparsewood Plains.</p>
+<blockquote>
+  <p><strong>To Be Announced</strong><br /> I will return to further detailing this section during the development of adventures in the Scarred Lands.</p>
+</blockquote>
+
+<h3 id="bordering-savannas">Bordering Savannas</h3>
+<p>Vast savannas at the very edge of the Sparcewoods—this is where the sparse forests of western Verda gradually transition into the Scarred Lands, bathed in crimson light. It is a windy and untamed frontier, a place where two biomes and cultures collide. Mighty lions bask in the shade of scattered trees, exotic long-legged birds quench their thirst at oases, and in the sun-scorched thickets of brittle shrubs, plains hyenas lie low, pressing against the earth.</p>
+
+<blockquote>
+  <p><strong>To Be Announced</strong><br /> I will return to this region after Verda is fully completed to ensure a proper and harmonious gradient between the steppes and Bruna.</p>
+</blockquote>
+
+<h3 id="the-desert-of-cursed-blood">The Desert of Cursed Blood</h3>
+<p>The hottest and deadliest place in the Scarred Lands. These white dunes are home to wild chimeras, elgarim-born monsters, sand-buried fortresses, and dense lakes where Malkona’s cursed blood gathers.</p>
+
+<h3 id="the-weeping-savannas">The Weeping Savannas</h3>
+
+<p><em>At the very south of the Scarred Lands—where the Amplectra trade winds graze the continent and still carry a touch of life-giving moisture to the parched soil—wild savannas stretch wide. Listen closely, traveler, and you will hear soft moans in the ceaseless whisper of the wind: the locals say it is Flueré mourning her fate, disturbing the rest of the fallen. My own observations suggest that these sounds are most likely nothing more than the wind whistling through the tangled stalks of thorny grass, but one fact remains: the dead rise.</em></p>
+
+<p>The Weeping Savannas are hot, windy tropical plains. Rare oases are lost in the tall swaying yellow sea, and the burial mounds of ancient battles have long been overgrown with grass. Wandering chimeras rarely stray here, the Wrathful Eye does not scorch these lands as mercilessly, and it may seem that one could live here—but listen. Do you hear the wind’s wailing grow louder? Know that this is no illusion: the ghosts are coming.</p>
+
+<h2 id="elgarim">Elgarim</h2>
+
+<p><strong>Elgarim</strong> is both the dire curse and the unexpected blessing of the Scarred Lands. In the places where the fiercest battles of the Age of Wonders were fought, sluggish lakes of thick, dark-blue resin ripple lazily, their depths swallowing even the Wrathful Eye’s rays without a trace.</p>
+
+<p><em>Some believe that elgarim is the cursed blood of Malkona itself, unable to endure the raging fury of the Progenitors. Others claim it is the thickened blood of warriors who perished in the wars of old. I have even heard grim legends that all the desert’s sands are nothing more than the decayed flesh of the fallen, beneath which endless tar-like lakes of their cursed blood churn. Blood that has become so vast in volume that it can no longer remain hidden beneath the surface. Simple arithmetic leaves not a shred of coral upon coral in support of this belief, yet in the name of folklore study, I record this… theory in the pages of my work.”</em></p>
+
+<p>Elgarim is one of the few materials capable of withstanding the heat and lethal energy of the Wrathful Eye, making it the foundation of Bruna’s material culture:</p>
+
+<ul>
+  <li>When mixed with sand in precise proportions, the locals create a rapidly hardening stone composite, <strong>elgalite</strong>, used to build their cities and fortifications.</li>
+  <li>Combined with ash and ground fibers of desert thornbush, artisans craft durable ceramics.</li>
+  <li>Adding red quartz sand—<strong>crimsonite</strong>—to the mixture allows for the creation of Bruna’s famed crimson glass, <strong>crimsor</strong>. It produces sharp (but brittle) blades, which are set into ceramic hilts as cutting edges.</li>
+  <li>Soaking woven thornbush fibers in elgarim oil, filtered through layers of sand, results in incredibly strong ropes.</li>
+</ul>
+
+<p>And so on and so forth. However, only “pure elgarim,” refined through complex alchemical rituals, is suitable for craftsmanship. In its raw state, the cursed blood carries a powerful charge of distorted life energy, twisting and enslaving those it touches, stripping them of reason. The Scarred Lands are rife with maddened chimeras and wild wanderers—humans and beasts alike, who stumbled into an elgarim spill by chance.</p>
+
+<h2 id="brunars">Brunars</h2>
+
+<p><em>Telling of the wondrous properties of elgarim, I cannot help but write a few words about the madmen who dive into its eerie depths entirely of their own free will. These are harsh—one might even say ruthless, much like the lands surrounding them—dark-skinned people, in whose minds the fiery rage of a warrior and the cold calculation of an alchemist coexist in the most peculiar way, inspiring awe with their depth of knowledge and laughable superstitions, their respect for the Progenitors and their fierce hatred toward them.</em></p>
+
+<div class="dnd-image-placeholder left">
+    
+    <div class="placeholder-container ">
+        <div class="inner-content">
+            <div class="placeholder-text"><strong>Depiction of a Brunar against the desert backdrop</strong></div>
+        </div>
+    </div>
+    
+</div>
+
+<blockquote>
+  <p><strong>Work in Progress</strong><br /> The people, culture, and customs of the Brunars are outlined in broad strokes. In the future, they will be refined, expanded, and given a dedicated page.</p>
+</blockquote>
+
+<p>Brunars—those who live under the red sun of Bruna—are a people of mighty warriors and skilled alchemists. Dark-skinned and golden-eyed, tall and strong, they have survived for years amidst a deadly climate and hostile neighbors, which has taught them to rely not on the protection of higher beings, but on themselves and their own strength.</p>
+
+<p>Brunars follow the “Path of Trials,” placing above all else the glory of physical strength and the mastery of intellect. They are resilient and proud warriors, erecting impregnable fortresses in the heart of the desert: they rarely display aggression toward their neighbors but will not allow anyone to set foot on their lands without permission.</p>
+
+<p>The people of Bruna wear their scars with pride but reject the intentional mutilation of their bodies—unlike their eastern neighbors, the Arydars, whose culture of adorning skin with intricate markings is seen as filthy and barbaric.</p>
+
+<p>Few can rival the Brunars in their mastery of melee weapons or their resilience to extreme heat. They are inclined to accumulate knowledge and wealth, knowing the worth of every object.</p>
+
+<p>The Brunars are relatively few in number, but their great heroes remain with them. When a warrior feels their time is drawing to a close, they journey into the heart of the desert, to the sacred elgarim lakes, and descend into their viscous depths. If the warrior is strong enough in spirit, they will be reborn as an Eternal (<em>see below</em>), return to the city of Kael-Nur, and become one of its tireless guardians. If their spirit proves too weak… well, the ranks of the wild wanderers will grow by one more lost soul.</p>
+
+<h2 id="cities-and-settlements">Cities and Settlements</h2>
+
+<p><em>As I have already mentioned, most of Bruna’s territories are either sands scorched by the Wrathful Eye or the ghost-ridden, mystical Weeping Savannas. To settle in these deadly lands, one must be either a madman or a fool, and among the Brunars, one rarely finds either (unless, of course, one considers their entire Path of Trials madness). In any case, most settlements are found near the oases of the eastern plains, close to the very border with the Sparcewoods. However, there are two major—given the context, I would even say grand—exceptions to this rule: the City of the Starry Sky, Kael-Nur, and the Alchemists’ Terraces, Ur-Taruk.</em></p>
+
+<blockquote>
+  <p><strong>Work in Progress</strong><br /> Below, only the core idea, appearance, and general mood of these cities are described. I will return to the detailed development of Kael-Nur and Ur-Taruk during the release of the guidebook “Notes on the Scarred Lands.”</p>
+</blockquote>
+
+<h3 id="kael-nur-city-of-the-starry-sky">Kael-Nur, City of the Starry Sky</h3>
+<div class="dnd-image-placeholder right">
+    
+    <div class="placeholder-container ">
+        <div class="inner-content">
+            <div class="placeholder-text"><strong>View of Kael-Nur</strong></div>
+        </div>
+    </div>
+    
+</div>
+
+<p>Kael-Nur is the capital of the Scarred Lands and the largest city in all of Bruna. Out of two. Its dark-blue walls rise above the shores of the bay, and it is the only port in the region. This is a city that glorifies human strength and potential, where the Path of Trials was born and continues to thrive.
+Population: ~3000 people, 485 AR.</p>
+
+<h4 id="districts">Districts</h4>
+
+<ul>
+  <li>Residential district;</li>
+  <li>Port;</li>
+  <li>“Dry port” (for desert caravans);</li>
+  <li>Market;</li>
+  <li>The Beginning of the Path (schools, temple, public buildings);</li>
+  <li>Residential areas.</li>
+</ul>
+
+<h4 id="architecture">Architecture</h4>
+
+<p>The buildings of the Brunar capital are constructed from elgalite blocks, whose dark-blue surfaces glimmer with the reflected light of white grains fused into the solidified mass. Their appearance evokes the way distant stars sparkle in the night sky, which is why the city was named Kael-Nur, the City of the Starry Sky.</p>
+
+<blockquote>
+  <p><strong>To Think About<br /></strong>
+Perhaps elgalite is used only for external fortifications and high roofs due to its “radiation.” The main reason for this decision is aesthetics: purely dark-blue cities would look monotonous. It would be better to preserve visual diversity, keeping the dark shade as an accent. For example, residential buildings made of sandstone—light-colored—with dark-blue domes and canopies…</p>
+</blockquote>
+
+<p>The Brunar construct their homes at two, and rarely three stories high (<em>primarily, only fortifications and public buildings in the center reach greater heights</em>), raising the first floor well above the scorching ground. It is common for neighboring buildings to be connected by bridge-like extensions, allowing residents to avoid descending into the oppressive heat near the surface. Kael-Nur itself is encircled by mighty three-layered walls: the space between two rings of elgalite is filled with sand, providing reliable insulation against both the external heat and the dangers of the Scarred Lands.</p>
+
+<p>Standing on the southern border of the Cursed Blood Desert, the city would be entirely uninhabitable due to the Wrathful Eye, but its salvation came in the form of the Starry Domes. Cascading in a delicate lattice, they sway in the wind, reliably shielding its streets from the withering crimson light.</p>
+
+<p>These domes are built on hollow elgalite columns, allowing air to circulate freely inside them. Their surfaces are made from fabric soaked in elgarim oil, stretched over flexible, resilient rods of sun-reed. This dark-blue fabric reflects most of the sun’s rays, while gutters running underneath collect the condensation forming on the inner surface—precious moisture.</p>
+
+<p><em>If one were to rise into the sky—even if only in thought, which should pose no challenge to an inquisitive mind—they would see that Kael-Nur resembles an upturned fishing boat, oriented from sunset to sunrise. The same shape is echoed in individual buildings, and the reason is the ever-present winds sweeping through these lands: if the buildings were positioned otherwise, Celesta’s breath would effortlessly tear away their delicate domes. Which, to be fair, still happens from time to time.</em></p>
+
+<p>At night, when the Wrathful Eye sinks below the horizon, many of the domes are drawn aside, allowing the starry light and the—by Bruna’s standards—refreshing air to enter the city.</p>
+
+<h3 id="ur-taruk">Ur-Taruk</h3>
+<p><em>At the very eastern edge of Bruna’s lands, like a giant scorpion sinking its claws into the flesh of the Windbreaking Mountains, lies the enigmatic Ur-Taruk, the abode of alchemists. Here, the keepers of forbidden knowledge from the time of Wonders continue their experiments. The air within its ancient walls is thick with the scent of boiling elgarim, strange intoxicating compounds, and perhaps even metals… At least, that’s what I assume: alas, outsiders are not welcome here, and I was unable to get inside.</em></p>
+<div class="dnd-image-placeholder left">
+    
+    <div class="placeholder-container ">
+        <div class="inner-content">
+            <div class="placeholder-text"><strong>View of Ur-Taruk</strong></div>
+        </div>
+    </div>
+    
+</div>
+<p>Ur-Taruk is a citadel of alchemists, who have taken over a miraculously preserved human bastion on the very border with <a href="/malkona/bryleahn_jungles" target="_self">Bryleah</a>. A treacherous, narrow path winds its way up the slope, leading to the rocky caves that house the city. The path ends at mighty gates, above which gleams the reddish eye of <strong>Solkalor’s Gaze</strong>: a polished crimsonite mirror capable of focusing the light of the Wrathful Eye into a searing beam of terrifying power. One of the marvels that has survived from the era of the Forebears. The city is also guarded by chimeras—grotesque creations born in its caves from the twisted genius of the alchemists.</p>
+
+<p>Population: ??? inhabitants, 485 AR.</p>
+
+<h3 id="districts-1">Districts</h3>
+<ul>
+  <li>The Bastion</li>
+  <li>The Labyrinth of Alchemical Forges</li>
+  <li>The Gardens</li>
+  <li>The Overlook Square</li>
+  <li>The Hermits’ Cells</li>
+  <li>???</li>
+</ul>
+
+<h4 id="architecture-1">Architecture</h4>
+
+<p>The walls of Ur-Taruk are the mountain itself, permeated through and through with the toxic fumes of elgarim. The levels are connected by spiral staircases, and the bridges between them hang on dark chains of <strong>ashgar</strong>—an alchemical alloy that fears neither rust nor time.</p>
+
+<p>When viewed from below, Ur-Taruk resembles a giant scorpion coiling its black rings around the rock. By day, it hides in the shadows, lazily basking in the sun, but at night, the mountain’s surface ignites with dozens of bright lights—the ancient crucibles are lit.</p>
+
+<p>Instead of Star Domes, Ur-Taruk’s terraces are covered with chimera-skin screens, which reflect the sun just as well.</p>
+
+<h3 id="al-sharut-oasis-flame-of-the-desert">Al-Sharut Oasis (Flame of the Desert)</h3>
+<p>The last settlement before the heat of the Wrathful Eye becomes unbearable—or rather, a cluster of settlements and encampments along the shores of the Three Lakes.</p>
+<blockquote>
+  <p><strong>To Be Announced</strong><br /> A draft of a point of interest, to be revisited once Sparcewoods and Verda are completed in bulk. Al-Sharut is intended to serve as a buffer zone between the cultures of the Arydars and the Brunars, a trade settlement on the border of Bruna and Sparcewoods.</p>
+</blockquote>
+
+<h3 id="caravanserai-gal-hurat-giants-palms">Caravanserai Gal-Hur’at, “Giant’s Palms”</h3>
+<div class="dnd-image-placeholder right">
+    
+    <div class="placeholder-container ">
+        <div class="inner-content">
+            <div class="placeholder-text"><strong>Landscape of Gal-Hur’at</strong></div>
+        </div>
+    </div>
+    
+</div>
+<p><em>About halfway from Al-Sharut Oasis to Kael-Nur, on the eastern border of the Cursed Blood Desert, giant bone palms rise from the sand in a towering arch. Chimeras and desert beasts have the natural caution to avoid this place, unlike humans: in the shadow of this phenomenon, they have set up camp.</em></p>
+
+<p>Gal-Hur’at is a small settlement along the trade route through Bruna. Beneath the bone palms looming over the dunes, like a spider in a web, stretches the “netted encampment”: hammocks, suspended walkways, and cage-like storage units.</p>
+
+<p>The reason for this unusual architecture lies in local beliefs: beneath the Palms sleeps a monster from the Age of Wonders. Disturb it, and the gates to the underworld will open, dragging you beneath the dunes in an instant. That is why there is no stone, no clay, no elgalite—only nets swaying above the sand. The floors here are woven from ropes soaked in elgarim, the walls made of reed mats, and the roofs replaced by hides of sand lizards stretched between the “fingers.” Even fires are lit in suspended braziers, so as not to disturb the sand beneath.</p>
+
+<p>Rumors whisper that, from time to time, a mysterious figure appears among the Palms at night, shrouded from head to toe in a hooded cloak. This enigmatic merchant offers artifacts of ancient times in exchange, asking for nothing in return but the dreams of travelers—or so they say.</p>
+
+<h2 id="other-inhabitants">Other Inhabitants</h2>
+
+<p>Although I hardly use canonical DnD monsters and races (<em>especially from Faerûn</em>) in my version of the Wasted Lands, you can freely introduce any desert-themed creatures that suit your vision. For example, here are some broad strokes:</p>
+
+<ul>
+  <li><strong>Minotaurs of the Cursed Labyrinths</strong>: Who said that the wars of the Age of Wonders were fought only on the surface? Deep within the winding catacombs beneath Bruna, minotaurs—descendants of warriors who once followed the Forebears—may still dwell. Their horns are cracked, and thick blue blood, poisoned by elgarim, runs through their veins.</li>
+  <li><strong>Nagas of Al-Sharut</strong>: Desert snakefolk might rule over the oases, trading water for the memories or emotions of travelers. Their queen wears a crown adorned with shards of Solkalor’s Gaze and is rumored to see across the ages.</li>
+  <li><strong>Gnoll Wanderers</strong>: Tireless hunters, whose packs pose a threat even to large caravans. Their hides are covered in elgarim-drawn patterns, and they revere as their god Tyer’r-ghu—a chimera that long ago escaped from Ur-Taruk and made its lair at the desert’s edge.</li>
+</ul>
+
+<p>You are free to populate Kael-Nur with tieflings, turn the alchemists of Ur-Taruk into aarakocra—the cursed children of Kelesta with scorched wings—it’s all in your hands!</p>
+
+<blockquote>
+  <p><strong>Margin Scribble</strong><br /> I quite like the aarakocra idea myself—perhaps it shall be so.</p>
+</blockquote>
+
+<h2 id="bestiary-of-the-wasted-lands">Bestiary of the Wasted Lands</h2>
+
+<blockquote>
+  <p><strong>To Be Announced</strong><br /> At this stage of worldbuilding, this section contains narrative descriptions of creatures and monsters envisioned for Bruna. In the future, more detailed entries and gameplay recommendations will be added, while full stat blocks and refined lore are planned for the Wasted Lands Guidebook.</p>
+</blockquote>
+
+<p>Bruna is home to bizarre wildlife that has adapted to the scorching wrath of the Furious Eye, as well as the wild nightmares of the Age of Wonders—chimeras. Some of them are described below, but feel free to expand the bestiary with any fitting creatures. Sand elementals, djinn, sand wyverns, desert ogres, liches, mummies—anything you can imagine.</p>
+
+<h4 id="three-humped-scaled-camels">Three-Humped Scaled Camels</h4>
+<p>Mighty beasts of burden for the desert caravans: their humps do not store water but thick elgarim, which is metabolized into energy. Their armor-like scales protect them from both the Furious Eye and raging sandstorms.</p>
+
+<h4 id="elgarim-golems">Elgarim Golems</h4>
+<p>The wardens of the Rifts—elementals of elgarim, often containing fragments of ancient artifacts (<em>such as Solkalor’s mirrors</em>). They roam near the Rifts, guarding the cursed blood, and their path is marked by blackened sand.</p>
+
+<h4 id="the-eternal">The Eternal</h4>
+<p>Immortal guardians of Kael-Nur—warriors poisoned by elgarim, who have lost their minds but remain unwaveringly loyal to their duty and the ideals of the Trial Path.</p>
+
+<h4 id="elgarols-wanderers">Elgarols (Wanderers)</h4>
+<p>Unlucky or weak-willed mortals who perished in elgarim spills. Their bodies are half-transformed into elgarim mass, half-preserved in cursed blood. Their eyes are hollow voids, and black smoke drifts from their mouths.</p>
+
+<h4 id="wraiths-of-the-weeping-savannas">Wraiths of the Weeping Savannas</h4>
+<p>Shadows of past soldiers, trapped in an endless loop of their final battle. They pass through walls, leaving behind scorched grass.</p>
+
+<h4 id="sand-squids">Sand Squids</h4>
+<p>Spawned from Flueré’s wrath during the wars of the Age of Wonders. Giant hybrids of stingrays and squids that silently glide beneath the sands—their vibrations can be felt from hundreds of steps away, inducing an eerie unease. Locals tell terrifying legends of the “singer of the sands.”</p>
+
+<h4 id="sand-medusas-umbrellas">Sand Medusas “Umbrellas”</h4>
+<p>Creatures resembling giant jellyfish with “domes” woven from sand threads. Beneath them hang tentacles of molten sand. They feed on the light of the Furious Eye and curl into a stone-like ball at night.</p>
+
+<h4 id="chimeras-of-bruna">Chimeras of Bruna</h4>
+<p><em>Chimeras are either remnants of the Age of Wonders (monsters that continue to self-replicate in ruined fortresses, see Points of Interest) or twisted creations of the alchemists of Ur-Taruk.</em></p>
+
+<ul>
+  <li><strong>Scorpiowings</strong>: Large flying scorpions with tails tipped with capsules of boiling oil. Their carapaces bear glowing runic symbols. They can fire streams of molten elgarim up to 30 feet. Their wings emit a hum that disorients their prey. They guard fortress ruins and rarely stray far.</li>
+  <li><strong>Bone Jackals</strong>: Elgarim-shrouded wraiths with sharp bone splinters protruding from their forms. They hunt in packs, prowling the desert.</li>
+  <li><strong>Ceramic Manticores</strong>: Lion-like bodies, scorpion tails, human faces, and reinforced ceramic plating—ghastly products of alchemical artistry. They spew sand mixed with shards of crimson glass, capable of piercing even sturdy armor. They whisper curses in an ancient tongue, inducing paralysis. Found only in Ur-Taruk… unless some have escaped.</li>
+  <li><strong>Elgarim Chameleons</strong>: Beneath their translucent skin, bubbling elgarim is visible coursing through their veins. Upon death, they explode, splattering their surroundings. They excel at blending with the sand and striking from ambush. Scouts and saboteurs of the Age of Wonders.</li>
+  <li><strong>Mirror Spiders</strong>: Weaving webs from glass threads, they serve as both attendants and guards in ancient fortresses.</li>
+</ul>
+
+<h2 id="points-of-interest">Points of Interest</h2>
+<p>The lands of Bruna, ravaged by the fierce conflicts of the Age of Wonders, conceal many grim secrets. The ruins of ancient fortresses and strongholds, forgotten burial grounds, and lands forever warped by divine wrath—this is a region of anomalies and the dark legacy of wars that once thundered across it. Here are some locations that may capture your interest:</p>
+
+<h3 id="the-frozen-fortress-of-ir-tulran">The Frozen Fortress of Ir-Tul’ran</h3>
+<p>Half-sunken in the Elgarim Lake at the very heart of the desert, the citadel of Ir-Tul’ran stands as a dreadful relic of the Age of Wonders: one of the walking fortresses that was forever abandoned by life. Now, the colossal polygon looms motionless over Bruna’s white sands, its dark elgalite walls gleaming ominously, while only the twisted shadows of scorpowings flit through its lifeless embrasures.</p>
+
+<blockquote>
+  <p><strong>Margin Scribble</strong><br />Ir-Tul’ran is one of Bruna’s fallen wonders: a colossal polygonal structure of dark-blue basalt and red glass, resembling a squid with a dozen “tentacle”-towers. Its hull is cracked and riddled with breaches, from which viscous drops of elgarim ooze as if the fallen titan is bleeding dark ichor. Within, players will uncover the grim secrets of a bygone era, face the ever-vigilant chimeras, evade slumbering traps awaiting their time, and, of course, uncover ancient artifacts.</p>
+</blockquote>
+
+<h3 id="el-shakar-the-star-of-birth">El-Shakar, “The Star of Birth”</h3>
+<p>Halfway between Kael-Nur and the oasis at the heart of the Weeping Savannas, right on the desert’s edge, sprawls the cursed fortress of El-Shakar—a place where the twisted alchemists of the Age of Wonders created their grotesque monsters: the chimeras. Its yawning gates should have long been buried by the sands, yet they stand invitingly open, beckoning the traveler to step inside and uncover the mysteries hidden within.</p>
+
+<blockquote>
+  <p><strong>Margin Scribble</strong><br />El-Shakar, “the laboratories of the forgotten,” is a five-rayed underground fortress eager to tell adventurers the history of the chimeras, to initiate them into the secrets of creating these wondrous hybrids, and, of course, to challenge them with deadly trials. I’ve heard that the alchemists of Ur-Taruk call this place “the living fortress”—and perhaps, there is some truth to that.</p>
+</blockquote>
+
+<h3 id="shirax-the-crimson-whispering-forest">Shi’Rax, “The Crimson Whispering Forest”</h3>
+<p>A hundred miles west of Ir-Tul’ran, above the sea of sands, rise the fragile spires of the crimsonite forest of Shi’Rax. Forever fused into a single monolith by the Gaze, the grains of its intricate arches hold memories of long-passed times. Memories that Shi’Rax is more than willing to share—if, of course, your mind can withstand it.</p>
+
+<blockquote>
+  <p><strong>Margin Scribble</strong><br />The glass forest of Shi’Rax is a crimsonite canyon glistening under the red rays of Brunar’s sun, a domain of illusions and mirages. The wind weaving through its curves whistles like a hushed, insidious whisper in an ancient tongue: all that remains is to listen closely and discern the words, then separate truth from lies. It’s time to uncover what lies hidden within the mirrored labyrinths.</p>
+</blockquote>
+
+<h3 id="the-wandering-graveyard-of-ul-karrat">The Wandering Graveyard of Ul-Karrat</h3>
+<p>From time to time, travelers bold or mad enough to chart their route through the Weeping Savannas stumble upon the ghostly city of Ul-Karrat. Its buildings are hollow husks of elgalite, its wells brim with blackened cursed blood, and its inhabitants abandoned their mortal lives long ago. If you have even a shred of sanity left, flee from here at once—but beware: the city is not eager to let its guests go. And may all the gods you believe in spare you from seeing the dawn within its walls.</p>
+
+<blockquote>
+  <p><strong>Margin Scribble</strong><br />Ul-Karrat is a wandering ghost city that sporadically appears in random locations across the Weeping Savannas. It lures travelers in with its invitingly open gates, seeking to add them to its “residents.” My personal choice for a moment of classic horror in a Bruna campaign.</p>
+</blockquote>
+
+<h3 id="the-temple-of-the-star-cradle">The Temple of the Star Cradle</h3>
+<p>A collapsed observatory once built on the high slopes of the Lonely Fang. Its scholars once glimpsed into the future, invoking the wrath of Flueré and great punishments upon themselves. However, now the Mother of All Currents is in no position to punish anyone—or at least, if I were an adventurer, I would very much like to believe so.</p>
+
+<h3 id="the-caves-of-zular-crater">The Caves of Zul’ar Crater</h3>
+<p>At the very border of the Cursed Blood Desert and the Fadjar Dunes rise the steep slopes of the Zul’ar Crater. A traveler daring enough to climb to its summit will see only a dark abyss before them, with a narrow trail winding down along the crater’s inner wall—a path leading into the depths of the earth.</p>
+
+<blockquote>
+  <p><strong>Margin Scribble</strong><br />Beneath the Zul’ar Crater lies a labyrinth of winding caves, their walls weeping inky-black tears of elgarim. Here, the memory of the cursed blood is particularly strong, and it does not hesitate to bring Bruna’s most terrifying events to life.</p>
+</blockquote>
+
+<h3 id="nur-varad-the-tower-of-eternal-watch">Nur-Vara’d, the Tower of Eternal Watch</h3>
+<p>Above the Pure Lake, on the border of Bryleah to the north of the Lonely Fang, rises the last of the beacons from ancient times: a tall tower, at whose peak a crimsonite lantern burns with an ominous reddish glow, day and night. Many wild wanderers gather here, drawn by the call of long-forgotten oaths: they will not attack travelers merely passing by, but woe to those who dare to cross the threshold.</p>
+
+<blockquote>
+  <p><strong>Margin Scribble</strong><br />It is said that such beacons once repelled chimeras—or perhaps, they lured them in instead. Who knows? Perhaps this tower may yet reclaim its former purpose.</p>
 </blockquote>
 
                     </div>

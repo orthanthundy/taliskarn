@@ -421,13 +421,84 @@
 </div></div>
 
             <div class="wiki-article">
-                <h1 class="article-title" style="margin-bottom: 0px; width: 100%;">FAQ</h1>
+                <h1 class="article-title" style="width: 100%;">FAQ</h1>
 
                 <div class="article-content">
                     <div class="article-text" style="overflow: hidden;">
-                        <blockquote>
-  <p>Taliskarn is under active development. My native language is Russian, so the site was initially published in Russian, but I’m preparing the English version now.</p>
-</blockquote>
+                        <p>The project doesn’t have an audience yet, which means there aren’t many questions being asked. :) But for the sake of propriety, I’ll write down a few things that are personally important for me to address:</p>
+
+<div id="toc">
+    <h4>Table of Content</h4>
+    <div class="toc-list"></div>
+  </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const headers = Array.from(document.querySelectorAll('h2, h3'));
+    const tocList = document.querySelector('.toc-list');
+    
+    headers.forEach(header => {
+      const level = header.tagName.toLowerCase();
+      const link = document.createElement('a');
+      
+      const anchor = document.createElement('a');
+      anchor.name = header.textContent.toLowerCase().replace(/ /g, '-');
+      header.parentNode.insertBefore(anchor, header);
+  
+      link.href = `#${anchor.name}`;
+      link.innerHTML = header.textContent;
+      link.className = `toc-${level}`;
+      
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = document.querySelector(`[name="${anchor.name}"]`);
+        window.scrollTo({
+          top: target.offsetTop - 100,
+          behavior: 'smooth'
+        });
+      });
+  
+      tocList.appendChild(link);
+    });
+  });
+  </script>
+
+<h2 id="why-taliskarn-why-not-just-use-world-name">Why Taliskarn? Why not just use <em>WORLD NAME</em>?</h2>
+<p>In short—because I want to. In a bit more detail: I love the process of creating this world—first and foremost. I run a lot of DnD and other TTRPG adventures, and I want to do it in a world that fully, 100% aligns with my personal expectations and goals—second. And third—I just enjoy trying to make something awesome that will appeal not only to me and my players but to others as well. And here we are.</p>
+
+<h2 id="nothing-is-finished-yet-so-why-is-it-here">Nothing is finished yet, so why is it here?</h2>
+<p>To save myself from doing it twice: it’s convenient for me to upload content to the platform where it will eventually end up. Plus, it helps with indexing. Plus, it makes requesting feedback easier. Plus, it keeps me disciplined. In short, this is an “open-to-visitors construction site.”</p>
+
+<h2 id="is-there-anything-actually-finished">Is there anything actually finished?</h2>
+<p>Not fully finished, but at the “ready for discussion” stage—so I’d really appreciate feedback and ideas. <a href="/about/wip/" target="_self">Current questions list</a>.</p>
+
+<h2 id="when-will-something-be-finished">WHEN will something be finished?</h2>
+<p>No idea—when it’s done, it’s done. Ideally, something finished—whether to read or to play—will be ready around mid-to-late summer. And the second thing (depending on the order of work) will be done by late fall or early winter. But we’ll see—what matters most is to finish it, and to finish it well.</p>
+
+<h2 id="why-two-taliskarns">Why Two Taliskarns?</h2>
+<p>For the planned novels, I need the world in one state; for DnD adventures without excessive homebrew tweaking—I need it in another. Of course, the <a href="/two_taliskarns">“Dark Time”</a> version can be run in Fate—and I absolutely plan to do that—but… I love DnD. :)</p>
+
+<p>Besides, these two versions of Taliskarn don’t conflict, but there’s a 100–150 year gap between them, so I need the world in both timeframes. Ideally, the second one will emerge naturally after I finish the core series of novels.</p>
+
+<p>More than that—I’m certain that in the long run, there will be a third one: Taliskarn in the age of industrialization (something akin to “The Legend of Korra” in spirit).</p>
+
+<h2 id="this-is-too-big-for-one-person-youll-burn-out-and-quit">This is too big for one person; you’ll burn out and quit</h2>
+<p>I’ve been simmering with this idea for 10 years, and it hasn’t let me go. As of March 2025, I’ve been actively working on it for nearly six months. So far, so good. I believe in myself. Plus, I’m not alone—you’re reading these lines right now, aren’t you? :)</p>
+
+<h2 id="how-can-i-help-the-project">How can I help the project?</h2>
+<p>Nothing easier:</p>
+
+<ul>
+  <li>Give me feedback on my ideas</li>
+  <li>Suggest your own (<em>I can’t promise they’ll be accepted, but a fresh perspective often brings exactly what was missing</em>)</li>
+  <li>Report bugs on the website, map, or anything else</li>
+  <li>Draw something for Taliskarn</li>
+  <li>Share it with people who might be interested</li>
+  <li>Simply join <a href="https://discord.gg/Dr4BA8CCx3" target="_self">our small community</a></li>
+</ul>
+
+<h2 id="is-the-project-dead">Is the project dead?</h2>
+<p>Check <a href="/about">here</a>—if the updates are rolling in, we’re very much alive. Or just ask in <a href="https://discord.gg/Dr4BA8CCx3" target="_self">Discord</a>.</p>
 
                     </div>
                 </div>

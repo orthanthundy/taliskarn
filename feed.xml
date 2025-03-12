@@ -1,1 +1,175 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-03-12T12:38:28+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Taliskarn: The World of Unwritten Maps</title><subtitle>Welcome to the site of Taliskarn — a fantasy setting designed  for adventures using the D&amp;D 5e and Fate Core systems.</subtitle><author><name>benbalter</name></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-03-12T15:33:48+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Taliskarn: The World of Unwritten Maps</title><subtitle>Welcome to the site of Taliskarn — a fantasy setting designed  for adventures using the D&amp;D 5e and Fate Core systems.</subtitle><author><name>benbalter</name></author><entry><title type="html">Taliskarn Website is Live! What, Why, and Where to Look</title><link href="http://localhost:4000/ru/extras/blog/we-are-online/" rel="alternate" type="text/html" title="Taliskarn Website is Live! What, Why, and Where to Look" /><published>2025-03-12T00:00:00+07:00</published><updated>2025-03-12T00:00:00+07:00</updated><id>http://localhost:4000/ru/extras/blog/we-are-online</id><content type="html" xml:base="http://localhost:4000/ru/extras/blog/we-are-online/"><![CDATA[<p>So, it’s March 12, 2025. I’m finishing these lines, uploading the site to GitHub Pages, waiting for the domain to connect, and Taliskarn is finally taking its place on the internet.</p>
+
+<blockquote>
+  <p>On one hand, it feels a bit early—worldbuilding alone rarely interests people, let alone a rough draft of a world. Even if we assume that the setting is shaping up well, as a reader, I’d still want to see stories and novels set in Taliskarn, and as a player or DM, I’d want adventures and content I can use right away to create my character or campaign. Right now, there’s neither.<br /><br /><br />
+Even by my most optimistic plans, it’ll be a few more months before the first finished content from Taliskarn appears online—most likely a novel. And as for fully developed DnD adventures and a guidebook, I wouldn’t expect them before early fall, or even next winter.</p>
+</blockquote>
+
+<h2 id="so-is-anything-actually-finished">So, is anything actually finished?</h2>
+<p>Not quite ^_^. But there are a few pages that are more developed than others, and I’d really appreciate feedback on them.</p>
+
+<h3 id="the-scarred-lands-region">The “Scarred Lands” Region</h3>
+<p><a href="/malkona/scarred_lands" target="_self"><strong>Scarred Lands of Bruna</strong></a></p>
+
+<p>At this stage of development, I want all regional and cultural pages to reach a similar level of completeness. A page should provide an overview of what this region is, its core concept, its wonders and points of interest, and who lives there. Broad strokes, but clear and understandable. Key questions for me:</p>
+
+<ul>
+  <li>Is the page readable? What could be improved?</li>
+  <li>Is the region’s concept clear?</li>
+  <li>Would you personally be interested in playing in this setting?</li>
+  <li>What would you like to change/add/remove?</li>
+</ul>
+
+<p>Any other thoughts, ideas, or comments are also welcome!</p>
+
+<h3 id="the-bryleahns">The Bryleahns</h3>
+<p><a href="/denizens/bryleahns" target="_self"><strong>Bryleahns</strong></a><br />
+This page will still be expanded and refined, but overall, the major traits of the Bryleahn people are in place. The same questions apply as with Bruna.</p>
+
+<h3 id="malkona-map">Malkona Map</h3>
+<p><a href="/malkona#map" target="_self"><strong>Map</strong></a><br />
+Any feedback on the map—are the regions readable, how does it feel overall, etc.? I probably won’t be making major changes like “let’s throw in a massive desert here,” but I can and will tweak things on a smaller scale.</p>
+
+<h3 id="wonders">Wonders</h3>
+<p><a href="/wonders" target="_self"><strong>Wonders</strong></a><br />
+The concept of wonders in Taliskarn. Does it come across well? Is everything clear? Any ideas on how to implement and integrate this into DnD?</p>
+
+<h3 id="myth">Myth</h3>
+<p><a href="/extras/stories/myth" target="_self"><strong>Myth</strong></a><br />
+This one is for the bravest souls. It covers the fundamental history of Taliskarn—how it was created, how its peoples came to be, and how we ended up where we are now. It might be a bit heavy to read due to its style, but that’s intentional. Again, I’d be grateful for any comments or suggestions—where things seem illogical, what could be added, what’s missing, etc.</p>
+
+<p>For any feedback on these pages—or any others, or really anything related to Taliskarn—I’d be super grateful! Oh, and one more thing…</p>
+
+<h4 id="all-names--overall-english-sound">All Names &amp; Overall English Sound</h4>
+<p>My native language is Russian, and I write in it first. While I do my best to make the English version sound and look great, as a non-native speaker, I lack what people call a “feel for the language.” Sometimes I just can’t tell whether something sounds good or awkward. That’s why I’d be especially grateful to native English speakers for any comments on where things feel off, what sounds outright bad, etc.</p>
+
+<h3 id="why-launch-the-website-now-when-theres-not-much-to-show-yet">Why launch the website now, when there’s not much to show yet?</h3>
+<p>A few reasons:</p>
+
+<ol>
+  <li>To better exploit my alpha readers, <strong>MUHAHAHA</strong>. I share most of what I create with my players and friends—these are people who give me valuable feedback, and I deeply appreciate it.</li>
+  <li>Over the next few months, I’ll occasionally ask others to check out the project—people I’ve played with before, friends, the broader Reddit community, etc. It’s convenient to do that by just sharing a link to the site.</li>
+  <li>The site itself, along with the structured workflow of developing and updating the project, helps keep me disciplined and focused. Plus, it lets me see everything in a near-final format rather than just a blank Google Doc.</li>
+  <li>The sooner, the better. Let the content pile up, let search engines start indexing things, and later, I’ll have a live record of how this idea evolved—so I can look back and tear up sentimentally.</li>
+  <li>Who knows? Maybe someone will actually find the worldbuilding process itself interesting—drop by, comment, throw in ideas… That would be amazing 🙂</li>
+</ol>
+
+<p>So, from today, Taliskarn enters the phase of semi-public development. Join the Discord, follow project updates (some of you won’t have a choice :devil:), and thanks for being here!</p>]]></content><author><name>Orthan Thundy</name></author><category term="news" /><summary type="html"><![CDATA[Taliskarn is online! Here’s an overview of what this project is, what’s happening here, and where you can already take a look.]]></summary></entry><entry><title type="html">Dev Diaries, Issue 3</title><link href="http://localhost:4000/ru/extras/blog/dd-3/" rel="alternate" type="text/html" title="Dev Diaries, Issue 3" /><published>2025-03-11T00:00:00+07:00</published><updated>2025-03-11T00:00:00+07:00</updated><id>http://localhost:4000/ru/extras/blog/dd-3</id><content type="html" xml:base="http://localhost:4000/ru/extras/blog/dd-3/"><![CDATA[<p>Over the past week:</p>
+
+<h2 id="website-updates">Website updates</h2>
+<p>I cleaned up the Russian version of the website: removed completely empty pages, fixed most of the internationalization bugs, added table of contents and spoilers to articles, and updated page info to match the latest state of things. In short, the site is now ready for public launch.</p>
+
+<h2 id="drew-non-human-races">Drew non-human races</h2>
+<p>Created concepts for <a href="/denizens/kyonnhs/" target="_self">Kyonnhs</a>, <a href="/denizens/flammars/" target="_self">Flammars</a>, <a href="/denizens/kyonnhs/" target="_self">Noctids</a>, plus as a bonus, <a href="/denizens/prymars/" target="_self">a Prymar</a> (<em>sounds kinda weird, actually</em>) and <a href="/denizens/arydars/" target="_self">an Arydari</a>. They’re all on their respective pages now, published and looking great (according to my mom, at least!).</p>
+
+<h2 id="prepared-the-scarred-lands-section">Prepared the “Scarred Lands” section</h2>
+<p>You can check it out <a href="/malkona/scarred_lands" target="_self">here</a>. This is the level of detail I’m aiming for with all regions at this phase – and all peoples will get a similar treatment. I’m open to feedback and critique.</p>
+
+<h2 id="jotted-down-a-bunch-of-notes-on-other-regions">Jotted down a bunch of notes on other regions</h2>
+<p>Monsters, wonders, quirks, flavors, and so on. Some places are clear and well-defined in my mind, others are still a bit foggy – that’s just how it goes.</p>
+
+<h2 id="still-learning-to-draw">Still learning to draw</h2>
+<p>Finished the theory part of the “Character Drawing” course once, practiced drawing faces. Now I’ve gone back to the start of the course and structured my learning: I’m studying anatomy in parallel (hoping to get a basic grasp in 2-3 months), working on gestures (not making any predictions here), and dabbling with color (just for fun, in the evenings). And I’ll occasionally draw something for Taliskarn at my current level – sketch concepts, that sort of thing. But the focus remains on learning: I want to reach a decent skill level by mid-summer, when I plan to be close to publishing a novella or the first Taliskarn adventure.</p>
+
+<p>Started an Instagram. Will be posting art and progress there.</p>
+
+<h2 id="plans-for-the-coming-week">Plans for the coming week</h2>
+<ul>
+  <li>Prepare the English version of the site</li>
+  <li>Publish the website (literally today or tomorrow).</li>
+  <li>Invite friends and folks I’ve played DnD with over the years.</li>
+  <li>Develop the next region. Currently working on the Warm Sea, but who knows where I’ll end up – I jumped from the Sea to Bruna too, after all.</li>
+  <li>Keep learning to draw.</li>
+  <li>And, of course, work isn’t going anywhere (plus the DnD campaign I’m running – I haven’t forgotten about you guys, I promise!).</li>
+</ul>
+
+<p>That’s about it. Stay tuned!</p>]]></content><author><name>Orthan Thundy</name></author><category term="dev diaries" /><summary type="html"><![CDATA[Got the website in order, drew concepts for all major non-human races and a couple of characters, created the alpha version of the Bruna region and the Wonders section.]]></summary></entry><entry><title type="html">Dev Diaries, Issue 2</title><link href="http://localhost:4000/ru/extras/blog/dd-2/" rel="alternate" type="text/html" title="Dev Diaries, Issue 2" /><published>2025-03-04T00:00:00+07:00</published><updated>2025-03-04T00:00:00+07:00</updated><id>http://localhost:4000/ru/extras/blog/dd-2</id><content type="html" xml:base="http://localhost:4000/ru/extras/blog/dd-2/"><![CDATA[<p>Straight to the point—what got done this past week:</p>
+
+<h2 id="finished-the-map-of-malkona">Finished the Map of Malkona</h2>
+
+<p>Or rather, I finalized its overall visual. Over the past few weeks, I’ve mostly been working on post-processing after exporting from Inkarnate: removing artifacts, refining rivers, lakes, and coastlines, tweaking color correction, and so on. Done! I’m satisfied. There’s still a long road ahead for adding all the necessary labels to the map—along with designing the typography (<em>turns out making it both readable and aesthetically pleasing is no easy task</em>)—but overall, the map is ready for its alpha release.</p>
+
+<h2 id="started-learning-to-draw">Started Learning to Draw</h2>
+
+<p>Honestly, anything remotely resembling “fine arts” has always been a sore spot for me: I sing terribly, dance atrociously, and drawing… yeah, let’s not even talk about that. The wobbly little house I drew in a career aptitude test was the pinnacle of my artistic career.</p>
+
+<p>Time to learn. My thought process went like this:</p>
+<ol>
+  <li>Developing a fictional world without visuals is not cool. I can see it in my head, but no one else can.</li>
+  <li>Using AI-generated art for a public project? No thanks. Not my path.</li>
+  <li>Commissioning artists? No money for that (<em>and they also can’t see inside my head</em>).</li>
+</ol>
+
+<p>So yeah, if you want art—grab a stylus and get to work.</p>
+
+<p>I approached this systematically: took a Udemy course, armed myself with a tablet, a stylus, and an anatomy atlas (<em>a little something for casual evening reading</em>), and wished myself good luck.</p>
+
+<p>The results of my first week can be seen on the <a href="/denizens/bryleahns" target="_self">Bryleahn</a> page. Initially, I just wanted to draw an ear—to celebrate reaching the “Ear Shapes” lesson—but then I got a little carried away. This is a Bryleahn girl. More than that, she’s a very specific Bryleahn girl who holds an important place in my heart—and in the planned Taliskarn story.</p>
+
+<p>Of course, this is a very early concept—and there are issues I can see but don’t yet fully understand (<em>and I want to change her nose too</em>)—but I’m still really happy with it. I managed to transfer the overall idea from my head to the page without catastrophic losses!</p>
+
+<p>I’m still figuring out where to post all these drawings—including those unrelated to Taliskarn but reflecting my progress. I want a record of the process. Might start an Instagram.</p>
+
+<h2 id="finished-the-websites-technical-setup">Finished the Website’s Technical Setup</h2>
+
+<p>Continued from last week:</p>
+<ul>
+  <li>Finalized the templates for the main pages</li>
+  <li>Implemented search and bilingual support (English-Russian)</li>
+  <li>Set up a navigation system that works for me</li>
+  <li>Did some minor work on responsiveness (<em>looks fine on my devices</em>)</li>
+</ul>
+
+<p>Next steps: integrate a module for displaying the map, consider blog comments (<em>most likely won’t have them—you can always find me on Discord, and the website is meant to be a static Taliskarn wiki-repo</em>), upload the base content, and get it online.</p>
+
+<h2 id="wrote-the-first-taliskarn-short-story">Wrote the First Taliskarn Short Story</h2>
+
+<p>Well, aside from the Myth—so if you count that, this would be the second. I’m publishing this <a href="/extras/stories/khurh-zan-ul" target="_self">story</a>, though I’m not entirely satisfied with the pacing in the final third. In any case, it’s still more of an experimental piece—testing out the style and principles of future storytelling. Along the way, I also expanded the wiki with more information on <a href="/denizens/arydars" target="_self">Arydar</a> culture.</p>
+
+<h2 id="plans-for-the-coming-week">Plans for the Coming Week</h2>
+
+<p>I want to push the website to publication as soon as possible—it’s an important milestone for me. So all available resources are being allocated to that. The tasks:</p>
+<ul>
+  <li>Finalize the base content: fill out the core pages</li>
+  <li>Organize articles into proper sections based on what I already have solid ideas and materials for—most likely covering the major races and cultures, key central regions (Brylea-Verda-Riku), and some additional bits</li>
+  <li>Add the necessary labels and icons to the map for the alpha version release</li>
+  <li>Plan the structure for Discord and other external project resources</li>
+  <li>Draw, draw, draw. Too tired to think? Time to draw.</li>
+</ul>
+
+<p><em>Full workflow breakdown: if I haven’t cleared my main work tasks, I work on those. If I have, I think about Taliskarn. Too tired to think? I draw. Occasionally, eating and sleeping is a good idea too. Oh, and I have an ongoing DnD campaign that also demands time and energy. That’s life.</em></p>
+
+<p>So, by the end of this week—or next at the latest—I hope to launch the project into its second phase: public development.</p>
+
+<p>Stay tuned!</p>]]></content><author><name>Orthan Thundy</name></author><category term="dev diaries" /><summary type="html"><![CDATA[The second issue of the Taliskarn journal: finished the map, started learning to draw, and unexpectedly wrote my first Taliskarn short story (but not publishing it yet)]]></summary></entry><entry><title type="html">Dev Diaries, Issue 1</title><link href="http://localhost:4000/ru/extras/blog/dd-1/" rel="alternate" type="text/html" title="Dev Diaries, Issue 1" /><published>2025-02-25T00:00:00+07:00</published><updated>2025-02-25T00:00:00+07:00</updated><id>http://localhost:4000/ru/extras/blog/dd-1</id><content type="html" xml:base="http://localhost:4000/ru/extras/blog/dd-1/"><![CDATA[<p>Greetings, traveler—whoever you are and whatever brought you here—and welcome to the very first issue of the Taliskarn dev diaries!</p>
+
+<h2 id="what-is-this-and-why-is-it-here">What is this, and why is it here?</h2>
+<p>There are three main ideas behind this series:<br />
+1) It serves as a chronicle of the project’s development. When I’m old and gray, I’ll look back at this and think, “Wow, you really had nothing better to do!”<br />
+2) It strengthens the connection between me, the creator of Taliskarn, and its devoted community. Admittedly, for now, this community consists entirely of my own adventurers—who are stuck playing in my games and have nowhere to escape, MU-HA-HA—but hey, someday there will be more of us!<br />
+3) It helps me structure my thoughts and keep pushing forward—better, stronger, and further.</p>
+
+<p>So, in short, this is a personal developer’s diary of a fictional world: what’s been done over the past week, plans for the next, my thoughts on it all, and where Taliskarn is heading. Welcome to my stream of consciousness!</p>
+
+<h2 id="progress-so-far">Progress So Far</h2>
+<p>I started working on the Taliskarn website and preparing the setting for its alpha-release publication.</p>
+
+<p>To be honest, I’m still unsure whether I should be doing this. The reason is that there’s a lot of content planned for Taliskarn, and at the heart of it all is a novel (or rather, a whole series of novels). You can read more about this on the “<a href="/about" target="_self">About the Project</a>” page (<em>which I’m writing right now, by the way</em>), but here’s the main idea in short:</p>
+<ul>
+  <li>I want to write books set in Taliskarn.</li>
+  <li>That takes time.</li>
+  <li>I don’t intend to publish anything until at least the first—if not the second—book is fully completed.</li>
+  <li>During the writing process, the world is bound to change significantly—potentially leading to full retcons of certain elements.</li>
+</ul>
+
+<p>So everything I’m working on and posting here right now is a draft version. When will it be finished? “Three minutes, Turkish!” So here’s the question: why even bother with a website at this stage?</p>
+
+<p>I found enough reasons:</p>
+<ol>
+  <li>It’s better to store everything where it will eventually belong—it helps me visualize the final structure.</li>
+  <li>It’ll be easier to gather feedback.</li>
+  <li>Maybe someone will find the project interesting even during its development. If not, at least I’ll have a record of the process.</li>
+  <li>It keeps me disciplined.</li>
+</ol>
+
+<p>So, I’m working on the website. At the same time, I’m finishing up map retouching and making the final adjustments before starting work on labeling.</p>]]></content><author><name>Orthan Thundy</name></author><category term="dev diaries" /><summary type="html"><![CDATA[The first issue of the Taliskarn journal: started building the website, wrote the world's myth, and planned the project's development strategy]]></summary></entry></feed>
