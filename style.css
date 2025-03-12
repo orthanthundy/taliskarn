@@ -571,7 +571,7 @@ body {
 }
 @font-face {
   font-family: "Constantine";
-  src: url("/assets/fonts/ConstantineBold.woff2") format("woff2"), url("/assets/fonts/ConstantineBold.woff") format("woff");
+  src: url("/assets/fonts/Constantine_Bold.woff2") format("woff2"), url("/assets/fonts/Constantine_Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
@@ -904,7 +904,6 @@ body {
 
 .modal img {
   max-width: 90%;
-  max-height: 80vh;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
 }
