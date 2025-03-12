@@ -873,6 +873,9 @@ body {
   .header-contacts-mobile {
     display: block;
   }
+  .submenu-toggle {
+    display: inline-block;
+  }
   .nav-desktop {
     display: none;
   }
@@ -887,9 +890,6 @@ body {
   .submenu {
     position: static;
     display: none;
-  }
-  .submenu-toggle {
-    display: inline-block;
   }
   .navigation li.open > .submenu {
     display: block;
@@ -1224,19 +1224,6 @@ header {
   margin-top: 4px;
 }
 
-.submenu-toggle {
-  display: none;
-  cursor: pointer;
-  padding: 5px;
-  font-size: 18px;
-  margin-left: 12px;
-}
-
-.header-contacts-mobile {
-  display: none;
-  text-align: center;
-}
-
 .contact-link {
   color: white;
   text-decoration: none;
@@ -1275,6 +1262,17 @@ header {
 }
 
 @media (min-width: 900px) {
+  .submenu-toggle {
+    display: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 18px;
+    margin-left: 12px;
+  }
+  .header-contacts-mobile {
+    display: none;
+    text-align: center;
+  }
   .nav-mobile {
     display: none;
   }
