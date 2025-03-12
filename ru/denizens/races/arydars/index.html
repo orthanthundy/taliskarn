@@ -335,8 +335,7 @@
             const image = images[currentIndex];
 
             modalImage.src = image.src;
-            modalCaption.innerHTML = `${image.alt || "Image " + (index + 1)} (<a id="fullSizeLink" style="color: #4dabf7;" target="_self" href="${image.fullSize || image.src}">Открыть в полном размере</a>)`;
-
+            modalCaption.innerHTML = `${image.alt || "Image " + (index + 1)} (<a id="fullSizeLink" style="color: #4dabf7;" target="_blank" href="${image.dataset.fullsize || image.src}">Открыть в полном размере</a>)`;
             modal.style.display = "flex";
             navButtons.style.display = images.length > 1 ? "flex" : "none";
         }
@@ -434,7 +433,7 @@
                 <div class="article-content">
                     <div class="article-text" style="overflow: hidden;">
                         <div class="info-box">
-    <img src="/assets/pictures/denizens/races/arydars/barghyr-6-3-25.jpg" alt="races.arydars" class="phb-image" />
+    <img src="/assets/pictures/denizens/races/arydars/barghyr-6-3-25.jpg" alt="Аридары" class="phb-image" />
     <!-- <table>
         <tr>
             <th><strong>ПЛЕЙСХОЛДЕР:</strong></th>

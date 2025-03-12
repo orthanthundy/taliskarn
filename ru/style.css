@@ -903,15 +903,20 @@ body {
 }
 
 .modal img {
-  max-width: 90%;
+  max-width: 90vw;
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
 }
 
 .modal p {
   color: white;
-  margin-top: 10px;
+  margin: 20px 0;
   font-size: 1rem;
+  text-align: center;
 }
 
 .close {

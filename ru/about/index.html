@@ -333,8 +333,7 @@
             const image = images[currentIndex];
 
             modalImage.src = image.src;
-            modalCaption.innerHTML = `${image.alt || "Image " + (index + 1)} (<a id="fullSizeLink" style="color: #4dabf7;" target="_self" href="${image.fullSize || image.src}">Открыть в полном размере</a>)`;
-
+            modalCaption.innerHTML = `${image.alt || "Image " + (index + 1)} (<a id="fullSizeLink" style="color: #4dabf7;" target="_blank" href="${image.dataset.fullsize || image.src}">Открыть в полном размере</a>)`;
             modal.style.display = "flex";
             navButtons.style.display = images.length > 1 ? "flex" : "none";
         }
@@ -451,7 +450,7 @@
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Понимаю, что Талискарну нужны арты, одной картой сыт не будешь. Прикидываю бюджет. Грущу. Заказываю первый скетч у художника. | 24 февраля 2025</li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Получаю скетч, всё круто, но не то… Соответствует вложенному бюджету, я бы сказал. Грущу сильнее. Понимаю, что с моими бюджетами никто мне в голову не заглянет. Принимаю тяжёлое решение начать учиться рисовать (никогда не дружил с изящными искусствами) | 25 февраля 2025</li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Пашу над курсом рисования персонажей как проклятый, осваиваю Procreate. Параллельно делаю ещё один проход по регионам, расставляю по карте основные – регионообразующие – точки интереса и крупные названия | 26-28 февраля 2025</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Внезапно приступ вдохновения, пишу первый краткий рассказ-зарисовку по Талискарну – хронологически это пролог или экстра-флэшбэк к основной задуманной истории. Хожу довольный, начало положено. | 28 февраля 2025</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Внезапно приступ вдохновения, пишу <a href="/ru/extras/stories/khurh_zan_ul" target="_self">первый краткий рассказ-зарисовку по Талискарну</a> – хронологически это пролог или экстра-флэшбэк к основной задуманной истории. Хожу довольный, начало положено. | 28 февраля 2025</li>
   <li>
     <h3 id="весна-2025">Весна 2025</h3>
   </li>

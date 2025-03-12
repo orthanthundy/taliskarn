@@ -335,8 +335,7 @@
             const image = images[currentIndex];
 
             modalImage.src = image.src;
-            modalCaption.innerHTML = `${image.alt || "Image " + (index + 1)} (<a id="fullSizeLink" style="color: #4dabf7;" target="_self" href="${image.fullSize || image.src}">Открыть в полном размере</a>)`;
-
+            modalCaption.innerHTML = `${image.alt || "Image " + (index + 1)} (<a id="fullSizeLink" style="color: #4dabf7;" target="_blank" href="${image.dataset.fullsize || image.src}">Открыть в полном размере</a>)`;
             modal.style.display = "flex";
             navButtons.style.display = images.length > 1 ? "flex" : "none";
         }
@@ -421,7 +420,7 @@
 <p><strong>Карта будет интерактивной</strong>, но сейчас я активно работаю над всеми регионами, и она обновляется чуть ли не ежедневно. Каждый раз резать её на сегменты – это совершенно неоправданный труд, поэтому пока выкладываю просто изображением. Чтобы открыть полную версию (8k), откройте превьюшку кликом на картинку, внизу будет ссылка “Открыть в полном размере”</p>
 
 <div class="phb-image-container">
-                <img src="/assets/maps/taliskarn_map_ru.webp" alt="Карта Талискарна" class="phb-image" style="max-width: 100%;" />
+               <img src="/assets/maps/taliskarn_map_ru_preview.webp" class="phb-image" alt="Карта Талискарна" style="max-width: 100%;" data-fullsize="/assets/maps/taliskarn_map_ru.webp" />
                 <p class="phb-image-caption"><em>Карта Мальконы регулярно обновляется и дополняется, на ней появляются новые места и точки интереса</em></p>
             </div>
 
