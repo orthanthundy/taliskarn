@@ -1,4 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-03-18T18:52:43+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Taliskarn: The World of Unwritten Maps</title><subtitle>Welcome to the site of Taliskarn — a fantasy setting designed  for adventures using the D&amp;D 5e and Fate Core systems.</subtitle><author><name>benbalter</name></author><entry><title type="html">Taliskarn Website is Live! What, Why, and Where to Look</title><link href="http://localhost:4000/extras/blog/we-are-online/" rel="alternate" type="text/html" title="Taliskarn Website is Live! What, Why, and Where to Look" /><published>2025-03-12T00:00:00+07:00</published><updated>2025-03-12T00:00:00+07:00</updated><id>http://localhost:4000/extras/blog/we-are-online</id><content type="html" xml:base="http://localhost:4000/extras/blog/we-are-online/"><![CDATA[<p>So, it’s March 12, 2025. I’m finishing these lines, uploading the site to GitHub Pages, waiting for the domain to connect, and Taliskarn is finally taking its place on the internet.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-03-18T21:10:05+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Taliskarn: The World of Unwritten Maps</title><subtitle>Welcome to the site of Taliskarn — a fantasy setting designed  for adventures using the D&amp;D 5e and Fate Core systems.</subtitle><author><name>benbalter</name></author><entry><title type="html">Dev Diaries, Issue 4</title><link href="http://localhost:4000/extras/blog/dd-4/" rel="alternate" type="text/html" title="Dev Diaries, Issue 4" /><published>2025-03-18T00:00:00+07:00</published><updated>2025-03-18T00:00:00+07:00</updated><id>http://localhost:4000/extras/blog/dd-4</id><content type="html" xml:base="http://localhost:4000/extras/blog/dd-4/"><![CDATA[<p>The week was marked by several significant adjustments to plans. Here’s the breakdown:</p>
+
+<h2 id="transitioned-development-to-a-public-stage">Transitioned development to a public stage</h2>
+
+<p>Published the website (in both Russian and English), set up Discord, posted a map and a call for feedback on Reddit in r/worldbuilding — a flop: 14 upvotes and one encouraging comment.</p>
+
+<p>Possible reasons:</p>
+
+<ol>
+  <li><strong>The post was stuck in moderation for a day and a half</strong>, and after approval, it immediately sank deep into the feed. Over 5 days, it got 700 views (for comparison, another topic I posted without moderation delays gathered the same number in an hour).</li>
+  <li><strong>The map is a WIP</strong>, and r/worldbuilding seems more like a place where people want to talk about <em>their</em> worlds rather than look at someone else’s. Especially an unfinished one. My mistake.</li>
+  <li><strong>Maybe it’s just not as cool as I think</strong>. I refuse to consider this option.</li>
+</ol>
+
+<p>In any case, it was a relief: working in isolation for months is psychologically taxing. Now that I’m publishing everything immediately, I feel a sense of progress and completion: <em>do it → post it → feel satisfied</em>. Surprisingly, having a real audience doesn’t impact this feeling much. Getting feedback would be nice, but…</p>
+
+<h2 id="reconsidered-next-steps-for-development-promotion-and-priorities">Reconsidered next steps for development, promotion, and priorities</h2>
+
+<p>If the map post had “blown up” — say, 200+ upvotes, dozens of comments, or even brought a few people to Discord — I’d have felt energized to push the “public worldbuilding” angle further.</p>
+
+<p>Since that didn’t happen, I faced a crossroads: <em>what’s next?</em></p>
+
+<p>Several options emerged. The first — which I considered primary for a couple of days — was to invest time and effort into promoting the project in its current state, seeking alpha readers, etc. Possible tools:</p>
+
+<ul>
+  <li>Engage in 3-5 subreddits, actively participate, help others. After a few months, gently promote my project and request feedback.</li>
+  <li>Start a blog or YouTube channel. Either chronicling the project (which no one needs) or sharing “DM experience” content to funnel traffic to Taliskarn — but such channels are a dime a dozen, and…</li>
+</ul>
+
+<p>All of this feels unpleasant. If I genuinely wanted to engage on Reddit or run a blog, that’d be one thing. But right now, my sole focus is finishing the first Taliskarn books, which consumes all my time and attention. Pretending to be “active and cool” feels hypocritical. I hate this approach.</p>
+
+<p>Plus, I’m working solo with no budget, so any extra tasks steal time from creating the actual product. Bad idea.</p>
+
+<p><strong>Conclusion (reached yesterday):</strong> Return to the original plan — <strong>no promotion until the first novels are ready</strong>. The website stays up as a workspace and project chronicle. Discord remains as-is. If organic traffic brings someone — great. If not — so be it.</p>
+
+<p><strong>Second conclusion:</strong> Pause the English version to avoid double work. No English audience exists yet, and none will magically appear in the coming months. I’ll translate materials during the pre-beta wiki phase, perhaps. News might still be bilingual (in Discord too — needs more thought).</p>
+
+<h2 id="decided-how-to-handle-feedback">Decided how to handle feedback</h2>
+
+<p>The main issue with the “no promotion until release” approach is the lack of audience and feedback. I pondered solutions, but the answer is brutally simple: <em>there is none</em>.</p>
+
+<p>I can’t hire people. Offering mutual reviews isn’t feasible — no time. Finding genuinely interested folks is vague and time-consuming. Begging friends to “look at my stuff” feels gross. Unfinished, niche work naturally lacks appeal.</p>
+
+<p>I’ll keep working solo. Occasionally, feedback still surprises me: this week, <strong>Nikolai</strong> — unprompted! — gave feedback. Made my day (or two!). Huge thanks to him :)</p>
+
+<p>So, my companion for the coming months is <strong>creative self-reliance</strong>. Write it → post it → reread it the next day → pat myself on the back. <em>“If you want something done, do it yourself”</em> 💪</p>
+
+<h2 id="structured-future-guides">Structured future guides</h2>
+
+<p>After refocusing on core content, I breathed freely. Started organizing planned books:</p>
+
+<p><a href="/about/templates/template_malkona">Guide to Malkona</a><br />
+<a href="/about/templates/template_region">Regional Guide</a></p>
+
+<p>Looks solid for now. Structure may change later.</p>
+
+<h2 id="added-regions">Added regions</h2>
+
+<p>Well, one and a half: fleshed out <strong>Brun’s lands</strong> with subregions and details, moved to <strong>Verda</strong>. Published the alpha for <a href="/malkona/verda/ashen_frontier/">The Ashen Frontier</a>. After posting this diary, I’ll tackle the <strong>Monti Hills</strong>.</p>
+
+<h2 id="continued-learning-to-draw">Continued learning to draw</h2>
+
+<p>Nothing major to report. Stuck on skull anatomy. Front and side views are fine, but ¾ angles and rotations stump me. Grinding through it.</p>
+
+<h2 id="plans-for-the-week">Plans for the week</h2>
+
+<ul>
+  <li>Focus on regions. Ideally, finish <strong>Verda</strong> — but it’s massive.</li>
+  <li>Draw. Master skull basics, move to ribcage.</li>
+  <li>Day job obligations: a major release is approaching.</li>
+</ul>
+
+<p>With that, I conclude another diary entry: <em>thank you, dear diary, for existing! Until next week.</em></p>]]></content><author><name>Orthan Thundy</name></author><category term="dev diaries" /><summary type="html"><![CDATA[I thought about the further development of the project, settled on plans for the near future, made a structure for future guides and a couple more regions.]]></summary></entry><entry><title type="html">Taliskarn Website is Live! What, Why, and Where to Look</title><link href="http://localhost:4000/extras/blog/we-are-online/" rel="alternate" type="text/html" title="Taliskarn Website is Live! What, Why, and Where to Look" /><published>2025-03-12T00:00:00+07:00</published><updated>2025-03-12T00:00:00+07:00</updated><id>http://localhost:4000/extras/blog/we-are-online</id><content type="html" xml:base="http://localhost:4000/extras/blog/we-are-online/"><![CDATA[<p>So, it’s March 12, 2025. I’m finishing these lines, uploading the site to GitHub Pages, waiting for the domain to connect, and Taliskarn is finally taking its place on the internet.</p>
 
 <blockquote>
   <p>On one hand, it feels a bit early—worldbuilding alone rarely interests people, let alone a rough draft of a world. Even if we assume that the setting is shaping up well, as a reader, I’d still want to see stories and novels set in Taliskarn, and as a player or DM, I’d want adventures and content I can use right away to create my character or campaign. Right now, there’s neither.<br /><br /><br />
@@ -23,7 +95,7 @@ Even by my most optimistic plans, it’ll be a few more months before the first 
 <p>Any other thoughts, ideas, or comments are also welcome!</p>
 
 <h3 id="the-bryleahns">The Bryleahns</h3>
-<p><a href="/denizens/bryleahns" target="_self"><strong>Bryleahns</strong></a><br />
+<p><a href="/denizens/races/bryleahns" target="_self"><strong>Bryleahns</strong></a><br />
 This page will still be expanded and refined, but overall, the major traits of the Bryleahn people are in place. The same questions apply as with Bruna.</p>
 
 <h3 id="malkona-map">Malkona Map</h3>
@@ -60,7 +132,7 @@ This one is for the bravest souls. It covers the fundamental history of Taliskar
 <p>I cleaned up the Russian version of the website: removed completely empty pages, fixed most of the internationalization bugs, added table of contents and spoilers to articles, and updated page info to match the latest state of things. In short, the site is now ready for public launch.</p>
 
 <h2 id="drew-non-human-races">Drew non-human races</h2>
-<p>Created concepts for <a href="/denizens/kyonnhs/" target="_self">Kyonnhs</a>, <a href="/denizens/flammars/" target="_self">Flammars</a>, <a href="/denizens/kyonnhs/" target="_self">Noctids</a>, plus as a bonus, <a href="/denizens/prymars/" target="_self">a Prymar</a> (<em>sounds kinda weird, actually</em>) and <a href="/denizens/arydars/" target="_self">an Arydari</a>. They’re all on their respective pages now, published and looking great (according to my mom, at least!).</p>
+<p>Created concepts for <a href="/denizens/races/kyonnhs/" target="_self">Kyonnhs</a>, <a href="/denizens/races/flammars/" target="_self">Flammars</a>, <a href="/denizens/races/kyonnhs/" target="_self">Noctids</a>, plus as a bonus, <a href="/denizens/races/prymars//" target="_self">a Prymar</a> (<em>sounds kinda weird, actually</em>) and <a href="/denizens/races/arydars//" target="_self">an Arydari</a>. They’re all on their respective pages now, published and looking great (according to my mom, at least!).</p>
 
 <h2 id="prepared-the-scarred-lands-section">Prepared the “Scarred Lands” section</h2>
 <p>You can check it out <a href="/malkona/scarred_lands" target="_self">here</a>. This is the level of detail I’m aiming for with all regions at this phase – and all peoples will get a similar treatment. I’m open to feedback and critique.</p>
@@ -104,7 +176,7 @@ This one is for the bravest souls. It covers the fundamental history of Taliskar
 
 <p>I approached this systematically: took a Udemy course, armed myself with a tablet, a stylus, and an anatomy atlas (<em>a little something for casual evening reading</em>), and wished myself good luck.</p>
 
-<p>The results of my first week can be seen on the <a href="/denizens/bryleahns" target="_self">Bryleahn</a> page. Initially, I just wanted to draw an ear—to celebrate reaching the “Ear Shapes” lesson—but then I got a little carried away. This is a Bryleahn girl. More than that, she’s a very specific Bryleahn girl who holds an important place in my heart—and in the planned Taliskarn story.</p>
+<p>The results of my first week can be seen on the <a href="/denizens/races/bryleahns" target="_self">Bryleahn</a> page. Initially, I just wanted to draw an ear—to celebrate reaching the “Ear Shapes” lesson—but then I got a little carried away. This is a Bryleahn girl. More than that, she’s a very specific Bryleahn girl who holds an important place in my heart—and in the planned Taliskarn story.</p>
 
 <p>Of course, this is a very early concept—and there are issues I can see but don’t yet fully understand (<em>and I want to change her nose too</em>)—but I’m still really happy with it. I managed to transfer the overall idea from my head to the page without catastrophic losses!</p>
 
@@ -124,7 +196,7 @@ This one is for the bravest souls. It covers the fundamental history of Taliskar
 
 <h2 id="wrote-the-first-taliskarn-short-story">Wrote the First Taliskarn Short Story</h2>
 
-<p>Well, aside from the Myth—so if you count that, this would be the second. I’m publishing this <a href="/extras/stories/khurh-zan-ul" target="_self">story</a>, though I’m not entirely satisfied with the pacing in the final third. In any case, it’s still more of an experimental piece—testing out the style and principles of future storytelling. Along the way, I also expanded the wiki with more information on <a href="/denizens/arydars" target="_self">Arydar</a> culture.</p>
+<p>Well, aside from the Myth—so if you count that, this would be the second. I’m publishing this <a href="/extras/stories/khurh-zan-ul" target="_self">story</a>, though I’m not entirely satisfied with the pacing in the final third. In any case, it’s still more of an experimental piece—testing out the style and principles of future storytelling. Along the way, I also expanded the wiki with more information on <a href="/denizens/races/arydars/" target="_self">Arydar</a> culture.</p>
 
 <h2 id="plans-for-the-coming-week">Plans for the Coming Week</h2>
 
