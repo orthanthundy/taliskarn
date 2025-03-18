@@ -819,7 +819,7 @@ body {
 }
 
 .navigation > li {
-  position: relative; /* Чтобы 1-й уровень подменю выпадал правильно */
+  position: relative;
 }
 
 .navigation a {
@@ -834,7 +834,6 @@ body {
   background: #444;
 }
 
-/* Базовое подменю (1-й уровень) */
 .submenu {
   list-style: none;
   padding: 0;
@@ -848,30 +847,24 @@ body {
   z-index: 1000;
 }
 
-/* Когда наводим на элемент 1-го уровня, показываем подменю */
 .navigation li:hover > .submenu {
   display: block;
 }
 
-/* Для вложенных пунктов (2-й уровень и глубже) 
-   важно, чтобы у каждого li тоже было position: relative */
 .submenu li {
   position: relative;
 }
 
-/* Подменю 2-го уровня выпадает сбоку */
 .submenu li .submenu {
   position: absolute;
-  top: 0; /* Можно немного подвинуть, если нужно */
-  left: 100%; /* Выпадает вправо от родительского .submenu */
+  top: 0;
+  left: 100%;
   background: #444;
   display: none;
   min-width: 150px;
   z-index: 1000;
 }
 
-/* При наведении на пункт 1-го уровня внутри подменю
-   показываем вложенное подменю (2-й уровень) */
 .submenu li:hover > .submenu {
   display: block;
 }
@@ -905,8 +898,6 @@ body {
   .navigation > li {
     text-align: center;
   }
-  /* При мобильной верстке убираем абсолютное позиционирование,
-     чтобы подменю нормально раскрывались под пунктами */
   .submenu {
     position: static;
     display: none;
