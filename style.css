@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   border: 0;
   font-size: 100%;
@@ -818,7 +819,7 @@ body {
 }
 
 .navigation > li {
-  position: relative;
+  position: relative; /* Чтобы 1-й уровень подменю выпадал правильно */
 }
 
 .navigation a {
@@ -833,6 +834,7 @@ body {
   background: #444;
 }
 
+/* Базовое подменю (1-й уровень) */
 .submenu {
   list-style: none;
   padding: 0;
@@ -846,16 +848,31 @@ body {
   z-index: 1000;
 }
 
+/* Когда наводим на элемент 1-го уровня, показываем подменю */
 .navigation li:hover > .submenu {
   display: block;
 }
 
-.submenu .submenu {
-  left: 100%;
-  top: 0;
+/* Для вложенных пунктов (2-й уровень и глубже) 
+   важно, чтобы у каждого li тоже было position: relative */
+.submenu li {
+  position: relative;
 }
 
-.has-submenu.open .submenu {
+/* Подменю 2-го уровня выпадает сбоку */
+.submenu li .submenu {
+  position: absolute;
+  top: 0; /* Можно немного подвинуть, если нужно */
+  left: 100%; /* Выпадает вправо от родительского .submenu */
+  background: #444;
+  display: none;
+  min-width: 150px;
+  z-index: 1000;
+}
+
+/* При наведении на пункт 1-го уровня внутри подменю
+   показываем вложенное подменю (2-й уровень) */
+.submenu li:hover > .submenu {
   display: block;
 }
 
@@ -866,6 +883,7 @@ body {
   text-align: left;
 }
 
+/* Адаптивные стили */
 @media (max-width: 900px) {
   .header-contacts {
     display: none;
@@ -887,6 +905,8 @@ body {
   .navigation > li {
     text-align: center;
   }
+  /* При мобильной верстке убираем абсолютное позиционирование,
+     чтобы подменю нормально раскрывались под пунктами */
   .submenu {
     position: static;
     display: none;
