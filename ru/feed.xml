@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="ru" /><updated>2025-03-20T01:28:00+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Taliskarn: The World of Unwritten Maps</title><subtitle>Welcome to the site of Taliskarn — a fantasy setting designed  for adventures using the D&amp;D 5e and Fate Core systems.</subtitle><author><name>benbalter</name></author><entry><title type="html">Рабочие дневники, выпуск 4</title><link href="http://localhost:4000/extras/blog/dd-4/" rel="alternate" type="text/html" title="Рабочие дневники, выпуск 4" /><published>2025-03-18T00:00:00+07:00</published><updated>2025-03-18T00:00:00+07:00</updated><id>http://localhost:4000/extras/blog/dd-4</id><content type="html" xml:base="http://localhost:4000/extras/blog/dd-4/"><![CDATA[<p>Неделя ознаменовалась несколькими существенными корректировками планов. Обо всём по порядку:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ru"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="ru" /><updated>2025-03-20T01:31:27+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Taliskarn: The World of Unwritten Maps</title><subtitle>Welcome to the site of Taliskarn — a fantasy setting designed  for adventures using the D&amp;D 5e and Fate Core systems.</subtitle><author><name>benbalter</name></author><entry><title type="html">Рабочие дневники, выпуск 4</title><link href="http://localhost:4000/extras/blog/dd-4/" rel="alternate" type="text/html" title="Рабочие дневники, выпуск 4" /><published>2025-03-18T00:00:00+07:00</published><updated>2025-03-18T00:00:00+07:00</updated><id>http://localhost:4000/extras/blog/dd-4</id><content type="html" xml:base="http://localhost:4000/extras/blog/dd-4/"><![CDATA[<p>Неделя ознаменовалась несколькими существенными корректировками планов. Обо всём по порядку:</p>
 
 <h2 id="перевёл-разработку-в-публичную-стадию">Перевёл разработку в публичную стадию</h2>
 
@@ -192,7 +192,7 @@
 
 <h2 id="написал-первый-рассказ-по-талискарну">Написал первый рассказ по Талискарну</h2>
 
-<p>Ну, не считая Мифа – если с его учётом, то второй. Этот <a href="/ru/extras/stories/khurh-zan-ul" target="_self">рассказ публикую</a>, хотя и не вполне доволен ритмом повествования в его последней трети. В любом случае, это пока скорее только проект художественного текста: определяю стиль и принципы будущего повествования. Заодно, в ходе работы над историей, добавил в вики больше информации о культуре аридаров.</p>
+<p>Ну, не считая Мифа – если с его учётом, то второй. Этот <a href="/ru/extras/stories/khurh_zan_ul" target="_self">рассказ публикую</a>, хотя и не вполне доволен ритмом повествования в его последней трети. В любом случае, это пока скорее только проект художественного текста: определяю стиль и принципы будущего повествования. Заодно, в ходе работы над историей, добавил в вики больше информации о культуре аридаров.</p>
 
 <h2 id="планы-на-грядущую-неделю">Планы на грядущую неделю</h2>
 
@@ -225,8 +225,7 @@
 
 <p>На самом деле, я всё ещё сомневаюсь, стоит ли этим заниматься. Причина в том, что по Талискарну задумано много контента, и ядром всего проекта является запланированная по нему новелла. Точнее даже серия новелл Подробнее об этом можно прочитать на странице “<a href="/ru/about" target="_self">О проекте</a>” (<em>кстати, как раз её пишу</em>) сюда вынесу только основную мысль:</p>
 <ul>
-  <li>хочу писать книжки по Талискарну
-0 это долго</li>
+  <li>хочу писать книжки по Талискарну, но это долго</li>
   <li>публиковать до полного завершения первой – а то и второй – книги ничего не собираюсь (по крайней мере, пока)</li>
   <li>в процессе написания первых книжек мир точно будет активно изменяться – вплоть до полного реткона отдельных элементов</li>
 </ul>
