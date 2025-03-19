@@ -486,6 +486,42 @@
 
 <p>Салтуары – люди, выбравшие своим домом леса Верда. Хитрые и ловкие, они легко скрывают своё присутствие среди деревьев, расставляя ловушки и оберегая тайну местонахождения своих поселений как от прочих народов, так и друг от друга.</p>
 
+<div id="toc">
+    <h4>Содержание</h4>
+    <div class="toc-list"></div>
+  </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const headers = Array.from(document.querySelectorAll('h2, h3'));
+    const tocList = document.querySelector('.toc-list');
+    
+    headers.forEach(header => {
+      const level = header.tagName.toLowerCase();
+      const link = document.createElement('a');
+      
+      const anchor = document.createElement('a');
+      anchor.name = header.textContent.toLowerCase().replace(/ /g, '-');
+      header.parentNode.insertBefore(anchor, header);
+  
+      link.href = `#${anchor.name}`;
+      link.innerHTML = header.textContent;
+      link.className = `toc-${level}`;
+      
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = document.querySelector(`[name="${anchor.name}"]`);
+        window.scrollTo({
+          top: target.offsetTop - 100,
+          behavior: 'smooth'
+        });
+      });
+  
+      tocList.appendChild(link);
+    });
+  });
+  </script>
+
 <h2 id="внешность-и-особенности">Внешность и особенности</h2>
 
 <p>Салтуары – это, как правило, стройные и жилистые люди. Средний рост мужчин обычно 170-175 см, женщин 160-165. Ловкие и гибкие, они двигаются плавно и ступают мягко, не издавая лишнего шума.</p>
