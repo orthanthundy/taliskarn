@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Путеводитель по региону | Талискарн : Мир Неначертанных Карт </title>
+    <link rel="stylesheet" href="/style.css">
+    <link type="image/x-icon" href="/assets/favicon.ico" rel="shortcut icon">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-65CV5HSCNS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-65CV5HSCNS');
+</script>
+<body>
+    <header role="banner" id="banner">
+    <div class="header-content">
+
+        <div class="header-brand">
+
+            <div class="nav-mobile">
+                <button id="burger-btn" class="burger-btn text-white focus:outline-none">
+                    ☰
+                </button>
+                <div id="mobile-menu" class="mobile-menu bg-gray-900 text-white p-4">
+                    <ul class="navigation">
+                        <li><a href="/ru/">Главная</a><span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li>
+                        <a href="/ru/two_taliskarns">Два Талискарна</a>
+                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
+                                <li><a href="/ru/two_taliskarns/taliskarn_dt">Тёмные Времена (ТВ)</a></li>
+                                <li><a href="/ru/two_taliskarns/taliskarn_nd">Новый Рассвет (НР)</a></li>
+                        </ul> -->
+                </li>
+                <!-- <li><a href="/ru/for_dm">Талискарн для ДМа</a></li> -->
+                <li><a href="/ru/faq">FAQ</a></li>
+        </ul>
+</li>
+
+<li><a href="/ru/malkona">Места</a> <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/ru/malkona/riku">Нагорье Рику</a></li>
+                <li><a href="/ru/malkona/verda">Зелёные Земли Верда</a>
+                        <ul class="submenu">
+                                <li><a href="/ru/malkona/verda/ashen_frontier">Золомежье</a>
+                                <li><a href="/ru/malkona/verda/montwyn_hills">Холмы Монтвин</a>
+                        </ul>
+                </li>
+                <li><a href="/ru/malkona/bryleahn_jungles">Брилийские Джунгли</a></li>
+                <li><a href="/ru/malkona/fetid_fens">Смрадные Топи</a></li>
+                <!-- <li><a href="/ru/malkona/valley_of_the_source">Долина Истока</a></li> -->
+                <li><a href="/ru/malkona/warm_sea">Тёплое Море</a></li>
+                <li><a href="/ru/malkona/wilderreach">Дикий Край</a></li>
+                <li><a href="/ru/malkona/scarred_lands">Израненные земли Бруна</a></li>
+                <li><a href="/ru/malkona/noctaria">Ноктария</a></li>
+                <li><a href="/ru/malkona/flammarg_shards">Осколки Фламмарга</a></li>
+                <li><a href="/ru/malkona/irmaris">Ирмарис</a></li>
+
+        </ul>
+</li>
+
+
+
+<li><a href="/ru/denizens">Обитатели</a>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/ru/denizens/races/prymars">Примары</a></li>
+                <li><a href="/ru/denizens/races/arydars">Аридары</a></li>
+                <li> <a href="/ru/denizens/races/brunars">Брунары</a> </li>
+                <li><a href="/ru/denizens/races/saltuars">Салтуары</a>
+                        <ul class="submenu">
+                                <li><a href="/ru/denizens/races/saltuars/monti">Монти</a></li>
+                                <li><a href="/ru/denizens/races/saltuars/largars">Ларгары</a></li>
+                                <li><a href="/ru/denizens/races/saltuars/senfenns">Сенфенны</a></li>
+                                <li><a href="/ru/denizens/races/saltuars/malvars">Малвары</a></li>
+                                <li><a href="/ru/denizens/races/saltuars/sudians">Судийцы</a></li>
+                                <li><a href="/ru/denizens/races/saltuars/oremians">Орэмцы</a></li>
+
+                        </ul>
+                </li>
+                <li><a href="/ru/denizens/races/bryleahns">Брилийцы</a></li>
+                <li><a href="/ru/denizens/races/kyonnhs">Кьённхи</a></li>
+                <li><a href="/ru/denizens/races/noctids">Ноктиды</a></li>
+                <li><a href="/ru/denizens/races/flammars">Фламмары</a></li>
+                <!-- <li>
+                        <a href="/ru/denizens/races">Народы</a>
+                        <span class="submenu-toggle">▾</span><ul class="submenu">
+                                <li>
+                                        <a href="/ru/denizens/races/humans">Люди</a>
+                                        <span class="submenu-toggle">▾</span><ul class="submenu">
+       
+                                        </ul>
+                                </li> 
+ 
+                        </ul>
+                </li> -->
+                <!-- <li><a href="/ru/denizens/bestiary">Бестиарий</a></li> -->
+        </ul>
+</li>
+
+<li><a href="/ru/wonders">Чудеса</a>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li>
+                        <a href="/ru/wonders/pantheon">Пантеон</a>
+                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
+                                <li><a href="/ru/wonders/pantheon/fluere">Флуэрэ</a></li>
+                                <li><a href="/ru/wonders/pantheon/kaelesta">Келеста</a></li>
+                                <li><a href="/ru/wonders/pantheon/solkalor">Солкалор</a></li>
+                                <li><a href="/ru/wonders/pantheon/ferrude">Феррудэ</a></li>
+                                <li><a href="/ru/wonders/pantheon/aurehjo">Аурехо</a></li>
+                                <li><a href="/ru/wonders/pantheon/tranqa">Транка</a></li>
+                                <li><a href="/ru/wonders/pantheon/kustopha">Кустофа</a></li>
+                                <li><a href="/ru/wonders/pantheon/dhfhalbh">Дх'Фхалбх</a></li>
+                                <li><a href="/ru/wonders/pantheon/flumorn">Флуморн</a></li>
+                        </ul> -->
+                </li>
+                <!-- <li>
+                        <a href="/ru/">Религии</a>
+                        <span class="submenu-toggle">▾</span><ul class="submenu">
+                                <li><a href="/ru/wonders/religions/cult_of_currents">Культ Течений</a></li>
+                                <li><a href="/ru/wonders/religions/cult_of_spirits">Культ Духов</a></li>
+                                <li><a href="/ru/wonders/religions/ancestor_cult">Культ Предков</a></li>
+                        </ul>
+                </li> -->
+                <!-- <li> -->
+                <!-- <li><a href="/ru/">Магия</a></li> -->
+                <!-- </li> -->
+                <!-- <li><a href="/ru/wonders/alchemy">Алхимия</a></li> -->
+</li>
+</ul>
+</li>
+
+<li><a href="/ru/extras">Дополнения</a>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/ru/extras/stories">Истории</a>
+                        <span class="submenu-toggle">▾</span>
+                        <ul class="submenu">
+                                <li><a href="/ru/extras/stories/myth">Миф</a></li>
+                        </ul>
+                </li>
+                <!-- <li><a href="/ru/extras/arts">Арты</a></li> -->
+                <li><a href="/ru/extras/blog">Блог</a></li>
+                <!-- <li><a href="/ru/extras/chronicle">Хроника</a></li>
+                <li><a href="/ru/extras/glossary">Глоссарий</a></li> -->
+        </ul>
+</li>
+<li><a href="/ru/about">О проекте</a>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/ru/about/wip">В процессе работы</a></li>
+                <li><a href="/ru/license">License</a></li>
+                <li><a href="/ru/about/templates">Шаблоны путеводителей</a>
+                        <ul class="submenu">
+                                <li><a href="/ru/about/templates/template_malkona">Путеводитель по Мальконе</a></li>
+                                <li><a href="/ru/about/templates/template_region">Путеводитель по региону</a></li>
+                        </ul>
+                </li>
+                <!--   <li><a href="/ru/about/roadmap">Планы и Хроника</a></li>
+                <li><a href="/ru/about/credits">Авторы</a></li>
+                <li><a href="/ru/about/links">Ссылки</a></li>-->
+
+        </ul>
+</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h1 class="site-title">
+                <a href="/ru/">Талискарн</a>
+            </h1>
+            <div class="header-contacts">
+                <a href="https://discord.gg/Dr4BA8CCx3" class="contact-link"> Присоединяйтесь к Дискорду</a>
+                <!-- <br><a href="mailto:orthanthundy@gmail.com" class="contact-link">orthanthundy@gmail.com</a> -->
+            </div>
+        </div>
+
+
+        <div class="header-actions">
+
+            <div class="language-switcher">
+                
+                
+                <a href="/about/templates/template_region/">English</a>
+                
+            </div>
+
+            <form class="header-search-form" action="/ru/search/" method="get">
+                <input type="text" id="search-box" name="query">
+                <input type="submit" value="search">
+            </form>
+        </div>
+    </div>
+
+    <div class="nav-desktop">
+        <ul class="navigation">
+            <li><a href="/ru/">Главная</a><span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li>
+                        <a href="/ru/two_taliskarns">Два Талискарна</a>
+                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
+                                <li><a href="/ru/two_taliskarns/taliskarn_dt">Тёмные Времена (ТВ)</a></li>
+                                <li><a href="/ru/two_taliskarns/taliskarn_nd">Новый Рассвет (НР)</a></li>
+                        </ul> -->
+                </li>
+                <!-- <li><a href="/ru/for_dm">Талискарн для ДМа</a></li> -->
+                <li><a href="/ru/faq">FAQ</a></li>
+        </ul>
+</li>
+
+<li><a href="/ru/malkona">Места</a> <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/ru/malkona/riku">Нагорье Рику</a></li>
+                <li><a href="/ru/malkona/verda">Зелёные Земли Верда</a>
+                        <ul class="submenu">
+                                <li><a href="/ru/malkona/verda/ashen_frontier">Золомежье</a>
+                                <li><a href="/ru/malkona/verda/montwyn_hills">Холмы Монтвин</a>
+                        </ul>
+                </li>
+                <li><a href="/ru/malkona/bryleahn_jungles">Брилийские Джунгли</a></li>
+                <li><a href="/ru/malkona/fetid_fens">Смрадные Топи</a></li>
+                <!-- <li><a href="/ru/malkona/valley_of_the_source">Долина Истока</a></li> -->
+                <li><a href="/ru/malkona/warm_sea">Тёплое Море</a></li>
+                <li><a href="/ru/malkona/wilderreach">Дикий Край</a></li>
+                <li><a href="/ru/malkona/scarred_lands">Израненные земли Бруна</a></li>
+                <li><a href="/ru/malkona/noctaria">Ноктария</a></li>
+                <li><a href="/ru/malkona/flammarg_shards">Осколки Фламмарга</a></li>
+                <li><a href="/ru/malkona/irmaris">Ирмарис</a></li>
+
+        </ul>
+</li>
+
+
+
+<li><a href="/ru/denizens">Обитатели</a>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/ru/denizens/races/prymars">Примары</a></li>
+                <li><a href="/ru/denizens/races/arydars">Аридары</a></li>
+                <li> <a href="/ru/denizens/races/brunars">Брунары</a> </li>
+                <li><a href="/ru/denizens/races/saltuars">Салтуары</a>
+                        <ul class="submenu">
+                                <li><a href="/ru/denizens/races/saltuars/monti">Монти</a></li>
+                                <li><a href="/ru/denizens/races/saltuars/largars">Ларгары</a></li>
+                                <li><a href="/ru/denizens/races/saltuars/senfenns">Сенфенны</a></li>
+                                <li><a href="/ru/denizens/races/saltuars/malvars">Малвары</a></li>
+                                <li><a href="/ru/denizens/races/saltuars/sudians">Судийцы</a></li>
+                                <li><a href="/ru/denizens/races/saltuars/oremians">Орэмцы</a></li>
+
+                        </ul>
+                </li>
+                <li><a href="/ru/denizens/races/bryleahns">Брилийцы</a></li>
+                <li><a href="/ru/denizens/races/kyonnhs">Кьённхи</a></li>
+                <li><a href="/ru/denizens/races/noctids">Ноктиды</a></li>
+                <li><a href="/ru/denizens/races/flammars">Фламмары</a></li>
+                <!-- <li>
+                        <a href="/ru/denizens/races">Народы</a>
+                        <span class="submenu-toggle">▾</span><ul class="submenu">
+                                <li>
+                                        <a href="/ru/denizens/races/humans">Люди</a>
+                                        <span class="submenu-toggle">▾</span><ul class="submenu">
+       
+                                        </ul>
+                                </li> 
+ 
+                        </ul>
+                </li> -->
+                <!-- <li><a href="/ru/denizens/bestiary">Бестиарий</a></li> -->
+        </ul>
+</li>
+
+<li><a href="/ru/wonders">Чудеса</a>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li>
+                        <a href="/ru/wonders/pantheon">Пантеон</a>
+                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
+                                <li><a href="/ru/wonders/pantheon/fluere">Флуэрэ</a></li>
+                                <li><a href="/ru/wonders/pantheon/kaelesta">Келеста</a></li>
+                                <li><a href="/ru/wonders/pantheon/solkalor">Солкалор</a></li>
+                                <li><a href="/ru/wonders/pantheon/ferrude">Феррудэ</a></li>
+                                <li><a href="/ru/wonders/pantheon/aurehjo">Аурехо</a></li>
+                                <li><a href="/ru/wonders/pantheon/tranqa">Транка</a></li>
+                                <li><a href="/ru/wonders/pantheon/kustopha">Кустофа</a></li>
+                                <li><a href="/ru/wonders/pantheon/dhfhalbh">Дх'Фхалбх</a></li>
+                                <li><a href="/ru/wonders/pantheon/flumorn">Флуморн</a></li>
+                        </ul> -->
+                </li>
+                <!-- <li>
+                        <a href="/ru/">Религии</a>
+                        <span class="submenu-toggle">▾</span><ul class="submenu">
+                                <li><a href="/ru/wonders/religions/cult_of_currents">Культ Течений</a></li>
+                                <li><a href="/ru/wonders/religions/cult_of_spirits">Культ Духов</a></li>
+                                <li><a href="/ru/wonders/religions/ancestor_cult">Культ Предков</a></li>
+                        </ul>
+                </li> -->
+                <!-- <li> -->
+                <!-- <li><a href="/ru/">Магия</a></li> -->
+                <!-- </li> -->
+                <!-- <li><a href="/ru/wonders/alchemy">Алхимия</a></li> -->
+</li>
+</ul>
+</li>
+
+<li><a href="/ru/extras">Дополнения</a>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/ru/extras/stories">Истории</a>
+                        <span class="submenu-toggle">▾</span>
+                        <ul class="submenu">
+                                <li><a href="/ru/extras/stories/myth">Миф</a></li>
+                        </ul>
+                </li>
+                <!-- <li><a href="/ru/extras/arts">Арты</a></li> -->
+                <li><a href="/ru/extras/blog">Блог</a></li>
+                <!-- <li><a href="/ru/extras/chronicle">Хроника</a></li>
+                <li><a href="/ru/extras/glossary">Глоссарий</a></li> -->
+        </ul>
+</li>
+<li><a href="/ru/about">О проекте</a>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/ru/about/wip">В процессе работы</a></li>
+                <li><a href="/ru/license">License</a></li>
+                <li><a href="/ru/about/templates">Шаблоны путеводителей</a>
+                        <ul class="submenu">
+                                <li><a href="/ru/about/templates/template_malkona">Путеводитель по Мальконе</a></li>
+                                <li><a href="/ru/about/templates/template_region">Путеводитель по региону</a></li>
+                        </ul>
+                </li>
+                <!--   <li><a href="/ru/about/roadmap">Планы и Хроника</a></li>
+                <li><a href="/ru/about/credits">Авторы</a></li>
+                <li><a href="/ru/about/links">Ссылки</a></li>-->
+
+        </ul>
+</li>
+        </ul>
+    </div>
+
+    <div class="header-contacts-mobile">
+       <a href="https://discord.gg/Dr4BA8CCx3" class="contact-link"> Присоединяйтесь к Дискорду</a>        <!-- | <a href="mailto:orthanthundy@gmail.com" class="contact-link">orthanthundy@gmail.com</a> -->
+    </div>
+</header>
+
+<div class="notification_banner">
+    <p>Мир Талискарна в процессе создания, всё опубликованное – рабочие черновики разной степени готовности. Подробности, хроники развития и грядущие планы <a href="/ru/about" target="_self">вот здесь</a>.</p>
+</div>
+<!-- Modal image window -->
+<div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+        <img id="modalImage" src="" alt="">
+        <div class="image-controls">
+            <p id="modalCaption"></p>
+        </div>
+        <div class="nav-buttons">
+            <span class="prev" onclick="changeImage(-1)">&#10094;</span>
+            <span class="next" onclick="changeImage(1)">&#10095;</span>
+        </div>
+    </div>
+</div>
+
+<script>
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const burgerBtn = document.getElementById('burger-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        burgerBtn.addEventListener('click', function () {
+            mobileMenu.classList.toggle('active');
+        });
+    });
+
+    console.log("Image modal script loaded!");
+
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll('.submenu-toggle').forEach(button => {
+            button.addEventListener('click', function (event) {
+                event.stopPropagation();
+                let parent = this.closest('.has-submenu');
+                parent.classList.toggle('open');
+            });
+        });
+
+        let images = Array.from(document.querySelectorAll("img.phb-image"));
+        let modal = document.getElementById("imageModal");
+        let modalImage = document.getElementById("modalImage");
+        let modalCaption = document.getElementById("modalCaption");
+        let navButtons = document.querySelector(".nav-buttons");
+        let currentIndex = 0;
+
+        function openModal(index) {
+            if (index < 0 || index >= images.length) return;
+            currentIndex = index;
+            const image = images[currentIndex];
+
+            modalImage.src = image.src;
+            modalCaption.innerHTML = `${image.alt || "Image " + (index + 1)} (<a id="fullSizeLink" style="color: #4dabf7;" target="_blank" href="${image.dataset.fullsize || image.src}">Открыть в полном размере</a>)`;
+            modal.style.display = "flex";
+            navButtons.style.display = images.length > 1 ? "flex" : "none";
+        }
+        function closeModal() {
+            modal.style.display = "none";
+        }
+
+        function changeImage(step) {
+            let newIndex = currentIndex + step;
+            if (newIndex < 0) newIndex = images.length - 1;
+            if (newIndex >= images.length) newIndex = 0;
+            openModal(newIndex);
+        }
+
+        modal.addEventListener("click", function (e) {
+            if (e.target === modal || e.target === modalImage) {
+                closeModal();
+            }
+        });
+
+        images.forEach((img, index) => {
+            img.style.cursor = "pointer";
+            img.addEventListener("click", () => openModal(index));
+        });
+
+        document.querySelector(".close").addEventListener("click", closeModal);
+        document.addEventListener("keydown", (event) => {
+            if (modal.style.display === "flex") {
+                if (event.key === "Escape") closeModal();
+                if (event.key === "ArrowLeft") changeImage(-1);
+                if (event.key === "ArrowRight") changeImage(1);
+            }
+        });
+
+        window.openModal = openModal;
+        window.closeModal = closeModal;
+        window.changeImage = changeImage;
+    });
+</script>
+    <main role="main" id="main" class="phb">
+        <div class="wide" style="margin-bottom: 36px">
+           <div style="margin-bottom: 8px;"><div id="breadcrumbs">
+    
+    <a href="/ru/">Главная</a>
+    
+        
+        
+        
+        
+        
+
+        
+            / <a href="/ru/about/">
+                О проекте
+            </a>
+        
+    
+        
+        
+        
+        
+        
+
+        
+            / <a href="/ru/about/templates/">
+                Шаблоны путеводителей
+            </a>
+        
+    
+        
+        
+        
+        
+        
+
+        
+            / Путеводитель по региону
+        
+    
+</div></div> 
+
+            <h1 id="записки-о-талискарне-путеводитель-по-региону">Записки о Талискарне: Путеводитель по региону</h1>
+
+<p><strong>Задача материала</strong>: дать подробное представление о конкретном регионе и приключениях в нём. По сути, должна получиться книга вида “взял, прочёл, играешь” – а что не хватает, найдёшь на сайте / в PDF общего “Путеводителя по Талискарну”.</p>
+
+<p><strong>Распространение</strong>: материал разбит на две части. Первая из них – общая – содержит основное описание лора региона, справочную информацию по нему, хуки и т. д., но без цифр и оформленных материалов для ДМа. Также из приключений в ней только один вводный ваншот для региона. Она распространяется бесплатно. Публикуется на сайте (методом углубления и расширения соответствующих разделов), а также в формате PDF. </p>
+
+<p>Вторая часть материала – это несколько приключений (включая основное приключение по региону на 3-5 сессий) и все дополнительные материалы. Боевые карты, бестиарий со статами и прочим, раздатки, каталог предметов с полноценными карточками и т.д. Она включена только в платные PDF по региону, они же полная (премиум) версия путеводителя.</p>
+
+<p><strong>Дополнительно:</strong> надо постараться по приключениям оформить модули для Foundry VTT. При правильном подходе это будет сравнительно трудоёмко, но не слишком сложно: весь контент всё равно делать, останется только внутрь завести и настроить.</p>
+
+<blockquote>
+  <p><strong>Заметка на полях</strong><br /> 
+Главная моя цель – я хочу, чтобы Талискарн любили:) Соответственно, я сильнее всего тяготею к идее бесплатного распространения контента с донатом по желанию, чтобы мой мир был доступен для всех.<br /><br />Однако к моменту выпуска первого путеводителя (и это в идеальном мире, если я не потеряю темп) мне уже будет очень сложно одновременно работать над зарабатыванием денег и созданием контента для Талискарна.<br /><br />Пришёл к выводу, что разделение контента на две части – бесплатную и платную – выглядит нормальной идеей. Базовая книжка по Талискарну бесплатна, путеводители по регионам бесплатны за исключением входящих в состав приключений и game-ready контента (статблоки в бестиарий, карточки предметов, модули фандри и т. д.). Так я дам достаточно информации для игры по миру всем желающим, а те, кто может и хочет поддержать, купят полную версию и получат ещё и готовый к вождению контент. Вроде смотрится разумно.</p>
+</blockquote>
+
+<h2 id="содержание">Содержание</h2>
+<ol>
+  <li><strong>Введение</strong>.
+    <ol>
+      <li>Атмосферное художественное вступление</li>
+      <li>Кратко о сути региона и его фишках: где находится, чем знаменит и необычен.</li>
+      <li>Для каких приключений и нарратива он создавался, каков тон и жанр.</li>
+      <li>Роль персонажей: почему авантюристы могут тут оказаться, какие хуки, какие архетипы подходят лучше всего, предполагаемый уровень приключенцев</li>
+      <li>Содержание книги (что будет дальше)</li>
+    </ol>
+  </li>
+  <li><strong>География и природа</strong>.
+    <ol>
+      <li>Карта региона (общая, физическая). В приложении таблица расстояния между основными пунктами. Легенда на карте.</li>
+      <li>Местоположение</li>
+      <li>Ландшафт: типы местности и т. д.</li>
+      <li>Климат </li>
+      <li>Флора и фауна (несверхъестественная, кратко, без подробных статов)</li>
+      <li>Общие для региона сверхъестественные особенности (чудеса). Уникальные механики региона.</li>
+      <li>Внутренние биомы и их особенности. Для каждого:
+        <ol>
+          <li>Расположение</li>
+          <li>Ландшафт</li>
+          <li>Климат</li>
+          <li>Чудеса (сверхъестественные особенности)</li>
+          <li>Флейвор, точки интереса, хуки</li>
+        </ol>
+      </li>
+      <li>Природные феномены и опасности – например, бури и течения Тёплого Моря.</li>
+    </ol>
+  </li>
+  <li><strong>История и легенды</strong>. Возможно, с хронологической таблицей основных дат (в приложении).
+    <ol>
+      <li>Хронология региона</li>
+      <li>Легенды и мифология</li>
+      <li>Ключевые недавние события, повлиявшие на текущее состояние региона</li>
+      <li>Известные исторические личности</li>
+      <li>Неразгаданные тайны истории (хуки)</li>
+    </ol>
+  </li>
+  <li><strong>Народы</strong>
+    <ol>
+      <li>Введение: кто живёт, чем занимаются, какие взаимоотношения друг с другом</li>
+      <li>Для каждого народа:
+        <ol>
+          <li>Биология и внешний вид</li>
+          <li>Культура и образ жизни: архитектура, кухня, музыка, одежда, характеры</li>
+          <li>Социальное устройство (структура общества, формы правления, власть)</li>
+          <li>Религия и верования</li>
+          <li>Ареал расселения</li>
+          <li>Языки и диалекты</li>
+          <li>Отношения с другими народами (в том числе к чужеземцам)</li>
+          <li>Сабрасы</li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+  <li><strong>Фракции, государства и города</strong>
+    <ol>
+      <li>Политическая карта региона с отмеченными основными поселениями и их зонами влияния</li>
+      <li>Описание фракций. Города, культы, общества и т. д. Для каждой:
+        <ol>
+          <li>Общее описание: состав, численность, география, цели и задачи, образ действий</li>
+          <li>Для городов: карта, районы, население, сфера влияния, политическое устройство, специализация, вайб</li>
+          <li>Ключевые NPC</li>
+          <li>Ключевые точки интереса, связанные с фракцией </li>
+          <li>Для каких приключений подходит, в чём идея использования.</li>
+        </ol>
+      </li>
+      <li>Конфликты, союзы, торговые пути и точки напряжения. Сюжетные хуки по фракциям.</li>
+    </ol>
+  </li>
+  <li><strong>Места</strong>.
+    <ol>
+      <li>Введение</li>
+      <li>Не вошедшие в раздел фракции поселения:
+        <ol>
+          <li>Расположение</li>
+          <li>Население</li>
+          <li>Районы</li>
+          <li>Вайб, настроение, специализация, для каких приключений и целей создано</li>
+        </ol>
+      </li>
+      <li>Точки интереса: тёмные пещеры, древние храмы, мистические озёра и т. д. Всё, где можно приключаться. Кратко, с упором на лор и нарратив.</li>
+      <li>Транспорт в регионе: как передвигаются, на чём и где.</li>
+    </ol>
+  </li>
+  <li><strong>Бестиарий региона</strong>. Общее описание, с упором на лор, картинки. 
+    <ol>
+      <li>Введение, особенности монстров и остального региона.</li>
+      <li>8-15 авторских мобов (10-15, если адаптированные есть, 8-10, если все авторские). Картинка, внешность, повадки, способности, место в лоре – на 1-2 абзаца. Краткие подсказки по использованию (“подходит для групп персонажей 3-4 уровня, при перевесе сил убегает”). Пометки, в каких приключениях появляются эти существа.
+Примерное распределение мобятника (CR зависят от региона):</li>
+      <li>3 существа низкого уровня (CR 1–3).  </li>
+      <li>4–5 существ среднего уровня (CR 4–7).  </li>
+      <li>3–4 существа высокого уровня (CR 8–12).  </li>
+      <li>1 «босс» региона (CR 13+). 1</li>
+      <li>рекомендации по адаптации каноничных существ.</li>
+    </ol>
+  </li>
+  <li><strong>Ништяки и артефакты региона</strong>. Аналогично.</li>
+  <li><strong>Приключения в регионе</strong>
+    <ol>
+      <li>Введение: что и как тут играть задумывалось, какой тон и стиль игры. Основной конфликт региона, его драма, темы.</li>
+      <li>Типовые задания и работа для авантюристов</li>
+      <li>Несколько хуков и крючков</li>
+      <li>Советы по подготовке персонажей к приключениям в регионе: какие навыки, знания и экипировка будут полезны</li>
+      <li>Тон и стиль игры </li>
+      <li>Ваншот. Коротенькое приключение на сессию-две.</li>
+    </ol>
+  </li>
+  <li><strong>Регион для ДМа</strong>
+    <ol>
+      <li>Введение. </li>
+      <li>Закулисные тайны региона и секреты</li>
+    </ol>
+  </li>
+</ol>
+
+<p><em>Конец бесплатной части, которая распространяется для всех и вся. Дальше – полная версия, за деньги.</em></p>
+
+<ol>
+  <li><strong>Подробно для ДМа</strong>
+    <ol>
+      <li>Введение ко второй части, благодарности за покупку и поддержку</li>
+      <li>Как использовать вторую часть этого путеводителя: что где, какая информация для мастера, какая для игроков (можно показать), что вынесено в примечания.</li>
+      <li>Рекомендации по ведению приключений в регионе и адаптации других приключений к нему: какую атмосферу передавать игрокам, какие методы использовать и т. д. Рекомендации по саундтреку?</li>
+      <li>Точки входа: как встроить регион в другую кампанию, откуда лучше начинать приключения здесь, несколько сюжетных хуков</li>
+      <li>Подстройка сложности: как адаптировать приключения под другой уровень группы (плюс приложение с таблицами или опциями на эту тему)</li>
+      <li>Упоминание модулей для Foundry и дополнений (при наличии).</li>
+    </ol>
+  </li>
+  <li><strong>Основное приключение</strong> Рассчитано на 3-5 сессий и, соотв, уровней. Включает в себя:
+    <ol>
+      <li>Художественное введение</li>
+      <li>Синопсис: краткое изложение сюжета целиком</li>
+      <li>Предыстория и задний план: откуда что взялось, какие были предпосылки, как приключение связано с лором региона.</li>
+      <li>Завязка: один или несколько сюжетных хуков на то, как подвязать персонажей к истории. Рекомендации по их вовлечению в процесс.</li>
+      <li>Сюжет по главам. Каждая глава включает в себя:
+        <ol>
+          <li>Общее описание сюжета</li>
+          <li>Локации и сцены (включая рисунки и карты)</li>
+          <li>NPC: внешность, статы (если нужны), отыгрыш</li>
+          <li>Рекомендации по проведению и нужные для этого материалы (таблицы, описания загадок и прочую механику – например, требования к сложности проверок и последствия успеха-провала)</li>
+        </ol>
+      </li>
+      <li>Кульминация и финал. Возможные исходы, варианты развития событий.</li>
+      <li>Последствия: что произойдёт после завершения приключения тем или иным образом, как изменится мир, идеи для продолжения приключений и хуки.</li>
+      <li>Примечания для мастера: всё важное, что не вошло в другие пункты. Настройка сложности, альтернативные пути прохождения, рекомендации по выбору музыки, полезные внешние ссылки и т. д.</li>
+      <li>Материалы: раздатки, таблицы для ДМа и прочие приложения. Тут, а не в общих приложениях, чтобы можно было приключение целиком выдрать отдельным файлом.</li>
+    </ol>
+  </li>
+  <li><strong>2-3 ваншота.</strong> По аналогии, но покороче. Покрываем разные типы приключений: боевые, социальные, детективные и т. д.</li>
+  <li>
+    <p><strong>Заключение</strong>. <em>В бесплатной версии тоже присутствует</em></p>
+  </li>
+  <li><strong>Приложение А:</strong> таблицы расстояний и прочие справочные материалы, доступные для всех</li>
+  <li><strong>Приложение Б:</strong> преконы персонажей без статблоков, просто концепты</li>
+  <li><strong>Приложение В:</strong> бестиарий и статблоки монстров (премиум). Расширенные советы по использованию.</li>
+  <li><strong>Приложение Г</strong>: предметы со статами и карточками (премиум). Лор, характеристики и т.д.</li>
+  <li><strong>Приложение Д</strong>: таблицы случайных встреч (премиум)</li>
+  <li><strong>Приложение Е</strong>: уникальные механики региона в численном виде (детализация проклятий, эффекта “Гневного Глаза” в Бруна, фракционные механики, системы репутации и т. д.). Премиум.</li>
+  <li><strong>Приложение Ж</strong>: уникальные для региона\приключений бэкграунды, фиты, навыки и прочие сабклассы для персонажей. Что-то в премиум, что-то и в общую.</li>
+  <li><strong>Приложение З.</strong> Преконы персонажей с готовыми листами.</li>
+</ol>
+
+
+            <div class="wide" style="text-align: center; position: absolute; bottom: 20px; width: 100%;">Сделано Ортаном Тхунди, 2025. <a href="/license">License</a></div>
+        </div>
+    </main>
+
+    <footer role="contentinfo" id="contentinfo">
+    </footer>
+</body>
+
+</html>
