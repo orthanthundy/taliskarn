@@ -52,7 +52,8 @@
                                 <li><a href="/ru/malkona/verda/ashen_frontier">Золомежье</a></li>
                                 <li><a href="/ru/malkona/verda/montwyn_hills">Холмы Монтвин</a></li>
                                 <li><a href="/ru/malkona/verda/lake_larga">Озеро Ларга</a></li>
-                                                <li><a href="/ru/malkona/verda/lake_senfunda">Озеро Сенфунда</a></li>
+                                <li><a href="/ru/malkona/verda/lake_senfunda">Озеро Сенфунда</a></li>
+                                <li><a href="/ru/malkona/verda/lake_malvarma">Озеро Малварма</a></li>
                         </ul>
                 </li>
                 <li><a href="/ru/malkona/bryleahn_jungles">Брилийские Джунгли</a></li>
@@ -229,7 +230,8 @@
                                 <li><a href="/ru/malkona/verda/ashen_frontier">Золомежье</a></li>
                                 <li><a href="/ru/malkona/verda/montwyn_hills">Холмы Монтвин</a></li>
                                 <li><a href="/ru/malkona/verda/lake_larga">Озеро Ларга</a></li>
-                                                <li><a href="/ru/malkona/verda/lake_senfunda">Озеро Сенфунда</a></li>
+                                <li><a href="/ru/malkona/verda/lake_senfunda">Озеро Сенфунда</a></li>
+                                <li><a href="/ru/malkona/verda/lake_malvarma">Озеро Малварма</a></li>
                         </ul>
                 </li>
                 <li><a href="/ru/malkona/bryleahn_jungles">Брилийские Джунгли</a></li>
@@ -505,9 +507,44 @@
                         <p>Холмы Монтвин – это густые, полные духами леса на севере от Ларга. Регион создан для приключений в атмосфере славянско-кельтской друидики с элементами синтоизма.</p>
 
 <blockquote>
-  <p><strong>Работа в процессе</strong><br />
-Это черновик региона, предполагающий изменения и дополнения в будущем.</p>
+  <p>Работа в процессе<br />Регион в черновой версии, на обсуждении в Дискорде.</p>
 </blockquote>
+
+<div id="toc">
+    <h4>Содержание</h4>
+    <div class="toc-list"></div>
+  </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const headers = Array.from(document.querySelectorAll('h2, h3'));
+    const tocList = document.querySelector('.toc-list');
+    
+    headers.forEach(header => {
+      const level = header.tagName.toLowerCase();
+      const link = document.createElement('a');
+      
+      const anchor = document.createElement('a');
+      anchor.name = header.textContent.toLowerCase().replace(/ /g, '-');
+      header.parentNode.insertBefore(anchor, header);
+  
+      link.href = `#${anchor.name}`;
+      link.innerHTML = header.textContent;
+      link.className = `toc-${level}`;
+      
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = document.querySelector(`[name="${anchor.name}"]`);
+        window.scrollTo({
+          top: target.offsetTop - 100,
+          behavior: 'smooth'
+        });
+      });
+  
+      tocList.appendChild(link);
+    });
+  });
+  </script>
 
 <h2 id="география">География</h2>
 <p>Размеры региона примерно 350х200 миль.

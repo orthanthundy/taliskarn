@@ -52,7 +52,8 @@
                                 <li><a href="/ru/malkona/verda/ashen_frontier">Золомежье</a></li>
                                 <li><a href="/ru/malkona/verda/montwyn_hills">Холмы Монтвин</a></li>
                                 <li><a href="/ru/malkona/verda/lake_larga">Озеро Ларга</a></li>
-                                                <li><a href="/ru/malkona/verda/lake_senfunda">Озеро Сенфунда</a></li>
+                                <li><a href="/ru/malkona/verda/lake_senfunda">Озеро Сенфунда</a></li>
+                                <li><a href="/ru/malkona/verda/lake_malvarma">Озеро Малварма</a></li>
                         </ul>
                 </li>
                 <li><a href="/ru/malkona/bryleahn_jungles">Брилийские Джунгли</a></li>
@@ -229,7 +230,8 @@
                                 <li><a href="/ru/malkona/verda/ashen_frontier">Золомежье</a></li>
                                 <li><a href="/ru/malkona/verda/montwyn_hills">Холмы Монтвин</a></li>
                                 <li><a href="/ru/malkona/verda/lake_larga">Озеро Ларга</a></li>
-                                                <li><a href="/ru/malkona/verda/lake_senfunda">Озеро Сенфунда</a></li>
+                                <li><a href="/ru/malkona/verda/lake_senfunda">Озеро Сенфунда</a></li>
+                                <li><a href="/ru/malkona/verda/lake_malvarma">Озеро Малварма</a></li>
                         </ul>
                 </li>
                 <li><a href="/ru/malkona/bryleahn_jungles">Брилийские Джунгли</a></li>
@@ -503,12 +505,47 @@
                 <div class="article-content">
                     <div class="article-text" style="overflow: hidden;">
                         <blockquote>
-  <p><strong>Работа в процессе</strong><br />
-Это черновик региона, предполагающий изменения и дополнения в будущем.</p>
+  <p>Работа в процессе<br />Регион в черновой версии, на обсуждении в Дискорде.</p>
 </blockquote>
 
+<div id="toc">
+    <h4>Содержание</h4>
+    <div class="toc-list"></div>
+  </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const headers = Array.from(document.querySelectorAll('h2, h3'));
+    const tocList = document.querySelector('.toc-list');
+    
+    headers.forEach(header => {
+      const level = header.tagName.toLowerCase();
+      const link = document.createElement('a');
+      
+      const anchor = document.createElement('a');
+      anchor.name = header.textContent.toLowerCase().replace(/ /g, '-');
+      header.parentNode.insertBefore(anchor, header);
+  
+      link.href = `#${anchor.name}`;
+      link.innerHTML = header.textContent;
+      link.className = `toc-${level}`;
+      
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = document.querySelector(`[name="${anchor.name}"]`);
+        window.scrollTo({
+          top: target.offsetTop - 100,
+          behavior: 'smooth'
+        });
+      });
+  
+      tocList.appendChild(link);
+    });
+  });
+  </script>
+
 <h2 id="география">География</h2>
-<p>Огромное продолговатое озеро на юге Верда, простирающееся почти на 300 миль с запада на восток, и на 30-70 миль с юга на север. На севере примыкает к лесистым холмам Монтвин, восточный берег относится к Золомежью, а вдоль южного берега тянется узкая полоса смешанных лесов, за которой начинается аридарское Ветролесье.
+<p>Огромное продолговатое озеро на юге Верда, простирающееся почти на 300 миль с запада на восток, и на 30-70 миль с юга на север. На севере примыкает к лесистым холмам Монтвин, восточный берег относится к Золомежью, а вдоль южного берега тянется узкая полоса смешанных лесов, за которой начинается аридарское Бурестепье.
 Ларга питается водами Черноводки с востока и даёт начало реке Ларгари на западе.</p>
 
 <h3 id="ландшафт">Ландшафт</h3>
@@ -566,7 +603,7 @@
 <p>Тихие дикие заводи, много водоплавающих птиц, лес потихоньку редеет. Салтуары избегают селиться в этих местах из-за опасной близости степи (монти рода Дикой Сливы – исключение), а аридары бывают здесь лишь по случаю.</p>
 
 <h2 id="народы">Народы</h2>
-<p>Тут живут ларгары – большое племя салтуаров. Северные сохранили сильные салтуарские традиции и ближе к монти по характеру и культуре, южные же во многом восприняли культуру кромров: кочевого народа Ветролесья.</p>
+<p>Тут живут ларгары – большое племя салтуаров. Северные сохранили сильные салтуарские традиции и ближе к монти по характеру и культуре, южные же во многом восприняли культуру кромров: кочевого народа Бурестепья.</p>
 
 <h2 id="поселения">Поселения</h2>
 
