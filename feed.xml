@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-03-25T20:00:56+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Taliskarn: The World of Unwritten Maps</title><subtitle>Welcome to the site of Taliskarn — a fantasy setting designed  for adventures using the D&amp;D 5e and Fate Core systems.</subtitle><author><name>benbalter</name></author><entry><title type="html">Dev Diaries, Issue 4</title><link href="http://localhost:4000/extras/blog/dd-4/" rel="alternate" type="text/html" title="Dev Diaries, Issue 4" /><published>2025-03-18T00:00:00+07:00</published><updated>2025-03-18T00:00:00+07:00</updated><id>http://localhost:4000/extras/blog/dd-4</id><content type="html" xml:base="http://localhost:4000/extras/blog/dd-4/"><![CDATA[<p>The week was marked by several significant adjustments to plans. Here’s the breakdown:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-03-25T20:28:15+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Taliskarn: The World of Unwritten Maps</title><subtitle>Welcome to the site of Taliskarn — a fantasy setting designed  for adventures using the D&amp;D 5e and Fate Core systems.</subtitle><author><name>benbalter</name></author><entry><title type="html">Dev Diaries, Issue 5</title><link href="http://localhost:4000/ru/extras/blog/dd-5/" rel="alternate" type="text/html" title="Dev Diaries, Issue 5" /><published>2025-03-25T00:00:00+07:00</published><updated>2025-03-25T00:00:00+07:00</updated><id>http://localhost:4000/ru/extras/blog/dd-5</id><content type="html" xml:base="http://localhost:4000/ru/extras/blog/dd-5/"><![CDATA[<p>Once again, some adjustments to my plans — this time regarding content development — and a few real-life circumstances interfering with them. Overall, it was a fairly smooth week, working as usual, but let’s go over things in order.</p>
+
+<h2 id="established-a-content-development-workflow">Established a Content Development Workflow</h2>
+<p>Taliskarn — even just the Malkona continent — is pretty vast. I’ll need to write a <em>lot</em> of articles about the regions, peoples, and the world at large. The main problem turned out to be quite simple: it wasn’t clear where to start.</p>
+
+<p>I made a master list of regions — came out to around 40–50 (<em>the exact number keeps shifting as development progresses</em>) zones that definitely deserve their own articles because they’re packed with unique features and flavor. I looked at the list, gave it some thought, and here’s what I came up with:</p>
+
+<ul>
+  <li>One of the main goals — and at the same time one of the main difficulties — is making the world feel cohesive. Neighboring locations influence each other: economy, politics, geography, wildlife — all interconnected. So when nothing’s written yet, it’s hard to start: you don’t know what’s around, which means you don’t know what affects what.</li>
+  <li>I tried starting with a region I’d already thought a lot about during early story planning — the Warm Sea. The idea was simple: “I already have a bunch of material for it, so it should be easier.”</li>
+  <li>It wasn’t. The Warm Sea is a very complex region to build: it blends multiple cultures, biomes, and themes. I think it’ll remain tricky even when the surrounding zones are done.</li>
+  <li>So I tried a different approach: start with a region that’s the least affected by its neighbors. For example, the Scarred Lands of Bruna (specifically, the Cursed Blood Desert): it’s such a harsh, self-contained area that its surroundings influence it only minimally.</li>
+  <li>Then, once you’ve fleshed out a “bright spot on the map,” move on to a neighboring region that <em>is</em> strongly influenced by that one, but not so much by others. For me, that was the Ashen Frontier (<em>I skipped over the desert north of Bruna and the Crumpled Wastes for now, but I have some rough drafts for those that I want to revisit and polish a bit more</em>).</li>
+  <li>And so on.</li>
+</ul>
+
+<p>This approach worked really well, and I’ve made solid progress — though I didn’t get to cover all of Verda yet, of course.</p>
+
+<h2 id="wrote-up-several-regions-and-articles">Wrote Up Several Regions and Articles</h2>
+<p>At the moment, everything’s still in draft/reference format: lots of information, few details, zero literary polish. It’s basically a working outline, but a very valuable one — especially for me. Even at this rough stage, each region takes about 3–5 A4 pages.</p>
+
+<p>Completed (<em>only in Russian for now, the English version is delayed until the beta phase starts</em>):</p>
+<ul>
+  <li><a href="/malkona/verda/montwyn_hills">The Montwyn Hills</a></li>
+  <li><a href="/malkona/verda/lake_larga">Lake Larga</a></li>
+  <li><a href="/malkona/verda/lake_senfunda">Lake Senfunda</a></li>
+  <li><a href="/malkona/verda/steps">The Steps</a></li>
+  <li><a href="/malkona/verda/lake_malvarma">Lake Malvarma</a></li>
+  <li><a href="/malkona/wilderreach">The Wilderreach</a></li>
+</ul>
+
+<p>Also fleshed out the <a href="/denizens/races/saltuars">Saltuars</a> overall and their six main ethnic groups. Plus, I wrote the <a href="/wonders/spirits">article on the spirit concept in Verda</a>. And the myth and creature list of Malkona has grown with the addition of the Valgarns (see Wilderreach), which I’m really happy about.</p>
+
+<h2 id="still-learning-to-draw">Still Learning to Draw</h2>
+<p>Ran into a physical issue: using the iPad hurt my shoulder (when it’s angled more vertically) or my neck (when it’s too horizontal). Not ideal. Switched to a Wacom tablet — now I draw on the desk and look at a monitor. Much more comfortable, though it takes getting used to. Still struggling with anatomy, but I’m happy with the progress. Nothing to show yet, but I can clearly see I’m moving forward.</p>
+
+<h2 id="plans-for-the-coming-week">Plans for the Coming Week</h2>
+<p>I’ve nearly wrapped up the Saltuar section — just have Sudjo left (<em>which leans more toward the Warm Sea</em>) and the Southern Coast (<em>which is its own thing, heavily influenced by Prymar culture</em>). This week, I’ll try to finish the Arydars — there’s tons of material on them already, just needs formatting — and, ideally, the Prymars too. Then the Southern Coast will also fall into place, and what’ll remain in Verda are the Warm Sea and the Crumpled Wastes + the desert nearby.</p>
+
+<p>And of course, keep drawing. And working. Everything’s moving steadily forward — Taliskarn is growing bit by bit. See you in next week’s devlog!</p>]]></content><author><name>Orthan Thundy</name></author><category term="dev diaries" /><summary type="html"><![CDATA[Seriously made progress on the Saltuars (I'd even say they're almost done), streamlined my content workflow, and switched to a different tablet for drawing. It's been a calm week.]]></summary></entry><entry><title type="html">Dev Diaries, Issue 4</title><link href="http://localhost:4000/extras/blog/dd-4/" rel="alternate" type="text/html" title="Dev Diaries, Issue 4" /><published>2025-03-18T00:00:00+07:00</published><updated>2025-03-18T00:00:00+07:00</updated><id>http://localhost:4000/extras/blog/dd-4</id><content type="html" xml:base="http://localhost:4000/extras/blog/dd-4/"><![CDATA[<p>The week was marked by several significant adjustments to plans. Here’s the breakdown:</p>
 
 <h2 id="transitioned-development-to-a-public-stage">Transitioned development to a public stage</h2>
 
