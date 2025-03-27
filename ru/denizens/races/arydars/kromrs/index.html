@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кромры | Талискарн : Мир Неначертанных Карт </title>
+    <meta name="description" content="Welcome to the site of Taliskarn — a fantasy setting designed  for adventures using the D&D 5e and Fate Core systems.">
+    <link rel="stylesheet" href="/style.css">
+    <link type="image/x-icon" href="/assets/favicon.ico" rel="shortcut icon">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-65CV5HSCNS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-65CV5HSCNS');
+</script>
+
+<body>
+    <header role="banner" id="banner">
+    <div class="header-content">
+
+        <div class="header-brand">
+
+            <div class="nav-mobile">
+                <button id="burger-btn" class="burger-btn text-white focus:outline-none">
+                    ☰
+                </button>
+                <div id="mobile-menu" class="mobile-menu bg-gray-900 text-white p-4">
+                    <ul class="navigation">
+                        <li><a href="/ru/">Главная</a><span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li>
+                        <a href="/ru/two_taliskarns">Два Талискарна</a>
+                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
+                                <li><a href="/ru/two_taliskarns/taliskarn_dt">Тёмные Времена (ТВ)</a></li>
+                                <li><a href="/ru/two_taliskarns/taliskarn_nd">Новый Рассвет (НР)</a></li>
+                        </ul> -->
+                </li>
+                <!-- <li><a href="/ru/for_dm">Талискарн для ДМа</a></li> -->
+                <li><a href="/ru/faq">FAQ</a></li>
+        </ul>
+</li>
+
+<li><a href="/ru/malkona">Места</a> <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/ru/malkona/riku">Нагорье Рику</a></li>
+                <li><a href="/ru/malkona/verda">Зелёные Земли Верда</a>
+                        <ul class="submenu">
+                                <li><a href="/ru/malkona/verda/ashen_frontier">Золомежье</a></li>
+                                <li><a href="/ru/malkona/verda/montwyn_hills">Холмы Монтвин</a></li>
+                                <li><a href="/ru/malkona/verda/lake_larga">Озеро Ларга</a></li>
+                                <li><a href="/ru/malkona/verda/lake_senfunda">Озеро Сенфунда</a></li>
+                                <li><a href="/ru/malkona/verda/steps">Ступени</a></li>
+                                <li><a href="/ru/malkona/verda/lake_malvarma">Озеро Малварма</a></li>
+                        </ul>
+                </li>
+                <li><a href="/ru/malkona/bryleahn_jungles">Брилийские Джунгли</a></li>
+                <li><a href="/ru/malkona/fetid_fens">Смрадные Топи</a></li>
+                <!-- <li><a href="/ru/malkona/valley_of_the_source">Долина Истока</a></li> -->
+                <li><a href="/ru/malkona/warm_sea">Тёплое Море</a></li>
+                <li><a href="/ru/malkona/wilderreach">Дикий Край</a></li>
+                <li><a href="/ru/malkona/scarred_lands">Израненные земли Бруна</a></li>
+                <li><a href="/ru/malkona/noctaria">Ноктария</a></li>
+                <li><a href="/ru/malkona/flammarg_shards">Осколки Фламмарга</a></li>
+                <li><a href="/ru/malkona/irmaris">Ирмарис</a></li>
+
+        </ul>
+</li>
+
+
+
+<li><a href="/ru/denizens">Обитатели</a>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/ru/denizens/races/prymars">Примары</a></li>
+                <li><a href="/ru/denizens/races/arydars">Аридары</a>
+                        <ul class="submenu">
+                                <li><a href="/ru/denizens/races/arydars/malnurs">Мальнуры</a></li>
+                                <li><a href="/ru/denizens/races/arydars/tondrantars">Тондрантары</a></li>
+                                <li><a href="/ru/denizens/races/arydars/kromrs">Кромры</a></li>
+                        </ul>
+                </li>
+                <li> <a href="/ru/denizens/races/brunars">Брунары</a> </li>
+                <li><a href="/ru/denizens/races/saltuars">Салтуары</a>
+                        <ul class="submenu">
+                                <li><a href="/ru/denizens/races/saltuars/monti">Монти</a></li>
+                                <li><a href="/ru/denizens/races/saltuars/largars">Ларгары</a></li>
+                                <li><a href="/ru/denizens/races/saltuars/senfenns">Сенфенны</a></li>
+                                <li><a href="/ru/denizens/races/saltuars/malvars">Малвары</a></li>
+                                <li><a href="/ru/denizens/races/saltuars/sudians">Судийцы</a></li>
+                                <li><a href="/ru/denizens/races/saltuars/oremians">Орэмцы</a></li>
+
+                        </ul>
+                </li>
+                <li><a href="/ru/denizens/races/bryleahns">Брилийцы</a></li>
+                <li><a href="/ru/denizens/races/kyonnhs">Кьённхи</a></li>
+                <li><a href="/ru/denizens/races/noctids">Ноктиды</a></li>
+                <li><a href="/ru/denizens/races/flammars">Фламмары</a></li>
+                <!-- <li>
+                        <a href="/ru/denizens/races">Народы</a>
+                        <span class="submenu-toggle">▾</span><ul class="submenu">
+                                <li>
+                                        <a href="/ru/denizens/races/humans">Люди</a>
+                                        <span class="submenu-toggle">▾</span><ul class="submenu">
+       
+                                        </ul>
+                                </li> 
+ 
+                        </ul>
+                </li> -->
+                <!-- <li><a href="/ru/denizens/bestiary">Бестиарий</a></li> -->
+        </ul>
+</li>
+
+<li><a href="/ru/wonders">Чудеса</a>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li>
+                        <a href="/ru/wonders/pantheon">Пантеон</a>
+                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
+                                <li><a href="/ru/wonders/pantheon/fluere">Флуэрэ</a></li>
+                                <li><a href="/ru/wonders/pantheon/kaelesta">Келеста</a></li>
+                                <li><a href="/ru/wonders/pantheon/solkalor">Солкалор</a></li>
+                                <li><a href="/ru/wonders/pantheon/ferrude">Феррудэ</a></li>
+                                <li><a href="/ru/wonders/pantheon/aurehjo">Аурехо</a></li>
+                                <li><a href="/ru/wonders/pantheon/tranqa">Транка</a></li>
+                                <li><a href="/ru/wonders/pantheon/kustopha">Кустофа</a></li>
+                                <li><a href="/ru/wonders/pantheon/dhfhalbh">Дх'Фхалбх</a></li>
+                                <li><a href="/ru/wonders/pantheon/flumorn">Флуморн</a></li>
+                        </ul> -->
+                </li>
+                <li>
+                        <a href="/ru/wonders/spirits">Духи Верда</a>
+                </li>
+                <!-- <li>
+                        <a href="/ru/">Религии</a>
+                        <span class="submenu-toggle">▾</span><ul class="submenu">
+                                <li><a href="/ru/wonders/religions/cult_of_currents">Культ Течений</a></li>
+                                <li><a href="/ru/wonders/religions/cult_of_spirits">Культ Духов</a></li>
+                                <li><a href="/ru/wonders/religions/ancestor_cult">Культ Предков</a></li>
+                        </ul>
+                </li> -->
+                <!-- <li> -->
+                <!-- <li><a href="/ru/">Магия</a></li> -->
+                <!-- </li> -->
+                <!-- <li><a href="/ru/wonders/alchemy">Алхимия</a></li> -->
+</li>
+</ul>
+</li>
+
+<li><a href="/ru/extras">Дополнения</a>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/ru/extras/stories">Истории</a>
+                        <span class="submenu-toggle">▾</span>
+                        <ul class="submenu">
+                                <li><a href="/ru/extras/stories/myth">Миф</a></li>
+                        </ul>
+                </li>
+                <!-- <li><a href="/ru/extras/arts">Арты</a></li> -->
+                <li><a href="/ru/extras/blog">Блог</a></li>
+                <!-- <li><a href="/ru/extras/chronicle">Хроника</a></li>
+                <li><a href="/ru/extras/glossary">Глоссарий</a></li> -->
+        </ul>
+</li>
+<li><a href="/ru/about">О проекте</a>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/ru/about/wip">В процессе работы</a></li>
+                <li><a href="/ru/license">License</a></li>
+                <li><a href="/ru/about/templates">Шаблоны путеводителей</a>
+                        <ul class="submenu">
+                                <li><a href="/ru/about/templates/template_malkona">Путеводитель по Мальконе</a></li>
+                                <li><a href="/ru/about/templates/template_region">Путеводитель по региону</a></li>
+                        </ul>
+                </li>
+                <!--   <li><a href="/ru/about/roadmap">Планы и Хроника</a></li>
+                <li><a href="/ru/about/credits">Авторы</a></li>
+                <li><a href="/ru/about/links">Ссылки</a></li>-->
+
+        </ul>
+</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h1 class="site-title">
+                <a href="/ru/">Талискарн</a>
+            </h1>
+            <div class="header-contacts">
+                <a href="https://discord.gg/Dr4BA8CCx3" class="contact-link"> Присоединяйтесь к Дискорду</a>
+                <!-- <br><a href="mailto:orthanthundy@gmail.com" class="contact-link">orthanthundy@gmail.com</a> -->
+            </div>
+        </div>
+
+
+        <div class="header-actions">
+
+            <div class="language-switcher">
+                
+                
+                <a href="/denizens/races/arydars/kromrs/">English</a>
+                
+            </div>
+
+            <form class="header-search-form" action="/ru/search/" method="get">
+                <input type="text" id="search-box" name="query">
+                <input type="submit" value="search">
+            </form>
+        </div>
+    </div>
+
+    <div class="nav-desktop">
+        <ul class="navigation">
+            <li><a href="/ru/">Главная</a><span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li>
+                        <a href="/ru/two_taliskarns">Два Талискарна</a>
+                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
+                                <li><a href="/ru/two_taliskarns/taliskarn_dt">Тёмные Времена (ТВ)</a></li>
+                                <li><a href="/ru/two_taliskarns/taliskarn_nd">Новый Рассвет (НР)</a></li>
+                        </ul> -->
+                </li>
+                <!-- <li><a href="/ru/for_dm">Талискарн для ДМа</a></li> -->
+                <li><a href="/ru/faq">FAQ</a></li>
+        </ul>
+</li>
+
+<li><a href="/ru/malkona">Места</a> <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/ru/malkona/riku">Нагорье Рику</a></li>
+                <li><a href="/ru/malkona/verda">Зелёные Земли Верда</a>
+                        <ul class="submenu">
+                                <li><a href="/ru/malkona/verda/ashen_frontier">Золомежье</a></li>
+                                <li><a href="/ru/malkona/verda/montwyn_hills">Холмы Монтвин</a></li>
+                                <li><a href="/ru/malkona/verda/lake_larga">Озеро Ларга</a></li>
+                                <li><a href="/ru/malkona/verda/lake_senfunda">Озеро Сенфунда</a></li>
+                                <li><a href="/ru/malkona/verda/steps">Ступени</a></li>
+                                <li><a href="/ru/malkona/verda/lake_malvarma">Озеро Малварма</a></li>
+                        </ul>
+                </li>
+                <li><a href="/ru/malkona/bryleahn_jungles">Брилийские Джунгли</a></li>
+                <li><a href="/ru/malkona/fetid_fens">Смрадные Топи</a></li>
+                <!-- <li><a href="/ru/malkona/valley_of_the_source">Долина Истока</a></li> -->
+                <li><a href="/ru/malkona/warm_sea">Тёплое Море</a></li>
+                <li><a href="/ru/malkona/wilderreach">Дикий Край</a></li>
+                <li><a href="/ru/malkona/scarred_lands">Израненные земли Бруна</a></li>
+                <li><a href="/ru/malkona/noctaria">Ноктария</a></li>
+                <li><a href="/ru/malkona/flammarg_shards">Осколки Фламмарга</a></li>
+                <li><a href="/ru/malkona/irmaris">Ирмарис</a></li>
+
+        </ul>
+</li>
+
+
+
+<li><a href="/ru/denizens">Обитатели</a>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/ru/denizens/races/prymars">Примары</a></li>
+                <li><a href="/ru/denizens/races/arydars">Аридары</a>
+                        <ul class="submenu">
+                                <li><a href="/ru/denizens/races/arydars/malnurs">Мальнуры</a></li>
+                                <li><a href="/ru/denizens/races/arydars/tondrantars">Тондрантары</a></li>
+                                <li><a href="/ru/denizens/races/arydars/kromrs">Кромры</a></li>
+                        </ul>
+                </li>
+                <li> <a href="/ru/denizens/races/brunars">Брунары</a> </li>
+                <li><a href="/ru/denizens/races/saltuars">Салтуары</a>
+                        <ul class="submenu">
+                                <li><a href="/ru/denizens/races/saltuars/monti">Монти</a></li>
+                                <li><a href="/ru/denizens/races/saltuars/largars">Ларгары</a></li>
+                                <li><a href="/ru/denizens/races/saltuars/senfenns">Сенфенны</a></li>
+                                <li><a href="/ru/denizens/races/saltuars/malvars">Малвары</a></li>
+                                <li><a href="/ru/denizens/races/saltuars/sudians">Судийцы</a></li>
+                                <li><a href="/ru/denizens/races/saltuars/oremians">Орэмцы</a></li>
+
+                        </ul>
+                </li>
+                <li><a href="/ru/denizens/races/bryleahns">Брилийцы</a></li>
+                <li><a href="/ru/denizens/races/kyonnhs">Кьённхи</a></li>
+                <li><a href="/ru/denizens/races/noctids">Ноктиды</a></li>
+                <li><a href="/ru/denizens/races/flammars">Фламмары</a></li>
+                <!-- <li>
+                        <a href="/ru/denizens/races">Народы</a>
+                        <span class="submenu-toggle">▾</span><ul class="submenu">
+                                <li>
+                                        <a href="/ru/denizens/races/humans">Люди</a>
+                                        <span class="submenu-toggle">▾</span><ul class="submenu">
+       
+                                        </ul>
+                                </li> 
+ 
+                        </ul>
+                </li> -->
+                <!-- <li><a href="/ru/denizens/bestiary">Бестиарий</a></li> -->
+        </ul>
+</li>
+
+<li><a href="/ru/wonders">Чудеса</a>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li>
+                        <a href="/ru/wonders/pantheon">Пантеон</a>
+                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
+                                <li><a href="/ru/wonders/pantheon/fluere">Флуэрэ</a></li>
+                                <li><a href="/ru/wonders/pantheon/kaelesta">Келеста</a></li>
+                                <li><a href="/ru/wonders/pantheon/solkalor">Солкалор</a></li>
+                                <li><a href="/ru/wonders/pantheon/ferrude">Феррудэ</a></li>
+                                <li><a href="/ru/wonders/pantheon/aurehjo">Аурехо</a></li>
+                                <li><a href="/ru/wonders/pantheon/tranqa">Транка</a></li>
+                                <li><a href="/ru/wonders/pantheon/kustopha">Кустофа</a></li>
+                                <li><a href="/ru/wonders/pantheon/dhfhalbh">Дх'Фхалбх</a></li>
+                                <li><a href="/ru/wonders/pantheon/flumorn">Флуморн</a></li>
+                        </ul> -->
+                </li>
+                <li>
+                        <a href="/ru/wonders/spirits">Духи Верда</a>
+                </li>
+                <!-- <li>
+                        <a href="/ru/">Религии</a>
+                        <span class="submenu-toggle">▾</span><ul class="submenu">
+                                <li><a href="/ru/wonders/religions/cult_of_currents">Культ Течений</a></li>
+                                <li><a href="/ru/wonders/religions/cult_of_spirits">Культ Духов</a></li>
+                                <li><a href="/ru/wonders/religions/ancestor_cult">Культ Предков</a></li>
+                        </ul>
+                </li> -->
+                <!-- <li> -->
+                <!-- <li><a href="/ru/">Магия</a></li> -->
+                <!-- </li> -->
+                <!-- <li><a href="/ru/wonders/alchemy">Алхимия</a></li> -->
+</li>
+</ul>
+</li>
+
+<li><a href="/ru/extras">Дополнения</a>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/ru/extras/stories">Истории</a>
+                        <span class="submenu-toggle">▾</span>
+                        <ul class="submenu">
+                                <li><a href="/ru/extras/stories/myth">Миф</a></li>
+                        </ul>
+                </li>
+                <!-- <li><a href="/ru/extras/arts">Арты</a></li> -->
+                <li><a href="/ru/extras/blog">Блог</a></li>
+                <!-- <li><a href="/ru/extras/chronicle">Хроника</a></li>
+                <li><a href="/ru/extras/glossary">Глоссарий</a></li> -->
+        </ul>
+</li>
+<li><a href="/ru/about">О проекте</a>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/ru/about/wip">В процессе работы</a></li>
+                <li><a href="/ru/license">License</a></li>
+                <li><a href="/ru/about/templates">Шаблоны путеводителей</a>
+                        <ul class="submenu">
+                                <li><a href="/ru/about/templates/template_malkona">Путеводитель по Мальконе</a></li>
+                                <li><a href="/ru/about/templates/template_region">Путеводитель по региону</a></li>
+                        </ul>
+                </li>
+                <!--   <li><a href="/ru/about/roadmap">Планы и Хроника</a></li>
+                <li><a href="/ru/about/credits">Авторы</a></li>
+                <li><a href="/ru/about/links">Ссылки</a></li>-->
+
+        </ul>
+</li>
+        </ul>
+    </div>
+
+    <div class="header-contacts-mobile">
+       <a href="https://discord.gg/Dr4BA8CCx3" class="contact-link"> Присоединяйтесь к Дискорду</a>        <!-- | <a href="mailto:orthanthundy@gmail.com" class="contact-link">orthanthundy@gmail.com</a> -->
+    </div>
+</header>
+
+<div class="notification_banner">
+    <p>Мир Талискарна в процессе создания, всё опубликованное – рабочие черновики разной степени готовности. Подробности, хроники развития и грядущие планы <a href="/ru/about" target="_self">вот здесь</a>.</p>
+</div>
+<!-- Modal image window -->
+<div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+        <img id="modalImage" src="" alt="">
+        <div class="image-controls">
+            <p id="modalCaption"></p>
+        </div>
+        <div class="nav-buttons">
+            <span class="prev" onclick="changeImage(-1)">&#10094;</span>
+            <span class="next" onclick="changeImage(1)">&#10095;</span>
+        </div>
+    </div>
+</div>
+
+<script>
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const burgerBtn = document.getElementById('burger-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        burgerBtn.addEventListener('click', function () {
+            mobileMenu.classList.toggle('active');
+        });
+    });
+
+    console.log("Image modal script loaded!");
+
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll('.submenu-toggle').forEach(button => {
+            button.addEventListener('click', function (event) {
+                event.stopPropagation();
+                let parent = this.closest('.has-submenu');
+                parent.classList.toggle('open');
+            });
+        });
+
+        let images = Array.from(document.querySelectorAll("img.phb-image"));
+        let modal = document.getElementById("imageModal");
+        let modalImage = document.getElementById("modalImage");
+        let modalCaption = document.getElementById("modalCaption");
+        let navButtons = document.querySelector(".nav-buttons");
+        let currentIndex = 0;
+
+        function openModal(index) {
+            if (index < 0 || index >= images.length) return;
+            currentIndex = index;
+            const image = images[currentIndex];
+
+            modalImage.src = image.src;
+            modalCaption.innerHTML = `${image.alt || "Image " + (index + 1)} (<a id="fullSizeLink" style="color: #4dabf7;" target="_blank" href="${image.dataset.fullsize || image.src}">Открыть в полном размере</a>)`;
+            modal.style.display = "flex";
+            navButtons.style.display = images.length > 1 ? "flex" : "none";
+        }
+        function closeModal() {
+            modal.style.display = "none";
+        }
+
+        function changeImage(step) {
+            let newIndex = currentIndex + step;
+            if (newIndex < 0) newIndex = images.length - 1;
+            if (newIndex >= images.length) newIndex = 0;
+            openModal(newIndex);
+        }
+
+        modal.addEventListener("click", function (e) {
+            if (e.target === modal || e.target === modalImage) {
+                closeModal();
+            }
+        });
+
+        images.forEach((img, index) => {
+            img.style.cursor = "pointer";
+            img.addEventListener("click", () => openModal(index));
+        });
+
+        document.querySelector(".close").addEventListener("click", closeModal);
+        document.addEventListener("keydown", (event) => {
+            if (modal.style.display === "flex") {
+                if (event.key === "Escape") closeModal();
+                if (event.key === "ArrowLeft") changeImage(-1);
+                if (event.key === "ArrowRight") changeImage(1);
+            }
+        });
+
+        window.openModal = openModal;
+        window.closeModal = closeModal;
+        window.changeImage = changeImage;
+    });
+</script>
+
+    <main role="main" id="main" class="phb">
+        <div class="wide" style="margin-bottom: 32px;">
+            <div style="margin-bottom: 8px;"><div id="breadcrumbs">
+    
+    <a href="/ru/">Главная</a>
+    
+        
+        
+        
+        
+        
+
+        
+            / <a href="/ru/denizens/">
+                Обитатели
+            </a>
+        
+    
+        
+        
+        
+        
+        
+
+        
+            / <a href="/ru/denizens/races/">
+                Расы
+            </a>
+        
+    
+        
+        
+        
+        
+        
+
+        
+            / <a href="/ru/denizens/races/arydars/">
+                Аридары
+            </a>
+        
+    
+        
+        
+        
+        
+        
+
+        
+            / Кромры
+        
+    
+</div></div>
+
+            <div class="wiki-article">
+                <h1 class="article-title" style="width: 100%;">Кромры</h1>
+
+                <div class="article-content">
+                    <div class="article-text" style="overflow: hidden;">
+                        <p>Кромры – аридары Бурестепья, вольный народ холмов.</p>
+
+<div id="toc">
+    <h4>Содержание</h4>
+    <div class="toc-list"></div>
+  </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const headers = Array.from(document.querySelectorAll('h2, h3'));
+    const tocList = document.querySelector('.toc-list');
+    
+    headers.forEach(header => {
+      const level = header.tagName.toLowerCase();
+      const link = document.createElement('a');
+      
+      const anchor = document.createElement('a');
+      anchor.name = header.textContent.toLowerCase().replace(/ /g, '-');
+      header.parentNode.insertBefore(anchor, header);
+  
+      link.href = `#${anchor.name}`;
+      link.innerHTML = header.textContent;
+      link.className = `toc-${level}`;
+      
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = document.querySelector(`[name="${anchor.name}"]`);
+        window.scrollTo({
+          top: target.offsetTop - 100,
+          behavior: 'smooth'
+        });
+      });
+  
+      tocList.appendChild(link);
+    });
+  });
+  </script>
+
+<blockquote>
+  <p><strong>Заметка на полях</strong><br /> Говоря о кромрах, часто упоминают их миролюбивость и сдержанность – однако путешественнику всегда стоит держать в памяти, что миролюбивы кочевники холмов лишь по меркам аридаров. Не более того.</p>
+</blockquote>
+
+<h2 id="внешность-и-особенности">Внешность и особенности</h2>
+<p>Кромры – поджарые и крепкие люди: чуть более рослые и менее жилистые, чем другие аридары. Их лица отличаются относительной мягкостью черт: глаза чуть менее узкие, скулы не столь острые, а кожа чуть более светлая. Волосы у их народа обычно тёмно-каштановые или чёрные, они нередко заплетают их в тугие косы по салтуарскому образцу, украшая небольшими костяными или даже металлическими подвесками.</p>
+
+<h2 id="ареал-расселения">Ареал расселения</h2>
+<p>Кромры обитают в Бурестепье – это холмистые равнины с частыми перелесками в долинах, небольшими ручьями и речками. С севера, запада и востока их земли окружены густыми, полными духов лесами Верда, западная же часть плавно переходит в сухие саванны Бруна. Эти холмы не слишком хорошо подходят для земледелия, однако здесь хватает и воды, и пастбищ.</p>
+
+<h3 id="культура-и-образ-жизни">Культура и образ жизни</h3>
+<p>Для аридаров кромры – достаточно миролюбивый, спокойный и рассудительный народ. Хотя они твёрдо стоят на своих идеях, традициях и принципах, в случае конфликта кочвники холмов делают всё возможное для того, чтобы обсудить его словами, и идут на применение силы лишь после того, как убедятся, что устраивающее всех мирное решение недостижимо. Также они активно торгуют с соседями, не допуская, впрочем, прохода чужих караванов через свои территории (<em>примечание: так было до объединения земель Верда Дренаном</em>).</p>
+
+<p>Заслуги свои на коже отмечают клеймлением, используя для этого раскалённый металл. У каждого рода есть своё клеймо, которым владеет старейшина, и свои мастера, умеющие сложить самые сложные знаки и даже сюжеты из простых форм.</p>
+
+<h3 id="одежда">Одежда</h3>
+<p>Традиционная для аридаров, но с элементами салтуарской культуры. Популярны цветные тканевые ленты и шейные платки.</p>
+
+<h3 id="архитектура-и-жильё">Архитектура и жильё</h3>
+<p>Живут кромры в традиционных аридарских юртах, однако помимо шкур животных и шерсти они активно используют плетёные элементы: циновки, ткани и т. д.</p>
+
+<h3 id="кухня">Кухня</h3>
+<p>Помимо традиционных мясных и молочных блюд, в их рацион входят лесные ягоды, грибы и травы, которые они приобретают у салтуаров. Популярно вяленое мясо с ароматными лесными специями и травяной чай с ягодами.</p>
+
+<h3 id="музыка">Музыка</h3>
+<p>Музыка кромров оживлённая и мелодичная. Их песни отражают жизнь в движении, наполнены историями о путешествиях, встречах и торговых приключениях. Основные инструменты – костяные и деревянные флейты, барабаны и простые струнные инструменты.</p>
+
+<h2 id="ремесло-и-быт">Ремесло и быт</h2>
+<p>Как и все аридары, кромры используют в качестве основного материала кости животных. Они закапывают их на долгое время в густой глине устья Ларгари (или в устье ручьёв в холмах), а потом подолгу коптят над низким огнём.</p>
+
+<blockquote>
+  <p><strong>Заметка на полях</strong><br /> Есть и более редко используемый, дорогой способ: кости покрывают тонким слоем масла с измельчённой металлической пылью, затем нагревают. Получается гладкий и блестящий материал, прочный и особенно ценный для торговли.</p>
+</blockquote>
+
+<p>Кромры – мастера резьбы по кости и изготовления сложных украшений. Также владеют металлообработкой в сыродутных печах, но качество уступает работам монти, не говоря уж о кьённхах, да и металл они сами не добывают. Зачастую изготовленные кочевниками металлические вещи не выигрывают по качеству у костяных, а то и уступают им.</p>
+
+<h2 id="религия-и-верования">Религия и верования</h2>
+<p>Следуют Пути Предков, но перенимают части Пути Испытаний (Бруна) и Культа Духов (салтуары). Соседствуют разные мотивы: рядом с родовым знаменем вполне могут быть тотемы юканов + молодые кромры западных племён с особой гордостью носят полученные шрамы (влияние Бруна). Караванщики часто ассоциируют себя с хорондами, бродячими духами.</p>
+
+<h2 id="отношения-с-соседями">Отношения с соседями</h2>
+<p>Кромры поддерживают нейтралитет, стараясь избегать конфликтов.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="wide" style="text-align: center; position: absolute; bottom: 20px; width: 100%;">Сделано Ортаном Тхунди, 2025. <a href="/license">License</a></div>
+        </div>
+    </main>
+
+    <footer role="contentinfo" id="contentinfo"></footer>
+
+</body>
+
+
+</html>
