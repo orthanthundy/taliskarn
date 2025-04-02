@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-04-01T21:32:24+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Taliskarn: The World of Unwritten Maps</title><subtitle>Welcome to the site of Taliskarn — a fantasy setting designed  for adventures using the D&amp;D 5e and Fate Core systems.</subtitle><author><name>benbalter</name></author><entry><title type="html">Dev Diaries, Issue 5</title><link href="http://localhost:4000/extras/blog/dd-5/" rel="alternate" type="text/html" title="Dev Diaries, Issue 5" /><published>2025-03-25T00:00:00+07:00</published><updated>2025-03-25T00:00:00+07:00</updated><id>http://localhost:4000/extras/blog/dd-5</id><content type="html" xml:base="http://localhost:4000/extras/blog/dd-5/"><![CDATA[<p>Once again, some adjustments to my plans — this time regarding content development — and a few real-life circumstances interfering with them. Overall, it was a fairly smooth week, working as usual, but let’s go over things in order.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-04-02T11:49:38+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Taliskarn: The World of Unwritten Maps</title><subtitle>Welcome to the site of Taliskarn — a fantasy setting designed  for adventures using the D&amp;D 5e and Fate Core systems.</subtitle><author><name>benbalter</name></author><entry><title type="html">Dev Diaries, Issue 6</title><link href="http://localhost:4000/extras/blog/dd-6/" rel="alternate" type="text/html" title="Dev Diaries, Issue 6" /><published>2025-04-01T00:00:00+07:00</published><updated>2025-04-01T00:00:00+07:00</updated><id>http://localhost:4000/extras/blog/dd-6</id><content type="html" xml:base="http://localhost:4000/extras/blog/dd-6/"><![CDATA[<p>The past week turned out interesting: hard to tell if it’s a success or a failure. On one hand, I strayed far from my plans, but on the other… let me explain step by step.</p>
+
+<h2 id="focused-on-the-peoples">Focused on the Peoples</h2>
+<p>Got stuck in a tricky loop:</p>
+
+<ul>
+  <li>From a worldbuilding logic perspective, regions define peoples, their cultures, etc. So, you need to flesh out regions first, then their inhabitants.</li>
+  <li>From a gameplay perspective down the line, the spotlight will often be on the peoples themselves – meaning their uniqueness, identity, and core concepts should come first. The surrounding environment should then align with and enhance these ideas.</li>
+</ul>
+
+<p>So again, I’m torn about where to start: the more complex the region, the harder it is to choose. Solved the problem simply: a stroke here, a stroke there, gradually shaping the volume and form.</p>
+
+<p>As a result, almost no new regions were added this week, but:</p>
+<ul>
+  <li>Compiled all notes on <a href="/denizens/races/prymars">Prymars</a> into a single article – it turned out massive, but thoroughly captures my current vision of them.</li>
+  <li>Did the same for <a href="/denizens/races/arydars">Arydars</a> and their three main ethnic groups: <a href="/denizens/races/arydars/kromrs">Kromrs</a>, <a href="/denizens/races/arydars/tondrantars">Tondrantars</a>, and <a href="/denizens/races/arydars/malnurs">Malnurs</a>. Still rough drafts here; will flesh them out in the coming days.</li>
+  <li>Revisited <a href="/denizens/races/saltuars/monti">Monti</a>, <a href="/denizens/races/saltuars/senfenns">Senfenns</a>, and <a href="/denizens/races/saltuars/malvars">Malvars</a>. Now satisfied with their details – I clearly see these peoples. Might tweak minor things, but overall, I’ll leave them as-is until beta.</li>
+  <li>Also managed to draft another region: <a href="/malkona/verda/windhill_plains">Windhill Plains</a>. Love its core idea and concept, but it’s still a rough draft – feels sparse in places. Still, I’ll postpone further work here for the second iteration.</li>
+</ul>
+
+<p>The list seems modest, but the articles themselves hold massive amounts of info – when you think about it, progress is steady.</p>
+
+<h2 id="reached-a-milestone-in-drawing">Reached a Milestone in Drawing</h2>
+<p>First, the new tablet made things way more comfortable – happy with it. Second, I’ve more or less nailed head proportions and, I think, found the style I want for Taliaskarn’s basic character illustrations. Currently compiling everything into one concept, working intensely on Vespeta, trying to maintain consistent features across angles. It’s tough, takes ages, but who said it’d be easy?</p>
+
+<h2 id="cut-off-excess-baggage-for-good">Cut Off Excess Baggage for Good</h2>
+<p>Fact: the hypothesis of “open development might interest someone” has mostly failed. Discord’s dead; friends joined but lurk silently. Special thanks to Nikolai, who doesn’t even play but is the only one keeping the server alive – always a pleasure!</p>
+
+<p>Can’t blame others:</p>
+<ul>
+  <li>Most info in the drafts isn’t engaging for outsiders: there’s no plot, and a standalone world isn’t compelling – that’s the truth.</li>
+  <li>Overload of data: names, terms, references – even I get overwhelmed sometimes.</li>
+  <li>Zero motivation from the project’s owner: no contests, polls, or marketing – no effort to engage.</li>
+</ul>
+
+<p>And I won’t: I’m certain that trying to involve others now would cost more than it’d gain. Need to focus on fleshing out Malkona and Taliaskarn’s core drafts, then move to novels and systematically polish everything. That’s when we’ll have something presentable for end users. Not yet.</p>
+
+<p>So, freezing Discord. From the project’s info framework, keeping only:</p>
+<ul>
+  <li>A brief update log (moving to a separate channel for archival);</li>
+  <li>These daily diaries and progress reports.</li>
+</ul>
+
+<p>I’ll revisit this in six months.</p>
+
+<h2 id="plans-for-the-coming-week">Plans for the Coming Week</h2>
+<p>Today and tomorrow: second iteration on Verda’s peoples – Largars, then Kromrs-Tondrantars-Malnurs. After that, Varmego and the entire Prymarat (southern coast, pulling in the Oremians). Then onward to the Warm Sea shores.</p>
+
+<p>That’s all for now – off to dig into Largar culture. Until next week!</p>]]></content><author><name>Orthan Thundy</name></author><category term="dev diaries" /><summary type="html"><![CDATA[Spent a ton of time on the peoples of Verda, very little on everything else, but overall satisfied. Finally waved off Discord – launched it too early, won’t bother with it anymore.]]></summary></entry><entry><title type="html">Dev Diaries, Issue 5</title><link href="http://localhost:4000/extras/blog/dd-5/" rel="alternate" type="text/html" title="Dev Diaries, Issue 5" /><published>2025-03-25T00:00:00+07:00</published><updated>2025-03-25T00:00:00+07:00</updated><id>http://localhost:4000/extras/blog/dd-5</id><content type="html" xml:base="http://localhost:4000/extras/blog/dd-5/"><![CDATA[<p>Once again, some adjustments to my plans — this time regarding content development — and a few real-life circumstances interfering with them. Overall, it was a fairly smooth week, working as usual, but let’s go over things in order.</p>
 
 <h2 id="established-a-content-development-workflow">Established a Content Development Workflow</h2>
 <p>Taliskarn — even just the Malkona continent — is pretty vast. I’ll need to write a <em>lot</em> of articles about the regions, peoples, and the world at large. The main problem turned out to be quite simple: it wasn’t clear where to start.</p>
