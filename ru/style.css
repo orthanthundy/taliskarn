@@ -1112,6 +1112,15 @@ details[open] summary {
   margin-bottom: 10px;
 }
 
+.phb .epigraph {
+  font-style: italic;
+}
+
+.phb .epigraph p {
+  padding-bottom: 0.2em;
+  padding-top: 0.8em;
+}
+
 .dnd-image-placeholder {
   margin: 1em 0 1em 0;
   width: 300px;
