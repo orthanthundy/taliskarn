@@ -14,8 +14,23 @@ document.addEventListener("DOMContentLoaded", function () {
       const original = el.querySelector('.tooltip-content');
       if (!original) return;
 
-      const showTooltip = (e) => {
+      const showTooltip = (e, linkHref = null) => {
         tooltip.innerHTML = original.innerHTML;
+
+        if (isTouchDevice && linkHref) {
+          const tipLink = document.createElement('a');
+          tipLink.href = linkHref;
+          tipLink.textContent = window.clickAgainText || "Tap again to open";
+          tipLink.style.display = 'block';
+          tipLink.style.marginTop = '8px';
+          tipLink.style.fontSize = '0.85em';
+          tipLink.style.color = '#aabbee';
+          tipLink.style.textDecoration = 'underline';
+          tipLink.style.pointerEvents = 'auto';
+
+          tooltip.appendChild(tipLink);
+        }
+
         tooltip.style.display = 'block';
         tooltip.style.opacity = '1';
         tooltip.style.visibility = 'visible';
@@ -50,11 +65,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
       if (isTouchDevice) {
         el.addEventListener('click', (e) => {
+          const anchor = el.querySelector('a');
+          const href = anchor ? anchor.href : null;
+
           if (lastTapped !== el) {
             e.preventDefault();
             e.stopPropagation();
             lastTapped = el;
-            showTooltip(e);
+            showTooltip(e, href);
 
             setTimeout(() => {
               if (lastTapped === el) hideTooltip();
