@@ -1679,4 +1679,10 @@ header {
   }
 }
 
+.tooltip-nolink {
+  text-decoration: dotted underline;
+  cursor: help;
+  color: inherit;
+}
+
 /*# sourceMappingURL=style.css.map */
