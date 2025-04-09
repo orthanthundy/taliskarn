@@ -1,4 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-04-07T19:23:02+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Taliskarn: The World of Unwritten Maps</title><subtitle>Welcome to the site of Taliskarn — a fantasy setting designed  for adventures using the D&amp;D 5e and Fate Core systems.</subtitle><author><name>benbalter</name></author><entry><title type="html">Dev Diaries, Issue 6</title><link href="http://localhost:4000/extras/blog/dd-6/" rel="alternate" type="text/html" title="Dev Diaries, Issue 6" /><published>2025-04-01T00:00:00+07:00</published><updated>2025-04-01T00:00:00+07:00</updated><id>http://localhost:4000/extras/blog/dd-6</id><content type="html" xml:base="http://localhost:4000/extras/blog/dd-6/"><![CDATA[<p>The past week turned out interesting: hard to tell if it’s a success or a failure. On one hand, I strayed far from my plans, but on the other… let me explain step by step.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-04-09T16:41:43+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Taliskarn: The World of Unwritten Maps</title><subtitle>Welcome to the site of Taliskarn — a fantasy setting designed  for adventures using the D&amp;D 5e and Fate Core systems.</subtitle><author><name>benbalter</name></author><entry><title type="html">Dev Diaries, Issue 7</title><link href="http://localhost:4000/extras/blog/dd-7/" rel="alternate" type="text/html" title="Dev Diaries, Issue 7" /><published>2025-04-08T00:00:00+07:00</published><updated>2025-04-08T00:00:00+07:00</updated><id>http://localhost:4000/extras/blog/dd-7</id><content type="html" xml:base="http://localhost:4000/extras/blog/dd-7/"><![CDATA[<p>All week I had the feeling I was going in circles, getting nothing done (<em>mystery: there are no deadlines, and yet I’m still late</em>), barely moving forward. But today I sat down to take stock and realized: not true at all — I’ve made great progress. That’s why you keep a dev log. Worth it :)</p>
+
+<h2 id="the-saltuars">The Saltuars</h2>
+
+<p>As planned, I first dove deep into expanding and refining the saltuaric peoples. I completed the <a href="/denizens/races/saltuars/largars">Largars</a> and the <a href="/denizens/races/saltuars/oremians">Oremians</a> — customs, traditions, settlements, cultural code, etc. Developed to a solid enough level that I don’t need to revisit them unless I’m prepping adventures in the region (or writing book events set there). The only saltuars left are the Sudians, but they’ll have to wait until I get to the Warm Sea. That path’s a long one.</p>
+
+<h2 id="varmego">Varmego</h2>
+
+<p>Ah, <a href="/malkona/verda/shorelands/capar/varmego">Varmego</a>… Honestly, it took a <em>titanic</em> act of will just to start it: the Shield City is impregnable in every sense. It’s easily the most difficult location to design in all of Malkona — which currently makes it the hardest in all of Taliskarn:</p>
+
+<ul>
+  <li>40–50k residents, highly mixed: Prymars, Malnurs, Oremians, and travelers from all over Verda;</li>
+  <li>500 years of history that needs at least a broad-strokes outline — essential to understand how the city developed;</li>
+  <li>Three concentric “Rings,” each a self-contained city-within-a-city — totally different, yet bleeding into each other;</li>
+  <li>Dozens of districts.</li>
+</ul>
+
+<p>All of this needs culture, a map, hooks for quests — and it all has to tie in with the Prymarate at the very least. Another vicious circle: Varmego affects all the Shorelands, and the Shorelands all feed back into Varmego. Nightmare fuel.</p>
+
+<p>I spent three full days on the capital and barely wrapped it up by the third evening. But I’m happy with the result: it’s something I can show without shame — and more importantly, a major milestone is behind me. Unapologetically proud.</p>
+
+<p>Next up is “defeating” the Warm Sea (<em>another melting pot of cultures, just over a broader area</em>), then a bit of suffering in Meza and Baleymore, but none of them rival the glory and scope of the Shield. What a relief :)</p>
+
+<h2 id="the-shorelands-and-a-worldbuilders-systemic-error">The Shorelands and a Worldbuilder’s Systemic Error</h2>
+
+<p>Naturally, Varmego pulled the surrounding region along with it, and here — already burnt out from working on the capital — I fell into a trap. Sat down this morning thinking, “Just one region today, I’m still recovering from Varmego. I’ll get it done and rest.” One hour, two, three, five — and the Shorelands still weren’t done. By hour six, sharp-eyed Ortan started getting suspicious.</p>
+
+<p>Yeah. Turns out, if you take a meta-region nearly 2,000 miles wide and label it “just one region,” that doesn’t actually make it less work. The Shorelands contain five major zones, each with its own flavor, mechanics, and geographic logic. That’s Narem, Orem, Cape Capar, the Eastern Shore, and Chill Bay. I tried to handle them all in one page to avoid splitting them up — no surprise I got bogged down.</p>
+
+<p>And here we hit a systemic issue: what level of detail is appropriate? How deep do you go? You’ve got the Shorelands. But inside that, Narem and Orem are basically standalone regions. But then in Orem, there’s East and West, and the cities of Marcolo and Duerbo — do I split them again? Marcolo has distinct districts… It’s easy to wake up three layers deep describing the color of straw mats in the third house on Fifth Street in Ronangrad, and nobody’s ever going to need that info.</p>
+
+<p>On the other hand, if you lump things together too broadly — say, “The Shorelands, the end” — then I lose a strong mental map of the world. Also bad.</p>
+
+<p>Once again I went back to an old principle: <em>flavor above all</em>. If two regions have distinctly different flavor — atmosphere, theme, vibe, call it what you want — and you’d want to play or write different things in each, then split them. If the flavor’s the same or close enough, combine them. That’s why Narem and Orem are separate, but East and West Orem are unified (even if each half is bigger than Narem). Gotta remember that.</p>
+
+<p>So I split the Shorelands into subpages, pushed all relevant content into them, and felt a bit better. New additions to the site:</p>
+
+<ul>
+  <li><a href="/malkona/southern_sea">The Southern Sea</a> (<em>well, mostly its bestiary for now — but what a bestiary</em>)</li>
+  <li>The meta-region: <a href="/malkona/verda/shorelands">The Shorelands</a></li>
+  <li><a href="/malkona/southern_sea/negata">Negata Island</a></li>
+  <li><a href="/malkona/verda/shorelands/narem">Narem</a> and the city of <a href="/malkona/verda/shorelands/narem/marcolo">Marcolo</a></li>
+  <li><a href="/malkona/verda/shorelands/orem">Orem</a> and the city of <a href="/malkona/verda/shorelands/orem/duerbo">Duerbo</a></li>
+  <li><a href="/malkona/verda/shorelands/capar">Cape Capar</a> (<em>and <a href="/malkona/verda/shorelands/capar/varmego">Varmego</a>, of course</em>)</li>
+  <li><a href="/malkona/verda/shorelands/eastern_shore">Eastern Shore</a></li>
+  <li><a href="/malkona/verda/shorelands/chillbay}">Chill Bay</a> and <a href="/malkona/verda/shorelands/chillbay/buso">Buso</a></li>
+</ul>
+
+<p>In the next few days I plan to bring them up from “rough outline” to a decent first draft, at least to match the surrounding regions — and then I’ll move north, to the Roaring Steppes and Lake Koro. But first…</p>
+
+<h2 id="navigation-overhaul">Navigation Overhaul</h2>
+
+<p>It’s overdue: the dropdown menu can’t handle the number of pages and nesting levels anymore. An egg in a duck, the duck in a rabbit — getting to Varmego takes 5 clicks through nested menus, and you need a compass to find your way back.</p>
+
+<p>I’ll try to rework it into a megamenu tonight, while also fixing a few long-postponed layout issues. Might get stuck for a couple days, but it needs to be done.</p>
+
+<h2 id="art-things">Art Things</h2>
+
+<p>This one’s going well:</p>
+
+<ul>
+  <li>First, I tried painting Vespeta and actually pulled it off — I’m not fully happy with it, but for a first try, I’m thrilled.</li>
+  <li>Second, I did a few quick bestiary sketches: crude, rough, but stylistically <em>exactly</em> what I had in mind. I’ll keep practicing and building the pipeline — I believe it’ll come together.</li>
+  <li>Third, I managed to draw Vespeta from a new angle, and she still looks recognizable. That’s progress. You can check it out on Discord, in the art channel (<em>link’s in the header</em>).</li>
+</ul>
+
+<p>Dynamic poses and tough angles still aren’t working (<em>honestly, bodies in general aren’t working</em>), but I’m on it. Stay tuned.</p>
+
+<h2 id="plans-for-next-week">Plans for Next Week</h2>
+
+<ul>
+  <li>Redo the website navigation and patch a few minor issues.</li>
+  <li>Finish the Shorelands: many of the areas are just placeholders right now, but I’ll flesh them out in the coming days.</li>
+  <li>Move on to the Steppes (<em>ideally finish them, but I’ll probably need to rethink some of the Aridar peoples in light of new Varmego lore — not sure how deep that’ll go yet</em>).</li>
+</ul>
+
+<p>My “I’ll draft the whole world in a month!” plan has officially crashed and burned: the basic drafts just aren’t enough, and the level of detail I <em>do</em> find satisfying is 2–3x the work. But it is what it is — we keep going, and keep aiming high. Hopefully I’ll finish the wiki setup by the first day of summer.</p>
+
+<p>See you next week!</p>]]></content><author><name>Orthan Thundy</name></author><category term="dev diaries" /><summary type="html"><![CDATA[Victory over Varmego, first bestiary sketches, a worldbuilder’s systemic mistake, and technical trouble.]]></summary></entry><entry><title type="html">Dev Diaries, Issue 6</title><link href="http://localhost:4000/extras/blog/dd-6/" rel="alternate" type="text/html" title="Dev Diaries, Issue 6" /><published>2025-04-01T00:00:00+07:00</published><updated>2025-04-01T00:00:00+07:00</updated><id>http://localhost:4000/extras/blog/dd-6</id><content type="html" xml:base="http://localhost:4000/extras/blog/dd-6/"><![CDATA[<p>The past week turned out interesting: hard to tell if it’s a success or a failure. On one hand, I strayed far from my plans, but on the other… let me explain step by step.</p>
 
 <h2 id="focused-on-the-peoples">Focused on the Peoples</h2>
 <p>Got stuck in a tricky loop:</p>

@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Diaries, Issue 7 | Taliskarn : The World of Unwritten Maps </title>
+    <link rel="stylesheet" href="/style.css">
+    <link type="image/x-icon" href="/assets/favicon.ico" rel="shortcut icon">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-65CV5HSCNS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-65CV5HSCNS');
+</script>
+<body>
+    <header role="banner" id="banner">
+    <div class="header-content">
+
+        <div class="header-brand">
+
+            <div class="nav-mobile">
+                <button id="burger-btn" class="burger-btn text-white focus:outline-none">
+                    ☰
+                </button>
+                <div id="mobile-menu" class="mobile-menu bg-gray-900 text-white p-4">
+                    <ul class="navigation">
+                        <li><a href="/">Home</a><span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li>
+                        <a href="/two_taliskarns">The Two Taliskarns</a>
+                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
+                                <li><a href="/two_taliskarns/taliskarn_dt">Dark Times (DT)</a></li>
+                                <li><a href="/two_taliskarns/taliskarn_nd">New Dawn (ND)</a></li>
+                        </ul> -->
+                </li>
+                <!-- <li><a href="/for_dm">Taliskarn for DMs</a></li> -->
+                <li><a href="/faq">FAQ</a></li>
+        </ul>
+</li>
+
+<li><a href="/malkona">Places</a> <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/malkona/riku">Riku Highlands</a></li>
+                <li><a href="/malkona/verda">Verdant Verdas</a>
+                        <ul class="submenu">
+                                <li><a href="/malkona/verda/ashen_frontier">The Ashen Frontier</a></li>
+                                <li><a href="/malkona/verda/montwyn_hills">The Montwyn Hills</a></li>
+                                <li><a href="/malkona/verda/lake_larga">Lake Larga</a></li>
+                                <li><a href="/malkona/verda/lake_senfunda">Lake Senfunda</a></li>
+                                <li><a href="/malkona/verda/steps">The Steps</a></li>
+                                <li><a href="/malkona/verda/lake_malvarma">Lake Malvarma</a></li>
+                                <li><a href="/malkona/verda/windhill_plains">The Windhill Steppe</a></li>
+                                <li><a href="/malkona/verda/shorelands">The Shorelands</a>
+                                        <ul class="submenu">
+                                                <li><a href="/malkona/verda/shorelands/capar">Cape Capar</a>
+                                                        <ul class="submenu">
+                                                                <li><a href="/malkona/verda/shorelands/capar/varmego">Varmego</a></li>
+                                                        </ul>
+                                                </li>
+
+                                                <li><a href="/malkona/verda/shorelands/orem">Orem</a>
+                                                        <ul class="submenu">
+                                                                <li><a href="/malkona/verda/shorelands/orem/duerbo">Duerbo</a></li>
+                                                        </ul>
+                                                </li>
+                                                <li><a href="/malkona/verda/shorelands/narem">Narem</a>
+                                                        <ul class="submenu">
+                                                                <li><a href="/malkona/verda/shorelands/narem/marcolo">Marcolo</a></li>
+                                                        </ul>
+                                                </li>
+                                                <li><a href="/malkona/verda/shorelands/eastern_shore">The Eastern Shore</a></li>
+                                                <li><a href="/malkona/verda/shorelands/chillbay">The Chillbay</a>
+                                                        <ul class="submenu">
+                                                                <li><a href="/malkona/verda/shorelands/chillbay/buso">Buso</a></li>
+                                                        </ul>
+                                                </li>
+                                        </ul>
+                        </ul>
+                </li>
+                <li><a href="/malkona/southern_sea">The Southern Sea</a>
+                        <ul class="submenu">
+                                <li><a href="/malkona/southern_sea/negata">Negata</a></li>
+                        </ul>
+                </li>
+                <li><a href="/malkona/bryleahn_jungles">Bryleahn Jungles</a></li>
+                <li><a href="/malkona/fetid_fens">Fetid Fens</a></li>
+                <!-- <li><a href="/malkona/valley_of_the_source">Valley of the Source</a></li> -->
+                <li><a href="/malkona/warm_sea">The Warm Sea</a></li>
+                <li><a href="/malkona/wilderreach">The Wilderreach</a></li>
+                <li><a href="/malkona/scarred_lands">Scarred Lands of Bruna</a></li>
+                <li><a href="/malkona/noctaria">Noctaria</a></li>
+                <li><a href="/malkona/flammarg_shards">Flammarg's Shards</a></li>
+                <li><a href="/malkona/irmaris">Irmaris</a></li>
+
+        </ul>
+</li>
+
+
+
+<li><a href="/denizens">Denizens</a>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/denizens/races/prymars">Prymars</a></li>
+                <li><a href="/denizens/races/arydars">Arydars</a>
+                        <ul class="submenu">
+                                <li><a href="/denizens/races/arydars/malnurs">Malnurs</a></li>
+                                <li><a href="/denizens/races/arydars/tondrantars">Tondrantars</a></li>
+                                <li><a href="/denizens/races/arydars/kromrs">Kromrs</a></li>
+                        </ul>
+                </li>
+                <li> <a href="/denizens/races/brunars">Brunars</a> </li>
+                <li><a href="/denizens/races/saltuars">Saltuars</a>
+                        <ul class="submenu">
+                                <li><a href="/denizens/races/saltuars/monti">Monti</a></li>
+                                <li><a href="/denizens/races/saltuars/largars">Largars</a></li>
+                                <li><a href="/denizens/races/saltuars/senfenns">Senfenns</a></li>
+                                <li><a href="/denizens/races/saltuars/malvars">Malvars</a></li>
+                                <li><a href="/denizens/races/saltuars/sudians">Sudians</a></li>
+                                <li><a href="/denizens/races/saltuars/oremians">Oremians</a></li>
+
+                        </ul>
+                </li>
+                <li><a href="/denizens/races/bryleahns">Bryleahns</a></li>
+                <li><a href="/denizens/races/kyonnhs">Kyönnhs</a></li>
+                <li><a href="/denizens/races/noctids">Noctids</a></li>
+                <li><a href="/denizens/races/flammars">Flammars</a></li>
+                <!-- <li>
+                        <a href="/denizens/races">Races</a>
+                        <span class="submenu-toggle">▾</span><ul class="submenu">
+                                <li>
+                                        <a href="/denizens/races/humans">Humans</a>
+                                        <span class="submenu-toggle">▾</span><ul class="submenu">
+       
+                                        </ul>
+                                </li> 
+ 
+                        </ul>
+                </li> -->
+                <!-- <li><a href="/denizens/bestiary">Bestiary</a></li> -->
+        </ul>
+</li>
+
+<li><a href="/wonders">Wonders</a>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li>
+                        <a href="/wonders/pantheon">Pantheon</a>
+                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
+                                <li><a href="/wonders/pantheon/fluere">Fluere</a></li>
+                                <li><a href="/wonders/pantheon/kaelesta">Kaelesta</a></li>
+                                <li><a href="/wonders/pantheon/solkalor">Solkalor</a></li>
+                                <li><a href="/wonders/pantheon/ferrude">Ferrude</a></li>
+                                <li><a href="/wonders/pantheon/aurehjo">Aurehjo</a></li>
+                                <li><a href="/wonders/pantheon/tranqa">Tranqa</a></li>
+                                <li><a href="/wonders/pantheon/kustopha">Kustopha</a></li>
+                                <li><a href="/wonders/pantheon/dhfhalbh">Dh’Fhalbh</a></li>
+                                <li><a href="/wonders/pantheon/flumorn">Flumorn</a></li>
+                        </ul> -->
+                </li>
+                <li>
+                        <a href="/wonders/spirits">The Spirits of Verda</a>
+                </li>
+                <!-- <li>
+                        <a href="/">Religions</a>
+                        <span class="submenu-toggle">▾</span><ul class="submenu">
+                                <li><a href="/wonders/religions/cult_of_currents">Cult of Currents</a></li>
+                                <li><a href="/wonders/religions/cult_of_spirits">Cult of Spirits</a></li>
+                                <li><a href="/wonders/religions/ancestor_cult">Ancestor Cult</a></li>
+                        </ul>
+                </li> -->
+                <!-- <li> -->
+                <!-- <li><a href="/">Magic</a></li> -->
+                <!-- </li> -->
+                <!-- <li><a href="/wonders/alchemy">Alchemy</a></li> -->
+</li>
+</ul>
+</li>
+
+<li><a href="/extras">Extras</a>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/extras/stories">Stories</a>
+                        <span class="submenu-toggle">▾</span>
+                        <ul class="submenu">
+                                <li><a href="/extras/stories/myth">Myth</a></li>
+                        </ul>
+                </li>
+                <!-- <li><a href="/extras/arts">Arts</a></li> -->
+                <li><a href="/extras/blog">Blog</a></li>
+                <!-- <li><a href="/extras/chronicle">Chronicle</a></li>
+                <li><a href="/extras/glossary">Glossary</a></li> -->
+        </ul>
+</li>
+<li><a href="/about">About</a>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/about/wip">Work in Progress</a></li>
+                <li><a href="/license">License</a></li>
+                <li><a href="/about/templates">Guides Templates</a>
+                        <ul class="submenu">
+                                <li><a href="/about/templates/template_malkona">A Guide to Malkona</a></li>
+                                <li><a href="/about/templates/template_region">Regional Guide</a></li>
+                        </ul>
+                </li>
+                <!--   <li><a href="/about/roadmap">Roadmap</a></li>
+                <li><a href="/about/credits">Credits</a></li>
+                <li><a href="/about/links">Links</a></li>-->
+
+        </ul>
+</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h1 class="site-title">
+                <a href="/">Taliskarn</a>
+            </h1>
+            <div class="header-contacts">
+                <a href="https://discord.gg/Dr4BA8CCx3" class="contact-link"> Join Discord</a>
+                <!-- <br><a href="mailto:orthanthundy@gmail.com" class="contact-link">orthanthundy@gmail.com</a> -->
+            </div>
+        </div>
+
+
+        <div class="header-actions">
+
+            <div class="language-switcher">
+                
+                
+                <a href="/ru/extras/blog/dd-7/">Русский</a>
+                
+            </div>
+
+            <form class="header-search-form" action="/search/" method="get">
+                <input type="text" id="search-box" name="query">
+                <input type="submit" value="search">
+            </form>
+        </div>
+    </div>
+
+    <div class="nav-desktop">
+        <ul class="navigation">
+            <li><a href="/">Home</a><span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li>
+                        <a href="/two_taliskarns">The Two Taliskarns</a>
+                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
+                                <li><a href="/two_taliskarns/taliskarn_dt">Dark Times (DT)</a></li>
+                                <li><a href="/two_taliskarns/taliskarn_nd">New Dawn (ND)</a></li>
+                        </ul> -->
+                </li>
+                <!-- <li><a href="/for_dm">Taliskarn for DMs</a></li> -->
+                <li><a href="/faq">FAQ</a></li>
+        </ul>
+</li>
+
+<li><a href="/malkona">Places</a> <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/malkona/riku">Riku Highlands</a></li>
+                <li><a href="/malkona/verda">Verdant Verdas</a>
+                        <ul class="submenu">
+                                <li><a href="/malkona/verda/ashen_frontier">The Ashen Frontier</a></li>
+                                <li><a href="/malkona/verda/montwyn_hills">The Montwyn Hills</a></li>
+                                <li><a href="/malkona/verda/lake_larga">Lake Larga</a></li>
+                                <li><a href="/malkona/verda/lake_senfunda">Lake Senfunda</a></li>
+                                <li><a href="/malkona/verda/steps">The Steps</a></li>
+                                <li><a href="/malkona/verda/lake_malvarma">Lake Malvarma</a></li>
+                                <li><a href="/malkona/verda/windhill_plains">The Windhill Steppe</a></li>
+                                <li><a href="/malkona/verda/shorelands">The Shorelands</a>
+                                        <ul class="submenu">
+                                                <li><a href="/malkona/verda/shorelands/capar">Cape Capar</a>
+                                                        <ul class="submenu">
+                                                                <li><a href="/malkona/verda/shorelands/capar/varmego">Varmego</a></li>
+                                                        </ul>
+                                                </li>
+
+                                                <li><a href="/malkona/verda/shorelands/orem">Orem</a>
+                                                        <ul class="submenu">
+                                                                <li><a href="/malkona/verda/shorelands/orem/duerbo">Duerbo</a></li>
+                                                        </ul>
+                                                </li>
+                                                <li><a href="/malkona/verda/shorelands/narem">Narem</a>
+                                                        <ul class="submenu">
+                                                                <li><a href="/malkona/verda/shorelands/narem/marcolo">Marcolo</a></li>
+                                                        </ul>
+                                                </li>
+                                                <li><a href="/malkona/verda/shorelands/eastern_shore">The Eastern Shore</a></li>
+                                                <li><a href="/malkona/verda/shorelands/chillbay">The Chillbay</a>
+                                                        <ul class="submenu">
+                                                                <li><a href="/malkona/verda/shorelands/chillbay/buso">Buso</a></li>
+                                                        </ul>
+                                                </li>
+                                        </ul>
+                        </ul>
+                </li>
+                <li><a href="/malkona/southern_sea">The Southern Sea</a>
+                        <ul class="submenu">
+                                <li><a href="/malkona/southern_sea/negata">Negata</a></li>
+                        </ul>
+                </li>
+                <li><a href="/malkona/bryleahn_jungles">Bryleahn Jungles</a></li>
+                <li><a href="/malkona/fetid_fens">Fetid Fens</a></li>
+                <!-- <li><a href="/malkona/valley_of_the_source">Valley of the Source</a></li> -->
+                <li><a href="/malkona/warm_sea">The Warm Sea</a></li>
+                <li><a href="/malkona/wilderreach">The Wilderreach</a></li>
+                <li><a href="/malkona/scarred_lands">Scarred Lands of Bruna</a></li>
+                <li><a href="/malkona/noctaria">Noctaria</a></li>
+                <li><a href="/malkona/flammarg_shards">Flammarg's Shards</a></li>
+                <li><a href="/malkona/irmaris">Irmaris</a></li>
+
+        </ul>
+</li>
+
+
+
+<li><a href="/denizens">Denizens</a>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/denizens/races/prymars">Prymars</a></li>
+                <li><a href="/denizens/races/arydars">Arydars</a>
+                        <ul class="submenu">
+                                <li><a href="/denizens/races/arydars/malnurs">Malnurs</a></li>
+                                <li><a href="/denizens/races/arydars/tondrantars">Tondrantars</a></li>
+                                <li><a href="/denizens/races/arydars/kromrs">Kromrs</a></li>
+                        </ul>
+                </li>
+                <li> <a href="/denizens/races/brunars">Brunars</a> </li>
+                <li><a href="/denizens/races/saltuars">Saltuars</a>
+                        <ul class="submenu">
+                                <li><a href="/denizens/races/saltuars/monti">Monti</a></li>
+                                <li><a href="/denizens/races/saltuars/largars">Largars</a></li>
+                                <li><a href="/denizens/races/saltuars/senfenns">Senfenns</a></li>
+                                <li><a href="/denizens/races/saltuars/malvars">Malvars</a></li>
+                                <li><a href="/denizens/races/saltuars/sudians">Sudians</a></li>
+                                <li><a href="/denizens/races/saltuars/oremians">Oremians</a></li>
+
+                        </ul>
+                </li>
+                <li><a href="/denizens/races/bryleahns">Bryleahns</a></li>
+                <li><a href="/denizens/races/kyonnhs">Kyönnhs</a></li>
+                <li><a href="/denizens/races/noctids">Noctids</a></li>
+                <li><a href="/denizens/races/flammars">Flammars</a></li>
+                <!-- <li>
+                        <a href="/denizens/races">Races</a>
+                        <span class="submenu-toggle">▾</span><ul class="submenu">
+                                <li>
+                                        <a href="/denizens/races/humans">Humans</a>
+                                        <span class="submenu-toggle">▾</span><ul class="submenu">
+       
+                                        </ul>
+                                </li> 
+ 
+                        </ul>
+                </li> -->
+                <!-- <li><a href="/denizens/bestiary">Bestiary</a></li> -->
+        </ul>
+</li>
+
+<li><a href="/wonders">Wonders</a>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li>
+                        <a href="/wonders/pantheon">Pantheon</a>
+                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
+                                <li><a href="/wonders/pantheon/fluere">Fluere</a></li>
+                                <li><a href="/wonders/pantheon/kaelesta">Kaelesta</a></li>
+                                <li><a href="/wonders/pantheon/solkalor">Solkalor</a></li>
+                                <li><a href="/wonders/pantheon/ferrude">Ferrude</a></li>
+                                <li><a href="/wonders/pantheon/aurehjo">Aurehjo</a></li>
+                                <li><a href="/wonders/pantheon/tranqa">Tranqa</a></li>
+                                <li><a href="/wonders/pantheon/kustopha">Kustopha</a></li>
+                                <li><a href="/wonders/pantheon/dhfhalbh">Dh’Fhalbh</a></li>
+                                <li><a href="/wonders/pantheon/flumorn">Flumorn</a></li>
+                        </ul> -->
+                </li>
+                <li>
+                        <a href="/wonders/spirits">The Spirits of Verda</a>
+                </li>
+                <!-- <li>
+                        <a href="/">Religions</a>
+                        <span class="submenu-toggle">▾</span><ul class="submenu">
+                                <li><a href="/wonders/religions/cult_of_currents">Cult of Currents</a></li>
+                                <li><a href="/wonders/religions/cult_of_spirits">Cult of Spirits</a></li>
+                                <li><a href="/wonders/religions/ancestor_cult">Ancestor Cult</a></li>
+                        </ul>
+                </li> -->
+                <!-- <li> -->
+                <!-- <li><a href="/">Magic</a></li> -->
+                <!-- </li> -->
+                <!-- <li><a href="/wonders/alchemy">Alchemy</a></li> -->
+</li>
+</ul>
+</li>
+
+<li><a href="/extras">Extras</a>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/extras/stories">Stories</a>
+                        <span class="submenu-toggle">▾</span>
+                        <ul class="submenu">
+                                <li><a href="/extras/stories/myth">Myth</a></li>
+                        </ul>
+                </li>
+                <!-- <li><a href="/extras/arts">Arts</a></li> -->
+                <li><a href="/extras/blog">Blog</a></li>
+                <!-- <li><a href="/extras/chronicle">Chronicle</a></li>
+                <li><a href="/extras/glossary">Glossary</a></li> -->
+        </ul>
+</li>
+<li><a href="/about">About</a>
+        <span class="submenu-toggle">▾</span>
+        <ul class="submenu">
+                <li><a href="/about/wip">Work in Progress</a></li>
+                <li><a href="/license">License</a></li>
+                <li><a href="/about/templates">Guides Templates</a>
+                        <ul class="submenu">
+                                <li><a href="/about/templates/template_malkona">A Guide to Malkona</a></li>
+                                <li><a href="/about/templates/template_region">Regional Guide</a></li>
+                        </ul>
+                </li>
+                <!--   <li><a href="/about/roadmap">Roadmap</a></li>
+                <li><a href="/about/credits">Credits</a></li>
+                <li><a href="/about/links">Links</a></li>-->
+
+        </ul>
+</li>
+        </ul>
+    </div>
+
+    <div class="header-contacts-mobile">
+       <a href="https://discord.gg/Dr4BA8CCx3" class="contact-link"> Join Discord</a>        <!-- | <a href="mailto:orthanthundy@gmail.com" class="contact-link">orthanthundy@gmail.com</a> -->
+    </div>
+</header>
+
+<div class="notification_banner">
+    <p>The World of Taliskarn is currently under development, and all content is in draft form. The English version will be updated once the pre-beta for the Russian version (the original development language) is complete. Thank you for your understanding! For more details, please visit <a href="/about" target="_self">this page</a>.</p>
+</div>
+<!-- Modal image window -->
+<div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+        <img id="modalImage" src="" alt="">
+        <div class="image-controls">
+            <p id="modalCaption"></p>
+        </div>
+        <div class="nav-buttons">
+            <span class="prev" onclick="changeImage(-1)">&#10094;</span>
+            <span class="next" onclick="changeImage(1)">&#10095;</span>
+        </div>
+    </div>
+</div>
+
+<script>
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const burgerBtn = document.getElementById('burger-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        burgerBtn.addEventListener('click', function () {
+            mobileMenu.classList.toggle('active');
+        });
+    });
+
+    console.log("Image modal script loaded!");
+
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll('.submenu-toggle').forEach(button => {
+            button.addEventListener('click', function (event) {
+                event.stopPropagation();
+                let parent = this.closest('.has-submenu');
+                parent.classList.toggle('open');
+            });
+        });
+
+        let images = Array.from(document.querySelectorAll("img.phb-image"));
+        let modal = document.getElementById("imageModal");
+        let modalImage = document.getElementById("modalImage");
+        let modalCaption = document.getElementById("modalCaption");
+        let navButtons = document.querySelector(".nav-buttons");
+        let currentIndex = 0;
+
+        function openModal(index) {
+            if (index < 0 || index >= images.length) return;
+            currentIndex = index;
+            const image = images[currentIndex];
+
+            modalImage.src = image.src;
+            modalCaption.innerHTML = `${image.alt || "Image " + (index + 1)} (<a id="fullSizeLink" style="color: #4dabf7;" target="_blank" href="${image.dataset.fullsize || image.src}">Open in full size</a>)`;
+            modal.style.display = "flex";
+            navButtons.style.display = images.length > 1 ? "flex" : "none";
+        }
+        function closeModal() {
+            modal.style.display = "none";
+        }
+
+        function changeImage(step) {
+            let newIndex = currentIndex + step;
+            if (newIndex < 0) newIndex = images.length - 1;
+            if (newIndex >= images.length) newIndex = 0;
+            openModal(newIndex);
+        }
+
+        modal.addEventListener("click", function (e) {
+            if (e.target === modal || e.target === modalImage) {
+                closeModal();
+            }
+        });
+
+        images.forEach((img, index) => {
+            img.style.cursor = "pointer";
+            img.addEventListener("click", () => openModal(index));
+        });
+
+        document.querySelector(".close").addEventListener("click", closeModal);
+        document.addEventListener("keydown", (event) => {
+            if (modal.style.display === "flex") {
+                if (event.key === "Escape") closeModal();
+                if (event.key === "ArrowLeft") changeImage(-1);
+                if (event.key === "ArrowRight") changeImage(1);
+            }
+        });
+
+        window.openModal = openModal;
+        window.closeModal = closeModal;
+        window.changeImage = changeImage;
+    });
+</script>
+
+    <main role="main" id="main" class="phb">
+        <div class="wide" style="margin-bottom: 36px;">
+            <div style="margin-bottom: 8px;"><div id="breadcrumbs">
+    
+    <a href="/">Home</a>
+    
+      
+      
+        
+      
+      
+      
+        / <a href="/extras/">
+            Extras
+        </a>
+      
+    
+      
+      
+        
+      
+      
+      
+        / <a href="/extras/blog/">
+            Blog
+        </a>
+      
+    
+      
+        / Dev Diaries, Issue 7
+      
+    
+  </div>
+  </div>
+
+            <h1 class="post-title">Dev Diaries, Issue 7</h1>
+
+            <div class="post-meta">
+            <strong>08 Apr 2025</strong> | <strong>Author:</strong> Orthan Thundy | <strong>Category:</strong> <a
+                    href="/extras/blog/dev diaries" target="_self">dev diaries</a>
+            </div>
+
+            
+
+            <article class="post-content">
+                <p>All week I had the feeling I was going in circles, getting nothing done (<em>mystery: there are no deadlines, and yet I’m still late</em>), barely moving forward. But today I sat down to take stock and realized: not true at all — I’ve made great progress. That’s why you keep a dev log. Worth it :)</p>
+
+<h2 id="the-saltuars">The Saltuars</h2>
+
+<p>As planned, I first dove deep into expanding and refining the saltuaric peoples. I completed the <a href="/denizens/races/saltuars/largars">Largars</a> and the <a href="/denizens/races/saltuars/oremians">Oremians</a> — customs, traditions, settlements, cultural code, etc. Developed to a solid enough level that I don’t need to revisit them unless I’m prepping adventures in the region (or writing book events set there). The only saltuars left are the Sudians, but they’ll have to wait until I get to the Warm Sea. That path’s a long one.</p>
+
+<h2 id="varmego">Varmego</h2>
+
+<p>Ah, <a href="/malkona/verda/shorelands/capar/varmego">Varmego</a>… Honestly, it took a <em>titanic</em> act of will just to start it: the Shield City is impregnable in every sense. It’s easily the most difficult location to design in all of Malkona — which currently makes it the hardest in all of Taliskarn:</p>
+
+<ul>
+  <li>40–50k residents, highly mixed: Prymars, Malnurs, Oremians, and travelers from all over Verda;</li>
+  <li>500 years of history that needs at least a broad-strokes outline — essential to understand how the city developed;</li>
+  <li>Three concentric “Rings,” each a self-contained city-within-a-city — totally different, yet bleeding into each other;</li>
+  <li>Dozens of districts.</li>
+</ul>
+
+<p>All of this needs culture, a map, hooks for quests — and it all has to tie in with the Prymarate at the very least. Another vicious circle: Varmego affects all the Shorelands, and the Shorelands all feed back into Varmego. Nightmare fuel.</p>
+
+<p>I spent three full days on the capital and barely wrapped it up by the third evening. But I’m happy with the result: it’s something I can show without shame — and more importantly, a major milestone is behind me. Unapologetically proud.</p>
+
+<p>Next up is “defeating” the Warm Sea (<em>another melting pot of cultures, just over a broader area</em>), then a bit of suffering in Meza and Baleymore, but none of them rival the glory and scope of the Shield. What a relief :)</p>
+
+<h2 id="the-shorelands-and-a-worldbuilders-systemic-error">The Shorelands and a Worldbuilder’s Systemic Error</h2>
+
+<p>Naturally, Varmego pulled the surrounding region along with it, and here — already burnt out from working on the capital — I fell into a trap. Sat down this morning thinking, “Just one region today, I’m still recovering from Varmego. I’ll get it done and rest.” One hour, two, three, five — and the Shorelands still weren’t done. By hour six, sharp-eyed Ortan started getting suspicious.</p>
+
+<p>Yeah. Turns out, if you take a meta-region nearly 2,000 miles wide and label it “just one region,” that doesn’t actually make it less work. The Shorelands contain five major zones, each with its own flavor, mechanics, and geographic logic. That’s Narem, Orem, Cape Capar, the Eastern Shore, and Chill Bay. I tried to handle them all in one page to avoid splitting them up — no surprise I got bogged down.</p>
+
+<p>And here we hit a systemic issue: what level of detail is appropriate? How deep do you go? You’ve got the Shorelands. But inside that, Narem and Orem are basically standalone regions. But then in Orem, there’s East and West, and the cities of Marcolo and Duerbo — do I split them again? Marcolo has distinct districts… It’s easy to wake up three layers deep describing the color of straw mats in the third house on Fifth Street in Ronangrad, and nobody’s ever going to need that info.</p>
+
+<p>On the other hand, if you lump things together too broadly — say, “The Shorelands, the end” — then I lose a strong mental map of the world. Also bad.</p>
+
+<p>Once again I went back to an old principle: <em>flavor above all</em>. If two regions have distinctly different flavor — atmosphere, theme, vibe, call it what you want — and you’d want to play or write different things in each, then split them. If the flavor’s the same or close enough, combine them. That’s why Narem and Orem are separate, but East and West Orem are unified (even if each half is bigger than Narem). Gotta remember that.</p>
+
+<p>So I split the Shorelands into subpages, pushed all relevant content into them, and felt a bit better. New additions to the site:</p>
+
+<ul>
+  <li><a href="/malkona/southern_sea">The Southern Sea</a> (<em>well, mostly its bestiary for now — but what a bestiary</em>)</li>
+  <li>The meta-region: <a href="/malkona/verda/shorelands">The Shorelands</a></li>
+  <li><a href="/malkona/southern_sea/negata">Negata Island</a></li>
+  <li><a href="/malkona/verda/shorelands/narem">Narem</a> and the city of <a href="/malkona/verda/shorelands/narem/marcolo">Marcolo</a></li>
+  <li><a href="/malkona/verda/shorelands/orem">Orem</a> and the city of <a href="/malkona/verda/shorelands/orem/duerbo">Duerbo</a></li>
+  <li><a href="/malkona/verda/shorelands/capar">Cape Capar</a> (<em>and <a href="/malkona/verda/shorelands/capar/varmego">Varmego</a>, of course</em>)</li>
+  <li><a href="/malkona/verda/shorelands/eastern_shore">Eastern Shore</a></li>
+  <li><a href="/malkona/verda/shorelands/chillbay}">Chill Bay</a> and <a href="/malkona/verda/shorelands/chillbay/buso">Buso</a></li>
+</ul>
+
+<p>In the next few days I plan to bring them up from “rough outline” to a decent first draft, at least to match the surrounding regions — and then I’ll move north, to the Roaring Steppes and Lake Koro. But first…</p>
+
+<h2 id="navigation-overhaul">Navigation Overhaul</h2>
+
+<p>It’s overdue: the dropdown menu can’t handle the number of pages and nesting levels anymore. An egg in a duck, the duck in a rabbit — getting to Varmego takes 5 clicks through nested menus, and you need a compass to find your way back.</p>
+
+<p>I’ll try to rework it into a megamenu tonight, while also fixing a few long-postponed layout issues. Might get stuck for a couple days, but it needs to be done.</p>
+
+<h2 id="art-things">Art Things</h2>
+
+<p>This one’s going well:</p>
+
+<ul>
+  <li>First, I tried painting Vespeta and actually pulled it off — I’m not fully happy with it, but for a first try, I’m thrilled.</li>
+  <li>Second, I did a few quick bestiary sketches: crude, rough, but stylistically <em>exactly</em> what I had in mind. I’ll keep practicing and building the pipeline — I believe it’ll come together.</li>
+  <li>Third, I managed to draw Vespeta from a new angle, and she still looks recognizable. That’s progress. You can check it out on Discord, in the art channel (<em>link’s in the header</em>).</li>
+</ul>
+
+<p>Dynamic poses and tough angles still aren’t working (<em>honestly, bodies in general aren’t working</em>), but I’m on it. Stay tuned.</p>
+
+<h2 id="plans-for-next-week">Plans for Next Week</h2>
+
+<ul>
+  <li>Redo the website navigation and patch a few minor issues.</li>
+  <li>Finish the Shorelands: many of the areas are just placeholders right now, but I’ll flesh them out in the coming days.</li>
+  <li>Move on to the Steppes (<em>ideally finish them, but I’ll probably need to rethink some of the Aridar peoples in light of new Varmego lore — not sure how deep that’ll go yet</em>).</li>
+</ul>
+
+<p>My “I’ll draft the whole world in a month!” plan has officially crashed and burned: the basic drafts just aren’t enough, and the level of detail I <em>do</em> find satisfying is 2–3x the work. But it is what it is — we keep going, and keep aiming high. Hopefully I’ll finish the wiki setup by the first day of summer.</p>
+
+<p>See you next week!</p>
+
+            </article>
+        </div>
+        <div class="wide" style="text-align: center; position: absolute; bottom: 20px; width: 100%;">Powered by Orthan Thundy, 2025. <a href="/license">License</a></div>
+    </main>
+
+    <footer role="contentinfo" id="contentinfo">
+    </footer>
+</body>
+
+</html>
