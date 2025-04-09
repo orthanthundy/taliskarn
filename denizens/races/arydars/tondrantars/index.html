@@ -21,202 +21,1374 @@
 <body>
     <header role="banner" id="banner">
     <div class="header-content">
-
         <div class="header-brand">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+  ☰
+</button>
 
-            <div class="nav-mobile">
-                <button id="burger-btn" class="burger-btn text-white focus:outline-none">
-                    ☰
-                </button>
-                <div id="mobile-menu" class="mobile-menu bg-gray-900 text-white p-4">
-                    <ul class="navigation">
-                        <li><a href="/">Home</a><span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li>
-                        <a href="/two_taliskarns">The Two Taliskarns</a>
-                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
-                                <li><a href="/two_taliskarns/taliskarn_dt">Dark Times (DT)</a></li>
-                                <li><a href="/two_taliskarns/taliskarn_nd">New Dawn (ND)</a></li>
-                        </ul> -->
-                </li>
-                <!-- <li><a href="/for_dm">Taliskarn for DMs</a></li> -->
-                <li><a href="/faq">FAQ</a></li>
-        </ul>
-</li>
+<nav class="mobile-menu" aria-hidden="true">
+  <ul class="mobile-menu-list">
+    
+    
+  
 
-<li><a href="/malkona">Places</a> <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li><a href="/malkona/riku">Riku Highlands</a></li>
-                <li><a href="/malkona/verda">Verdant Verdas</a>
-                        <ul class="submenu">
-                                <li><a href="/malkona/verda/ashen_frontier">The Ashen Frontier</a></li>
-                                <li><a href="/malkona/verda/montwyn_hills">The Montwyn Hills</a></li>
-                                <li><a href="/malkona/verda/lake_larga">Lake Larga</a></li>
-                                <li><a href="/malkona/verda/lake_senfunda">Lake Senfunda</a></li>
-                                <li><a href="/malkona/verda/steps">The Steps</a></li>
-                                <li><a href="/malkona/verda/lake_malvarma">Lake Malvarma</a></li>
-                                <li><a href="/malkona/verda/windhill_plains">The Windhill Steppe</a></li>
-                                <li><a href="/malkona/verda/shorelands">The Shorelands</a>
-                                        <ul class="submenu">
-                                                <li><a href="/malkona/verda/shorelands/capar">Cape Capar</a>
-                                                        <ul class="submenu">
-                                                                <li><a href="/malkona/verda/shorelands/capar/varmego">Varmego</a></li>
-                                                        </ul>
-                                                </li>
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/">
+        
+          Home
+        
+      </a>
 
-                                                <li><a href="/malkona/verda/shorelands/orem">Orem</a>
-                                                        <ul class="submenu">
-                                                                <li><a href="/malkona/verda/shorelands/orem/duerbo">Duerbo</a></li>
-                                                        </ul>
-                                                </li>
-                                                <li><a href="/malkona/verda/shorelands/narem">Narem</a>
-                                                        <ul class="submenu">
-                                                                <li><a href="/malkona/verda/shorelands/narem/marcolo">Marcolo</a></li>
-                                                        </ul>
-                                                </li>
-                                                <li><a href="/malkona/verda/shorelands/eastern_shore">The Eastern Shore</a></li>
-                                                <li><a href="/malkona/verda/shorelands/chillbay">The Chillbay</a>
-                                                        <ul class="submenu">
-                                                                <li><a href="/malkona/verda/shorelands/chillbay/buso">Buso</a></li>
-                                                        </ul>
-                                                </li>
-                                        </ul>
-                        </ul>
-                </li>
-                <li><a href="/malkona/southern_sea">The Southern Sea</a>
-                        <ul class="submenu">
-                                <li><a href="/malkona/southern_sea/negata">Negata</a></li>
-                        </ul>
-                </li>
-                <li><a href="/malkona/bryleahn_jungles">Bryleahn Jungles</a></li>
-                <li><a href="/malkona/fetid_fens">Fetid Fens</a></li>
-                <!-- <li><a href="/malkona/valley_of_the_source">Valley of the Source</a></li> -->
-                <li><a href="/malkona/warm_sea">The Warm Sea</a></li>
-                <li><a href="/malkona/wilderreach">The Wilderreach</a></li>
-                <li><a href="/malkona/scarred_lands">Scarred Lands of Bruna</a></li>
-                <li><a href="/malkona/noctaria">Noctaria</a></li>
-                <li><a href="/malkona/flammarg_shards">Flammarg's Shards</a></li>
-                <li><a href="/malkona/irmaris">Irmaris</a></li>
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
 
-        </ul>
-</li>
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/two_taliskarns">
+        
+          The Two Taliskarns
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/faq">
+        
+          FAQ
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
 
 
+      </ul>
+    
+  </li>
 
-<li><a href="/denizens">Denizens</a>
-        <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li><a href="/denizens/races/prymars">Prymars</a></li>
-                <li><a href="/denizens/races/arydars">Arydars</a>
-                        <ul class="submenu">
-                                <li><a href="/denizens/races/arydars/malnurs">Malnurs</a></li>
-                                <li><a href="/denizens/races/arydars/tondrantars">Tondrantars</a></li>
-                                <li><a href="/denizens/races/arydars/kromrs">Kromrs</a></li>
-                        </ul>
-                </li>
-                <li> <a href="/denizens/races/brunars">Brunars</a> </li>
-                <li><a href="/denizens/races/saltuars">Saltuars</a>
-                        <ul class="submenu">
-                                <li><a href="/denizens/races/saltuars/monti">Monti</a></li>
-                                <li><a href="/denizens/races/saltuars/largars">Largars</a></li>
-                                <li><a href="/denizens/races/saltuars/senfenns">Senfenns</a></li>
-                                <li><a href="/denizens/races/saltuars/malvars">Malvars</a></li>
-                                <li><a href="/denizens/races/saltuars/sudians">Sudians</a></li>
-                                <li><a href="/denizens/races/saltuars/oremians">Oremians</a></li>
+  
 
-                        </ul>
-                </li>
-                <li><a href="/denizens/races/bryleahns">Bryleahns</a></li>
-                <li><a href="/denizens/races/kyonnhs">Kyönnhs</a></li>
-                <li><a href="/denizens/races/noctids">Noctids</a></li>
-                <li><a href="/denizens/races/flammars">Flammars</a></li>
-                <!-- <li>
-                        <a href="/denizens/races">Races</a>
-                        <span class="submenu-toggle">▾</span><ul class="submenu">
-                                <li>
-                                        <a href="/denizens/races/humans">Humans</a>
-                                        <span class="submenu-toggle">▾</span><ul class="submenu">
-       
-                                        </ul>
-                                </li> 
- 
-                        </ul>
-                </li> -->
-                <!-- <li><a href="/denizens/bestiary">Bestiary</a></li> -->
-        </ul>
-</li>
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona">
+        
+          Places
+        
+      </a>
 
-<li><a href="/wonders">Wonders</a>
-        <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li>
-                        <a href="/wonders/pantheon">Pantheon</a>
-                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
-                                <li><a href="/wonders/pantheon/fluere">Fluere</a></li>
-                                <li><a href="/wonders/pantheon/kaelesta">Kaelesta</a></li>
-                                <li><a href="/wonders/pantheon/solkalor">Solkalor</a></li>
-                                <li><a href="/wonders/pantheon/ferrude">Ferrude</a></li>
-                                <li><a href="/wonders/pantheon/aurehjo">Aurehjo</a></li>
-                                <li><a href="/wonders/pantheon/tranqa">Tranqa</a></li>
-                                <li><a href="/wonders/pantheon/kustopha">Kustopha</a></li>
-                                <li><a href="/wonders/pantheon/dhfhalbh">Dh’Fhalbh</a></li>
-                                <li><a href="/wonders/pantheon/flumorn">Flumorn</a></li>
-                        </ul> -->
-                </li>
-                <li>
-                        <a href="/wonders/spirits">The Spirits of Verda</a>
-                </li>
-                <!-- <li>
-                        <a href="/">Religions</a>
-                        <span class="submenu-toggle">▾</span><ul class="submenu">
-                                <li><a href="/wonders/religions/cult_of_currents">Cult of Currents</a></li>
-                                <li><a href="/wonders/religions/cult_of_spirits">Cult of Spirits</a></li>
-                                <li><a href="/wonders/religions/ancestor_cult">Ancestor Cult</a></li>
-                        </ul>
-                </li> -->
-                <!-- <li> -->
-                <!-- <li><a href="/">Magic</a></li> -->
-                <!-- </li> -->
-                <!-- <li><a href="/wonders/alchemy">Alchemy</a></li> -->
-</li>
-</ul>
-</li>
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
 
-<li><a href="/extras">Extras</a>
-        <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li><a href="/extras/stories">Stories</a>
-                        <span class="submenu-toggle">▾</span>
-                        <ul class="submenu">
-                                <li><a href="/extras/stories/myth">Myth</a></li>
-                        </ul>
-                </li>
-                <!-- <li><a href="/extras/arts">Arts</a></li> -->
-                <li><a href="/extras/blog">Blog</a></li>
-                <!-- <li><a href="/extras/chronicle">Chronicle</a></li>
-                <li><a href="/extras/glossary">Glossary</a></li> -->
-        </ul>
-</li>
-<li><a href="/about">About</a>
-        <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li><a href="/about/wip">Work in Progress</a></li>
-                <li><a href="/license">License</a></li>
-                <li><a href="/about/templates">Guides Templates</a>
-                        <ul class="submenu">
-                                <li><a href="/about/templates/template_malkona">A Guide to Malkona</a></li>
-                                <li><a href="/about/templates/template_region">Regional Guide</a></li>
-                        </ul>
-                </li>
-                <!--   <li><a href="/about/roadmap">Roadmap</a></li>
-                <li><a href="/about/credits">Credits</a></li>
-                <li><a href="/about/links">Links</a></li>-->
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
 
-        </ul>
-</li>
-                    </ul>
-                </div>
-            </div>
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/riku">
+        
+          Riku Highlands
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda">
+        
+          Verdant Verdas
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/ashen_frontier">
+        
+          The Ashen Frontier
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/montwyn_hills">
+        
+          The Montwyn Hills
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/lake_larga">
+        
+          Lake Larga
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/lake_senfunda">
+        
+          Lake Senfunda
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/steps">
+        
+          The Steps
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/lake_malvarma">
+        
+          Lake Malvarma
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/windhill_plains">
+        
+          The Windhill Steppe
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/shorelands">
+        
+          The Shorelands
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/shorelands/capar">
+        
+          Cape Capar
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/shorelands/capar/varmego">
+        
+          Varmego
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/shorelands/orem">
+        
+          Orem
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/shorelands/orem/duerbo">
+        
+          Duerbo
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/shorelands/narem">
+        
+          Narem
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/shorelands/narem/marcolo">
+        
+          Marcolo
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/shorelands/eastern_shore">
+        
+          The Eastern Shore
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/shorelands/chillbay">
+        
+          The Chillbay
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/shorelands/chillbay/buso">
+        
+          Buso
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/southern_sea">
+        
+          The Southern Sea
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/southern_sea/negata">
+        
+          Negata
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/bryleahn_jungles">
+        
+          Bryleahn Jungles
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/fetid_fens">
+        
+          Fetid Fens
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/warm_sea">
+        
+          The Warm Sea
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/wilderreach">
+        
+          The Wilderreach
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/scarred_lands">
+        
+          Scarred Lands of Bruna
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/noctaria">
+        
+          Noctaria
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/flammarg_shards">
+        
+          Flammarg's Shards
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/irmaris">
+        
+          Irmaris
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens">
+        
+          Denizens
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/prymars">
+        
+          Prymars
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/arydars">
+        
+          Arydars
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/arydars/malnurs">
+        
+          Malnurs
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/arydars/tondrantars">
+        
+          Tondrantars
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/arydars/kromrs">
+        
+          Kromrs
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/brunars">
+        
+          Brunars
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/saltuars">
+        
+          Saltuars
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/saltuars/monti">
+        
+          Monti
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/saltuars/largars">
+        
+          Largars
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/saltuars/senfenns">
+        
+          Senfenns
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/saltuars/malvars">
+        
+          Malvars
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/saltuars/sudians">
+        
+          Sudians
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/saltuars/oremians">
+        
+          Oremians
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/bryleahns">
+        
+          Bryleahns
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/kyonnhs">
+        
+          Kyönnhs
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/noctids">
+        
+          Noctids
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/flammars">
+        
+          Flammars
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/wonders">
+        
+          Wonders
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/wonders/pantheon">
+        
+          Pantheon
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/wonders/spirits">
+        
+          The Spirits of Verda
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/extras">
+        
+          Extras
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/extras/stories">
+        
+          Stories
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/extras/stories/myth">
+        
+          Myth
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/extras/blog">
+        
+          Blog
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/about">
+        
+          About
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/about/wip">
+        
+          Work in Progress
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/license">
+        
+          License
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/about/templates">
+        
+          Guides Templates
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/about/templates/template_malkona">
+        
+          A Guide to Malkona
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/about/templates/template_region">
+        
+          Regional Guide
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+
+  </ul>
+</nav>
+
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+  const toggleBtn = document.querySelector(".mobile-menu-toggle");
+  const mobileMenu = document.querySelector(".mobile-menu");
+
+  if (!toggleBtn || !mobileMenu) return; 
+
+  toggleBtn.addEventListener("click", function(){
+    const isOpen = mobileMenu.getAttribute("aria-hidden") === "false";
+    mobileMenu.setAttribute("aria-hidden", isOpen ? "true" : "false");
+  });
+
+  const submenuToggles = document.querySelectorAll(".mobile-submenu-toggle");
+
+  submenuToggles.forEach(function(btn){
+    btn.addEventListener("click", function(e){
+      e.preventDefault();
+      const parentLi = btn.closest("li");
+      if (!parentLi) return;
+      const subUl = parentLi.querySelector("ul");
+      if (!subUl) return;
+
+      const isExpanded = btn.getAttribute("aria-expanded") === "true";
+      btn.setAttribute("aria-expanded", isExpanded ? "false" : "true");
+      subUl.setAttribute("data-open", isExpanded ? "false" : "true");
+    });
+  });
+});
+</script>
 
             <h1 class="site-title">
                 <a href="/">Taliskarn</a>
@@ -225,216 +1397,1147 @@
                 <a href="https://discord.gg/Dr4BA8CCx3" class="contact-link"> Join Discord</a>
                 <!-- <br><a href="mailto:orthanthundy@gmail.com" class="contact-link">orthanthundy@gmail.com</a> -->
             </div>
-        </div>
-
-
-        <div class="header-actions">
-
-            <div class="language-switcher">
-                
-                
-                <a href="/ru/denizens/races/arydars/tondrantars/">Русский</a>
-                
+            <div class="mobile-only">
+                <div class="language-switcher">
+                    
+                    
+                    <a href="/ru/denizens/races/arydars/tondrantars/">Русский</a>
+                    
+                </div>
             </div>
+        </div>
 
-            <form class="header-search-form" action="/search/" method="get">
-                <input type="text" id="search-box" name="query">
-                <input type="submit" value="search">
-            </form>
+        <div class="header-actions mobile-stack">
+            <div class="language-search">
+                <div class="desktop-only">
+                    <div class="language-switcher">
+                        
+                        
+                        <a href="/ru/denizens/races/arydars/tondrantars/">Русский</a>
+                        
+                    </div>
+                </div>
+                <form class="header-search-form" action="/search/" method="get">
+                    <input type="text" id="search-box" name="query" placeholder="Search">
+                    <button type="submit" class="search-button">🔍︎</button>
+                </form>
+            </div>
         </div>
     </div>
 
-    <div class="nav-desktop">
-        <ul class="navigation">
-            <li><a href="/">Home</a><span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li>
-                        <a href="/two_taliskarns">The Two Taliskarns</a>
-                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
-                                <li><a href="/two_taliskarns/taliskarn_dt">Dark Times (DT)</a></li>
-                                <li><a href="/two_taliskarns/taliskarn_nd">New Dawn (ND)</a></li>
-                        </ul> -->
-                </li>
-                <!-- <li><a href="/for_dm">Taliskarn for DMs</a></li> -->
-                <li><a href="/faq">FAQ</a></li>
-        </ul>
-</li>
-
-<li><a href="/malkona">Places</a> <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li><a href="/malkona/riku">Riku Highlands</a></li>
-                <li><a href="/malkona/verda">Verdant Verdas</a>
-                        <ul class="submenu">
-                                <li><a href="/malkona/verda/ashen_frontier">The Ashen Frontier</a></li>
-                                <li><a href="/malkona/verda/montwyn_hills">The Montwyn Hills</a></li>
-                                <li><a href="/malkona/verda/lake_larga">Lake Larga</a></li>
-                                <li><a href="/malkona/verda/lake_senfunda">Lake Senfunda</a></li>
-                                <li><a href="/malkona/verda/steps">The Steps</a></li>
-                                <li><a href="/malkona/verda/lake_malvarma">Lake Malvarma</a></li>
-                                <li><a href="/malkona/verda/windhill_plains">The Windhill Steppe</a></li>
-                                <li><a href="/malkona/verda/shorelands">The Shorelands</a>
-                                        <ul class="submenu">
-                                                <li><a href="/malkona/verda/shorelands/capar">Cape Capar</a>
-                                                        <ul class="submenu">
-                                                                <li><a href="/malkona/verda/shorelands/capar/varmego">Varmego</a></li>
-                                                        </ul>
-                                                </li>
-
-                                                <li><a href="/malkona/verda/shorelands/orem">Orem</a>
-                                                        <ul class="submenu">
-                                                                <li><a href="/malkona/verda/shorelands/orem/duerbo">Duerbo</a></li>
-                                                        </ul>
-                                                </li>
-                                                <li><a href="/malkona/verda/shorelands/narem">Narem</a>
-                                                        <ul class="submenu">
-                                                                <li><a href="/malkona/verda/shorelands/narem/marcolo">Marcolo</a></li>
-                                                        </ul>
-                                                </li>
-                                                <li><a href="/malkona/verda/shorelands/eastern_shore">The Eastern Shore</a></li>
-                                                <li><a href="/malkona/verda/shorelands/chillbay">The Chillbay</a>
-                                                        <ul class="submenu">
-                                                                <li><a href="/malkona/verda/shorelands/chillbay/buso">Buso</a></li>
-                                                        </ul>
-                                                </li>
-                                        </ul>
-                        </ul>
-                </li>
-                <li><a href="/malkona/southern_sea">The Southern Sea</a>
-                        <ul class="submenu">
-                                <li><a href="/malkona/southern_sea/negata">Negata</a></li>
-                        </ul>
-                </li>
-                <li><a href="/malkona/bryleahn_jungles">Bryleahn Jungles</a></li>
-                <li><a href="/malkona/fetid_fens">Fetid Fens</a></li>
-                <!-- <li><a href="/malkona/valley_of_the_source">Valley of the Source</a></li> -->
-                <li><a href="/malkona/warm_sea">The Warm Sea</a></li>
-                <li><a href="/malkona/wilderreach">The Wilderreach</a></li>
-                <li><a href="/malkona/scarred_lands">Scarred Lands of Bruna</a></li>
-                <li><a href="/malkona/noctaria">Noctaria</a></li>
-                <li><a href="/malkona/flammarg_shards">Flammarg's Shards</a></li>
-                <li><a href="/malkona/irmaris">Irmaris</a></li>
-
-        </ul>
-</li>
-
-
-
-<li><a href="/denizens">Denizens</a>
-        <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li><a href="/denizens/races/prymars">Prymars</a></li>
-                <li><a href="/denizens/races/arydars">Arydars</a>
-                        <ul class="submenu">
-                                <li><a href="/denizens/races/arydars/malnurs">Malnurs</a></li>
-                                <li><a href="/denizens/races/arydars/tondrantars">Tondrantars</a></li>
-                                <li><a href="/denizens/races/arydars/kromrs">Kromrs</a></li>
-                        </ul>
-                </li>
-                <li> <a href="/denizens/races/brunars">Brunars</a> </li>
-                <li><a href="/denizens/races/saltuars">Saltuars</a>
-                        <ul class="submenu">
-                                <li><a href="/denizens/races/saltuars/monti">Monti</a></li>
-                                <li><a href="/denizens/races/saltuars/largars">Largars</a></li>
-                                <li><a href="/denizens/races/saltuars/senfenns">Senfenns</a></li>
-                                <li><a href="/denizens/races/saltuars/malvars">Malvars</a></li>
-                                <li><a href="/denizens/races/saltuars/sudians">Sudians</a></li>
-                                <li><a href="/denizens/races/saltuars/oremians">Oremians</a></li>
-
-                        </ul>
-                </li>
-                <li><a href="/denizens/races/bryleahns">Bryleahns</a></li>
-                <li><a href="/denizens/races/kyonnhs">Kyönnhs</a></li>
-                <li><a href="/denizens/races/noctids">Noctids</a></li>
-                <li><a href="/denizens/races/flammars">Flammars</a></li>
-                <!-- <li>
-                        <a href="/denizens/races">Races</a>
-                        <span class="submenu-toggle">▾</span><ul class="submenu">
-                                <li>
-                                        <a href="/denizens/races/humans">Humans</a>
-                                        <span class="submenu-toggle">▾</span><ul class="submenu">
-       
-                                        </ul>
-                                </li> 
- 
-                        </ul>
-                </li> -->
-                <!-- <li><a href="/denizens/bestiary">Bestiary</a></li> -->
-        </ul>
-</li>
-
-<li><a href="/wonders">Wonders</a>
-        <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li>
-                        <a href="/wonders/pantheon">Pantheon</a>
-                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
-                                <li><a href="/wonders/pantheon/fluere">Fluere</a></li>
-                                <li><a href="/wonders/pantheon/kaelesta">Kaelesta</a></li>
-                                <li><a href="/wonders/pantheon/solkalor">Solkalor</a></li>
-                                <li><a href="/wonders/pantheon/ferrude">Ferrude</a></li>
-                                <li><a href="/wonders/pantheon/aurehjo">Aurehjo</a></li>
-                                <li><a href="/wonders/pantheon/tranqa">Tranqa</a></li>
-                                <li><a href="/wonders/pantheon/kustopha">Kustopha</a></li>
-                                <li><a href="/wonders/pantheon/dhfhalbh">Dh’Fhalbh</a></li>
-                                <li><a href="/wonders/pantheon/flumorn">Flumorn</a></li>
-                        </ul> -->
-                </li>
-                <li>
-                        <a href="/wonders/spirits">The Spirits of Verda</a>
-                </li>
-                <!-- <li>
-                        <a href="/">Religions</a>
-                        <span class="submenu-toggle">▾</span><ul class="submenu">
-                                <li><a href="/wonders/religions/cult_of_currents">Cult of Currents</a></li>
-                                <li><a href="/wonders/religions/cult_of_spirits">Cult of Spirits</a></li>
-                                <li><a href="/wonders/religions/ancestor_cult">Ancestor Cult</a></li>
-                        </ul>
-                </li> -->
-                <!-- <li> -->
-                <!-- <li><a href="/">Magic</a></li> -->
-                <!-- </li> -->
-                <!-- <li><a href="/wonders/alchemy">Alchemy</a></li> -->
-</li>
-</ul>
-</li>
-
-<li><a href="/extras">Extras</a>
-        <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li><a href="/extras/stories">Stories</a>
-                        <span class="submenu-toggle">▾</span>
-                        <ul class="submenu">
-                                <li><a href="/extras/stories/myth">Myth</a></li>
-                        </ul>
-                </li>
-                <!-- <li><a href="/extras/arts">Arts</a></li> -->
-                <li><a href="/extras/blog">Blog</a></li>
-                <!-- <li><a href="/extras/chronicle">Chronicle</a></li>
-                <li><a href="/extras/glossary">Glossary</a></li> -->
-        </ul>
-</li>
-<li><a href="/about">About</a>
-        <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li><a href="/about/wip">Work in Progress</a></li>
-                <li><a href="/license">License</a></li>
-                <li><a href="/about/templates">Guides Templates</a>
-                        <ul class="submenu">
-                                <li><a href="/about/templates/template_malkona">A Guide to Malkona</a></li>
-                                <li><a href="/about/templates/template_region">Regional Guide</a></li>
-                        </ul>
-                </li>
-                <!--   <li><a href="/about/roadmap">Roadmap</a></li>
-                <li><a href="/about/credits">Credits</a></li>
-                <li><a href="/about/links">Links</a></li>-->
-
-        </ul>
-</li>
-        </ul>
+    <div class="header-contacts-mobile mobile-only">
+        <a href="https://discord.gg/Dr4BA8CCx3" class="contact-link"> Join Discord</a>
     </div>
 
-    <div class="header-contacts-mobile">
-       <a href="https://discord.gg/Dr4BA8CCx3" class="contact-link"> Join Discord</a>        <!-- | <a href="mailto:orthanthundy@gmail.com" class="contact-link">orthanthundy@gmail.com</a> -->
+    <div class="nav-desktop desktop-only">
+        <ul class="navigation">
+            
+
+<nav class="main-nav" role="navigation" aria-label="Main navigation">
+  <ul class="navigation">
+    
+
+<li class="nav-item has-submenu">
+  <a href="/">
+    
+      Home
+    
+  </a>
+
+  
+      <div class="mega-menu">
+        <div class="mega-menu-inner">
+          
+          
+          
+          
+          
+          
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/two_taliskarns">
+                    
+                      The Two Taliskarns
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/faq">
+                    
+                      FAQ
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+            </div>
+            
+          
+        </div>
+      </div>
+
+    
+  
+</li>
+
+
+<li class="nav-item has-submenu">
+  <a href="/malkona">
+    
+      Places
+    
+  </a>
+
+  
+      <div class="mega-menu--places">
+        <div class="region-sidebar">
+            <div class="region-item" data-region-index="0">
+                <a href="/malkona/riku">
+              
+                Riku Highlands
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="1">
+                <a href="/malkona/verda">
+              
+                Verdant Verdas
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="2">
+                <a href="/malkona/verda/shorelands">
+              
+                The Shorelands
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="3">
+                <a href="/malkona/southern_sea">
+              
+                The Southern Sea
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="4">
+                <a href="/malkona/bryleahn_jungles">
+              
+                Bryleahn Jungles
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="5">
+                <a href="/malkona/fetid_fens">
+              
+                Fetid Fens
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="6">
+                <a href="/malkona/warm_sea">
+              
+                The Warm Sea
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="7">
+                <a href="/malkona/wilderreach">
+              
+                The Wilderreach
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="8">
+                <a href="/malkona/scarred_lands">
+              
+                Scarred Lands of Bruna
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="9">
+                <a href="/malkona/noctaria">
+              
+                Noctaria
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="10">
+                <a href="/malkona/flammarg_shards">
+              
+                Flammarg's Shards
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="11">
+                <a href="/malkona/irmaris">
+              
+                Irmaris
+              
+              </a>
+            </div>
+        </div>
+
+        <div class="region-content">
+            <div class="region-col" data-region-index="0">
+              
+            </div>
+            <div class="region-col" data-region-index="1">
+              
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/verda/ashen_frontier">
+                        
+                          The Ashen Frontier
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/verda/montwyn_hills">
+                        
+                          The Montwyn Hills
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/verda/lake_larga">
+                        
+                          Lake Larga
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/verda/lake_senfunda">
+                        
+                          Lake Senfunda
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/verda/steps">
+                        
+                          The Steps
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/verda/lake_malvarma">
+                        
+                          Lake Malvarma
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/verda/windhill_plains">
+                        
+                          The Windhill Steppe
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+              
+            </div>
+            <div class="region-col" data-region-index="2">
+              
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/verda/shorelands/capar">
+                        
+                          Cape Capar
+                        
+                      </a>
+                    </div>
+                    
+                      <ul>
+                        
+                          <li>
+                            <a href="/malkona/verda/shorelands/capar/varmego">
+                              
+                                Varmego
+                              
+                            </a>
+                          </li>
+                        
+                      </ul>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/verda/shorelands/orem">
+                        
+                          Orem
+                        
+                      </a>
+                    </div>
+                    
+                      <ul>
+                        
+                          <li>
+                            <a href="/malkona/verda/shorelands/orem/duerbo">
+                              
+                                Duerbo
+                              
+                            </a>
+                          </li>
+                        
+                      </ul>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/verda/shorelands/narem">
+                        
+                          Narem
+                        
+                      </a>
+                    </div>
+                    
+                      <ul>
+                        
+                          <li>
+                            <a href="/malkona/verda/shorelands/narem/marcolo">
+                              
+                                Marcolo
+                              
+                            </a>
+                          </li>
+                        
+                      </ul>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/verda/shorelands/eastern_shore">
+                        
+                          The Eastern Shore
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/verda/shorelands/chillbay">
+                        
+                          The Chillbay
+                        
+                      </a>
+                    </div>
+                    
+                      <ul>
+                        
+                          <li>
+                            <a href="/malkona/verda/shorelands/chillbay/buso">
+                              
+                                Buso
+                              
+                            </a>
+                          </li>
+                        
+                      </ul>
+                    
+                  </div>
+                
+              
+            </div>
+            <div class="region-col" data-region-index="3">
+              
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/southern_sea/negata">
+                        
+                          Negata
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+              
+            </div>
+            <div class="region-col" data-region-index="4">
+              
+            </div>
+            <div class="region-col" data-region-index="5">
+              
+            </div>
+            <div class="region-col" data-region-index="6">
+              
+            </div>
+            <div class="region-col" data-region-index="7">
+              
+            </div>
+            <div class="region-col" data-region-index="8">
+              
+            </div>
+            <div class="region-col" data-region-index="9">
+              
+            </div>
+            <div class="region-col" data-region-index="10">
+              
+            </div>
+            <div class="region-col" data-region-index="11">
+              
+            </div>
+        </div>
+      </div>
+
+    
+  
+</li>
+
+
+<li class="nav-item has-submenu">
+  <a href="/denizens">
+    
+      Denizens
+    
+  </a>
+
+  
+      <div class="mega-menu">
+        <div class="mega-menu-inner">
+          
+          
+          
+          
+          
+          
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/denizens/races/prymars">
+                    
+                      Prymars
+                    
+                  </a>
+                  
+                </div>
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/denizens/races/arydars">
+                    
+                      Arydars
+                    
+                  </a>
+                  
+                    <ul class="mega-submenu depth-2">
+                      
+
+<li class="nav-item">
+  <a href="/denizens/races/arydars/malnurs">
+    
+      Malnurs
+    
+  </a>
+
+  
+</li>
+
+
+<li class="nav-item">
+  <a href="/denizens/races/arydars/tondrantars">
+    
+      Tondrantars
+    
+  </a>
+
+  
+</li>
+
+
+<li class="nav-item">
+  <a href="/denizens/races/arydars/kromrs">
+    
+      Kromrs
+    
+  </a>
+
+  
+</li>
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const navItems = document.querySelectorAll(".nav-item.has-submenu");
+
+  navItems.forEach(function(item) {
+    const megaMenuPlaces = item.querySelector(".mega-menu--places");
+    if (!megaMenuPlaces) return; 
+
+    item.addEventListener("mouseenter", function(){
+      megaMenuPlaces.style.display = "flex"; 
+    });
+    item.addEventListener("mouseleave", function(){
+      megaMenuPlaces.style.display = "none";
+    });
+    const regionItems = megaMenuPlaces.querySelectorAll(".region-item");
+    const regionCols  = megaMenuPlaces.querySelectorAll(".region-col");
+
+    if (regionItems.length === 0 || regionCols.length === 0) return;
+
+    function activateRegion(index) {
+      regionItems.forEach((ri, i) => {
+        ri.classList.toggle("active", i === index);
+      });
+      regionCols.forEach((rc, i) => {
+        rc.style.display = (i === index) ? "flex" : "none";
+      });
+    }
+
+    activateRegion(0);
+
+    regionItems.forEach((ri, idx) => {
+      ri.addEventListener("mouseenter", () => activateRegion(idx));
+    });
+  });
+});
+</script>
+
+                    </ul>
+                  
+                </div>
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/denizens/races/brunars">
+                    
+                      Brunars
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/denizens/races/saltuars">
+                    
+                      Saltuars
+                    
+                  </a>
+                  
+                    <ul class="mega-submenu depth-2">
+                      
+
+<li class="nav-item">
+  <a href="/denizens/races/saltuars/monti">
+    
+      Monti
+    
+  </a>
+
+  
+</li>
+
+
+<li class="nav-item">
+  <a href="/denizens/races/saltuars/largars">
+    
+      Largars
+    
+  </a>
+
+  
+</li>
+
+
+<li class="nav-item">
+  <a href="/denizens/races/saltuars/senfenns">
+    
+      Senfenns
+    
+  </a>
+
+  
+</li>
+
+
+<li class="nav-item">
+  <a href="/denizens/races/saltuars/malvars">
+    
+      Malvars
+    
+  </a>
+
+  
+</li>
+
+
+<li class="nav-item">
+  <a href="/denizens/races/saltuars/sudians">
+    
+      Sudians
+    
+  </a>
+
+  
+</li>
+
+
+<li class="nav-item">
+  <a href="/denizens/races/saltuars/oremians">
+    
+      Oremians
+    
+  </a>
+
+  
+</li>
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const navItems = document.querySelectorAll(".nav-item.has-submenu");
+
+  navItems.forEach(function(item) {
+    const megaMenuPlaces = item.querySelector(".mega-menu--places");
+    if (!megaMenuPlaces) return; 
+
+    item.addEventListener("mouseenter", function(){
+      megaMenuPlaces.style.display = "flex"; 
+    });
+    item.addEventListener("mouseleave", function(){
+      megaMenuPlaces.style.display = "none";
+    });
+    const regionItems = megaMenuPlaces.querySelectorAll(".region-item");
+    const regionCols  = megaMenuPlaces.querySelectorAll(".region-col");
+
+    if (regionItems.length === 0 || regionCols.length === 0) return;
+
+    function activateRegion(index) {
+      regionItems.forEach((ri, i) => {
+        ri.classList.toggle("active", i === index);
+      });
+      regionCols.forEach((rc, i) => {
+        rc.style.display = (i === index) ? "flex" : "none";
+      });
+    }
+
+    activateRegion(0);
+
+    regionItems.forEach((ri, idx) => {
+      ri.addEventListener("mouseenter", () => activateRegion(idx));
+    });
+  });
+});
+</script>
+
+                    </ul>
+                  
+                </div>
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/denizens/races/bryleahns">
+                    
+                      Bryleahns
+                    
+                  </a>
+                  
+                </div>
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/denizens/races/kyonnhs">
+                    
+                      Kyönnhs
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/denizens/races/noctids">
+                    
+                      Noctids
+                    
+                  </a>
+                  
+                </div>
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/denizens/races/flammars">
+                    
+                      Flammars
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+        </div>
+      </div>
+
+    
+  
+</li>
+
+
+<li class="nav-item has-submenu">
+  <a href="/wonders">
+    
+      Wonders
+    
+  </a>
+
+  
+      <div class="mega-menu">
+        <div class="mega-menu-inner">
+          
+          
+          
+          
+          
+          
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/wonders/pantheon">
+                    
+                      Pantheon
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/wonders/spirits">
+                    
+                      The Spirits of Verda
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+            </div>
+            
+          
+        </div>
+      </div>
+
+    
+  
+</li>
+
+
+<li class="nav-item has-submenu">
+  <a href="/extras">
+    
+      Extras
+    
+  </a>
+
+  
+      <div class="mega-menu">
+        <div class="mega-menu-inner">
+          
+          
+          
+          
+          
+          
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/extras/stories">
+                    
+                      Stories
+                    
+                  </a>
+                  
+                    <ul class="mega-submenu depth-2">
+                      
+
+<li class="nav-item">
+  <a href="/extras/stories/myth">
+    
+      Myth
+    
+  </a>
+
+  
+</li>
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const navItems = document.querySelectorAll(".nav-item.has-submenu");
+
+  navItems.forEach(function(item) {
+    const megaMenuPlaces = item.querySelector(".mega-menu--places");
+    if (!megaMenuPlaces) return; 
+
+    item.addEventListener("mouseenter", function(){
+      megaMenuPlaces.style.display = "flex"; 
+    });
+    item.addEventListener("mouseleave", function(){
+      megaMenuPlaces.style.display = "none";
+    });
+    const regionItems = megaMenuPlaces.querySelectorAll(".region-item");
+    const regionCols  = megaMenuPlaces.querySelectorAll(".region-col");
+
+    if (regionItems.length === 0 || regionCols.length === 0) return;
+
+    function activateRegion(index) {
+      regionItems.forEach((ri, i) => {
+        ri.classList.toggle("active", i === index);
+      });
+      regionCols.forEach((rc, i) => {
+        rc.style.display = (i === index) ? "flex" : "none";
+      });
+    }
+
+    activateRegion(0);
+
+    regionItems.forEach((ri, idx) => {
+      ri.addEventListener("mouseenter", () => activateRegion(idx));
+    });
+  });
+});
+</script>
+
+                    </ul>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/extras/blog">
+                    
+                      Blog
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+            </div>
+            
+          
+        </div>
+      </div>
+
+    
+  
+</li>
+
+
+<li class="nav-item has-submenu">
+  <a href="/about">
+    
+      About
+    
+  </a>
+
+  
+      <div class="mega-menu">
+        <div class="mega-menu-inner">
+          
+          
+          
+          
+          
+          
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/about/wip">
+                    
+                      Work in Progress
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/license">
+                    
+                      License
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/about/templates">
+                    
+                      Guides Templates
+                    
+                  </a>
+                  
+                    <ul class="mega-submenu depth-2">
+                      
+
+<li class="nav-item">
+  <a href="/about/templates/template_malkona">
+    
+      A Guide to Malkona
+    
+  </a>
+
+  
+</li>
+
+
+<li class="nav-item">
+  <a href="/about/templates/template_region">
+    
+      Regional Guide
+    
+  </a>
+
+  
+</li>
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const navItems = document.querySelectorAll(".nav-item.has-submenu");
+
+  navItems.forEach(function(item) {
+    const megaMenuPlaces = item.querySelector(".mega-menu--places");
+    if (!megaMenuPlaces) return; 
+
+    item.addEventListener("mouseenter", function(){
+      megaMenuPlaces.style.display = "flex"; 
+    });
+    item.addEventListener("mouseleave", function(){
+      megaMenuPlaces.style.display = "none";
+    });
+    const regionItems = megaMenuPlaces.querySelectorAll(".region-item");
+    const regionCols  = megaMenuPlaces.querySelectorAll(".region-col");
+
+    if (regionItems.length === 0 || regionCols.length === 0) return;
+
+    function activateRegion(index) {
+      regionItems.forEach((ri, i) => {
+        ri.classList.toggle("active", i === index);
+      });
+      regionCols.forEach((rc, i) => {
+        rc.style.display = (i === index) ? "flex" : "none";
+      });
+    }
+
+    activateRegion(0);
+
+    regionItems.forEach((ri, idx) => {
+      ri.addEventListener("mouseenter", () => activateRegion(idx));
+    });
+  });
+});
+</script>
+
+                    </ul>
+                  
+                </div>
+              
+            </div>
+            
+          
+        </div>
+      </div>
+
+    
+  
+</li>
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const navItems = document.querySelectorAll(".nav-item.has-submenu");
+
+  navItems.forEach(function(item) {
+    const megaMenuPlaces = item.querySelector(".mega-menu--places");
+    if (!megaMenuPlaces) return; 
+
+    item.addEventListener("mouseenter", function(){
+      megaMenuPlaces.style.display = "flex"; 
+    });
+    item.addEventListener("mouseleave", function(){
+      megaMenuPlaces.style.display = "none";
+    });
+    const regionItems = megaMenuPlaces.querySelectorAll(".region-item");
+    const regionCols  = megaMenuPlaces.querySelectorAll(".region-col");
+
+    if (regionItems.length === 0 || regionCols.length === 0) return;
+
+    function activateRegion(index) {
+      regionItems.forEach((ri, i) => {
+        ri.classList.toggle("active", i === index);
+      });
+      regionCols.forEach((rc, i) => {
+        rc.style.display = (i === index) ? "flex" : "none";
+      });
+    }
+
+    activateRegion(0);
+
+    regionItems.forEach((ri, idx) => {
+      ri.addEventListener("mouseenter", () => activateRegion(idx));
+    });
+  });
+});
+</script>
+
+  </ul>
+</nav>
+
+        </ul>
     </div>
 </header>
 
@@ -457,27 +2560,8 @@
 </div>
 
 <script>
-
-
-    document.addEventListener('DOMContentLoaded', function () {
-        const burgerBtn = document.getElementById('burger-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-
-        burgerBtn.addEventListener('click', function () {
-            mobileMenu.classList.toggle('active');
-        });
-    });
-
-    console.log("Image modal script loaded!");
-
     document.addEventListener("DOMContentLoaded", function () {
-        document.querySelectorAll('.submenu-toggle').forEach(button => {
-            button.addEventListener('click', function (event) {
-                event.stopPropagation();
-                let parent = this.closest('.has-submenu');
-                parent.classList.toggle('open');
-            });
-        });
+        console.log("Image modal script loaded!");
 
         let images = Array.from(document.querySelectorAll("img.phb-image"));
         let modal = document.getElementById("imageModal");
@@ -496,6 +2580,7 @@
             modal.style.display = "flex";
             navButtons.style.display = images.length > 1 ? "flex" : "none";
         }
+
         function closeModal() {
             modal.style.display = "none";
         }
@@ -531,6 +2616,7 @@
         window.closeModal = closeModal;
         window.changeImage = changeImage;
     });
+
 </script>
 
     <main role="main" id="main" class="phb">

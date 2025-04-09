@@ -20,202 +20,1374 @@
 <body>
     <header role="banner" id="banner">
     <div class="header-content">
-
         <div class="header-brand">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+  ☰
+</button>
 
-            <div class="nav-mobile">
-                <button id="burger-btn" class="burger-btn text-white focus:outline-none">
-                    ☰
-                </button>
-                <div id="mobile-menu" class="mobile-menu bg-gray-900 text-white p-4">
-                    <ul class="navigation">
-                        <li><a href="/">Home</a><span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li>
-                        <a href="/two_taliskarns">The Two Taliskarns</a>
-                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
-                                <li><a href="/two_taliskarns/taliskarn_dt">Dark Times (DT)</a></li>
-                                <li><a href="/two_taliskarns/taliskarn_nd">New Dawn (ND)</a></li>
-                        </ul> -->
-                </li>
-                <!-- <li><a href="/for_dm">Taliskarn for DMs</a></li> -->
-                <li><a href="/faq">FAQ</a></li>
-        </ul>
-</li>
+<nav class="mobile-menu" aria-hidden="true">
+  <ul class="mobile-menu-list">
+    
+    
+  
 
-<li><a href="/malkona">Places</a> <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li><a href="/malkona/riku">Riku Highlands</a></li>
-                <li><a href="/malkona/verda">Verdant Verdas</a>
-                        <ul class="submenu">
-                                <li><a href="/malkona/verda/ashen_frontier">The Ashen Frontier</a></li>
-                                <li><a href="/malkona/verda/montwyn_hills">The Montwyn Hills</a></li>
-                                <li><a href="/malkona/verda/lake_larga">Lake Larga</a></li>
-                                <li><a href="/malkona/verda/lake_senfunda">Lake Senfunda</a></li>
-                                <li><a href="/malkona/verda/steps">The Steps</a></li>
-                                <li><a href="/malkona/verda/lake_malvarma">Lake Malvarma</a></li>
-                                <li><a href="/malkona/verda/windhill_plains">The Windhill Steppe</a></li>
-                                <li><a href="/malkona/verda/shorelands">The Shorelands</a>
-                                        <ul class="submenu">
-                                                <li><a href="/malkona/verda/shorelands/capar">Cape Capar</a>
-                                                        <ul class="submenu">
-                                                                <li><a href="/malkona/verda/shorelands/capar/varmego">Varmego</a></li>
-                                                        </ul>
-                                                </li>
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/">
+        
+          Home
+        
+      </a>
 
-                                                <li><a href="/malkona/verda/shorelands/orem">Orem</a>
-                                                        <ul class="submenu">
-                                                                <li><a href="/malkona/verda/shorelands/orem/duerbo">Duerbo</a></li>
-                                                        </ul>
-                                                </li>
-                                                <li><a href="/malkona/verda/shorelands/narem">Narem</a>
-                                                        <ul class="submenu">
-                                                                <li><a href="/malkona/verda/shorelands/narem/marcolo">Marcolo</a></li>
-                                                        </ul>
-                                                </li>
-                                                <li><a href="/malkona/verda/shorelands/eastern_shore">The Eastern Shore</a></li>
-                                                <li><a href="/malkona/verda/shorelands/chillbay">The Chillbay</a>
-                                                        <ul class="submenu">
-                                                                <li><a href="/malkona/verda/shorelands/chillbay/buso">Buso</a></li>
-                                                        </ul>
-                                                </li>
-                                        </ul>
-                        </ul>
-                </li>
-                <li><a href="/malkona/southern_sea">The Southern Sea</a>
-                        <ul class="submenu">
-                                <li><a href="/malkona/southern_sea/negata">Negata</a></li>
-                        </ul>
-                </li>
-                <li><a href="/malkona/bryleahn_jungles">Bryleahn Jungles</a></li>
-                <li><a href="/malkona/fetid_fens">Fetid Fens</a></li>
-                <!-- <li><a href="/malkona/valley_of_the_source">Valley of the Source</a></li> -->
-                <li><a href="/malkona/warm_sea">The Warm Sea</a></li>
-                <li><a href="/malkona/wilderreach">The Wilderreach</a></li>
-                <li><a href="/malkona/scarred_lands">Scarred Lands of Bruna</a></li>
-                <li><a href="/malkona/noctaria">Noctaria</a></li>
-                <li><a href="/malkona/flammarg_shards">Flammarg's Shards</a></li>
-                <li><a href="/malkona/irmaris">Irmaris</a></li>
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
 
-        </ul>
-</li>
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/two_taliskarns">
+        
+          The Two Taliskarns
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/faq">
+        
+          FAQ
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
 
 
+      </ul>
+    
+  </li>
 
-<li><a href="/denizens">Denizens</a>
-        <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li><a href="/denizens/races/prymars">Prymars</a></li>
-                <li><a href="/denizens/races/arydars">Arydars</a>
-                        <ul class="submenu">
-                                <li><a href="/denizens/races/arydars/malnurs">Malnurs</a></li>
-                                <li><a href="/denizens/races/arydars/tondrantars">Tondrantars</a></li>
-                                <li><a href="/denizens/races/arydars/kromrs">Kromrs</a></li>
-                        </ul>
-                </li>
-                <li> <a href="/denizens/races/brunars">Brunars</a> </li>
-                <li><a href="/denizens/races/saltuars">Saltuars</a>
-                        <ul class="submenu">
-                                <li><a href="/denizens/races/saltuars/monti">Monti</a></li>
-                                <li><a href="/denizens/races/saltuars/largars">Largars</a></li>
-                                <li><a href="/denizens/races/saltuars/senfenns">Senfenns</a></li>
-                                <li><a href="/denizens/races/saltuars/malvars">Malvars</a></li>
-                                <li><a href="/denizens/races/saltuars/sudians">Sudians</a></li>
-                                <li><a href="/denizens/races/saltuars/oremians">Oremians</a></li>
+  
 
-                        </ul>
-                </li>
-                <li><a href="/denizens/races/bryleahns">Bryleahns</a></li>
-                <li><a href="/denizens/races/kyonnhs">Kyönnhs</a></li>
-                <li><a href="/denizens/races/noctids">Noctids</a></li>
-                <li><a href="/denizens/races/flammars">Flammars</a></li>
-                <!-- <li>
-                        <a href="/denizens/races">Races</a>
-                        <span class="submenu-toggle">▾</span><ul class="submenu">
-                                <li>
-                                        <a href="/denizens/races/humans">Humans</a>
-                                        <span class="submenu-toggle">▾</span><ul class="submenu">
-       
-                                        </ul>
-                                </li> 
- 
-                        </ul>
-                </li> -->
-                <!-- <li><a href="/denizens/bestiary">Bestiary</a></li> -->
-        </ul>
-</li>
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona">
+        
+          Places
+        
+      </a>
 
-<li><a href="/wonders">Wonders</a>
-        <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li>
-                        <a href="/wonders/pantheon">Pantheon</a>
-                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
-                                <li><a href="/wonders/pantheon/fluere">Fluere</a></li>
-                                <li><a href="/wonders/pantheon/kaelesta">Kaelesta</a></li>
-                                <li><a href="/wonders/pantheon/solkalor">Solkalor</a></li>
-                                <li><a href="/wonders/pantheon/ferrude">Ferrude</a></li>
-                                <li><a href="/wonders/pantheon/aurehjo">Aurehjo</a></li>
-                                <li><a href="/wonders/pantheon/tranqa">Tranqa</a></li>
-                                <li><a href="/wonders/pantheon/kustopha">Kustopha</a></li>
-                                <li><a href="/wonders/pantheon/dhfhalbh">Dh’Fhalbh</a></li>
-                                <li><a href="/wonders/pantheon/flumorn">Flumorn</a></li>
-                        </ul> -->
-                </li>
-                <li>
-                        <a href="/wonders/spirits">The Spirits of Verda</a>
-                </li>
-                <!-- <li>
-                        <a href="/">Religions</a>
-                        <span class="submenu-toggle">▾</span><ul class="submenu">
-                                <li><a href="/wonders/religions/cult_of_currents">Cult of Currents</a></li>
-                                <li><a href="/wonders/religions/cult_of_spirits">Cult of Spirits</a></li>
-                                <li><a href="/wonders/religions/ancestor_cult">Ancestor Cult</a></li>
-                        </ul>
-                </li> -->
-                <!-- <li> -->
-                <!-- <li><a href="/">Magic</a></li> -->
-                <!-- </li> -->
-                <!-- <li><a href="/wonders/alchemy">Alchemy</a></li> -->
-</li>
-</ul>
-</li>
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
 
-<li><a href="/extras">Extras</a>
-        <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li><a href="/extras/stories">Stories</a>
-                        <span class="submenu-toggle">▾</span>
-                        <ul class="submenu">
-                                <li><a href="/extras/stories/myth">Myth</a></li>
-                        </ul>
-                </li>
-                <!-- <li><a href="/extras/arts">Arts</a></li> -->
-                <li><a href="/extras/blog">Blog</a></li>
-                <!-- <li><a href="/extras/chronicle">Chronicle</a></li>
-                <li><a href="/extras/glossary">Glossary</a></li> -->
-        </ul>
-</li>
-<li><a href="/about">About</a>
-        <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li><a href="/about/wip">Work in Progress</a></li>
-                <li><a href="/license">License</a></li>
-                <li><a href="/about/templates">Guides Templates</a>
-                        <ul class="submenu">
-                                <li><a href="/about/templates/template_malkona">A Guide to Malkona</a></li>
-                                <li><a href="/about/templates/template_region">Regional Guide</a></li>
-                        </ul>
-                </li>
-                <!--   <li><a href="/about/roadmap">Roadmap</a></li>
-                <li><a href="/about/credits">Credits</a></li>
-                <li><a href="/about/links">Links</a></li>-->
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
 
-        </ul>
-</li>
-                    </ul>
-                </div>
-            </div>
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/riku">
+        
+          Riku Highlands
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda">
+        
+          Verdant Verdas
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/ashen_frontier">
+        
+          The Ashen Frontier
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/montwyn_hills">
+        
+          The Montwyn Hills
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/lake_larga">
+        
+          Lake Larga
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/lake_senfunda">
+        
+          Lake Senfunda
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/steps">
+        
+          The Steps
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/lake_malvarma">
+        
+          Lake Malvarma
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/windhill_plains">
+        
+          The Windhill Steppe
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/shorelands">
+        
+          The Shorelands
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/shorelands/capar">
+        
+          Cape Capar
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/shorelands/capar/varmego">
+        
+          Varmego
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/shorelands/orem">
+        
+          Orem
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/shorelands/orem/duerbo">
+        
+          Duerbo
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/shorelands/narem">
+        
+          Narem
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/shorelands/narem/marcolo">
+        
+          Marcolo
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/shorelands/eastern_shore">
+        
+          The Eastern Shore
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/shorelands/chillbay">
+        
+          The Chillbay
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/verda/shorelands/chillbay/buso">
+        
+          Buso
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/southern_sea">
+        
+          The Southern Sea
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/southern_sea/negata">
+        
+          Negata
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/bryleahn_jungles">
+        
+          Bryleahn Jungles
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/fetid_fens">
+        
+          Fetid Fens
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/warm_sea">
+        
+          The Warm Sea
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/wilderreach">
+        
+          The Wilderreach
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/scarred_lands">
+        
+          Scarred Lands of Bruna
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/noctaria">
+        
+          Noctaria
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/flammarg_shards">
+        
+          Flammarg's Shards
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/malkona/irmaris">
+        
+          Irmaris
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens">
+        
+          Denizens
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/prymars">
+        
+          Prymars
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/arydars">
+        
+          Arydars
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/arydars/malnurs">
+        
+          Malnurs
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/arydars/tondrantars">
+        
+          Tondrantars
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/arydars/kromrs">
+        
+          Kromrs
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/brunars">
+        
+          Brunars
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/saltuars">
+        
+          Saltuars
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/saltuars/monti">
+        
+          Monti
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/saltuars/largars">
+        
+          Largars
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/saltuars/senfenns">
+        
+          Senfenns
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/saltuars/malvars">
+        
+          Malvars
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/saltuars/sudians">
+        
+          Sudians
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/saltuars/oremians">
+        
+          Oremians
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/bryleahns">
+        
+          Bryleahns
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/kyonnhs">
+        
+          Kyönnhs
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/noctids">
+        
+          Noctids
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/denizens/races/flammars">
+        
+          Flammars
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/wonders">
+        
+          Wonders
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/wonders/pantheon">
+        
+          Pantheon
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/wonders/spirits">
+        
+          The Spirits of Verda
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/extras">
+        
+          Extras
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/extras/stories">
+        
+          Stories
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/extras/stories/myth">
+        
+          Myth
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/extras/blog">
+        
+          Blog
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/about">
+        
+          About
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/about/wip">
+        
+          Work in Progress
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/license">
+        
+          License
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/about/templates">
+        
+          Guides Templates
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/about/templates/template_malkona">
+        
+          A Guide to Malkona
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/about/templates/template_region">
+        
+          Regional Guide
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+
+  </ul>
+</nav>
+
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+  const toggleBtn = document.querySelector(".mobile-menu-toggle");
+  const mobileMenu = document.querySelector(".mobile-menu");
+
+  if (!toggleBtn || !mobileMenu) return; 
+
+  toggleBtn.addEventListener("click", function(){
+    const isOpen = mobileMenu.getAttribute("aria-hidden") === "false";
+    mobileMenu.setAttribute("aria-hidden", isOpen ? "true" : "false");
+  });
+
+  const submenuToggles = document.querySelectorAll(".mobile-submenu-toggle");
+
+  submenuToggles.forEach(function(btn){
+    btn.addEventListener("click", function(e){
+      e.preventDefault();
+      const parentLi = btn.closest("li");
+      if (!parentLi) return;
+      const subUl = parentLi.querySelector("ul");
+      if (!subUl) return;
+
+      const isExpanded = btn.getAttribute("aria-expanded") === "true";
+      btn.setAttribute("aria-expanded", isExpanded ? "false" : "true");
+      subUl.setAttribute("data-open", isExpanded ? "false" : "true");
+    });
+  });
+});
+</script>
 
             <h1 class="site-title">
                 <a href="/">Taliskarn</a>
@@ -224,216 +1396,1147 @@
                 <a href="https://discord.gg/Dr4BA8CCx3" class="contact-link"> Join Discord</a>
                 <!-- <br><a href="mailto:orthanthundy@gmail.com" class="contact-link">orthanthundy@gmail.com</a> -->
             </div>
-        </div>
-
-
-        <div class="header-actions">
-
-            <div class="language-switcher">
-                
-                
-                <a href="/ru/search/">Русский</a>
-                
+            <div class="mobile-only">
+                <div class="language-switcher">
+                    
+                    
+                    <a href="/ru/search/">Русский</a>
+                    
+                </div>
             </div>
+        </div>
 
-            <form class="header-search-form" action="/search/" method="get">
-                <input type="text" id="search-box" name="query">
-                <input type="submit" value="search">
-            </form>
+        <div class="header-actions mobile-stack">
+            <div class="language-search">
+                <div class="desktop-only">
+                    <div class="language-switcher">
+                        
+                        
+                        <a href="/ru/search/">Русский</a>
+                        
+                    </div>
+                </div>
+                <form class="header-search-form" action="/search/" method="get">
+                    <input type="text" id="search-box" name="query" placeholder="Search">
+                    <button type="submit" class="search-button">🔍︎</button>
+                </form>
+            </div>
         </div>
     </div>
 
-    <div class="nav-desktop">
-        <ul class="navigation">
-            <li><a href="/">Home</a><span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li>
-                        <a href="/two_taliskarns">The Two Taliskarns</a>
-                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
-                                <li><a href="/two_taliskarns/taliskarn_dt">Dark Times (DT)</a></li>
-                                <li><a href="/two_taliskarns/taliskarn_nd">New Dawn (ND)</a></li>
-                        </ul> -->
-                </li>
-                <!-- <li><a href="/for_dm">Taliskarn for DMs</a></li> -->
-                <li><a href="/faq">FAQ</a></li>
-        </ul>
-</li>
-
-<li><a href="/malkona">Places</a> <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li><a href="/malkona/riku">Riku Highlands</a></li>
-                <li><a href="/malkona/verda">Verdant Verdas</a>
-                        <ul class="submenu">
-                                <li><a href="/malkona/verda/ashen_frontier">The Ashen Frontier</a></li>
-                                <li><a href="/malkona/verda/montwyn_hills">The Montwyn Hills</a></li>
-                                <li><a href="/malkona/verda/lake_larga">Lake Larga</a></li>
-                                <li><a href="/malkona/verda/lake_senfunda">Lake Senfunda</a></li>
-                                <li><a href="/malkona/verda/steps">The Steps</a></li>
-                                <li><a href="/malkona/verda/lake_malvarma">Lake Malvarma</a></li>
-                                <li><a href="/malkona/verda/windhill_plains">The Windhill Steppe</a></li>
-                                <li><a href="/malkona/verda/shorelands">The Shorelands</a>
-                                        <ul class="submenu">
-                                                <li><a href="/malkona/verda/shorelands/capar">Cape Capar</a>
-                                                        <ul class="submenu">
-                                                                <li><a href="/malkona/verda/shorelands/capar/varmego">Varmego</a></li>
-                                                        </ul>
-                                                </li>
-
-                                                <li><a href="/malkona/verda/shorelands/orem">Orem</a>
-                                                        <ul class="submenu">
-                                                                <li><a href="/malkona/verda/shorelands/orem/duerbo">Duerbo</a></li>
-                                                        </ul>
-                                                </li>
-                                                <li><a href="/malkona/verda/shorelands/narem">Narem</a>
-                                                        <ul class="submenu">
-                                                                <li><a href="/malkona/verda/shorelands/narem/marcolo">Marcolo</a></li>
-                                                        </ul>
-                                                </li>
-                                                <li><a href="/malkona/verda/shorelands/eastern_shore">The Eastern Shore</a></li>
-                                                <li><a href="/malkona/verda/shorelands/chillbay">The Chillbay</a>
-                                                        <ul class="submenu">
-                                                                <li><a href="/malkona/verda/shorelands/chillbay/buso">Buso</a></li>
-                                                        </ul>
-                                                </li>
-                                        </ul>
-                        </ul>
-                </li>
-                <li><a href="/malkona/southern_sea">The Southern Sea</a>
-                        <ul class="submenu">
-                                <li><a href="/malkona/southern_sea/negata">Negata</a></li>
-                        </ul>
-                </li>
-                <li><a href="/malkona/bryleahn_jungles">Bryleahn Jungles</a></li>
-                <li><a href="/malkona/fetid_fens">Fetid Fens</a></li>
-                <!-- <li><a href="/malkona/valley_of_the_source">Valley of the Source</a></li> -->
-                <li><a href="/malkona/warm_sea">The Warm Sea</a></li>
-                <li><a href="/malkona/wilderreach">The Wilderreach</a></li>
-                <li><a href="/malkona/scarred_lands">Scarred Lands of Bruna</a></li>
-                <li><a href="/malkona/noctaria">Noctaria</a></li>
-                <li><a href="/malkona/flammarg_shards">Flammarg's Shards</a></li>
-                <li><a href="/malkona/irmaris">Irmaris</a></li>
-
-        </ul>
-</li>
-
-
-
-<li><a href="/denizens">Denizens</a>
-        <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li><a href="/denizens/races/prymars">Prymars</a></li>
-                <li><a href="/denizens/races/arydars">Arydars</a>
-                        <ul class="submenu">
-                                <li><a href="/denizens/races/arydars/malnurs">Malnurs</a></li>
-                                <li><a href="/denizens/races/arydars/tondrantars">Tondrantars</a></li>
-                                <li><a href="/denizens/races/arydars/kromrs">Kromrs</a></li>
-                        </ul>
-                </li>
-                <li> <a href="/denizens/races/brunars">Brunars</a> </li>
-                <li><a href="/denizens/races/saltuars">Saltuars</a>
-                        <ul class="submenu">
-                                <li><a href="/denizens/races/saltuars/monti">Monti</a></li>
-                                <li><a href="/denizens/races/saltuars/largars">Largars</a></li>
-                                <li><a href="/denizens/races/saltuars/senfenns">Senfenns</a></li>
-                                <li><a href="/denizens/races/saltuars/malvars">Malvars</a></li>
-                                <li><a href="/denizens/races/saltuars/sudians">Sudians</a></li>
-                                <li><a href="/denizens/races/saltuars/oremians">Oremians</a></li>
-
-                        </ul>
-                </li>
-                <li><a href="/denizens/races/bryleahns">Bryleahns</a></li>
-                <li><a href="/denizens/races/kyonnhs">Kyönnhs</a></li>
-                <li><a href="/denizens/races/noctids">Noctids</a></li>
-                <li><a href="/denizens/races/flammars">Flammars</a></li>
-                <!-- <li>
-                        <a href="/denizens/races">Races</a>
-                        <span class="submenu-toggle">▾</span><ul class="submenu">
-                                <li>
-                                        <a href="/denizens/races/humans">Humans</a>
-                                        <span class="submenu-toggle">▾</span><ul class="submenu">
-       
-                                        </ul>
-                                </li> 
- 
-                        </ul>
-                </li> -->
-                <!-- <li><a href="/denizens/bestiary">Bestiary</a></li> -->
-        </ul>
-</li>
-
-<li><a href="/wonders">Wonders</a>
-        <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li>
-                        <a href="/wonders/pantheon">Pantheon</a>
-                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
-                                <li><a href="/wonders/pantheon/fluere">Fluere</a></li>
-                                <li><a href="/wonders/pantheon/kaelesta">Kaelesta</a></li>
-                                <li><a href="/wonders/pantheon/solkalor">Solkalor</a></li>
-                                <li><a href="/wonders/pantheon/ferrude">Ferrude</a></li>
-                                <li><a href="/wonders/pantheon/aurehjo">Aurehjo</a></li>
-                                <li><a href="/wonders/pantheon/tranqa">Tranqa</a></li>
-                                <li><a href="/wonders/pantheon/kustopha">Kustopha</a></li>
-                                <li><a href="/wonders/pantheon/dhfhalbh">Dh’Fhalbh</a></li>
-                                <li><a href="/wonders/pantheon/flumorn">Flumorn</a></li>
-                        </ul> -->
-                </li>
-                <li>
-                        <a href="/wonders/spirits">The Spirits of Verda</a>
-                </li>
-                <!-- <li>
-                        <a href="/">Religions</a>
-                        <span class="submenu-toggle">▾</span><ul class="submenu">
-                                <li><a href="/wonders/religions/cult_of_currents">Cult of Currents</a></li>
-                                <li><a href="/wonders/religions/cult_of_spirits">Cult of Spirits</a></li>
-                                <li><a href="/wonders/religions/ancestor_cult">Ancestor Cult</a></li>
-                        </ul>
-                </li> -->
-                <!-- <li> -->
-                <!-- <li><a href="/">Magic</a></li> -->
-                <!-- </li> -->
-                <!-- <li><a href="/wonders/alchemy">Alchemy</a></li> -->
-</li>
-</ul>
-</li>
-
-<li><a href="/extras">Extras</a>
-        <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li><a href="/extras/stories">Stories</a>
-                        <span class="submenu-toggle">▾</span>
-                        <ul class="submenu">
-                                <li><a href="/extras/stories/myth">Myth</a></li>
-                        </ul>
-                </li>
-                <!-- <li><a href="/extras/arts">Arts</a></li> -->
-                <li><a href="/extras/blog">Blog</a></li>
-                <!-- <li><a href="/extras/chronicle">Chronicle</a></li>
-                <li><a href="/extras/glossary">Glossary</a></li> -->
-        </ul>
-</li>
-<li><a href="/about">About</a>
-        <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li><a href="/about/wip">Work in Progress</a></li>
-                <li><a href="/license">License</a></li>
-                <li><a href="/about/templates">Guides Templates</a>
-                        <ul class="submenu">
-                                <li><a href="/about/templates/template_malkona">A Guide to Malkona</a></li>
-                                <li><a href="/about/templates/template_region">Regional Guide</a></li>
-                        </ul>
-                </li>
-                <!--   <li><a href="/about/roadmap">Roadmap</a></li>
-                <li><a href="/about/credits">Credits</a></li>
-                <li><a href="/about/links">Links</a></li>-->
-
-        </ul>
-</li>
-        </ul>
+    <div class="header-contacts-mobile mobile-only">
+        <a href="https://discord.gg/Dr4BA8CCx3" class="contact-link"> Join Discord</a>
     </div>
 
-    <div class="header-contacts-mobile">
-       <a href="https://discord.gg/Dr4BA8CCx3" class="contact-link"> Join Discord</a>        <!-- | <a href="mailto:orthanthundy@gmail.com" class="contact-link">orthanthundy@gmail.com</a> -->
+    <div class="nav-desktop desktop-only">
+        <ul class="navigation">
+            
+
+<nav class="main-nav" role="navigation" aria-label="Main navigation">
+  <ul class="navigation">
+    
+
+<li class="nav-item has-submenu">
+  <a href="/">
+    
+      Home
+    
+  </a>
+
+  
+      <div class="mega-menu">
+        <div class="mega-menu-inner">
+          
+          
+          
+          
+          
+          
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/two_taliskarns">
+                    
+                      The Two Taliskarns
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/faq">
+                    
+                      FAQ
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+            </div>
+            
+          
+        </div>
+      </div>
+
+    
+  
+</li>
+
+
+<li class="nav-item has-submenu">
+  <a href="/malkona">
+    
+      Places
+    
+  </a>
+
+  
+      <div class="mega-menu--places">
+        <div class="region-sidebar">
+            <div class="region-item" data-region-index="0">
+                <a href="/malkona/riku">
+              
+                Riku Highlands
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="1">
+                <a href="/malkona/verda">
+              
+                Verdant Verdas
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="2">
+                <a href="/malkona/verda/shorelands">
+              
+                The Shorelands
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="3">
+                <a href="/malkona/southern_sea">
+              
+                The Southern Sea
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="4">
+                <a href="/malkona/bryleahn_jungles">
+              
+                Bryleahn Jungles
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="5">
+                <a href="/malkona/fetid_fens">
+              
+                Fetid Fens
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="6">
+                <a href="/malkona/warm_sea">
+              
+                The Warm Sea
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="7">
+                <a href="/malkona/wilderreach">
+              
+                The Wilderreach
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="8">
+                <a href="/malkona/scarred_lands">
+              
+                Scarred Lands of Bruna
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="9">
+                <a href="/malkona/noctaria">
+              
+                Noctaria
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="10">
+                <a href="/malkona/flammarg_shards">
+              
+                Flammarg's Shards
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="11">
+                <a href="/malkona/irmaris">
+              
+                Irmaris
+              
+              </a>
+            </div>
+        </div>
+
+        <div class="region-content">
+            <div class="region-col" data-region-index="0">
+              
+            </div>
+            <div class="region-col" data-region-index="1">
+              
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/verda/ashen_frontier">
+                        
+                          The Ashen Frontier
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/verda/montwyn_hills">
+                        
+                          The Montwyn Hills
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/verda/lake_larga">
+                        
+                          Lake Larga
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/verda/lake_senfunda">
+                        
+                          Lake Senfunda
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/verda/steps">
+                        
+                          The Steps
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/verda/lake_malvarma">
+                        
+                          Lake Malvarma
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/verda/windhill_plains">
+                        
+                          The Windhill Steppe
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+              
+            </div>
+            <div class="region-col" data-region-index="2">
+              
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/verda/shorelands/capar">
+                        
+                          Cape Capar
+                        
+                      </a>
+                    </div>
+                    
+                      <ul>
+                        
+                          <li>
+                            <a href="/malkona/verda/shorelands/capar/varmego">
+                              
+                                Varmego
+                              
+                            </a>
+                          </li>
+                        
+                      </ul>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/verda/shorelands/orem">
+                        
+                          Orem
+                        
+                      </a>
+                    </div>
+                    
+                      <ul>
+                        
+                          <li>
+                            <a href="/malkona/verda/shorelands/orem/duerbo">
+                              
+                                Duerbo
+                              
+                            </a>
+                          </li>
+                        
+                      </ul>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/verda/shorelands/narem">
+                        
+                          Narem
+                        
+                      </a>
+                    </div>
+                    
+                      <ul>
+                        
+                          <li>
+                            <a href="/malkona/verda/shorelands/narem/marcolo">
+                              
+                                Marcolo
+                              
+                            </a>
+                          </li>
+                        
+                      </ul>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/verda/shorelands/eastern_shore">
+                        
+                          The Eastern Shore
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/verda/shorelands/chillbay">
+                        
+                          The Chillbay
+                        
+                      </a>
+                    </div>
+                    
+                      <ul>
+                        
+                          <li>
+                            <a href="/malkona/verda/shorelands/chillbay/buso">
+                              
+                                Buso
+                              
+                            </a>
+                          </li>
+                        
+                      </ul>
+                    
+                  </div>
+                
+              
+            </div>
+            <div class="region-col" data-region-index="3">
+              
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/malkona/southern_sea/negata">
+                        
+                          Negata
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+              
+            </div>
+            <div class="region-col" data-region-index="4">
+              
+            </div>
+            <div class="region-col" data-region-index="5">
+              
+            </div>
+            <div class="region-col" data-region-index="6">
+              
+            </div>
+            <div class="region-col" data-region-index="7">
+              
+            </div>
+            <div class="region-col" data-region-index="8">
+              
+            </div>
+            <div class="region-col" data-region-index="9">
+              
+            </div>
+            <div class="region-col" data-region-index="10">
+              
+            </div>
+            <div class="region-col" data-region-index="11">
+              
+            </div>
+        </div>
+      </div>
+
+    
+  
+</li>
+
+
+<li class="nav-item has-submenu">
+  <a href="/denizens">
+    
+      Denizens
+    
+  </a>
+
+  
+      <div class="mega-menu">
+        <div class="mega-menu-inner">
+          
+          
+          
+          
+          
+          
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/denizens/races/prymars">
+                    
+                      Prymars
+                    
+                  </a>
+                  
+                </div>
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/denizens/races/arydars">
+                    
+                      Arydars
+                    
+                  </a>
+                  
+                    <ul class="mega-submenu depth-2">
+                      
+
+<li class="nav-item">
+  <a href="/denizens/races/arydars/malnurs">
+    
+      Malnurs
+    
+  </a>
+
+  
+</li>
+
+
+<li class="nav-item">
+  <a href="/denizens/races/arydars/tondrantars">
+    
+      Tondrantars
+    
+  </a>
+
+  
+</li>
+
+
+<li class="nav-item">
+  <a href="/denizens/races/arydars/kromrs">
+    
+      Kromrs
+    
+  </a>
+
+  
+</li>
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const navItems = document.querySelectorAll(".nav-item.has-submenu");
+
+  navItems.forEach(function(item) {
+    const megaMenuPlaces = item.querySelector(".mega-menu--places");
+    if (!megaMenuPlaces) return; 
+
+    item.addEventListener("mouseenter", function(){
+      megaMenuPlaces.style.display = "flex"; 
+    });
+    item.addEventListener("mouseleave", function(){
+      megaMenuPlaces.style.display = "none";
+    });
+    const regionItems = megaMenuPlaces.querySelectorAll(".region-item");
+    const regionCols  = megaMenuPlaces.querySelectorAll(".region-col");
+
+    if (regionItems.length === 0 || regionCols.length === 0) return;
+
+    function activateRegion(index) {
+      regionItems.forEach((ri, i) => {
+        ri.classList.toggle("active", i === index);
+      });
+      regionCols.forEach((rc, i) => {
+        rc.style.display = (i === index) ? "flex" : "none";
+      });
+    }
+
+    activateRegion(0);
+
+    regionItems.forEach((ri, idx) => {
+      ri.addEventListener("mouseenter", () => activateRegion(idx));
+    });
+  });
+});
+</script>
+
+                    </ul>
+                  
+                </div>
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/denizens/races/brunars">
+                    
+                      Brunars
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/denizens/races/saltuars">
+                    
+                      Saltuars
+                    
+                  </a>
+                  
+                    <ul class="mega-submenu depth-2">
+                      
+
+<li class="nav-item">
+  <a href="/denizens/races/saltuars/monti">
+    
+      Monti
+    
+  </a>
+
+  
+</li>
+
+
+<li class="nav-item">
+  <a href="/denizens/races/saltuars/largars">
+    
+      Largars
+    
+  </a>
+
+  
+</li>
+
+
+<li class="nav-item">
+  <a href="/denizens/races/saltuars/senfenns">
+    
+      Senfenns
+    
+  </a>
+
+  
+</li>
+
+
+<li class="nav-item">
+  <a href="/denizens/races/saltuars/malvars">
+    
+      Malvars
+    
+  </a>
+
+  
+</li>
+
+
+<li class="nav-item">
+  <a href="/denizens/races/saltuars/sudians">
+    
+      Sudians
+    
+  </a>
+
+  
+</li>
+
+
+<li class="nav-item">
+  <a href="/denizens/races/saltuars/oremians">
+    
+      Oremians
+    
+  </a>
+
+  
+</li>
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const navItems = document.querySelectorAll(".nav-item.has-submenu");
+
+  navItems.forEach(function(item) {
+    const megaMenuPlaces = item.querySelector(".mega-menu--places");
+    if (!megaMenuPlaces) return; 
+
+    item.addEventListener("mouseenter", function(){
+      megaMenuPlaces.style.display = "flex"; 
+    });
+    item.addEventListener("mouseleave", function(){
+      megaMenuPlaces.style.display = "none";
+    });
+    const regionItems = megaMenuPlaces.querySelectorAll(".region-item");
+    const regionCols  = megaMenuPlaces.querySelectorAll(".region-col");
+
+    if (regionItems.length === 0 || regionCols.length === 0) return;
+
+    function activateRegion(index) {
+      regionItems.forEach((ri, i) => {
+        ri.classList.toggle("active", i === index);
+      });
+      regionCols.forEach((rc, i) => {
+        rc.style.display = (i === index) ? "flex" : "none";
+      });
+    }
+
+    activateRegion(0);
+
+    regionItems.forEach((ri, idx) => {
+      ri.addEventListener("mouseenter", () => activateRegion(idx));
+    });
+  });
+});
+</script>
+
+                    </ul>
+                  
+                </div>
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/denizens/races/bryleahns">
+                    
+                      Bryleahns
+                    
+                  </a>
+                  
+                </div>
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/denizens/races/kyonnhs">
+                    
+                      Kyönnhs
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/denizens/races/noctids">
+                    
+                      Noctids
+                    
+                  </a>
+                  
+                </div>
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/denizens/races/flammars">
+                    
+                      Flammars
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+        </div>
+      </div>
+
+    
+  
+</li>
+
+
+<li class="nav-item has-submenu">
+  <a href="/wonders">
+    
+      Wonders
+    
+  </a>
+
+  
+      <div class="mega-menu">
+        <div class="mega-menu-inner">
+          
+          
+          
+          
+          
+          
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/wonders/pantheon">
+                    
+                      Pantheon
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/wonders/spirits">
+                    
+                      The Spirits of Verda
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+            </div>
+            
+          
+        </div>
+      </div>
+
+    
+  
+</li>
+
+
+<li class="nav-item has-submenu">
+  <a href="/extras">
+    
+      Extras
+    
+  </a>
+
+  
+      <div class="mega-menu">
+        <div class="mega-menu-inner">
+          
+          
+          
+          
+          
+          
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/extras/stories">
+                    
+                      Stories
+                    
+                  </a>
+                  
+                    <ul class="mega-submenu depth-2">
+                      
+
+<li class="nav-item">
+  <a href="/extras/stories/myth">
+    
+      Myth
+    
+  </a>
+
+  
+</li>
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const navItems = document.querySelectorAll(".nav-item.has-submenu");
+
+  navItems.forEach(function(item) {
+    const megaMenuPlaces = item.querySelector(".mega-menu--places");
+    if (!megaMenuPlaces) return; 
+
+    item.addEventListener("mouseenter", function(){
+      megaMenuPlaces.style.display = "flex"; 
+    });
+    item.addEventListener("mouseleave", function(){
+      megaMenuPlaces.style.display = "none";
+    });
+    const regionItems = megaMenuPlaces.querySelectorAll(".region-item");
+    const regionCols  = megaMenuPlaces.querySelectorAll(".region-col");
+
+    if (regionItems.length === 0 || regionCols.length === 0) return;
+
+    function activateRegion(index) {
+      regionItems.forEach((ri, i) => {
+        ri.classList.toggle("active", i === index);
+      });
+      regionCols.forEach((rc, i) => {
+        rc.style.display = (i === index) ? "flex" : "none";
+      });
+    }
+
+    activateRegion(0);
+
+    regionItems.forEach((ri, idx) => {
+      ri.addEventListener("mouseenter", () => activateRegion(idx));
+    });
+  });
+});
+</script>
+
+                    </ul>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/extras/blog">
+                    
+                      Blog
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+            </div>
+            
+          
+        </div>
+      </div>
+
+    
+  
+</li>
+
+
+<li class="nav-item has-submenu">
+  <a href="/about">
+    
+      About
+    
+  </a>
+
+  
+      <div class="mega-menu">
+        <div class="mega-menu-inner">
+          
+          
+          
+          
+          
+          
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/about/wip">
+                    
+                      Work in Progress
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/license">
+                    
+                      License
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/about/templates">
+                    
+                      Guides Templates
+                    
+                  </a>
+                  
+                    <ul class="mega-submenu depth-2">
+                      
+
+<li class="nav-item">
+  <a href="/about/templates/template_malkona">
+    
+      A Guide to Malkona
+    
+  </a>
+
+  
+</li>
+
+
+<li class="nav-item">
+  <a href="/about/templates/template_region">
+    
+      Regional Guide
+    
+  </a>
+
+  
+</li>
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const navItems = document.querySelectorAll(".nav-item.has-submenu");
+
+  navItems.forEach(function(item) {
+    const megaMenuPlaces = item.querySelector(".mega-menu--places");
+    if (!megaMenuPlaces) return; 
+
+    item.addEventListener("mouseenter", function(){
+      megaMenuPlaces.style.display = "flex"; 
+    });
+    item.addEventListener("mouseleave", function(){
+      megaMenuPlaces.style.display = "none";
+    });
+    const regionItems = megaMenuPlaces.querySelectorAll(".region-item");
+    const regionCols  = megaMenuPlaces.querySelectorAll(".region-col");
+
+    if (regionItems.length === 0 || regionCols.length === 0) return;
+
+    function activateRegion(index) {
+      regionItems.forEach((ri, i) => {
+        ri.classList.toggle("active", i === index);
+      });
+      regionCols.forEach((rc, i) => {
+        rc.style.display = (i === index) ? "flex" : "none";
+      });
+    }
+
+    activateRegion(0);
+
+    regionItems.forEach((ri, idx) => {
+      ri.addEventListener("mouseenter", () => activateRegion(idx));
+    });
+  });
+});
+</script>
+
+                    </ul>
+                  
+                </div>
+              
+            </div>
+            
+          
+        </div>
+      </div>
+
+    
+  
+</li>
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const navItems = document.querySelectorAll(".nav-item.has-submenu");
+
+  navItems.forEach(function(item) {
+    const megaMenuPlaces = item.querySelector(".mega-menu--places");
+    if (!megaMenuPlaces) return; 
+
+    item.addEventListener("mouseenter", function(){
+      megaMenuPlaces.style.display = "flex"; 
+    });
+    item.addEventListener("mouseleave", function(){
+      megaMenuPlaces.style.display = "none";
+    });
+    const regionItems = megaMenuPlaces.querySelectorAll(".region-item");
+    const regionCols  = megaMenuPlaces.querySelectorAll(".region-col");
+
+    if (regionItems.length === 0 || regionCols.length === 0) return;
+
+    function activateRegion(index) {
+      regionItems.forEach((ri, i) => {
+        ri.classList.toggle("active", i === index);
+      });
+      regionCols.forEach((rc, i) => {
+        rc.style.display = (i === index) ? "flex" : "none";
+      });
+    }
+
+    activateRegion(0);
+
+    regionItems.forEach((ri, idx) => {
+      ri.addEventListener("mouseenter", () => activateRegion(idx));
+    });
+  });
+});
+</script>
+
+  </ul>
+</nav>
+
+        </ul>
     </div>
 </header>
 
@@ -456,27 +2559,8 @@
 </div>
 
 <script>
-
-
-    document.addEventListener('DOMContentLoaded', function () {
-        const burgerBtn = document.getElementById('burger-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-
-        burgerBtn.addEventListener('click', function () {
-            mobileMenu.classList.toggle('active');
-        });
-    });
-
-    console.log("Image modal script loaded!");
-
     document.addEventListener("DOMContentLoaded", function () {
-        document.querySelectorAll('.submenu-toggle').forEach(button => {
-            button.addEventListener('click', function (event) {
-                event.stopPropagation();
-                let parent = this.closest('.has-submenu');
-                parent.classList.toggle('open');
-            });
-        });
+        console.log("Image modal script loaded!");
 
         let images = Array.from(document.querySelectorAll("img.phb-image"));
         let modal = document.getElementById("imageModal");
@@ -495,6 +2579,7 @@
             modal.style.display = "flex";
             navButtons.style.display = images.length > 1 ? "flex" : "none";
         }
+
         function closeModal() {
             modal.style.display = "none";
         }
@@ -530,6 +2615,7 @@
         window.closeModal = closeModal;
         window.changeImage = changeImage;
     });
+
 </script>
     <main role="main" id="main" class="phb">
         <div class="wide" style="margin-bottom: 36px">
@@ -2606,8 +4692,8 @@
     
 
     "style-css": {
-      "title": "{&quot;global&quot;=&gt;{&quot;tagline&quot;=&gt;&quot;English&quot;, &quot;about&quot;=&gt;&quot;About&quot;, &quot;worldname&quot;=&gt;&quot;Taliskarn&quot;, &quot;worldalias&quot;=&gt;&quot;The World of Unwritten Maps&quot;, &quot;english&quot;=&gt;&quot;English&quot;, &quot;russian&quot;=&gt;&quot;Русский&quot;, &quot;search_results&quot;=&gt;&quot;Search Results&quot;, &quot;notification_banner&quot;=&gt;&quot;The World of Taliskarn is currently under development, and all content is in draft form. The English version will be updated once the pre-beta for the Russian version (the original development language) is complete. Thank you for your understanding! For more details, please visit &lt;a href=\&quot;/about\&quot; target=\&quot;_self\&quot;&gt;this page&lt;/a&gt;.&quot;, &quot;wip&quot;=&gt;&quot;Work in Progress&quot;, &quot;nope&quot;=&gt;404, &quot;auto&quot;=&gt;&quot;Autogenerated&quot;, &quot;news&quot;=&gt;&quot;News&quot;}, &quot;titles&quot;=&gt;{&quot;dd&quot;=&gt;&quot;Dev Diaries&quot;}, &quot;service&quot;=&gt;{&quot;open_in_full&quot;=&gt;&quot;Open in full size&quot;, &quot;note&quot;=&gt;&quot;Margin Scribble&quot;, &quot;tba&quot;=&gt;&quot;To Be Announced&quot;, &quot;wip&quot;=&gt;&quot;Work in Progress&quot;, &quot;idea&quot;=&gt;&quot;Questionable Idea&quot;, &quot;wip_disclaimer&quot;=&gt;&quot;&lt;strong&gt;Work in Progress&lt;/strong&gt;&lt;br&gt;I&apos;m actively working on creating Taliskarn right now. It&apos;s an enormous amount of tasks, so at this stage, many pages on this website contain only the most basic information – my thoughts and ideas that I am gradually turning into reality. &lt;br&gt;&lt;br&gt;For more details on what&apos;s coming next, you can check out the &lt;a href=\&quot;/about\&quot; target=\&quot;_self\&quot;&gt;Roadmap&lt;/a&gt;; I regularly publish current updates in the &lt;a href=\&quot;/extras/blog\&quot; target=\&quot;_self\&quot;&gt;Blog&lt;/a&gt;, and most importhantly, I&apos;m always open to feedback. Even more than that – I&apos;ll be incredibly grateful for it! &lt;br&gt;&lt;br&gt;If you have the time and inclination to read my notes, and if you happen to come up with any ideas, criticisms, or suggestions, please share them with me. All contact information is available on the &lt;a href=\&quot;/about#links\&quot; target=\&quot;_self\&quot;&gt;About&lt;/a&gt; page and in the header.&lt;br&gt;&lt;br&gt;And thank you for your interest in Taliskarn!&quot;, &quot;copyright&quot;=&gt;&quot;Powered by Orthan Thundy, 2025&quot;, &quot;filter_by_category&quot;=&gt;&quot;Filter by category&quot;, &quot;all_posts&quot;=&gt;&quot;All Posts&quot;, &quot;read_more&quot;=&gt;&quot;Read more&quot;, &quot;newer_posts&quot;=&gt;&quot;Newer Posts&quot;, &quot;older_posts&quot;=&gt;&quot;Older Posts&quot;, &quot;tta&quot;=&gt;&quot;To Think About&quot;, &quot;discord&quot;=&gt;&quot;Join Discord&quot;}, &quot;nav&quot;=&gt;{&quot;home&quot;=&gt;&quot;Home&quot;, &quot;core&quot;=&gt;&quot;Core&quot;, &quot;map&quot;=&gt;&quot;Map&quot;, &quot;races&quot;=&gt;&quot;Races&quot;, &quot;lore&quot;=&gt;&quot;Lore&quot;, &quot;stories&quot;=&gt;&quot;Stories&quot;, &quot;blog&quot;=&gt;&quot;Blog&quot;, &quot;arts&quot;=&gt;&quot;Arts&quot;, &quot;credits&quot;=&gt;&quot;Credits&quot;, &quot;links&quot;=&gt;&quot;Links&quot;, &quot;world_basics&quot;=&gt;&quot;World Basics&quot;, &quot;magic&quot;=&gt;&quot;Magic&quot;, &quot;for_dm&quot;=&gt;&quot;Taliskarn for DMs&quot;, &quot;two_taliskarns&quot;=&gt;&quot;The Two Taliskarns&quot;, &quot;taliskarn_dt&quot;=&gt;&quot;Dark Times (DT)&quot;, &quot;taliskarn_nd&quot;=&gt;&quot;New Dawn (ND)&quot;, &quot;faq&quot;=&gt;&quot;FAQ&quot;, &quot;myth&quot;=&gt;&quot;Myth&quot;, &quot;world&quot;=&gt;&quot;World&quot;, &quot;extras&quot;=&gt;&quot;Extras&quot;, &quot;roadmap&quot;=&gt;&quot;Roadmap&quot;, &quot;search&quot;=&gt;&quot;Search Results&quot;, &quot;pantheon&quot;=&gt;&quot;Pantheon&quot;, &quot;religions&quot;=&gt;&quot;Religions&quot;, &quot;bestiary&quot;=&gt;&quot;Bestiary&quot;, &quot;glossary&quot;=&gt;&quot;Glossary&quot;, &quot;denizens&quot;=&gt;&quot;Denizens&quot;, &quot;wonders&quot;=&gt;&quot;Wonders&quot;, &quot;chronicle&quot;=&gt;&quot;Chronicle&quot;, &quot;alchemy&quot;=&gt;&quot;Alchemy&quot;, &quot;license&quot;=&gt;&quot;License&quot;, &quot;templates&quot;=&gt;&quot;Guides Templates&quot;, &quot;template_malkona&quot;=&gt;&quot;A Guide to Malkona&quot;, &quot;template_region&quot;=&gt;&quot;Regional Guide&quot;, &quot;spirits&quot;=&gt;&quot;The Spirits of Verda&quot;}, &quot;places&quot;=&gt;{&quot;malkona&quot;=&gt;&quot;Malkona&quot;, &quot;places&quot;=&gt;&quot;Places&quot;, &quot;riku&quot;=&gt;&quot;Riku Highlands&quot;, &quot;verda&quot;=&gt;&quot;Verdant Verdas&quot;, &quot;bryleahn_jungles&quot;=&gt;&quot;Bryleahn Jungles&quot;, &quot;warm_sea&quot;=&gt;&quot;The Warm Sea&quot;, &quot;wilderreach&quot;=&gt;&quot;The Wilderreach&quot;, &quot;scarred_lands&quot;=&gt;&quot;Scarred Lands of Bruna&quot;, &quot;noctaria&quot;=&gt;&quot;Noctaria&quot;, &quot;flammarg_shards&quot;=&gt;&quot;Flammarg&apos;s Shards&quot;, &quot;sanguama&quot;=&gt;&quot;Sanguama&quot;, &quot;bryleahn_scar&quot;=&gt;&quot;Bryleahn Scar&quot;, &quot;azure_haven&quot;=&gt;&quot;Azure Haven&quot;, &quot;valley_of_the_source&quot;=&gt;&quot;Valley of the Source&quot;, &quot;meza&quot;=&gt;&quot;Meza&quot;, &quot;irmaris&quot;=&gt;&quot;Irmaris&quot;, &quot;fetid_fens&quot;=&gt;&quot;Fetid Fens&quot;, &quot;ashen_frontier&quot;=&gt;&quot;The Ashen Frontier&quot;, &quot;montwyn_hills&quot;=&gt;&quot;The Montwyn Hills&quot;, &quot;lake_larga&quot;=&gt;&quot;Lake Larga&quot;, &quot;lake_senfunda&quot;=&gt;&quot;Lake Senfunda&quot;, &quot;lake_malvarma&quot;=&gt;&quot;Lake Malvarma&quot;, &quot;steps&quot;=&gt;&quot;The Steps&quot;, &quot;windhill_plains&quot;=&gt;&quot;The Windhill Steppe&quot;, &quot;shorelands&quot;=&gt;&quot;The Shorelands&quot;, &quot;southern_sea&quot;=&gt;&quot;The Southern Sea&quot;, &quot;negata&quot;=&gt;&quot;Negata&quot;, &quot;narem&quot;=&gt;&quot;Narem&quot;, &quot;orem&quot;=&gt;&quot;Orem&quot;, &quot;capar&quot;=&gt;&quot;Cape Capar&quot;, &quot;eastern_shore&quot;=&gt;&quot;The Eastern Shore&quot;, &quot;chillbay&quot;=&gt;&quot;The Chillbay&quot;}, &quot;cities&quot;=&gt;{&quot;varmego&quot;=&gt;&quot;Varmego&quot;, &quot;duerbo&quot;=&gt;&quot;Duerbo&quot;, &quot;marcolo&quot;=&gt;&quot;Marcolo&quot;, &quot;buso&quot;=&gt;&quot;Buso&quot;}, &quot;races&quot;=&gt;{&quot;humans&quot;=&gt;&quot;Humans&quot;, &quot;prymars&quot;=&gt;&quot;Prymars&quot;, &quot;arydars&quot;=&gt;&quot;Arydars&quot;, &quot;kromrs&quot;=&gt;&quot;Kromrs&quot;, &quot;tondrantars&quot;=&gt;&quot;Tondrantars&quot;, &quot;malnurs&quot;=&gt;&quot;Malnurs&quot;, &quot;brunars&quot;=&gt;&quot;Brunars&quot;, &quot;saltuars&quot;=&gt;&quot;Saltuars&quot;, &quot;bryleahns&quot;=&gt;&quot;Bryleahns&quot;, &quot;kyonnhs&quot;=&gt;&quot;Kyönnhs&quot;, &quot;noctids&quot;=&gt;&quot;Noctids&quot;, &quot;flammars&quot;=&gt;&quot;Flammars&quot;, &quot;monti&quot;=&gt;&quot;Monti&quot;, &quot;senfenns&quot;=&gt;&quot;Senfenns&quot;, &quot;largars&quot;=&gt;&quot;Largars&quot;, &quot;sudians&quot;=&gt;&quot;Sudians&quot;, &quot;oremians&quot;=&gt;&quot;Oremians&quot;, &quot;malvars&quot;=&gt;&quot;Malvars&quot;}, &quot;pantheon&quot;=&gt;{&quot;fluere&quot;=&gt;&quot;Fluere&quot;, &quot;kaelesta&quot;=&gt;&quot;Kaelesta&quot;, &quot;solkalor&quot;=&gt;&quot;Solkalor&quot;, &quot;ferrude&quot;=&gt;&quot;Ferrude&quot;, &quot;aurehjo&quot;=&gt;&quot;Aurehjo&quot;, &quot;tranqa&quot;=&gt;&quot;Tranqa&quot;, &quot;kustopha&quot;=&gt;&quot;Kustopha&quot;, &quot;dhfhalbh&quot;=&gt;&quot;Dh’Fhalbh&quot;, &quot;flumorn&quot;=&gt;&quot;Flumorn&quot;}, &quot;bestiary&quot;=&gt;{&quot;moss_hide&quot;=&gt;&quot;Moss-Hide Beast&quot;, &quot;tensur&quot;=&gt;&quot;Tensur&quot;, &quot;shadowboar&quot;=&gt;&quot;Shadowboar&quot;, &quot;nabling&quot;=&gt;&quot;Nabling&quot;}, &quot;special&quot;=&gt;{&quot;lakrikael&quot;=&gt;&quot;Lakrikael&quot;, &quot;azurit&quot;=&gt;&quot;Azurit&quot;}, &quot;religions&quot;=&gt;{&quot;cult_of_currents&quot;=&gt;&quot;Cult of Currents&quot;, &quot;ancestor_cult&quot;=&gt;&quot;Ancestor Cult&quot;, &quot;cult_of_spirits&quot;=&gt;&quot;Cult of Spirits&quot;}, &quot;langs&quot;=&gt;{&quot;en&quot;=&gt;&quot;English&quot;, &quot;ru&quot;=&gt;&quot;Русский&quot;}, &quot;articles&quot;=&gt;{&quot;toc_title&quot;=&gt;&quot;Table of Content&quot;}, &quot;stories&quot;=&gt;{&quot;khurh_zan_ul&quot;=&gt;&quot;Khurh-zan-ul&quot;}, &quot;breadcrumbs&quot;=&gt;{&quot;nav&quot;=&gt;nil, &quot;home&quot;=&gt;&quot;Homepage&quot;, &quot;core&quot;=&gt;&quot;Core&quot;, &quot;map&quot;=&gt;&quot;Map&quot;, &quot;races&quot;=&gt;&quot;Races&quot;, &quot;lore&quot;=&gt;&quot;Lore&quot;, &quot;stories&quot;=&gt;&quot;Stories&quot;, &quot;blog&quot;=&gt;&quot;Blog&quot;, &quot;arts&quot;=&gt;&quot;Arts&quot;, &quot;credits&quot;=&gt;&quot;Credits&quot;, &quot;links&quot;=&gt;&quot;Links&quot;, &quot;news&quot;=&gt;&quot;News&quot;, &quot;world_basics&quot;=&gt;&quot;World Basics&quot;, &quot;magic&quot;=&gt;&quot;Magic&quot;, &quot;for_dm&quot;=&gt;&quot;Taliskarn for DMs&quot;, &quot;two_taliskarns&quot;=&gt;&quot;The Two Taliskarns&quot;, &quot;taliskarn_dt&quot;=&gt;&quot;Dark Times (DT)&quot;, &quot;taliskarn_nd&quot;=&gt;&quot;New Dawn (ND)&quot;, &quot;faq&quot;=&gt;&quot;FAQ&quot;, &quot;myth&quot;=&gt;&quot;Myth&quot;, &quot;world&quot;=&gt;&quot;World&quot;, &quot;extras&quot;=&gt;&quot;Extras&quot;, &quot;roadmap&quot;=&gt;&quot;Roadmap&quot;, &quot;search&quot;=&gt;&quot;Search Results&quot;, &quot;malkona&quot;=&gt;&quot;Malkona&quot;, &quot;places&quot;=&gt;&quot;Places&quot;, &quot;riku&quot;=&gt;&quot;Riku Highlands&quot;, &quot;verda&quot;=&gt;&quot;Verdant Verdas&quot;, &quot;bryleahn_jungles&quot;=&gt;&quot;Bryleahn Jungles&quot;, &quot;bryleah&quot;=&gt;&quot;Bryleah&quot;, &quot;warm_sea&quot;=&gt;&quot;The Warm Sea&quot;, &quot;wilderreach&quot;=&gt;&quot;The Wilderreach&quot;, &quot;scarred_lands&quot;=&gt;&quot;Scarred Lands of Bruna&quot;, &quot;noctaria&quot;=&gt;&quot;Noctaria&quot;, &quot;flammarg_shards&quot;=&gt;&quot;Flammarg&apos;s Shards&quot;, &quot;valley_of_the_source&quot;=&gt;&quot;Valley of the Source&quot;, &quot;humans&quot;=&gt;&quot;Humans&quot;, &quot;prymars&quot;=&gt;&quot;Prymars&quot;, &quot;arydars&quot;=&gt;&quot;Arydars&quot;, &quot;brunars&quot;=&gt;&quot;Brunars&quot;, &quot;saltuars&quot;=&gt;&quot;Saltuars&quot;, &quot;bryleahns&quot;=&gt;&quot;Bryleahns&quot;, &quot;kyonnhs&quot;=&gt;&quot;Kyönnhs&quot;, &quot;noctids&quot;=&gt;&quot;Noctids&quot;, &quot;flammars&quot;=&gt;&quot;Flammars&quot;, &quot;fluere&quot;=&gt;&quot;Fluere&quot;, &quot;kaelesta&quot;=&gt;&quot;Kaelesta&quot;, &quot;solkalor&quot;=&gt;&quot;Solkalor&quot;, &quot;ferrude&quot;=&gt;&quot;Ferrude&quot;, &quot;aurehjo&quot;=&gt;&quot;Aurehjo&quot;, &quot;tranqa&quot;=&gt;&quot;Tranqa&quot;, &quot;kustopha&quot;=&gt;&quot;Kustopha&quot;, &quot;dhfhalbh&quot;=&gt;&quot;Dh’Fhalbh&quot;, &quot;flumorn&quot;=&gt;&quot;Flumorn&quot;, &quot;pantheon&quot;=&gt;&quot;Pantheon&quot;, &quot;spirits&quot;=&gt;&quot;The Spirits of Verda&quot;, &quot;unfinished&quot;=&gt;&quot;WIP&quot;, &quot;cult_of_currents&quot;=&gt;&quot;Cult of Currents&quot;, &quot;religions&quot;=&gt;&quot;Religions&quot;, &quot;bryleahn_scar&quot;=&gt;&quot;Bryleahn Scar&quot;, &quot;azure_haven&quot;=&gt;&quot;Azure Haven&quot;, &quot;meza&quot;=&gt;&quot;Meza&quot;, &quot;bestiary&quot;=&gt;&quot;Bestiary&quot;, &quot;irmaris&quot;=&gt;&quot;Irmaris&quot;, &quot;glossary&quot;=&gt;&quot;Glossary&quot;, &quot;wonders&quot;=&gt;&quot;Wonders&quot;, &quot;denizens&quot;=&gt;&quot;Denizens&quot;, &quot;about&quot;=&gt;&quot;About&quot;, &quot;moss_hide&quot;=&gt;&quot;Moss-Hide Beast&quot;, &quot;tensur&quot;=&gt;&quot;Tensur&quot;, &quot;shadowboar&quot;=&gt;&quot;Shadowboar&quot;, &quot;nabling&quot;=&gt;&quot;Nabling&quot;, &quot;fetid_fens&quot;=&gt;&quot;Fetid Fens&quot;, &quot;chronicle&quot;=&gt;&quot;Chronicle&quot;, &quot;ancestor_cult&quot;=&gt;&quot;Ancestor Cult&quot;, &quot;cult_of_spirits&quot;=&gt;&quot;Cult of Spirits&quot;, &quot;alchemy&quot;=&gt;&quot;Alchemy&quot;, &quot;wip&quot;=&gt;&quot;Work in Progress&quot;, &quot;license&quot;=&gt;&quot;License&quot;, &quot;khurh_zan_ul&quot;=&gt;&quot;Khurh-zan-ul&quot;, &quot;templates&quot;=&gt;&quot;Guides Templates&quot;, &quot;template_malkona&quot;=&gt;&quot;A Guide to Malkona&quot;, &quot;template_region&quot;=&gt;&quot;Regional Guide&quot;, &quot;ashen_frontier&quot;=&gt;&quot;The Ashen Frontier&quot;, &quot;dev diaries&quot;=&gt;&quot;dev diaries&quot;, &quot;monti&quot;=&gt;&quot;Monti&quot;, &quot;senfenns&quot;=&gt;&quot;Senfenns&quot;, &quot;largars&quot;=&gt;&quot;Largars&quot;, &quot;sudians&quot;=&gt;&quot;Sudians&quot;, &quot;oremians&quot;=&gt;&quot;Oremians&quot;, &quot;malvars&quot;=&gt;&quot;Malvars&quot;, &quot;montwyn_hills&quot;=&gt;&quot;The Montwyn Hills&quot;, &quot;lake_larga&quot;=&gt;&quot;Lake Larga&quot;, &quot;lake_senfunda&quot;=&gt;&quot;Lake Senfunda&quot;, &quot;lake_malvarma&quot;=&gt;&quot;Lake Malvarma&quot;, &quot;steps&quot;=&gt;&quot;The Steps&quot;, &quot;kromrs&quot;=&gt;&quot;Kromrs&quot;, &quot;tondrantars&quot;=&gt;&quot;Tondrantars&quot;, &quot;malnurs&quot;=&gt;&quot;Malnurs&quot;, &quot;windhill_plains&quot;=&gt;&quot;The Windhill Steppe&quot;, &quot;varmego&quot;=&gt;&quot;Varmego&quot;, &quot;shorelands&quot;=&gt;&quot;The Shorelands&quot;, &quot;southern_sea&quot;=&gt;&quot;The Southern Sea&quot;, &quot;negata&quot;=&gt;&quot;Negata&quot;, &quot;narem&quot;=&gt;&quot;Narem&quot;, &quot;orem&quot;=&gt;&quot;Orem&quot;, &quot;capar&quot;=&gt;&quot;Cape Capar&quot;, &quot;eastern_shore&quot;=&gt;&quot;The Eastern Shore&quot;, &quot;chillbay&quot;=&gt;&quot;The Chillbay&quot;, &quot;duerbo&quot;=&gt;&quot;Duerbo&quot;, &quot;marcolo&quot;=&gt;&quot;Marcolo&quot;, &quot;buso&quot;=&gt;&quot;Buso&quot;}}",
-      "content": "@import 'reset.scss';@import 'phb.fonts.scss';@import 'phb.assets.scss';@import 'phb.depricated.scss';@import 'phb.style.scss';@font-face {  font-family: 'Constantine';  src: url('/assets/fonts/Constantine.woff2') format('woff2'),     url('/assets/fonts/Constantine.woff') format('woff');  font-weight: normal;  font-style: normal; }  @font-face {  font-family: 'Constantine';  src: url('/assets/fonts/Constantine_Bold.woff2') format('woff2'),     url('/assets/fonts/Constantine_Bold.woff') format('woff');  font-weight: bold;  font-style: normal; } body {  max-width: 1250px;  min-width: 580px;  margin: 0 auto;  padding: 0 16px;  background-color: rgb(181, 170, 146);  box-shadow: 10cap;}.phb {  // overflow: scroll !important;  height: auto !important;  width: auto !important;  font-size: 1em !important;  padding: 1em 3em;  min-height: 100vh;  h1 {    font-size: 300%;  }  h2 {    font-size: 175%;  }  // p + h2,  // ul + h2,  // ol + h2 {  //   margin-top: 1em;  // }  h3 {    font-size: 150%;  }  h4,  h5 {    font-size: 125%;  }  p {    margin-bottom: 4px;  }  a {    transition: all 0.2s;    color: $headerText;    text-decoration: underline;  }  a:hover {    transform: translateX(5px);    color: #a67c52;  }}#banner {  background: black;  color: white;  padding: 1em 3em;}/* PHB-styled pictures */.phb-image-container {  text-align: center;  width: 100%;  margin: 20px 0;}.phb-image {  display: block;  max-width: 80%;  height: auto;  border: 4px solid #8b5a2b;  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);  border-radius: 5px;  margin: 0 auto;}.phb-image-caption {  font-style: italic;  font-size: 0.9em;  color: #555;  margin-top: 5px;}@media (max-width: 900px) {  .taliskarn-title {    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);  }  .taliskarn-subtitle {    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);  }}// blog.blog-list {  display: flex;  flex-direction: column;  gap: 1rem;}.blog-post {  display: flex;  align-items: center;  gap: 1.5rem;  padding: 1.5rem;  border: 1px solid #aaa;  border-radius: 8px;  /* background: #fff; */  transition: box-shadow 0.3s ease;}.blog-post:hover {  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);}.blog-image {  width: 180px;  height: 120px;  object-fit: cover;  border-radius: 6px;}.blog-content {  flex: 1;}.blog-meta {  font-size: 0.9rem;  color: #666;}.blog-excerpt {  font-size: 1rem;  color: #333;}.read-more {  display: inline-block;  color: #0073e6;  text-decoration: none;  font-weight: bold;}.read-more:hover {  text-decoration: underline;}//Wiki.wiki-article {  display: inline-block;   margin-right: 15px;}.article-title {  border-bottom: 2px solid #8b4513;}.article-content {  flex: 1 1 70%;}.article-text {  line-height: 1.6;  font-size: 1.1rem;}.article-sidebar {  flex: 1 1 25%;  background: #fff;  padding: 15px;  border: 1px solid #ddd;  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);}.article-image img {  width: 100%;  border: 2px solid #8b4513;  margin-bottom: 15px;}.article-info h3 {  font-size: 1.5rem;  margin-bottom: 10px;}.article-info ul {  list-style: none;  padding: 0;}.article-info ul li {  margin-bottom: 8px;  font-size: 1rem;}.info-box {  float: right;  margin: 0 0 15px 15px;  // padding: 4px;  width: 300px;  // border: 2px solid #8b4513;}.info-box img {  max-width: 95%;  height: auto;  display: block;  border-radius: 5px;  margin: auto;}.info-box table {  width: 97%;  border-collapse: collapse;  font-size: 14px;  margin: 4px auto;}.info-box table,.info-box th,.info-box td {  border: 1px solid #ccc;}.info-box th,.info-box td {  padding: 5px;  text-align: left;}/* Navigation */.nav-desktop {  display: block;}.navigation-container {  display: flex;  justify-content: center;  align-items: center;  position: relative;  background: #333;}.navigation {  list-style: none;  padding: 0;  margin: 0;  display: flex;  flex-wrap: wrap;  justify-content: left;  font-family: 'Constantine';}.navigation > li {  position: relative; }.navigation a {  display: inline-block;  padding: 10px 20px;  color: white;  text-decoration: none;  transition: background 0.3s;}.navigation a:hover {  background: #444;}.submenu {  list-style: none;  padding: 0;  margin: 0;  position: absolute;  left: 0;  top: 100%;  background: #444;  display: none;  min-width: 150px;  z-index: 1000;}.navigation li:hover > .submenu {  display: block;}.submenu li {  position: relative;}.submenu li .submenu {  position: absolute;  top: 0;     left: 100%;   background: #444;  display: none;  min-width: 150px;  z-index: 1000;}.submenu li:hover > .submenu {  display: block;}.navigation-container.open .navigation {  display: flex;  flex-direction: column;  width: 100%;  text-align: left;}/* Адаптивные стили */@media (max-width: 900px) {  .header-contacts {    display: none;  }  .header-contacts-mobile {    display: block;  }  .submenu-toggle {    display: inline-block;  }  .nav-desktop {    display: none;  }  .navigation {    flex-direction: column;    width: 100%;    background: #333;  }  .navigation > li {    text-align: center;  }  .submenu {    position: static;    display: none;  }  .navigation li.open > .submenu {    display: block;  }}/* Modal Window for Images */.modal {  display: none;  position: fixed;  z-index: 1000;  left: 0;  top: 0;  width: 100%;  height: 100%;  background-color: rgba(0, 0, 0, 0.8);  cursor: pointer;}.modal-content {  display: flex;  flex-direction: column;  align-items: center;  justify-content: center;  height: 100%;  position: fixed;  top: 50%;  left: 50%;  transform: translate(-50%, -50%);  cursor: auto;}.modal img {  max-width: 90vw;  max-height: 90vh;  width: auto;  height: auto;  object-fit: contain;  border-radius: 8px;  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);}.modal p {  color: white;  margin: 20px 0;  font-size: 1rem;  text-align: center;}.close {  position: absolute;  top: 15px;  right: 25px;  font-size: 30px;  color: white;  cursor: pointer;}.nav-buttons {  position: absolute;  width: 100%;  top: 50%;  transform: translateY(-50%);  display: flex;  justify-content: space-between;}.prev {  font-size: 30px;  color: white;  cursor: pointer;  padding: 10px;  user-select: none;  margin-left: 20px;}.next {  font-size: 30px;  color: white;  cursor: pointer;  padding: 10px;  user-select: none;  margin-right: 20px;}/* Adaptivity */@media (max-width: 600px) {  .info-box {    float: none;    margin: 0 auto 15px;    width: 100%;    text-align: center;  }  .info-box table {    font-size: 16px;  }}@media (max-width: 768px) {  .wiki-article {    flex-direction: column;  }  .article-sidebar {    order: -1;  }}// Notification Banner.notification_banner {  background-color: #f8f2c3;  color: #000;  text-align: center;  padding: 6px 8px 6px 8px;  font-size: 14px;  position: sticky;  top: 0;  z-index: 900;}.notification_banner a {  color: #007bff;  text-decoration: underline;}/* Table of Content - */#toc {  position: sticky;  max-height: 80vh;  overflow-y: auto;  padding: 1rem;  background: #f4e9d8;  border: 2px solid #6b4a2b;  border-radius: 12px;  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);  font-weight: bold;  margin-bottom: 20px;}.toc-list a {  display: block;  text-decoration: none;  padding-left: 16px;}.toc-h3 {  margin-left: 16px;  font-size: 0.9em;  font-style: italic;  color: #774936;}.toc-title {  text-transform: uppercase;  font-size: 1.2em;  text-align: center;  color: #512b1b;  border-bottom: 2px solid #6b4a2b;  padding-bottom: 5px;  margin-bottom: 10px;}// Detailsdetails {  @include useSansSerif();  // margin: 10px 0;  // border: 2px solid #774936;  // border-radius: 8px;  // background: #f4e9d8;  // transition: all 0.3s ease-in-out;  overflow: hidden;}details[open] {  @include useSansSerif();  box-sizing: border-box;  margin-bottom: 1em;  padding: 0px 10px;  background-color: $noteGreen;  border-style: solid;  border-width: 11px;  border-image: $noteBorderImage 11;  border-image-outset: 9px 0px;  box-shadow: 1px 4px 14px #888;}summary {  font-size: 1em;  font-weight: bold;  color: #5a3825;  cursor: pointer;  padding: 4px;  transition: all 0.2s;}summary:hover {  color: #402417;  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);}details[open] summary {  margin-bottom: 10px;}.phb .epigraph {  font-style: italic; }.phb .epigraph p {  padding-bottom: 0.2em;  padding-top: 0.8em; } // Image Box.dnd-image-placeholder {  margin: 1em 0 1em 0;  width: 300px; }  .dnd-image-placeholder.left {  float: left;  margin-right: 1.5em;  max-width: 300px; }  .dnd-image-placeholder.right {  float: right;  margin-left: 1.5em;  max-width: 300px; }  .placeholder-container {  position: relative;  border: 3px solid #8b4513;  border-radius: 5px;  overflow: hidden;  }  .placeholder-container:not(.has-image) {  background: repeating-linear-gradient(   45deg,   #f0e6d3,   #f0e6d3 10px,   #e6d8c3 10px,   #e6d8c3 20px  );  min-height: 200px; }  .phb-image {  width: 100%;  height: auto;  display: block;  cursor: zoom-in;  transition: transform 0.2s; }  .phb-image:hover {  transform: scale(1.02); }  .inner-content {  position: absolute;  width: 100%;  height: 100%;  display: flex;  align-items: center;  justify-content: center;  padding: 15px;  box-sizing: border-box; }  .placeholder-text {  text-align: center;  color: #5a4a42;  font-size: 14px;  line-height: 1.4; }header {  background-color: #c9ad6a;  padding: 10px;  display: flex;  flex-direction: column;  gap: 10px; }  .nav-mobile {  display: block; }  .burger-btn {  font-size: 24px;  border: none;  cursor: pointer; }  .mobile-menu {  display: none;  position: absolute;  top: 64;  left: 0;  width: 100%;  background-color: #111;  z-index: 1001; }  .mobile-menu.active {  display: block; }  .header-content {  display: flex;  justify-content: space-between;  align-items: center;  flex-wrap: wrap;  gap: 20px; } .header-brand {  display: flex;  align-items: center;  gap: 20px; }  .site-title {  margin: 0;  font-family: 'Constantine', sans-serif;  font-size: 32px;  font-weight: 800;  letter-spacing: 1px; }  .site-title a {  color: white;  text-decoration: none; }  .header-contacts {  border-left: 1px white;  margin-top: 4px;  // display: flex;  // gap: 10px; }  .contact-link {  color: white;  text-decoration: none; }  .header-actions {  text-align: right;  // display: flex;  // align-items: center;  // gap: 20px; }  .language-switcher a {  color: white;  text-decoration: none; }  .header-search-form {  margin-top: 8px;  // display: flex;  // gap: 10px; }  .header-search-form input[type=\"text\"] {  // padding: 5px;  border: 1px solid #ccc;  border-radius: 4px;  max-width: 100px; }  .header-search-form button {  padding: 0px 10px;  background-color: #333;  color: white;  border: none;  border-radius: 4px;  cursor: pointer; }  .nav-desktop {  display: none; }  @media (min-width: 900px) {  .submenu-toggle {    display:none;    cursor: pointer;    padding: 5px;    font-size: 18px;    margin-left: 12px;  }    .header-contacts-mobile {    display: none;    text-align: center;  }    .nav-mobile {   display: none;  }   .nav-desktop {   display: block;  }   .nav-desktop .navigation {   display: flex;   gap: 4px;   list-style: none;   padding: 0;   margin: 0;  }   .nav-desktop .navigation a {   color: white;   text-decoration: none;  } }",
+      "title": "{&quot;global&quot;=&gt;{&quot;tagline&quot;=&gt;&quot;English&quot;, &quot;about&quot;=&gt;&quot;About&quot;, &quot;worldname&quot;=&gt;&quot;Taliskarn&quot;, &quot;worldalias&quot;=&gt;&quot;The World of Unwritten Maps&quot;, &quot;english&quot;=&gt;&quot;English&quot;, &quot;russian&quot;=&gt;&quot;Русский&quot;, &quot;search_results&quot;=&gt;&quot;Search Results&quot;, &quot;search&quot;=&gt;&quot;Search&quot;, &quot;notification_banner&quot;=&gt;&quot;The World of Taliskarn is currently under development, and all content is in draft form. The English version will be updated once the pre-beta for the Russian version (the original development language) is complete. Thank you for your understanding! For more details, please visit &lt;a href=\&quot;/about\&quot; target=\&quot;_self\&quot;&gt;this page&lt;/a&gt;.&quot;, &quot;wip&quot;=&gt;&quot;Work in Progress&quot;, &quot;nope&quot;=&gt;404, &quot;auto&quot;=&gt;&quot;Autogenerated&quot;, &quot;news&quot;=&gt;&quot;News&quot;}, &quot;titles&quot;=&gt;{&quot;dd&quot;=&gt;&quot;Dev Diaries&quot;}, &quot;service&quot;=&gt;{&quot;open_in_full&quot;=&gt;&quot;Open in full size&quot;, &quot;note&quot;=&gt;&quot;Margin Scribble&quot;, &quot;tba&quot;=&gt;&quot;To Be Announced&quot;, &quot;wip&quot;=&gt;&quot;Work in Progress&quot;, &quot;idea&quot;=&gt;&quot;Questionable Idea&quot;, &quot;wip_disclaimer&quot;=&gt;&quot;&lt;strong&gt;Work in Progress&lt;/strong&gt;&lt;br&gt;I&apos;m actively working on creating Taliskarn right now. It&apos;s an enormous amount of tasks, so at this stage, many pages on this website contain only the most basic information – my thoughts and ideas that I am gradually turning into reality. &lt;br&gt;&lt;br&gt;For more details on what&apos;s coming next, you can check out the &lt;a href=\&quot;/about\&quot; target=\&quot;_self\&quot;&gt;Roadmap&lt;/a&gt;; I regularly publish current updates in the &lt;a href=\&quot;/extras/blog\&quot; target=\&quot;_self\&quot;&gt;Blog&lt;/a&gt;, and most importhantly, I&apos;m always open to feedback. Even more than that – I&apos;ll be incredibly grateful for it! &lt;br&gt;&lt;br&gt;If you have the time and inclination to read my notes, and if you happen to come up with any ideas, criticisms, or suggestions, please share them with me. All contact information is available on the &lt;a href=\&quot;/about#links\&quot; target=\&quot;_self\&quot;&gt;About&lt;/a&gt; page and in the header.&lt;br&gt;&lt;br&gt;And thank you for your interest in Taliskarn!&quot;, &quot;copyright&quot;=&gt;&quot;Powered by Orthan Thundy, 2025&quot;, &quot;filter_by_category&quot;=&gt;&quot;Filter by category&quot;, &quot;all_posts&quot;=&gt;&quot;All Posts&quot;, &quot;read_more&quot;=&gt;&quot;Read more&quot;, &quot;newer_posts&quot;=&gt;&quot;Newer Posts&quot;, &quot;older_posts&quot;=&gt;&quot;Older Posts&quot;, &quot;tta&quot;=&gt;&quot;To Think About&quot;, &quot;discord&quot;=&gt;&quot;Join Discord&quot;, &quot;show_more&quot;=&gt;&quot;Show More&quot;}, &quot;nav&quot;=&gt;{&quot;home&quot;=&gt;&quot;Home&quot;, &quot;core&quot;=&gt;&quot;Core&quot;, &quot;map&quot;=&gt;&quot;Map&quot;, &quot;races&quot;=&gt;&quot;Races&quot;, &quot;lore&quot;=&gt;&quot;Lore&quot;, &quot;stories&quot;=&gt;&quot;Stories&quot;, &quot;blog&quot;=&gt;&quot;Blog&quot;, &quot;arts&quot;=&gt;&quot;Arts&quot;, &quot;credits&quot;=&gt;&quot;Credits&quot;, &quot;links&quot;=&gt;&quot;Links&quot;, &quot;world_basics&quot;=&gt;&quot;World Basics&quot;, &quot;magic&quot;=&gt;&quot;Magic&quot;, &quot;for_dm&quot;=&gt;&quot;Taliskarn for DMs&quot;, &quot;two_taliskarns&quot;=&gt;&quot;The Two Taliskarns&quot;, &quot;taliskarn_dt&quot;=&gt;&quot;Dark Times (DT)&quot;, &quot;taliskarn_nd&quot;=&gt;&quot;New Dawn (ND)&quot;, &quot;faq&quot;=&gt;&quot;FAQ&quot;, &quot;myth&quot;=&gt;&quot;Myth&quot;, &quot;world&quot;=&gt;&quot;World&quot;, &quot;extras&quot;=&gt;&quot;Extras&quot;, &quot;roadmap&quot;=&gt;&quot;Roadmap&quot;, &quot;search&quot;=&gt;&quot;Search Results&quot;, &quot;pantheon&quot;=&gt;&quot;Pantheon&quot;, &quot;religions&quot;=&gt;&quot;Religions&quot;, &quot;bestiary&quot;=&gt;&quot;Bestiary&quot;, &quot;glossary&quot;=&gt;&quot;Glossary&quot;, &quot;denizens&quot;=&gt;&quot;Denizens&quot;, &quot;wonders&quot;=&gt;&quot;Wonders&quot;, &quot;chronicle&quot;=&gt;&quot;Chronicle&quot;, &quot;alchemy&quot;=&gt;&quot;Alchemy&quot;, &quot;license&quot;=&gt;&quot;License&quot;, &quot;templates&quot;=&gt;&quot;Guides Templates&quot;, &quot;template_malkona&quot;=&gt;&quot;A Guide to Malkona&quot;, &quot;template_region&quot;=&gt;&quot;Regional Guide&quot;, &quot;spirits&quot;=&gt;&quot;The Spirits of Verda&quot;}, &quot;places&quot;=&gt;{&quot;malkona&quot;=&gt;&quot;Malkona&quot;, &quot;places&quot;=&gt;&quot;Places&quot;, &quot;riku&quot;=&gt;&quot;Riku Highlands&quot;, &quot;verda&quot;=&gt;&quot;Verdant Verdas&quot;, &quot;bryleahn_jungles&quot;=&gt;&quot;Bryleahn Jungles&quot;, &quot;warm_sea&quot;=&gt;&quot;The Warm Sea&quot;, &quot;wilderreach&quot;=&gt;&quot;The Wilderreach&quot;, &quot;scarred_lands&quot;=&gt;&quot;Scarred Lands of Bruna&quot;, &quot;noctaria&quot;=&gt;&quot;Noctaria&quot;, &quot;flammarg_shards&quot;=&gt;&quot;Flammarg&apos;s Shards&quot;, &quot;sanguama&quot;=&gt;&quot;Sanguama&quot;, &quot;bryleahn_scar&quot;=&gt;&quot;Bryleahn Scar&quot;, &quot;azure_haven&quot;=&gt;&quot;Azure Haven&quot;, &quot;valley_of_the_source&quot;=&gt;&quot;Valley of the Source&quot;, &quot;meza&quot;=&gt;&quot;Meza&quot;, &quot;irmaris&quot;=&gt;&quot;Irmaris&quot;, &quot;fetid_fens&quot;=&gt;&quot;Fetid Fens&quot;, &quot;ashen_frontier&quot;=&gt;&quot;The Ashen Frontier&quot;, &quot;montwyn_hills&quot;=&gt;&quot;The Montwyn Hills&quot;, &quot;lake_larga&quot;=&gt;&quot;Lake Larga&quot;, &quot;lake_senfunda&quot;=&gt;&quot;Lake Senfunda&quot;, &quot;lake_malvarma&quot;=&gt;&quot;Lake Malvarma&quot;, &quot;steps&quot;=&gt;&quot;The Steps&quot;, &quot;windhill_plains&quot;=&gt;&quot;The Windhill Steppe&quot;, &quot;shorelands&quot;=&gt;&quot;The Shorelands&quot;, &quot;southern_sea&quot;=&gt;&quot;The Southern Sea&quot;, &quot;negata&quot;=&gt;&quot;Negata&quot;, &quot;narem&quot;=&gt;&quot;Narem&quot;, &quot;orem&quot;=&gt;&quot;Orem&quot;, &quot;capar&quot;=&gt;&quot;Cape Capar&quot;, &quot;eastern_shore&quot;=&gt;&quot;The Eastern Shore&quot;, &quot;chillbay&quot;=&gt;&quot;The Chillbay&quot;}, &quot;cities&quot;=&gt;{&quot;varmego&quot;=&gt;&quot;Varmego&quot;, &quot;duerbo&quot;=&gt;&quot;Duerbo&quot;, &quot;marcolo&quot;=&gt;&quot;Marcolo&quot;, &quot;buso&quot;=&gt;&quot;Buso&quot;}, &quot;races&quot;=&gt;{&quot;humans&quot;=&gt;&quot;Humans&quot;, &quot;prymars&quot;=&gt;&quot;Prymars&quot;, &quot;arydars&quot;=&gt;&quot;Arydars&quot;, &quot;kromrs&quot;=&gt;&quot;Kromrs&quot;, &quot;tondrantars&quot;=&gt;&quot;Tondrantars&quot;, &quot;malnurs&quot;=&gt;&quot;Malnurs&quot;, &quot;brunars&quot;=&gt;&quot;Brunars&quot;, &quot;saltuars&quot;=&gt;&quot;Saltuars&quot;, &quot;bryleahns&quot;=&gt;&quot;Bryleahns&quot;, &quot;kyonnhs&quot;=&gt;&quot;Kyönnhs&quot;, &quot;noctids&quot;=&gt;&quot;Noctids&quot;, &quot;flammars&quot;=&gt;&quot;Flammars&quot;, &quot;monti&quot;=&gt;&quot;Monti&quot;, &quot;senfenns&quot;=&gt;&quot;Senfenns&quot;, &quot;largars&quot;=&gt;&quot;Largars&quot;, &quot;sudians&quot;=&gt;&quot;Sudians&quot;, &quot;oremians&quot;=&gt;&quot;Oremians&quot;, &quot;malvars&quot;=&gt;&quot;Malvars&quot;}, &quot;pantheon&quot;=&gt;{&quot;fluere&quot;=&gt;&quot;Fluere&quot;, &quot;kaelesta&quot;=&gt;&quot;Kaelesta&quot;, &quot;solkalor&quot;=&gt;&quot;Solkalor&quot;, &quot;ferrude&quot;=&gt;&quot;Ferrude&quot;, &quot;aurehjo&quot;=&gt;&quot;Aurehjo&quot;, &quot;tranqa&quot;=&gt;&quot;Tranqa&quot;, &quot;kustopha&quot;=&gt;&quot;Kustopha&quot;, &quot;dhfhalbh&quot;=&gt;&quot;Dh’Fhalbh&quot;, &quot;flumorn&quot;=&gt;&quot;Flumorn&quot;}, &quot;bestiary&quot;=&gt;{&quot;moss_hide&quot;=&gt;&quot;Moss-Hide Beast&quot;, &quot;tensur&quot;=&gt;&quot;Tensur&quot;, &quot;shadowboar&quot;=&gt;&quot;Shadowboar&quot;, &quot;nabling&quot;=&gt;&quot;Nabling&quot;}, &quot;special&quot;=&gt;{&quot;lakrikael&quot;=&gt;&quot;Lakrikael&quot;, &quot;azurit&quot;=&gt;&quot;Azurit&quot;}, &quot;religions&quot;=&gt;{&quot;cult_of_currents&quot;=&gt;&quot;Cult of Currents&quot;, &quot;ancestor_cult&quot;=&gt;&quot;Ancestor Cult&quot;, &quot;cult_of_spirits&quot;=&gt;&quot;Cult of Spirits&quot;}, &quot;langs&quot;=&gt;{&quot;en&quot;=&gt;&quot;English&quot;, &quot;ru&quot;=&gt;&quot;Русский&quot;}, &quot;articles&quot;=&gt;{&quot;toc_title&quot;=&gt;&quot;Table of Content&quot;}, &quot;stories&quot;=&gt;{&quot;khurh_zan_ul&quot;=&gt;&quot;Khurh-zan-ul&quot;}, &quot;breadcrumbs&quot;=&gt;{&quot;nav&quot;=&gt;nil, &quot;home&quot;=&gt;&quot;Homepage&quot;, &quot;core&quot;=&gt;&quot;Core&quot;, &quot;map&quot;=&gt;&quot;Map&quot;, &quot;races&quot;=&gt;&quot;Races&quot;, &quot;lore&quot;=&gt;&quot;Lore&quot;, &quot;stories&quot;=&gt;&quot;Stories&quot;, &quot;blog&quot;=&gt;&quot;Blog&quot;, &quot;arts&quot;=&gt;&quot;Arts&quot;, &quot;credits&quot;=&gt;&quot;Credits&quot;, &quot;links&quot;=&gt;&quot;Links&quot;, &quot;news&quot;=&gt;&quot;News&quot;, &quot;world_basics&quot;=&gt;&quot;World Basics&quot;, &quot;magic&quot;=&gt;&quot;Magic&quot;, &quot;for_dm&quot;=&gt;&quot;Taliskarn for DMs&quot;, &quot;two_taliskarns&quot;=&gt;&quot;The Two Taliskarns&quot;, &quot;taliskarn_dt&quot;=&gt;&quot;Dark Times (DT)&quot;, &quot;taliskarn_nd&quot;=&gt;&quot;New Dawn (ND)&quot;, &quot;faq&quot;=&gt;&quot;FAQ&quot;, &quot;myth&quot;=&gt;&quot;Myth&quot;, &quot;world&quot;=&gt;&quot;World&quot;, &quot;extras&quot;=&gt;&quot;Extras&quot;, &quot;roadmap&quot;=&gt;&quot;Roadmap&quot;, &quot;search&quot;=&gt;&quot;Search Results&quot;, &quot;malkona&quot;=&gt;&quot;Malkona&quot;, &quot;places&quot;=&gt;&quot;Places&quot;, &quot;riku&quot;=&gt;&quot;Riku Highlands&quot;, &quot;verda&quot;=&gt;&quot;Verdant Verdas&quot;, &quot;bryleahn_jungles&quot;=&gt;&quot;Bryleahn Jungles&quot;, &quot;bryleah&quot;=&gt;&quot;Bryleah&quot;, &quot;warm_sea&quot;=&gt;&quot;The Warm Sea&quot;, &quot;wilderreach&quot;=&gt;&quot;The Wilderreach&quot;, &quot;scarred_lands&quot;=&gt;&quot;Scarred Lands of Bruna&quot;, &quot;noctaria&quot;=&gt;&quot;Noctaria&quot;, &quot;flammarg_shards&quot;=&gt;&quot;Flammarg&apos;s Shards&quot;, &quot;valley_of_the_source&quot;=&gt;&quot;Valley of the Source&quot;, &quot;humans&quot;=&gt;&quot;Humans&quot;, &quot;prymars&quot;=&gt;&quot;Prymars&quot;, &quot;arydars&quot;=&gt;&quot;Arydars&quot;, &quot;brunars&quot;=&gt;&quot;Brunars&quot;, &quot;saltuars&quot;=&gt;&quot;Saltuars&quot;, &quot;bryleahns&quot;=&gt;&quot;Bryleahns&quot;, &quot;kyonnhs&quot;=&gt;&quot;Kyönnhs&quot;, &quot;noctids&quot;=&gt;&quot;Noctids&quot;, &quot;flammars&quot;=&gt;&quot;Flammars&quot;, &quot;fluere&quot;=&gt;&quot;Fluere&quot;, &quot;kaelesta&quot;=&gt;&quot;Kaelesta&quot;, &quot;solkalor&quot;=&gt;&quot;Solkalor&quot;, &quot;ferrude&quot;=&gt;&quot;Ferrude&quot;, &quot;aurehjo&quot;=&gt;&quot;Aurehjo&quot;, &quot;tranqa&quot;=&gt;&quot;Tranqa&quot;, &quot;kustopha&quot;=&gt;&quot;Kustopha&quot;, &quot;dhfhalbh&quot;=&gt;&quot;Dh’Fhalbh&quot;, &quot;flumorn&quot;=&gt;&quot;Flumorn&quot;, &quot;pantheon&quot;=&gt;&quot;Pantheon&quot;, &quot;spirits&quot;=&gt;&quot;The Spirits of Verda&quot;, &quot;unfinished&quot;=&gt;&quot;WIP&quot;, &quot;cult_of_currents&quot;=&gt;&quot;Cult of Currents&quot;, &quot;religions&quot;=&gt;&quot;Religions&quot;, &quot;bryleahn_scar&quot;=&gt;&quot;Bryleahn Scar&quot;, &quot;azure_haven&quot;=&gt;&quot;Azure Haven&quot;, &quot;meza&quot;=&gt;&quot;Meza&quot;, &quot;bestiary&quot;=&gt;&quot;Bestiary&quot;, &quot;irmaris&quot;=&gt;&quot;Irmaris&quot;, &quot;glossary&quot;=&gt;&quot;Glossary&quot;, &quot;wonders&quot;=&gt;&quot;Wonders&quot;, &quot;denizens&quot;=&gt;&quot;Denizens&quot;, &quot;about&quot;=&gt;&quot;About&quot;, &quot;moss_hide&quot;=&gt;&quot;Moss-Hide Beast&quot;, &quot;tensur&quot;=&gt;&quot;Tensur&quot;, &quot;shadowboar&quot;=&gt;&quot;Shadowboar&quot;, &quot;nabling&quot;=&gt;&quot;Nabling&quot;, &quot;fetid_fens&quot;=&gt;&quot;Fetid Fens&quot;, &quot;chronicle&quot;=&gt;&quot;Chronicle&quot;, &quot;ancestor_cult&quot;=&gt;&quot;Ancestor Cult&quot;, &quot;cult_of_spirits&quot;=&gt;&quot;Cult of Spirits&quot;, &quot;alchemy&quot;=&gt;&quot;Alchemy&quot;, &quot;wip&quot;=&gt;&quot;Work in Progress&quot;, &quot;license&quot;=&gt;&quot;License&quot;, &quot;khurh_zan_ul&quot;=&gt;&quot;Khurh-zan-ul&quot;, &quot;templates&quot;=&gt;&quot;Guides Templates&quot;, &quot;template_malkona&quot;=&gt;&quot;A Guide to Malkona&quot;, &quot;template_region&quot;=&gt;&quot;Regional Guide&quot;, &quot;ashen_frontier&quot;=&gt;&quot;The Ashen Frontier&quot;, &quot;dev diaries&quot;=&gt;&quot;dev diaries&quot;, &quot;monti&quot;=&gt;&quot;Monti&quot;, &quot;senfenns&quot;=&gt;&quot;Senfenns&quot;, &quot;largars&quot;=&gt;&quot;Largars&quot;, &quot;sudians&quot;=&gt;&quot;Sudians&quot;, &quot;oremians&quot;=&gt;&quot;Oremians&quot;, &quot;malvars&quot;=&gt;&quot;Malvars&quot;, &quot;montwyn_hills&quot;=&gt;&quot;The Montwyn Hills&quot;, &quot;lake_larga&quot;=&gt;&quot;Lake Larga&quot;, &quot;lake_senfunda&quot;=&gt;&quot;Lake Senfunda&quot;, &quot;lake_malvarma&quot;=&gt;&quot;Lake Malvarma&quot;, &quot;steps&quot;=&gt;&quot;The Steps&quot;, &quot;kromrs&quot;=&gt;&quot;Kromrs&quot;, &quot;tondrantars&quot;=&gt;&quot;Tondrantars&quot;, &quot;malnurs&quot;=&gt;&quot;Malnurs&quot;, &quot;windhill_plains&quot;=&gt;&quot;The Windhill Steppe&quot;, &quot;varmego&quot;=&gt;&quot;Varmego&quot;, &quot;shorelands&quot;=&gt;&quot;The Shorelands&quot;, &quot;southern_sea&quot;=&gt;&quot;The Southern Sea&quot;, &quot;negata&quot;=&gt;&quot;Negata&quot;, &quot;narem&quot;=&gt;&quot;Narem&quot;, &quot;orem&quot;=&gt;&quot;Orem&quot;, &quot;capar&quot;=&gt;&quot;Cape Capar&quot;, &quot;eastern_shore&quot;=&gt;&quot;The Eastern Shore&quot;, &quot;chillbay&quot;=&gt;&quot;The Chillbay&quot;, &quot;duerbo&quot;=&gt;&quot;Duerbo&quot;, &quot;marcolo&quot;=&gt;&quot;Marcolo&quot;, &quot;buso&quot;=&gt;&quot;Buso&quot;}}",
+      "content": "@import 'reset.scss';@import 'phb.fonts.scss';@import 'phb.assets.scss';@import 'phb.depricated.scss';@import 'phb.style.scss';/* =========================================================  FONTS  ========================================================= */@font-face {  font-family: 'Constantine';  src: url('/assets/fonts/Constantine.woff2') format('woff2'),    url('/assets/fonts/Constantine.woff') format('woff');  font-weight: normal;  font-style: normal;}@font-face {  font-family: 'Constantine';  src: url('/assets/fonts/Constantine_Bold.woff2') format('woff2'),    url('/assets/fonts/Constantine_Bold.woff') format('woff');  font-weight: bold;  font-style: normal;}/* =========================================================  GLOBAL STYLES  ========================================================= */body {  max-width: 1250px;  // min-width: 580px;  margin: 0 auto;  background-color: rgb(181, 170, 146);  padding: 4px;  @media (min-width: 768px) {    padding: 0 12px;  }  @media (min-width: 1200px) {    padding: 0 16px;  }}/* =========================================================  PHB  ========================================================= */.phb {  height: auto !important;  width: 100%;  max-width: 1250px;  font-size: 1em !important;  padding: 1em 1em;  min-height: 100vh;  @media (min-width: 768px) {    padding: 1em 3em;  }  h1 {    font-size: 2.2em;  }  h2 {    font-size: 1.6em;  }  h3 {    font-size: 1.4em;  }  h4,  h5 {    font-size: 1.2em;  }  @media (max-width: 480px) {    h1 {      font-size: 1.7em;    }    h2 {      font-size: 1.4em;    }    h3 {      font-size: 1.2em;    }    h4,    h5 {      font-size: 1em;    }  }  p {    margin-bottom: 4px;  }  a {    transition: all 0.2s;    color: $headerText;    text-decoration: underline;    &:hover {      transform: translateX(5px);      color: #a67c52;    }  }  .epigraph {    font-style: italic;    p {      padding-bottom: 0.2em;      padding-top: 0.8em;    }  }}#banner {  background: black;  color: white;  padding: 1em 1em;  @media (min-width: 900px) {    padding: 1em 3em;  }}/* =========================================================  PHB-images  ========================================================= */.phb-image-container {  text-align: center;  width: 100%;  margin: 20px 0;}.phb-image {  display: block;  max-width: 80%;  height: auto;  border: 4px solid #8b5a2b;  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);  border-radius: 5px;  margin: 0 auto;}.phb-image-caption {  font-style: italic;  font-size: 0.9em;  color: #555;  margin-top: 5px;}/* =========================================================  BLOG  ========================================================= */.blog-list {  display: flex;  flex-direction: column;  gap: 1rem;}.blog-post {  display: flex;  align-items: center;  gap: 1.5rem;  padding: 1.5rem;  border: 1px solid #aaa;  border-radius: 8px;  transition: box-shadow 0.3s ease;  &:hover {    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  }}.blog-image {  width: 180px;  height: 120px;  object-fit: cover;  border-radius: 6px;}.blog-content {  flex: 1;}.blog-meta {  font-size: 0.9rem;  color: #666;}.blog-excerpt {  font-size: 1rem;  color: #333;}.read-more {  display: inline-block;  color: #0073e6;  text-decoration: none;  font-weight: bold;  &:hover {    text-decoration: underline;  }}/* =========================================================  WIKI STYLES  ========================================================= */.wiki-article {  display: block;  width: 100%;  max-width: 100%;  box-sizing: border-box;}.article-title {  border-bottom: 2px solid #8b4513;}.article-content {  flex: 1 1 70%;}.article-text {  line-height: 1.6;  font-size: 1.1rem;}.article-sidebar {  flex: 1 1 25%;  background: #fff;  padding: 15px;  border: 1px solid #ddd;  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);}.article-image img {  width: 100%;  border: 2px solid #8b4513;  margin-bottom: 15px;}.article-info h3 {  font-size: 1.5rem;  margin-bottom: 10px;}.article-info ul {  list-style: none;  padding: 0;}.article-info ul li {  margin-bottom: 8px;  font-size: 1rem;}/* INFO BOX */.info-box {  float: right;  margin: 0 0 15px 15px;  width: 300px;}.info-box img {  max-width: 95%;  height: auto;  display: block;  border-radius: 5px;  margin: auto;}.info-box table {  width: 97%;  border-collapse: collapse;  font-size: 14px;  margin: 4px auto;  th,  td {    border: 1px solid #ccc;    padding: 5px;    text-align: left;  }}// === NAVIGATION ===.nav-desktop {  display: none;  position: relative;}.navigation {  list-style: none;  padding: 0;  margin: 0;  display: flex;  flex-wrap: wrap;  justify-content: flex-start;  font-family: 'Constantine';  >li>a {    display: inline-block;    padding: 12px 24px;    color: white;    text-decoration: none;    transition: background 0.3s;    font-size: 1.05rem;    background: #000;    &:hover {      background: #222;    }  }}.nav-item:hover>.mega-menu {  display: block;}.mega-menu {  position: absolute;  top: 100%;  left: 0;  background: #1e1e1e;  padding: 2.5rem 3.5rem;  display: none;  z-index: 1000;  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);  &-inner {    max-width: 1280px;    margin: 0 auto;    display: flex;    gap: 3rem;    justify-content: flex-start;    flex-wrap: nowrap;  }  .mega-col {    flex: 1;    min-width: 200px;    display: flex;    flex-direction: column;    gap: 2rem;  }  .mega-subsection {    display: flex;    flex-direction: column;    gap: 0.5rem;    >a {      font-weight: 700;      color: #f5f5f5;      text-transform: uppercase;      font-size: 1rem;      letter-spacing: 0.5px;      text-decoration: none;      padding-bottom: 0.2rem;      border-bottom: 1px solid rgba(255, 255, 255, 0.2);      &:hover {        color: #f0c674;        border-color: #f0c674;      }    }  }  .mega-submenu {    list-style: none;    margin: 0.2rem 0 0;    padding-left: 1rem;    display: flex;    flex-direction: column;    gap: 0.3rem;    border-left: 1px solid rgba(255, 255, 255, 0.08);    li>a {      font-weight: 400;      font-size: 0.95rem;      color: #ccc;      text-decoration: none;      transition: color 0.2s ease;      padding: 0.15rem 0.25rem;      line-height: 1.4;      border-left: 2px solid transparent;      &:hover {        color: #fff;        border-left-color: #f0c674;      }    }  }}// === NESTED DEPTH STYLING ===@for $i from 2 through 5 {  .depth-#{$i} {    padding-left: #{($i - 1) * 0.5}rem;    border-left: none;    li>a {      font-size: #{0.95 - ($i - 1) * 0.02}rem;      color: #{nth((#ccc, #bbb, #aaa, #999, #888), $i)};    }  }}// === RESPONSIVE ===@media (max-width: 900px) {  .navigation {    flex-direction: column;  }  .mega-menu,  .nav-item.open>.mega-menu--places {    position: static;    width: 100%;    min-width: auto;    padding: 1.5rem;    box-shadow: none;    display: none;  }  .mega-menu-inner,  .region-content {    flex-direction: column;    gap: 2rem;    padding-left: 0;  }  .mega-col,  .region-col {    width: 100%;    display: block !important;  }}// === MEGA MENU PLACES ===.mega-menu--places {  @extend .mega-menu;  min-width: 900px;  .region-sidebar {    flex: 0 0 200px;    display: flex;    flex-direction: column;    border-right: 1px solid rgba(255, 255, 255, 0.15);    padding-right: 1rem;    gap: 0.75rem;    .region-item {      cursor: pointer;      color: #ccc;      font-weight: 600;      text-transform: uppercase;      font-size: 0.95rem;      letter-spacing: 0.5px;      padding: 0.3rem 0.5rem;      border-left: 3px solid transparent;      transition: all 0.2s ease;      &:hover,      &.active {        color: #fff;        border-left-color: #f0c674;        background: rgba(255, 255, 255, 0.04);      }    }  }  .region-content {    flex: 1;    display: flex;    flex-wrap: wrap;    gap: 3rem;    padding-left: 2rem;    .region-col {      min-width: 200px;      display: none;      flex-direction: column;      gap: 1.5rem;      .region-group {        display: flex;        flex-direction: column;        gap: 0.4rem;        .group-title {          font-weight: 700;          color: #f5f5f5;          text-transform: uppercase;          font-size: 1rem;          letter-spacing: 0.5px;          padding-bottom: 0.2rem;          border-bottom: 1px solid rgba(255, 255, 255, 0.2);        }        ul {          list-style: none;          margin: 0.2rem 0 0;          padding: 0;          display: flex;          flex-direction: column;          gap: 0.3rem;          li>a {            font-weight: 400;            font-size: 0.95rem;            color: #ccc;            text-decoration: none;            transition: color 0.2s ease;            padding: 0.15rem 0.25rem;            border-left: 2px solid transparent;            &:hover {              color: #fff;              border-left-color: #f0c674;            }          }        }      }    }  }}// === MOBILE MENU ===.mobile-menu-toggle {  display: inline-block;  background: none;  border: none;  font-size: 1.5rem;  cursor: pointer;  color: #fff;  @media (min-width: 900px) {    display: none;  }}.mobile-menu {  position: absolute;  top: 3rem;  left: 0;  right: 0;  z-index: 9999;  background: #1e1e1e;  border-top: 1px solid #333;  padding: 0.5rem 1rem;  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);  &[aria-hidden=\"true\"] {    display: none;  }  &[aria-hidden=\"false\"] {    display: block;  }}.mobile-menu-list {  list-style: none;  margin: 0;  padding: 0;}.mobile-nav-item {  border-bottom: 1px solid rgba(255, 255, 255, 0.2);  margin-bottom: 0.5rem;  padding-bottom: 0.5rem;}.mobile-nav-link-wrapper {  display: flex;  align-items: center;  justify-content: space-between;}.mobile-nav-link {  display: inline-block;  text-decoration: none;  color: #fff;  font-size: 1rem;  flex: 1;}.mobile-submenu-toggle {  background: none;  border: none;  font-size: 1.2rem;  color: #ccc;  cursor: pointer;  padding: 0 0.5rem;  transform: rotate(0deg);  transition: transform 0.2s ease;  &[aria-expanded=\"true\"] {    transform: rotate(90deg);  }}.mobile-submenu-list {  list-style: none;  margin: 0.5rem 0 0 1.2rem;  padding: 0;  display: none;  &[data-open=\"true\"] {    display: block;  }  a {    color: #bbb;    font-size: 0.95rem;    text-decoration: none;    display: block;    padding: 0.2rem 0;    &:hover {      color: #fff;    }  }}// /* ADAPTIVITY */@media (max-width: 900px) {  .header-contacts {    display: none;  }  .header-contacts-mobile {    display: block;  }}/* =========================================================  MODAL IMAGES  ========================================================= */.modal {  display: none;  position: fixed;  z-index: 1000;  left: 0;  top: 0;  width: 100%;  height: 100%;  background-color: rgba(0, 0, 0, 0.8);  cursor: pointer;}.modal-content {  display: flex;  flex-direction: column;  align-items: center;  justify-content: center;  height: 100%;  position: fixed;  top: 50%;  left: 50%;  transform: translate(-50%, -50%);  cursor: auto;}.modal img {  max-width: 90vw;  max-height: 90vh;  width: auto;  height: auto;  object-fit: contain;  border-radius: 8px;  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);}.modal p {  color: white;  margin: 20px 0;  font-size: 1rem;  text-align: center;}.close {  position: absolute;  top: 15px;  right: 25px;  font-size: 30px;  color: white;  cursor: pointer;}.nav-buttons {  position: absolute;  width: 100%;  top: 50%;  transform: translateY(-50%);  display: flex;  justify-content: space-between;}.prev,.next {  font-size: 30px;  color: white;  cursor: pointer;  padding: 10px;  user-select: none;}.prev {  margin-left: 20px;}.next {  margin-right: 20px;}/* =========================================================  BANNERS  ========================================================= */.notification_banner {  background-color: #f8f2c3;  color: #000;  text-align: center;  padding: 6px 8px;  font-size: 14px;  position: sticky;  top: 0;  z-index: 900;  a {    color: #007bff;    text-decoration: underline;  }}/* =========================================================  TABLE OF CONTENT (TOC)  ========================================================= */#toc {  position: sticky;  max-height: 80vh;  overflow-y: auto;  padding: 1rem;  background: #f4e9d8;  border: 2px solid #6b4a2b;  border-radius: 12px;  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);  font-weight: bold;  margin-bottom: 20px;}.toc-list a {  display: block;  text-decoration: none;  padding-left: 16px;}.toc-h3 {  margin-left: 16px;  font-size: 0.9em;  font-style: italic;  color: #774936;}.toc-title {  text-transform: uppercase;  font-size: 1.2em;  text-align: center;  color: #512b1b;  border-bottom: 2px solid #6b4a2b;  padding-bottom: 5px;  margin-bottom: 10px;}/* =========================================================  DETAILS  ========================================================= */details {  @include useSansSerif();}details[open] {  @include useSansSerif();  box-sizing: border-box;  margin-bottom: 1em;  padding: 0px 10px;  background-color: $noteGreen;  border-style: solid;  border-width: 11px;  border-image: $noteBorderImage 11;  border-image-outset: 9px 0px;  box-shadow: 1px 4px 14px #888;}summary {  font-size: 1em;  font-weight: bold;  color: #5a3825;  cursor: pointer;  padding: 4px;  transition: all 0.2s;  &:hover {    color: #402417;    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);  }}details[open] summary {  margin-bottom: 10px;}/* =========================================================  12) DnD / Image-placeholder  ========================================================= */.dnd-image-placeholder {  margin: 1em 0;  width: 300px;  &.left {    float: left;    margin-right: 1.5em;    max-width: 300px;  }  &.right {    float: right;    margin-left: 1.5em;    max-width: 300px;  }}.placeholder-container {  position: relative;  border: 3px solid #8b4513;  border-radius: 5px;  overflow: hidden;  &:not(.has-image) {    background: repeating-linear-gradient(45deg,        #f0e6d3,        #f0e6d3 10px,        #e6d8c3 10px,        #e6d8c3 20px);    min-height: 200px;  }}.phb-image {  width: 100%;  height: auto;  display: block;  cursor: zoom-in;  transition: transform 0.2s;  &:hover {    transform: scale(1.02);  }}.inner-content {  position: absolute;  width: 100%;  height: 100%;  display: flex;  align-items: center;  justify-content: center;  padding: 15px;  box-sizing: border-box;}.placeholder-text {  text-align: center;  color: #5a4a42;  font-size: 14px;  line-height: 1.4;}/* =========================================================  HEADER  ========================================================= */header {  background-color: #c9ad6a;  padding: 10px;  display: flex;  flex-direction: column;  gap: 10px;}.header-content {  width: 100%;  display: flex;  justify-content: space-between;  align-items: center;  flex-wrap: wrap;  gap: 20px;  @media (max-width: 899px) {    flex-direction: column;    align-items: stretch;    gap: 12px;  }}.header-brand {  display: flex;  align-items: center;  gap: 20px;  @media (max-width: 899px) {    justify-content: space-between;    gap: 4px;  }}.site-title {  margin: 0;  font-family: 'Constantine', sans-serif;  font-size: 32px;  font-weight: 800;  letter-spacing: 1px;  a {    color: white;    text-decoration: none;  }}.header-contacts {  display: none;  @media (min-width: 900px) {    display: block;  }}.header-contacts-mobile {  display: none;  text-align: center;  padding-top: 4px;  a {    color: white;    text-decoration: underline;    font-size: 0.95rem;  }  @media (max-width: 899px) {    display: block;  }}.contact-link {  color: white;  text-decoration: none;}.header-actions {  display: flex;  flex-direction: column;  align-items: flex-end;  gap: 8px;  @media (max-width: 899px) {    width: 100%;    align-items: stretch;  }}.language-switcher {  text-align: right;  padding-bottom: 8px;}.language-switcher a {  color: white;  text-decoration: none;  font-size: 0.95rem;}.header-search-form {  display: flex;  gap: 6px;  align-items: center;  input[type='text'] {    border: 1px solid #444;    border-radius: 4px;    padding: 5px 8px;    max-width: 160px;    background: #111;    color: #eee;    font-family: inherit;    margin-left: auto;  }  input[type='submit'],  button {    padding: 5px 10px;    background-color: #333;    color: white;    border: none;    border-radius: 4px;    cursor: pointer;  }  @media (max-width: 899px) {    width: 100%;    input[type='text'] {      flex: 1;      width: 100%;    }    input[type='submit'],    button {      white-space: nowrap;    }  }}/* ===== DESKTOP ===== */@media (min-width: 900px) {  .mobile-menu-toggle,  .mobile-menu,  .submenu-toggle {    display: none !important;  }  .nav-desktop {    display: block;    .navigation {      display: flex;      gap: 4px;      list-style: none;      padding: 0;      margin: 0;      a {        color: white;        text-decoration: none;      }    }  }}.mobile-only {  display: none;}.desktop-only {  display: block;}/* ===== MOBILE ===== */@media (max-width: 899px) {  .nav-desktop {    display: none;  }  .desktop-only {    display: none;  }  .mobile-only {    display: block;  }}/* =========================================================  ADAPTIVITY  ========================================================= */@media (max-width: 600px) {  .info-box {    float: none;    margin: 0 auto 15px;    width: 100%;    text-align: center;  }  .info-box table {    font-size: 16px;  }}@media (max-width: 768px) {  .wiki-article {    flex-direction: column;  }  .article-sidebar {    order: -1;  }}",
       "url": "/style.css"
     }
     ,
@@ -2960,7 +5046,7 @@
     
 
     "assets-main-css": {
-      "title": "{&quot;global&quot;=&gt;{&quot;tagline&quot;=&gt;&quot;English&quot;, &quot;about&quot;=&gt;&quot;About&quot;, &quot;worldname&quot;=&gt;&quot;Taliskarn&quot;, &quot;worldalias&quot;=&gt;&quot;The World of Unwritten Maps&quot;, &quot;english&quot;=&gt;&quot;English&quot;, &quot;russian&quot;=&gt;&quot;Русский&quot;, &quot;search_results&quot;=&gt;&quot;Search Results&quot;, &quot;notification_banner&quot;=&gt;&quot;The World of Taliskarn is currently under development, and all content is in draft form. The English version will be updated once the pre-beta for the Russian version (the original development language) is complete. Thank you for your understanding! For more details, please visit &lt;a href=\&quot;/about\&quot; target=\&quot;_self\&quot;&gt;this page&lt;/a&gt;.&quot;, &quot;wip&quot;=&gt;&quot;Work in Progress&quot;, &quot;nope&quot;=&gt;404, &quot;auto&quot;=&gt;&quot;Autogenerated&quot;, &quot;news&quot;=&gt;&quot;News&quot;}, &quot;titles&quot;=&gt;{&quot;dd&quot;=&gt;&quot;Dev Diaries&quot;}, &quot;service&quot;=&gt;{&quot;open_in_full&quot;=&gt;&quot;Open in full size&quot;, &quot;note&quot;=&gt;&quot;Margin Scribble&quot;, &quot;tba&quot;=&gt;&quot;To Be Announced&quot;, &quot;wip&quot;=&gt;&quot;Work in Progress&quot;, &quot;idea&quot;=&gt;&quot;Questionable Idea&quot;, &quot;wip_disclaimer&quot;=&gt;&quot;&lt;strong&gt;Work in Progress&lt;/strong&gt;&lt;br&gt;I&apos;m actively working on creating Taliskarn right now. It&apos;s an enormous amount of tasks, so at this stage, many pages on this website contain only the most basic information – my thoughts and ideas that I am gradually turning into reality. &lt;br&gt;&lt;br&gt;For more details on what&apos;s coming next, you can check out the &lt;a href=\&quot;/about\&quot; target=\&quot;_self\&quot;&gt;Roadmap&lt;/a&gt;; I regularly publish current updates in the &lt;a href=\&quot;/extras/blog\&quot; target=\&quot;_self\&quot;&gt;Blog&lt;/a&gt;, and most importhantly, I&apos;m always open to feedback. Even more than that – I&apos;ll be incredibly grateful for it! &lt;br&gt;&lt;br&gt;If you have the time and inclination to read my notes, and if you happen to come up with any ideas, criticisms, or suggestions, please share them with me. All contact information is available on the &lt;a href=\&quot;/about#links\&quot; target=\&quot;_self\&quot;&gt;About&lt;/a&gt; page and in the header.&lt;br&gt;&lt;br&gt;And thank you for your interest in Taliskarn!&quot;, &quot;copyright&quot;=&gt;&quot;Powered by Orthan Thundy, 2025&quot;, &quot;filter_by_category&quot;=&gt;&quot;Filter by category&quot;, &quot;all_posts&quot;=&gt;&quot;All Posts&quot;, &quot;read_more&quot;=&gt;&quot;Read more&quot;, &quot;newer_posts&quot;=&gt;&quot;Newer Posts&quot;, &quot;older_posts&quot;=&gt;&quot;Older Posts&quot;, &quot;tta&quot;=&gt;&quot;To Think About&quot;, &quot;discord&quot;=&gt;&quot;Join Discord&quot;}, &quot;nav&quot;=&gt;{&quot;home&quot;=&gt;&quot;Home&quot;, &quot;core&quot;=&gt;&quot;Core&quot;, &quot;map&quot;=&gt;&quot;Map&quot;, &quot;races&quot;=&gt;&quot;Races&quot;, &quot;lore&quot;=&gt;&quot;Lore&quot;, &quot;stories&quot;=&gt;&quot;Stories&quot;, &quot;blog&quot;=&gt;&quot;Blog&quot;, &quot;arts&quot;=&gt;&quot;Arts&quot;, &quot;credits&quot;=&gt;&quot;Credits&quot;, &quot;links&quot;=&gt;&quot;Links&quot;, &quot;world_basics&quot;=&gt;&quot;World Basics&quot;, &quot;magic&quot;=&gt;&quot;Magic&quot;, &quot;for_dm&quot;=&gt;&quot;Taliskarn for DMs&quot;, &quot;two_taliskarns&quot;=&gt;&quot;The Two Taliskarns&quot;, &quot;taliskarn_dt&quot;=&gt;&quot;Dark Times (DT)&quot;, &quot;taliskarn_nd&quot;=&gt;&quot;New Dawn (ND)&quot;, &quot;faq&quot;=&gt;&quot;FAQ&quot;, &quot;myth&quot;=&gt;&quot;Myth&quot;, &quot;world&quot;=&gt;&quot;World&quot;, &quot;extras&quot;=&gt;&quot;Extras&quot;, &quot;roadmap&quot;=&gt;&quot;Roadmap&quot;, &quot;search&quot;=&gt;&quot;Search Results&quot;, &quot;pantheon&quot;=&gt;&quot;Pantheon&quot;, &quot;religions&quot;=&gt;&quot;Religions&quot;, &quot;bestiary&quot;=&gt;&quot;Bestiary&quot;, &quot;glossary&quot;=&gt;&quot;Glossary&quot;, &quot;denizens&quot;=&gt;&quot;Denizens&quot;, &quot;wonders&quot;=&gt;&quot;Wonders&quot;, &quot;chronicle&quot;=&gt;&quot;Chronicle&quot;, &quot;alchemy&quot;=&gt;&quot;Alchemy&quot;, &quot;license&quot;=&gt;&quot;License&quot;, &quot;templates&quot;=&gt;&quot;Guides Templates&quot;, &quot;template_malkona&quot;=&gt;&quot;A Guide to Malkona&quot;, &quot;template_region&quot;=&gt;&quot;Regional Guide&quot;, &quot;spirits&quot;=&gt;&quot;The Spirits of Verda&quot;}, &quot;places&quot;=&gt;{&quot;malkona&quot;=&gt;&quot;Malkona&quot;, &quot;places&quot;=&gt;&quot;Places&quot;, &quot;riku&quot;=&gt;&quot;Riku Highlands&quot;, &quot;verda&quot;=&gt;&quot;Verdant Verdas&quot;, &quot;bryleahn_jungles&quot;=&gt;&quot;Bryleahn Jungles&quot;, &quot;warm_sea&quot;=&gt;&quot;The Warm Sea&quot;, &quot;wilderreach&quot;=&gt;&quot;The Wilderreach&quot;, &quot;scarred_lands&quot;=&gt;&quot;Scarred Lands of Bruna&quot;, &quot;noctaria&quot;=&gt;&quot;Noctaria&quot;, &quot;flammarg_shards&quot;=&gt;&quot;Flammarg&apos;s Shards&quot;, &quot;sanguama&quot;=&gt;&quot;Sanguama&quot;, &quot;bryleahn_scar&quot;=&gt;&quot;Bryleahn Scar&quot;, &quot;azure_haven&quot;=&gt;&quot;Azure Haven&quot;, &quot;valley_of_the_source&quot;=&gt;&quot;Valley of the Source&quot;, &quot;meza&quot;=&gt;&quot;Meza&quot;, &quot;irmaris&quot;=&gt;&quot;Irmaris&quot;, &quot;fetid_fens&quot;=&gt;&quot;Fetid Fens&quot;, &quot;ashen_frontier&quot;=&gt;&quot;The Ashen Frontier&quot;, &quot;montwyn_hills&quot;=&gt;&quot;The Montwyn Hills&quot;, &quot;lake_larga&quot;=&gt;&quot;Lake Larga&quot;, &quot;lake_senfunda&quot;=&gt;&quot;Lake Senfunda&quot;, &quot;lake_malvarma&quot;=&gt;&quot;Lake Malvarma&quot;, &quot;steps&quot;=&gt;&quot;The Steps&quot;, &quot;windhill_plains&quot;=&gt;&quot;The Windhill Steppe&quot;, &quot;shorelands&quot;=&gt;&quot;The Shorelands&quot;, &quot;southern_sea&quot;=&gt;&quot;The Southern Sea&quot;, &quot;negata&quot;=&gt;&quot;Negata&quot;, &quot;narem&quot;=&gt;&quot;Narem&quot;, &quot;orem&quot;=&gt;&quot;Orem&quot;, &quot;capar&quot;=&gt;&quot;Cape Capar&quot;, &quot;eastern_shore&quot;=&gt;&quot;The Eastern Shore&quot;, &quot;chillbay&quot;=&gt;&quot;The Chillbay&quot;}, &quot;cities&quot;=&gt;{&quot;varmego&quot;=&gt;&quot;Varmego&quot;, &quot;duerbo&quot;=&gt;&quot;Duerbo&quot;, &quot;marcolo&quot;=&gt;&quot;Marcolo&quot;, &quot;buso&quot;=&gt;&quot;Buso&quot;}, &quot;races&quot;=&gt;{&quot;humans&quot;=&gt;&quot;Humans&quot;, &quot;prymars&quot;=&gt;&quot;Prymars&quot;, &quot;arydars&quot;=&gt;&quot;Arydars&quot;, &quot;kromrs&quot;=&gt;&quot;Kromrs&quot;, &quot;tondrantars&quot;=&gt;&quot;Tondrantars&quot;, &quot;malnurs&quot;=&gt;&quot;Malnurs&quot;, &quot;brunars&quot;=&gt;&quot;Brunars&quot;, &quot;saltuars&quot;=&gt;&quot;Saltuars&quot;, &quot;bryleahns&quot;=&gt;&quot;Bryleahns&quot;, &quot;kyonnhs&quot;=&gt;&quot;Kyönnhs&quot;, &quot;noctids&quot;=&gt;&quot;Noctids&quot;, &quot;flammars&quot;=&gt;&quot;Flammars&quot;, &quot;monti&quot;=&gt;&quot;Monti&quot;, &quot;senfenns&quot;=&gt;&quot;Senfenns&quot;, &quot;largars&quot;=&gt;&quot;Largars&quot;, &quot;sudians&quot;=&gt;&quot;Sudians&quot;, &quot;oremians&quot;=&gt;&quot;Oremians&quot;, &quot;malvars&quot;=&gt;&quot;Malvars&quot;}, &quot;pantheon&quot;=&gt;{&quot;fluere&quot;=&gt;&quot;Fluere&quot;, &quot;kaelesta&quot;=&gt;&quot;Kaelesta&quot;, &quot;solkalor&quot;=&gt;&quot;Solkalor&quot;, &quot;ferrude&quot;=&gt;&quot;Ferrude&quot;, &quot;aurehjo&quot;=&gt;&quot;Aurehjo&quot;, &quot;tranqa&quot;=&gt;&quot;Tranqa&quot;, &quot;kustopha&quot;=&gt;&quot;Kustopha&quot;, &quot;dhfhalbh&quot;=&gt;&quot;Dh’Fhalbh&quot;, &quot;flumorn&quot;=&gt;&quot;Flumorn&quot;}, &quot;bestiary&quot;=&gt;{&quot;moss_hide&quot;=&gt;&quot;Moss-Hide Beast&quot;, &quot;tensur&quot;=&gt;&quot;Tensur&quot;, &quot;shadowboar&quot;=&gt;&quot;Shadowboar&quot;, &quot;nabling&quot;=&gt;&quot;Nabling&quot;}, &quot;special&quot;=&gt;{&quot;lakrikael&quot;=&gt;&quot;Lakrikael&quot;, &quot;azurit&quot;=&gt;&quot;Azurit&quot;}, &quot;religions&quot;=&gt;{&quot;cult_of_currents&quot;=&gt;&quot;Cult of Currents&quot;, &quot;ancestor_cult&quot;=&gt;&quot;Ancestor Cult&quot;, &quot;cult_of_spirits&quot;=&gt;&quot;Cult of Spirits&quot;}, &quot;langs&quot;=&gt;{&quot;en&quot;=&gt;&quot;English&quot;, &quot;ru&quot;=&gt;&quot;Русский&quot;}, &quot;articles&quot;=&gt;{&quot;toc_title&quot;=&gt;&quot;Table of Content&quot;}, &quot;stories&quot;=&gt;{&quot;khurh_zan_ul&quot;=&gt;&quot;Khurh-zan-ul&quot;}, &quot;breadcrumbs&quot;=&gt;{&quot;nav&quot;=&gt;nil, &quot;home&quot;=&gt;&quot;Homepage&quot;, &quot;core&quot;=&gt;&quot;Core&quot;, &quot;map&quot;=&gt;&quot;Map&quot;, &quot;races&quot;=&gt;&quot;Races&quot;, &quot;lore&quot;=&gt;&quot;Lore&quot;, &quot;stories&quot;=&gt;&quot;Stories&quot;, &quot;blog&quot;=&gt;&quot;Blog&quot;, &quot;arts&quot;=&gt;&quot;Arts&quot;, &quot;credits&quot;=&gt;&quot;Credits&quot;, &quot;links&quot;=&gt;&quot;Links&quot;, &quot;news&quot;=&gt;&quot;News&quot;, &quot;world_basics&quot;=&gt;&quot;World Basics&quot;, &quot;magic&quot;=&gt;&quot;Magic&quot;, &quot;for_dm&quot;=&gt;&quot;Taliskarn for DMs&quot;, &quot;two_taliskarns&quot;=&gt;&quot;The Two Taliskarns&quot;, &quot;taliskarn_dt&quot;=&gt;&quot;Dark Times (DT)&quot;, &quot;taliskarn_nd&quot;=&gt;&quot;New Dawn (ND)&quot;, &quot;faq&quot;=&gt;&quot;FAQ&quot;, &quot;myth&quot;=&gt;&quot;Myth&quot;, &quot;world&quot;=&gt;&quot;World&quot;, &quot;extras&quot;=&gt;&quot;Extras&quot;, &quot;roadmap&quot;=&gt;&quot;Roadmap&quot;, &quot;search&quot;=&gt;&quot;Search Results&quot;, &quot;malkona&quot;=&gt;&quot;Malkona&quot;, &quot;places&quot;=&gt;&quot;Places&quot;, &quot;riku&quot;=&gt;&quot;Riku Highlands&quot;, &quot;verda&quot;=&gt;&quot;Verdant Verdas&quot;, &quot;bryleahn_jungles&quot;=&gt;&quot;Bryleahn Jungles&quot;, &quot;bryleah&quot;=&gt;&quot;Bryleah&quot;, &quot;warm_sea&quot;=&gt;&quot;The Warm Sea&quot;, &quot;wilderreach&quot;=&gt;&quot;The Wilderreach&quot;, &quot;scarred_lands&quot;=&gt;&quot;Scarred Lands of Bruna&quot;, &quot;noctaria&quot;=&gt;&quot;Noctaria&quot;, &quot;flammarg_shards&quot;=&gt;&quot;Flammarg&apos;s Shards&quot;, &quot;valley_of_the_source&quot;=&gt;&quot;Valley of the Source&quot;, &quot;humans&quot;=&gt;&quot;Humans&quot;, &quot;prymars&quot;=&gt;&quot;Prymars&quot;, &quot;arydars&quot;=&gt;&quot;Arydars&quot;, &quot;brunars&quot;=&gt;&quot;Brunars&quot;, &quot;saltuars&quot;=&gt;&quot;Saltuars&quot;, &quot;bryleahns&quot;=&gt;&quot;Bryleahns&quot;, &quot;kyonnhs&quot;=&gt;&quot;Kyönnhs&quot;, &quot;noctids&quot;=&gt;&quot;Noctids&quot;, &quot;flammars&quot;=&gt;&quot;Flammars&quot;, &quot;fluere&quot;=&gt;&quot;Fluere&quot;, &quot;kaelesta&quot;=&gt;&quot;Kaelesta&quot;, &quot;solkalor&quot;=&gt;&quot;Solkalor&quot;, &quot;ferrude&quot;=&gt;&quot;Ferrude&quot;, &quot;aurehjo&quot;=&gt;&quot;Aurehjo&quot;, &quot;tranqa&quot;=&gt;&quot;Tranqa&quot;, &quot;kustopha&quot;=&gt;&quot;Kustopha&quot;, &quot;dhfhalbh&quot;=&gt;&quot;Dh’Fhalbh&quot;, &quot;flumorn&quot;=&gt;&quot;Flumorn&quot;, &quot;pantheon&quot;=&gt;&quot;Pantheon&quot;, &quot;spirits&quot;=&gt;&quot;The Spirits of Verda&quot;, &quot;unfinished&quot;=&gt;&quot;WIP&quot;, &quot;cult_of_currents&quot;=&gt;&quot;Cult of Currents&quot;, &quot;religions&quot;=&gt;&quot;Religions&quot;, &quot;bryleahn_scar&quot;=&gt;&quot;Bryleahn Scar&quot;, &quot;azure_haven&quot;=&gt;&quot;Azure Haven&quot;, &quot;meza&quot;=&gt;&quot;Meza&quot;, &quot;bestiary&quot;=&gt;&quot;Bestiary&quot;, &quot;irmaris&quot;=&gt;&quot;Irmaris&quot;, &quot;glossary&quot;=&gt;&quot;Glossary&quot;, &quot;wonders&quot;=&gt;&quot;Wonders&quot;, &quot;denizens&quot;=&gt;&quot;Denizens&quot;, &quot;about&quot;=&gt;&quot;About&quot;, &quot;moss_hide&quot;=&gt;&quot;Moss-Hide Beast&quot;, &quot;tensur&quot;=&gt;&quot;Tensur&quot;, &quot;shadowboar&quot;=&gt;&quot;Shadowboar&quot;, &quot;nabling&quot;=&gt;&quot;Nabling&quot;, &quot;fetid_fens&quot;=&gt;&quot;Fetid Fens&quot;, &quot;chronicle&quot;=&gt;&quot;Chronicle&quot;, &quot;ancestor_cult&quot;=&gt;&quot;Ancestor Cult&quot;, &quot;cult_of_spirits&quot;=&gt;&quot;Cult of Spirits&quot;, &quot;alchemy&quot;=&gt;&quot;Alchemy&quot;, &quot;wip&quot;=&gt;&quot;Work in Progress&quot;, &quot;license&quot;=&gt;&quot;License&quot;, &quot;khurh_zan_ul&quot;=&gt;&quot;Khurh-zan-ul&quot;, &quot;templates&quot;=&gt;&quot;Guides Templates&quot;, &quot;template_malkona&quot;=&gt;&quot;A Guide to Malkona&quot;, &quot;template_region&quot;=&gt;&quot;Regional Guide&quot;, &quot;ashen_frontier&quot;=&gt;&quot;The Ashen Frontier&quot;, &quot;dev diaries&quot;=&gt;&quot;dev diaries&quot;, &quot;monti&quot;=&gt;&quot;Monti&quot;, &quot;senfenns&quot;=&gt;&quot;Senfenns&quot;, &quot;largars&quot;=&gt;&quot;Largars&quot;, &quot;sudians&quot;=&gt;&quot;Sudians&quot;, &quot;oremians&quot;=&gt;&quot;Oremians&quot;, &quot;malvars&quot;=&gt;&quot;Malvars&quot;, &quot;montwyn_hills&quot;=&gt;&quot;The Montwyn Hills&quot;, &quot;lake_larga&quot;=&gt;&quot;Lake Larga&quot;, &quot;lake_senfunda&quot;=&gt;&quot;Lake Senfunda&quot;, &quot;lake_malvarma&quot;=&gt;&quot;Lake Malvarma&quot;, &quot;steps&quot;=&gt;&quot;The Steps&quot;, &quot;kromrs&quot;=&gt;&quot;Kromrs&quot;, &quot;tondrantars&quot;=&gt;&quot;Tondrantars&quot;, &quot;malnurs&quot;=&gt;&quot;Malnurs&quot;, &quot;windhill_plains&quot;=&gt;&quot;The Windhill Steppe&quot;, &quot;varmego&quot;=&gt;&quot;Varmego&quot;, &quot;shorelands&quot;=&gt;&quot;The Shorelands&quot;, &quot;southern_sea&quot;=&gt;&quot;The Southern Sea&quot;, &quot;negata&quot;=&gt;&quot;Negata&quot;, &quot;narem&quot;=&gt;&quot;Narem&quot;, &quot;orem&quot;=&gt;&quot;Orem&quot;, &quot;capar&quot;=&gt;&quot;Cape Capar&quot;, &quot;eastern_shore&quot;=&gt;&quot;The Eastern Shore&quot;, &quot;chillbay&quot;=&gt;&quot;The Chillbay&quot;, &quot;duerbo&quot;=&gt;&quot;Duerbo&quot;, &quot;marcolo&quot;=&gt;&quot;Marcolo&quot;, &quot;buso&quot;=&gt;&quot;Buso&quot;}}",
+      "title": "{&quot;global&quot;=&gt;{&quot;tagline&quot;=&gt;&quot;English&quot;, &quot;about&quot;=&gt;&quot;About&quot;, &quot;worldname&quot;=&gt;&quot;Taliskarn&quot;, &quot;worldalias&quot;=&gt;&quot;The World of Unwritten Maps&quot;, &quot;english&quot;=&gt;&quot;English&quot;, &quot;russian&quot;=&gt;&quot;Русский&quot;, &quot;search_results&quot;=&gt;&quot;Search Results&quot;, &quot;search&quot;=&gt;&quot;Search&quot;, &quot;notification_banner&quot;=&gt;&quot;The World of Taliskarn is currently under development, and all content is in draft form. The English version will be updated once the pre-beta for the Russian version (the original development language) is complete. Thank you for your understanding! For more details, please visit &lt;a href=\&quot;/about\&quot; target=\&quot;_self\&quot;&gt;this page&lt;/a&gt;.&quot;, &quot;wip&quot;=&gt;&quot;Work in Progress&quot;, &quot;nope&quot;=&gt;404, &quot;auto&quot;=&gt;&quot;Autogenerated&quot;, &quot;news&quot;=&gt;&quot;News&quot;}, &quot;titles&quot;=&gt;{&quot;dd&quot;=&gt;&quot;Dev Diaries&quot;}, &quot;service&quot;=&gt;{&quot;open_in_full&quot;=&gt;&quot;Open in full size&quot;, &quot;note&quot;=&gt;&quot;Margin Scribble&quot;, &quot;tba&quot;=&gt;&quot;To Be Announced&quot;, &quot;wip&quot;=&gt;&quot;Work in Progress&quot;, &quot;idea&quot;=&gt;&quot;Questionable Idea&quot;, &quot;wip_disclaimer&quot;=&gt;&quot;&lt;strong&gt;Work in Progress&lt;/strong&gt;&lt;br&gt;I&apos;m actively working on creating Taliskarn right now. It&apos;s an enormous amount of tasks, so at this stage, many pages on this website contain only the most basic information – my thoughts and ideas that I am gradually turning into reality. &lt;br&gt;&lt;br&gt;For more details on what&apos;s coming next, you can check out the &lt;a href=\&quot;/about\&quot; target=\&quot;_self\&quot;&gt;Roadmap&lt;/a&gt;; I regularly publish current updates in the &lt;a href=\&quot;/extras/blog\&quot; target=\&quot;_self\&quot;&gt;Blog&lt;/a&gt;, and most importhantly, I&apos;m always open to feedback. Even more than that – I&apos;ll be incredibly grateful for it! &lt;br&gt;&lt;br&gt;If you have the time and inclination to read my notes, and if you happen to come up with any ideas, criticisms, or suggestions, please share them with me. All contact information is available on the &lt;a href=\&quot;/about#links\&quot; target=\&quot;_self\&quot;&gt;About&lt;/a&gt; page and in the header.&lt;br&gt;&lt;br&gt;And thank you for your interest in Taliskarn!&quot;, &quot;copyright&quot;=&gt;&quot;Powered by Orthan Thundy, 2025&quot;, &quot;filter_by_category&quot;=&gt;&quot;Filter by category&quot;, &quot;all_posts&quot;=&gt;&quot;All Posts&quot;, &quot;read_more&quot;=&gt;&quot;Read more&quot;, &quot;newer_posts&quot;=&gt;&quot;Newer Posts&quot;, &quot;older_posts&quot;=&gt;&quot;Older Posts&quot;, &quot;tta&quot;=&gt;&quot;To Think About&quot;, &quot;discord&quot;=&gt;&quot;Join Discord&quot;, &quot;show_more&quot;=&gt;&quot;Show More&quot;}, &quot;nav&quot;=&gt;{&quot;home&quot;=&gt;&quot;Home&quot;, &quot;core&quot;=&gt;&quot;Core&quot;, &quot;map&quot;=&gt;&quot;Map&quot;, &quot;races&quot;=&gt;&quot;Races&quot;, &quot;lore&quot;=&gt;&quot;Lore&quot;, &quot;stories&quot;=&gt;&quot;Stories&quot;, &quot;blog&quot;=&gt;&quot;Blog&quot;, &quot;arts&quot;=&gt;&quot;Arts&quot;, &quot;credits&quot;=&gt;&quot;Credits&quot;, &quot;links&quot;=&gt;&quot;Links&quot;, &quot;world_basics&quot;=&gt;&quot;World Basics&quot;, &quot;magic&quot;=&gt;&quot;Magic&quot;, &quot;for_dm&quot;=&gt;&quot;Taliskarn for DMs&quot;, &quot;two_taliskarns&quot;=&gt;&quot;The Two Taliskarns&quot;, &quot;taliskarn_dt&quot;=&gt;&quot;Dark Times (DT)&quot;, &quot;taliskarn_nd&quot;=&gt;&quot;New Dawn (ND)&quot;, &quot;faq&quot;=&gt;&quot;FAQ&quot;, &quot;myth&quot;=&gt;&quot;Myth&quot;, &quot;world&quot;=&gt;&quot;World&quot;, &quot;extras&quot;=&gt;&quot;Extras&quot;, &quot;roadmap&quot;=&gt;&quot;Roadmap&quot;, &quot;search&quot;=&gt;&quot;Search Results&quot;, &quot;pantheon&quot;=&gt;&quot;Pantheon&quot;, &quot;religions&quot;=&gt;&quot;Religions&quot;, &quot;bestiary&quot;=&gt;&quot;Bestiary&quot;, &quot;glossary&quot;=&gt;&quot;Glossary&quot;, &quot;denizens&quot;=&gt;&quot;Denizens&quot;, &quot;wonders&quot;=&gt;&quot;Wonders&quot;, &quot;chronicle&quot;=&gt;&quot;Chronicle&quot;, &quot;alchemy&quot;=&gt;&quot;Alchemy&quot;, &quot;license&quot;=&gt;&quot;License&quot;, &quot;templates&quot;=&gt;&quot;Guides Templates&quot;, &quot;template_malkona&quot;=&gt;&quot;A Guide to Malkona&quot;, &quot;template_region&quot;=&gt;&quot;Regional Guide&quot;, &quot;spirits&quot;=&gt;&quot;The Spirits of Verda&quot;}, &quot;places&quot;=&gt;{&quot;malkona&quot;=&gt;&quot;Malkona&quot;, &quot;places&quot;=&gt;&quot;Places&quot;, &quot;riku&quot;=&gt;&quot;Riku Highlands&quot;, &quot;verda&quot;=&gt;&quot;Verdant Verdas&quot;, &quot;bryleahn_jungles&quot;=&gt;&quot;Bryleahn Jungles&quot;, &quot;warm_sea&quot;=&gt;&quot;The Warm Sea&quot;, &quot;wilderreach&quot;=&gt;&quot;The Wilderreach&quot;, &quot;scarred_lands&quot;=&gt;&quot;Scarred Lands of Bruna&quot;, &quot;noctaria&quot;=&gt;&quot;Noctaria&quot;, &quot;flammarg_shards&quot;=&gt;&quot;Flammarg&apos;s Shards&quot;, &quot;sanguama&quot;=&gt;&quot;Sanguama&quot;, &quot;bryleahn_scar&quot;=&gt;&quot;Bryleahn Scar&quot;, &quot;azure_haven&quot;=&gt;&quot;Azure Haven&quot;, &quot;valley_of_the_source&quot;=&gt;&quot;Valley of the Source&quot;, &quot;meza&quot;=&gt;&quot;Meza&quot;, &quot;irmaris&quot;=&gt;&quot;Irmaris&quot;, &quot;fetid_fens&quot;=&gt;&quot;Fetid Fens&quot;, &quot;ashen_frontier&quot;=&gt;&quot;The Ashen Frontier&quot;, &quot;montwyn_hills&quot;=&gt;&quot;The Montwyn Hills&quot;, &quot;lake_larga&quot;=&gt;&quot;Lake Larga&quot;, &quot;lake_senfunda&quot;=&gt;&quot;Lake Senfunda&quot;, &quot;lake_malvarma&quot;=&gt;&quot;Lake Malvarma&quot;, &quot;steps&quot;=&gt;&quot;The Steps&quot;, &quot;windhill_plains&quot;=&gt;&quot;The Windhill Steppe&quot;, &quot;shorelands&quot;=&gt;&quot;The Shorelands&quot;, &quot;southern_sea&quot;=&gt;&quot;The Southern Sea&quot;, &quot;negata&quot;=&gt;&quot;Negata&quot;, &quot;narem&quot;=&gt;&quot;Narem&quot;, &quot;orem&quot;=&gt;&quot;Orem&quot;, &quot;capar&quot;=&gt;&quot;Cape Capar&quot;, &quot;eastern_shore&quot;=&gt;&quot;The Eastern Shore&quot;, &quot;chillbay&quot;=&gt;&quot;The Chillbay&quot;}, &quot;cities&quot;=&gt;{&quot;varmego&quot;=&gt;&quot;Varmego&quot;, &quot;duerbo&quot;=&gt;&quot;Duerbo&quot;, &quot;marcolo&quot;=&gt;&quot;Marcolo&quot;, &quot;buso&quot;=&gt;&quot;Buso&quot;}, &quot;races&quot;=&gt;{&quot;humans&quot;=&gt;&quot;Humans&quot;, &quot;prymars&quot;=&gt;&quot;Prymars&quot;, &quot;arydars&quot;=&gt;&quot;Arydars&quot;, &quot;kromrs&quot;=&gt;&quot;Kromrs&quot;, &quot;tondrantars&quot;=&gt;&quot;Tondrantars&quot;, &quot;malnurs&quot;=&gt;&quot;Malnurs&quot;, &quot;brunars&quot;=&gt;&quot;Brunars&quot;, &quot;saltuars&quot;=&gt;&quot;Saltuars&quot;, &quot;bryleahns&quot;=&gt;&quot;Bryleahns&quot;, &quot;kyonnhs&quot;=&gt;&quot;Kyönnhs&quot;, &quot;noctids&quot;=&gt;&quot;Noctids&quot;, &quot;flammars&quot;=&gt;&quot;Flammars&quot;, &quot;monti&quot;=&gt;&quot;Monti&quot;, &quot;senfenns&quot;=&gt;&quot;Senfenns&quot;, &quot;largars&quot;=&gt;&quot;Largars&quot;, &quot;sudians&quot;=&gt;&quot;Sudians&quot;, &quot;oremians&quot;=&gt;&quot;Oremians&quot;, &quot;malvars&quot;=&gt;&quot;Malvars&quot;}, &quot;pantheon&quot;=&gt;{&quot;fluere&quot;=&gt;&quot;Fluere&quot;, &quot;kaelesta&quot;=&gt;&quot;Kaelesta&quot;, &quot;solkalor&quot;=&gt;&quot;Solkalor&quot;, &quot;ferrude&quot;=&gt;&quot;Ferrude&quot;, &quot;aurehjo&quot;=&gt;&quot;Aurehjo&quot;, &quot;tranqa&quot;=&gt;&quot;Tranqa&quot;, &quot;kustopha&quot;=&gt;&quot;Kustopha&quot;, &quot;dhfhalbh&quot;=&gt;&quot;Dh’Fhalbh&quot;, &quot;flumorn&quot;=&gt;&quot;Flumorn&quot;}, &quot;bestiary&quot;=&gt;{&quot;moss_hide&quot;=&gt;&quot;Moss-Hide Beast&quot;, &quot;tensur&quot;=&gt;&quot;Tensur&quot;, &quot;shadowboar&quot;=&gt;&quot;Shadowboar&quot;, &quot;nabling&quot;=&gt;&quot;Nabling&quot;}, &quot;special&quot;=&gt;{&quot;lakrikael&quot;=&gt;&quot;Lakrikael&quot;, &quot;azurit&quot;=&gt;&quot;Azurit&quot;}, &quot;religions&quot;=&gt;{&quot;cult_of_currents&quot;=&gt;&quot;Cult of Currents&quot;, &quot;ancestor_cult&quot;=&gt;&quot;Ancestor Cult&quot;, &quot;cult_of_spirits&quot;=&gt;&quot;Cult of Spirits&quot;}, &quot;langs&quot;=&gt;{&quot;en&quot;=&gt;&quot;English&quot;, &quot;ru&quot;=&gt;&quot;Русский&quot;}, &quot;articles&quot;=&gt;{&quot;toc_title&quot;=&gt;&quot;Table of Content&quot;}, &quot;stories&quot;=&gt;{&quot;khurh_zan_ul&quot;=&gt;&quot;Khurh-zan-ul&quot;}, &quot;breadcrumbs&quot;=&gt;{&quot;nav&quot;=&gt;nil, &quot;home&quot;=&gt;&quot;Homepage&quot;, &quot;core&quot;=&gt;&quot;Core&quot;, &quot;map&quot;=&gt;&quot;Map&quot;, &quot;races&quot;=&gt;&quot;Races&quot;, &quot;lore&quot;=&gt;&quot;Lore&quot;, &quot;stories&quot;=&gt;&quot;Stories&quot;, &quot;blog&quot;=&gt;&quot;Blog&quot;, &quot;arts&quot;=&gt;&quot;Arts&quot;, &quot;credits&quot;=&gt;&quot;Credits&quot;, &quot;links&quot;=&gt;&quot;Links&quot;, &quot;news&quot;=&gt;&quot;News&quot;, &quot;world_basics&quot;=&gt;&quot;World Basics&quot;, &quot;magic&quot;=&gt;&quot;Magic&quot;, &quot;for_dm&quot;=&gt;&quot;Taliskarn for DMs&quot;, &quot;two_taliskarns&quot;=&gt;&quot;The Two Taliskarns&quot;, &quot;taliskarn_dt&quot;=&gt;&quot;Dark Times (DT)&quot;, &quot;taliskarn_nd&quot;=&gt;&quot;New Dawn (ND)&quot;, &quot;faq&quot;=&gt;&quot;FAQ&quot;, &quot;myth&quot;=&gt;&quot;Myth&quot;, &quot;world&quot;=&gt;&quot;World&quot;, &quot;extras&quot;=&gt;&quot;Extras&quot;, &quot;roadmap&quot;=&gt;&quot;Roadmap&quot;, &quot;search&quot;=&gt;&quot;Search Results&quot;, &quot;malkona&quot;=&gt;&quot;Malkona&quot;, &quot;places&quot;=&gt;&quot;Places&quot;, &quot;riku&quot;=&gt;&quot;Riku Highlands&quot;, &quot;verda&quot;=&gt;&quot;Verdant Verdas&quot;, &quot;bryleahn_jungles&quot;=&gt;&quot;Bryleahn Jungles&quot;, &quot;bryleah&quot;=&gt;&quot;Bryleah&quot;, &quot;warm_sea&quot;=&gt;&quot;The Warm Sea&quot;, &quot;wilderreach&quot;=&gt;&quot;The Wilderreach&quot;, &quot;scarred_lands&quot;=&gt;&quot;Scarred Lands of Bruna&quot;, &quot;noctaria&quot;=&gt;&quot;Noctaria&quot;, &quot;flammarg_shards&quot;=&gt;&quot;Flammarg&apos;s Shards&quot;, &quot;valley_of_the_source&quot;=&gt;&quot;Valley of the Source&quot;, &quot;humans&quot;=&gt;&quot;Humans&quot;, &quot;prymars&quot;=&gt;&quot;Prymars&quot;, &quot;arydars&quot;=&gt;&quot;Arydars&quot;, &quot;brunars&quot;=&gt;&quot;Brunars&quot;, &quot;saltuars&quot;=&gt;&quot;Saltuars&quot;, &quot;bryleahns&quot;=&gt;&quot;Bryleahns&quot;, &quot;kyonnhs&quot;=&gt;&quot;Kyönnhs&quot;, &quot;noctids&quot;=&gt;&quot;Noctids&quot;, &quot;flammars&quot;=&gt;&quot;Flammars&quot;, &quot;fluere&quot;=&gt;&quot;Fluere&quot;, &quot;kaelesta&quot;=&gt;&quot;Kaelesta&quot;, &quot;solkalor&quot;=&gt;&quot;Solkalor&quot;, &quot;ferrude&quot;=&gt;&quot;Ferrude&quot;, &quot;aurehjo&quot;=&gt;&quot;Aurehjo&quot;, &quot;tranqa&quot;=&gt;&quot;Tranqa&quot;, &quot;kustopha&quot;=&gt;&quot;Kustopha&quot;, &quot;dhfhalbh&quot;=&gt;&quot;Dh’Fhalbh&quot;, &quot;flumorn&quot;=&gt;&quot;Flumorn&quot;, &quot;pantheon&quot;=&gt;&quot;Pantheon&quot;, &quot;spirits&quot;=&gt;&quot;The Spirits of Verda&quot;, &quot;unfinished&quot;=&gt;&quot;WIP&quot;, &quot;cult_of_currents&quot;=&gt;&quot;Cult of Currents&quot;, &quot;religions&quot;=&gt;&quot;Religions&quot;, &quot;bryleahn_scar&quot;=&gt;&quot;Bryleahn Scar&quot;, &quot;azure_haven&quot;=&gt;&quot;Azure Haven&quot;, &quot;meza&quot;=&gt;&quot;Meza&quot;, &quot;bestiary&quot;=&gt;&quot;Bestiary&quot;, &quot;irmaris&quot;=&gt;&quot;Irmaris&quot;, &quot;glossary&quot;=&gt;&quot;Glossary&quot;, &quot;wonders&quot;=&gt;&quot;Wonders&quot;, &quot;denizens&quot;=&gt;&quot;Denizens&quot;, &quot;about&quot;=&gt;&quot;About&quot;, &quot;moss_hide&quot;=&gt;&quot;Moss-Hide Beast&quot;, &quot;tensur&quot;=&gt;&quot;Tensur&quot;, &quot;shadowboar&quot;=&gt;&quot;Shadowboar&quot;, &quot;nabling&quot;=&gt;&quot;Nabling&quot;, &quot;fetid_fens&quot;=&gt;&quot;Fetid Fens&quot;, &quot;chronicle&quot;=&gt;&quot;Chronicle&quot;, &quot;ancestor_cult&quot;=&gt;&quot;Ancestor Cult&quot;, &quot;cult_of_spirits&quot;=&gt;&quot;Cult of Spirits&quot;, &quot;alchemy&quot;=&gt;&quot;Alchemy&quot;, &quot;wip&quot;=&gt;&quot;Work in Progress&quot;, &quot;license&quot;=&gt;&quot;License&quot;, &quot;khurh_zan_ul&quot;=&gt;&quot;Khurh-zan-ul&quot;, &quot;templates&quot;=&gt;&quot;Guides Templates&quot;, &quot;template_malkona&quot;=&gt;&quot;A Guide to Malkona&quot;, &quot;template_region&quot;=&gt;&quot;Regional Guide&quot;, &quot;ashen_frontier&quot;=&gt;&quot;The Ashen Frontier&quot;, &quot;dev diaries&quot;=&gt;&quot;dev diaries&quot;, &quot;monti&quot;=&gt;&quot;Monti&quot;, &quot;senfenns&quot;=&gt;&quot;Senfenns&quot;, &quot;largars&quot;=&gt;&quot;Largars&quot;, &quot;sudians&quot;=&gt;&quot;Sudians&quot;, &quot;oremians&quot;=&gt;&quot;Oremians&quot;, &quot;malvars&quot;=&gt;&quot;Malvars&quot;, &quot;montwyn_hills&quot;=&gt;&quot;The Montwyn Hills&quot;, &quot;lake_larga&quot;=&gt;&quot;Lake Larga&quot;, &quot;lake_senfunda&quot;=&gt;&quot;Lake Senfunda&quot;, &quot;lake_malvarma&quot;=&gt;&quot;Lake Malvarma&quot;, &quot;steps&quot;=&gt;&quot;The Steps&quot;, &quot;kromrs&quot;=&gt;&quot;Kromrs&quot;, &quot;tondrantars&quot;=&gt;&quot;Tondrantars&quot;, &quot;malnurs&quot;=&gt;&quot;Malnurs&quot;, &quot;windhill_plains&quot;=&gt;&quot;The Windhill Steppe&quot;, &quot;varmego&quot;=&gt;&quot;Varmego&quot;, &quot;shorelands&quot;=&gt;&quot;The Shorelands&quot;, &quot;southern_sea&quot;=&gt;&quot;The Southern Sea&quot;, &quot;negata&quot;=&gt;&quot;Negata&quot;, &quot;narem&quot;=&gt;&quot;Narem&quot;, &quot;orem&quot;=&gt;&quot;Orem&quot;, &quot;capar&quot;=&gt;&quot;Cape Capar&quot;, &quot;eastern_shore&quot;=&gt;&quot;The Eastern Shore&quot;, &quot;chillbay&quot;=&gt;&quot;The Chillbay&quot;, &quot;duerbo&quot;=&gt;&quot;Duerbo&quot;, &quot;marcolo&quot;=&gt;&quot;Marcolo&quot;, &quot;buso&quot;=&gt;&quot;Buso&quot;}}",
       "content": "@import \"minima\";",
       "url": "/assets/main.css"
     }
@@ -3149,7 +5235,7 @@
     
 
     "feed-xml": {
-      "title": "{&quot;global&quot;=&gt;{&quot;tagline&quot;=&gt;&quot;English&quot;, &quot;about&quot;=&gt;&quot;About&quot;, &quot;worldname&quot;=&gt;&quot;Taliskarn&quot;, &quot;worldalias&quot;=&gt;&quot;The World of Unwritten Maps&quot;, &quot;english&quot;=&gt;&quot;English&quot;, &quot;russian&quot;=&gt;&quot;Русский&quot;, &quot;search_results&quot;=&gt;&quot;Search Results&quot;, &quot;notification_banner&quot;=&gt;&quot;The World of Taliskarn is currently under development, and all content is in draft form. The English version will be updated once the pre-beta for the Russian version (the original development language) is complete. Thank you for your understanding! For more details, please visit &lt;a href=\&quot;/about\&quot; target=\&quot;_self\&quot;&gt;this page&lt;/a&gt;.&quot;, &quot;wip&quot;=&gt;&quot;Work in Progress&quot;, &quot;nope&quot;=&gt;404, &quot;auto&quot;=&gt;&quot;Autogenerated&quot;, &quot;news&quot;=&gt;&quot;News&quot;}, &quot;titles&quot;=&gt;{&quot;dd&quot;=&gt;&quot;Dev Diaries&quot;}, &quot;service&quot;=&gt;{&quot;open_in_full&quot;=&gt;&quot;Open in full size&quot;, &quot;note&quot;=&gt;&quot;Margin Scribble&quot;, &quot;tba&quot;=&gt;&quot;To Be Announced&quot;, &quot;wip&quot;=&gt;&quot;Work in Progress&quot;, &quot;idea&quot;=&gt;&quot;Questionable Idea&quot;, &quot;wip_disclaimer&quot;=&gt;&quot;&lt;strong&gt;Work in Progress&lt;/strong&gt;&lt;br&gt;I&apos;m actively working on creating Taliskarn right now. It&apos;s an enormous amount of tasks, so at this stage, many pages on this website contain only the most basic information – my thoughts and ideas that I am gradually turning into reality. &lt;br&gt;&lt;br&gt;For more details on what&apos;s coming next, you can check out the &lt;a href=\&quot;/about\&quot; target=\&quot;_self\&quot;&gt;Roadmap&lt;/a&gt;; I regularly publish current updates in the &lt;a href=\&quot;/extras/blog\&quot; target=\&quot;_self\&quot;&gt;Blog&lt;/a&gt;, and most importhantly, I&apos;m always open to feedback. Even more than that – I&apos;ll be incredibly grateful for it! &lt;br&gt;&lt;br&gt;If you have the time and inclination to read my notes, and if you happen to come up with any ideas, criticisms, or suggestions, please share them with me. All contact information is available on the &lt;a href=\&quot;/about#links\&quot; target=\&quot;_self\&quot;&gt;About&lt;/a&gt; page and in the header.&lt;br&gt;&lt;br&gt;And thank you for your interest in Taliskarn!&quot;, &quot;copyright&quot;=&gt;&quot;Powered by Orthan Thundy, 2025&quot;, &quot;filter_by_category&quot;=&gt;&quot;Filter by category&quot;, &quot;all_posts&quot;=&gt;&quot;All Posts&quot;, &quot;read_more&quot;=&gt;&quot;Read more&quot;, &quot;newer_posts&quot;=&gt;&quot;Newer Posts&quot;, &quot;older_posts&quot;=&gt;&quot;Older Posts&quot;, &quot;tta&quot;=&gt;&quot;To Think About&quot;, &quot;discord&quot;=&gt;&quot;Join Discord&quot;}, &quot;nav&quot;=&gt;{&quot;home&quot;=&gt;&quot;Home&quot;, &quot;core&quot;=&gt;&quot;Core&quot;, &quot;map&quot;=&gt;&quot;Map&quot;, &quot;races&quot;=&gt;&quot;Races&quot;, &quot;lore&quot;=&gt;&quot;Lore&quot;, &quot;stories&quot;=&gt;&quot;Stories&quot;, &quot;blog&quot;=&gt;&quot;Blog&quot;, &quot;arts&quot;=&gt;&quot;Arts&quot;, &quot;credits&quot;=&gt;&quot;Credits&quot;, &quot;links&quot;=&gt;&quot;Links&quot;, &quot;world_basics&quot;=&gt;&quot;World Basics&quot;, &quot;magic&quot;=&gt;&quot;Magic&quot;, &quot;for_dm&quot;=&gt;&quot;Taliskarn for DMs&quot;, &quot;two_taliskarns&quot;=&gt;&quot;The Two Taliskarns&quot;, &quot;taliskarn_dt&quot;=&gt;&quot;Dark Times (DT)&quot;, &quot;taliskarn_nd&quot;=&gt;&quot;New Dawn (ND)&quot;, &quot;faq&quot;=&gt;&quot;FAQ&quot;, &quot;myth&quot;=&gt;&quot;Myth&quot;, &quot;world&quot;=&gt;&quot;World&quot;, &quot;extras&quot;=&gt;&quot;Extras&quot;, &quot;roadmap&quot;=&gt;&quot;Roadmap&quot;, &quot;search&quot;=&gt;&quot;Search Results&quot;, &quot;pantheon&quot;=&gt;&quot;Pantheon&quot;, &quot;religions&quot;=&gt;&quot;Religions&quot;, &quot;bestiary&quot;=&gt;&quot;Bestiary&quot;, &quot;glossary&quot;=&gt;&quot;Glossary&quot;, &quot;denizens&quot;=&gt;&quot;Denizens&quot;, &quot;wonders&quot;=&gt;&quot;Wonders&quot;, &quot;chronicle&quot;=&gt;&quot;Chronicle&quot;, &quot;alchemy&quot;=&gt;&quot;Alchemy&quot;, &quot;license&quot;=&gt;&quot;License&quot;, &quot;templates&quot;=&gt;&quot;Guides Templates&quot;, &quot;template_malkona&quot;=&gt;&quot;A Guide to Malkona&quot;, &quot;template_region&quot;=&gt;&quot;Regional Guide&quot;, &quot;spirits&quot;=&gt;&quot;The Spirits of Verda&quot;}, &quot;places&quot;=&gt;{&quot;malkona&quot;=&gt;&quot;Malkona&quot;, &quot;places&quot;=&gt;&quot;Places&quot;, &quot;riku&quot;=&gt;&quot;Riku Highlands&quot;, &quot;verda&quot;=&gt;&quot;Verdant Verdas&quot;, &quot;bryleahn_jungles&quot;=&gt;&quot;Bryleahn Jungles&quot;, &quot;warm_sea&quot;=&gt;&quot;The Warm Sea&quot;, &quot;wilderreach&quot;=&gt;&quot;The Wilderreach&quot;, &quot;scarred_lands&quot;=&gt;&quot;Scarred Lands of Bruna&quot;, &quot;noctaria&quot;=&gt;&quot;Noctaria&quot;, &quot;flammarg_shards&quot;=&gt;&quot;Flammarg&apos;s Shards&quot;, &quot;sanguama&quot;=&gt;&quot;Sanguama&quot;, &quot;bryleahn_scar&quot;=&gt;&quot;Bryleahn Scar&quot;, &quot;azure_haven&quot;=&gt;&quot;Azure Haven&quot;, &quot;valley_of_the_source&quot;=&gt;&quot;Valley of the Source&quot;, &quot;meza&quot;=&gt;&quot;Meza&quot;, &quot;irmaris&quot;=&gt;&quot;Irmaris&quot;, &quot;fetid_fens&quot;=&gt;&quot;Fetid Fens&quot;, &quot;ashen_frontier&quot;=&gt;&quot;The Ashen Frontier&quot;, &quot;montwyn_hills&quot;=&gt;&quot;The Montwyn Hills&quot;, &quot;lake_larga&quot;=&gt;&quot;Lake Larga&quot;, &quot;lake_senfunda&quot;=&gt;&quot;Lake Senfunda&quot;, &quot;lake_malvarma&quot;=&gt;&quot;Lake Malvarma&quot;, &quot;steps&quot;=&gt;&quot;The Steps&quot;, &quot;windhill_plains&quot;=&gt;&quot;The Windhill Steppe&quot;, &quot;shorelands&quot;=&gt;&quot;The Shorelands&quot;, &quot;southern_sea&quot;=&gt;&quot;The Southern Sea&quot;, &quot;negata&quot;=&gt;&quot;Negata&quot;, &quot;narem&quot;=&gt;&quot;Narem&quot;, &quot;orem&quot;=&gt;&quot;Orem&quot;, &quot;capar&quot;=&gt;&quot;Cape Capar&quot;, &quot;eastern_shore&quot;=&gt;&quot;The Eastern Shore&quot;, &quot;chillbay&quot;=&gt;&quot;The Chillbay&quot;}, &quot;cities&quot;=&gt;{&quot;varmego&quot;=&gt;&quot;Varmego&quot;, &quot;duerbo&quot;=&gt;&quot;Duerbo&quot;, &quot;marcolo&quot;=&gt;&quot;Marcolo&quot;, &quot;buso&quot;=&gt;&quot;Buso&quot;}, &quot;races&quot;=&gt;{&quot;humans&quot;=&gt;&quot;Humans&quot;, &quot;prymars&quot;=&gt;&quot;Prymars&quot;, &quot;arydars&quot;=&gt;&quot;Arydars&quot;, &quot;kromrs&quot;=&gt;&quot;Kromrs&quot;, &quot;tondrantars&quot;=&gt;&quot;Tondrantars&quot;, &quot;malnurs&quot;=&gt;&quot;Malnurs&quot;, &quot;brunars&quot;=&gt;&quot;Brunars&quot;, &quot;saltuars&quot;=&gt;&quot;Saltuars&quot;, &quot;bryleahns&quot;=&gt;&quot;Bryleahns&quot;, &quot;kyonnhs&quot;=&gt;&quot;Kyönnhs&quot;, &quot;noctids&quot;=&gt;&quot;Noctids&quot;, &quot;flammars&quot;=&gt;&quot;Flammars&quot;, &quot;monti&quot;=&gt;&quot;Monti&quot;, &quot;senfenns&quot;=&gt;&quot;Senfenns&quot;, &quot;largars&quot;=&gt;&quot;Largars&quot;, &quot;sudians&quot;=&gt;&quot;Sudians&quot;, &quot;oremians&quot;=&gt;&quot;Oremians&quot;, &quot;malvars&quot;=&gt;&quot;Malvars&quot;}, &quot;pantheon&quot;=&gt;{&quot;fluere&quot;=&gt;&quot;Fluere&quot;, &quot;kaelesta&quot;=&gt;&quot;Kaelesta&quot;, &quot;solkalor&quot;=&gt;&quot;Solkalor&quot;, &quot;ferrude&quot;=&gt;&quot;Ferrude&quot;, &quot;aurehjo&quot;=&gt;&quot;Aurehjo&quot;, &quot;tranqa&quot;=&gt;&quot;Tranqa&quot;, &quot;kustopha&quot;=&gt;&quot;Kustopha&quot;, &quot;dhfhalbh&quot;=&gt;&quot;Dh’Fhalbh&quot;, &quot;flumorn&quot;=&gt;&quot;Flumorn&quot;}, &quot;bestiary&quot;=&gt;{&quot;moss_hide&quot;=&gt;&quot;Moss-Hide Beast&quot;, &quot;tensur&quot;=&gt;&quot;Tensur&quot;, &quot;shadowboar&quot;=&gt;&quot;Shadowboar&quot;, &quot;nabling&quot;=&gt;&quot;Nabling&quot;}, &quot;special&quot;=&gt;{&quot;lakrikael&quot;=&gt;&quot;Lakrikael&quot;, &quot;azurit&quot;=&gt;&quot;Azurit&quot;}, &quot;religions&quot;=&gt;{&quot;cult_of_currents&quot;=&gt;&quot;Cult of Currents&quot;, &quot;ancestor_cult&quot;=&gt;&quot;Ancestor Cult&quot;, &quot;cult_of_spirits&quot;=&gt;&quot;Cult of Spirits&quot;}, &quot;langs&quot;=&gt;{&quot;en&quot;=&gt;&quot;English&quot;, &quot;ru&quot;=&gt;&quot;Русский&quot;}, &quot;articles&quot;=&gt;{&quot;toc_title&quot;=&gt;&quot;Table of Content&quot;}, &quot;stories&quot;=&gt;{&quot;khurh_zan_ul&quot;=&gt;&quot;Khurh-zan-ul&quot;}, &quot;breadcrumbs&quot;=&gt;{&quot;nav&quot;=&gt;nil, &quot;home&quot;=&gt;&quot;Homepage&quot;, &quot;core&quot;=&gt;&quot;Core&quot;, &quot;map&quot;=&gt;&quot;Map&quot;, &quot;races&quot;=&gt;&quot;Races&quot;, &quot;lore&quot;=&gt;&quot;Lore&quot;, &quot;stories&quot;=&gt;&quot;Stories&quot;, &quot;blog&quot;=&gt;&quot;Blog&quot;, &quot;arts&quot;=&gt;&quot;Arts&quot;, &quot;credits&quot;=&gt;&quot;Credits&quot;, &quot;links&quot;=&gt;&quot;Links&quot;, &quot;news&quot;=&gt;&quot;News&quot;, &quot;world_basics&quot;=&gt;&quot;World Basics&quot;, &quot;magic&quot;=&gt;&quot;Magic&quot;, &quot;for_dm&quot;=&gt;&quot;Taliskarn for DMs&quot;, &quot;two_taliskarns&quot;=&gt;&quot;The Two Taliskarns&quot;, &quot;taliskarn_dt&quot;=&gt;&quot;Dark Times (DT)&quot;, &quot;taliskarn_nd&quot;=&gt;&quot;New Dawn (ND)&quot;, &quot;faq&quot;=&gt;&quot;FAQ&quot;, &quot;myth&quot;=&gt;&quot;Myth&quot;, &quot;world&quot;=&gt;&quot;World&quot;, &quot;extras&quot;=&gt;&quot;Extras&quot;, &quot;roadmap&quot;=&gt;&quot;Roadmap&quot;, &quot;search&quot;=&gt;&quot;Search Results&quot;, &quot;malkona&quot;=&gt;&quot;Malkona&quot;, &quot;places&quot;=&gt;&quot;Places&quot;, &quot;riku&quot;=&gt;&quot;Riku Highlands&quot;, &quot;verda&quot;=&gt;&quot;Verdant Verdas&quot;, &quot;bryleahn_jungles&quot;=&gt;&quot;Bryleahn Jungles&quot;, &quot;bryleah&quot;=&gt;&quot;Bryleah&quot;, &quot;warm_sea&quot;=&gt;&quot;The Warm Sea&quot;, &quot;wilderreach&quot;=&gt;&quot;The Wilderreach&quot;, &quot;scarred_lands&quot;=&gt;&quot;Scarred Lands of Bruna&quot;, &quot;noctaria&quot;=&gt;&quot;Noctaria&quot;, &quot;flammarg_shards&quot;=&gt;&quot;Flammarg&apos;s Shards&quot;, &quot;valley_of_the_source&quot;=&gt;&quot;Valley of the Source&quot;, &quot;humans&quot;=&gt;&quot;Humans&quot;, &quot;prymars&quot;=&gt;&quot;Prymars&quot;, &quot;arydars&quot;=&gt;&quot;Arydars&quot;, &quot;brunars&quot;=&gt;&quot;Brunars&quot;, &quot;saltuars&quot;=&gt;&quot;Saltuars&quot;, &quot;bryleahns&quot;=&gt;&quot;Bryleahns&quot;, &quot;kyonnhs&quot;=&gt;&quot;Kyönnhs&quot;, &quot;noctids&quot;=&gt;&quot;Noctids&quot;, &quot;flammars&quot;=&gt;&quot;Flammars&quot;, &quot;fluere&quot;=&gt;&quot;Fluere&quot;, &quot;kaelesta&quot;=&gt;&quot;Kaelesta&quot;, &quot;solkalor&quot;=&gt;&quot;Solkalor&quot;, &quot;ferrude&quot;=&gt;&quot;Ferrude&quot;, &quot;aurehjo&quot;=&gt;&quot;Aurehjo&quot;, &quot;tranqa&quot;=&gt;&quot;Tranqa&quot;, &quot;kustopha&quot;=&gt;&quot;Kustopha&quot;, &quot;dhfhalbh&quot;=&gt;&quot;Dh’Fhalbh&quot;, &quot;flumorn&quot;=&gt;&quot;Flumorn&quot;, &quot;pantheon&quot;=&gt;&quot;Pantheon&quot;, &quot;spirits&quot;=&gt;&quot;The Spirits of Verda&quot;, &quot;unfinished&quot;=&gt;&quot;WIP&quot;, &quot;cult_of_currents&quot;=&gt;&quot;Cult of Currents&quot;, &quot;religions&quot;=&gt;&quot;Religions&quot;, &quot;bryleahn_scar&quot;=&gt;&quot;Bryleahn Scar&quot;, &quot;azure_haven&quot;=&gt;&quot;Azure Haven&quot;, &quot;meza&quot;=&gt;&quot;Meza&quot;, &quot;bestiary&quot;=&gt;&quot;Bestiary&quot;, &quot;irmaris&quot;=&gt;&quot;Irmaris&quot;, &quot;glossary&quot;=&gt;&quot;Glossary&quot;, &quot;wonders&quot;=&gt;&quot;Wonders&quot;, &quot;denizens&quot;=&gt;&quot;Denizens&quot;, &quot;about&quot;=&gt;&quot;About&quot;, &quot;moss_hide&quot;=&gt;&quot;Moss-Hide Beast&quot;, &quot;tensur&quot;=&gt;&quot;Tensur&quot;, &quot;shadowboar&quot;=&gt;&quot;Shadowboar&quot;, &quot;nabling&quot;=&gt;&quot;Nabling&quot;, &quot;fetid_fens&quot;=&gt;&quot;Fetid Fens&quot;, &quot;chronicle&quot;=&gt;&quot;Chronicle&quot;, &quot;ancestor_cult&quot;=&gt;&quot;Ancestor Cult&quot;, &quot;cult_of_spirits&quot;=&gt;&quot;Cult of Spirits&quot;, &quot;alchemy&quot;=&gt;&quot;Alchemy&quot;, &quot;wip&quot;=&gt;&quot;Work in Progress&quot;, &quot;license&quot;=&gt;&quot;License&quot;, &quot;khurh_zan_ul&quot;=&gt;&quot;Khurh-zan-ul&quot;, &quot;templates&quot;=&gt;&quot;Guides Templates&quot;, &quot;template_malkona&quot;=&gt;&quot;A Guide to Malkona&quot;, &quot;template_region&quot;=&gt;&quot;Regional Guide&quot;, &quot;ashen_frontier&quot;=&gt;&quot;The Ashen Frontier&quot;, &quot;dev diaries&quot;=&gt;&quot;dev diaries&quot;, &quot;monti&quot;=&gt;&quot;Monti&quot;, &quot;senfenns&quot;=&gt;&quot;Senfenns&quot;, &quot;largars&quot;=&gt;&quot;Largars&quot;, &quot;sudians&quot;=&gt;&quot;Sudians&quot;, &quot;oremians&quot;=&gt;&quot;Oremians&quot;, &quot;malvars&quot;=&gt;&quot;Malvars&quot;, &quot;montwyn_hills&quot;=&gt;&quot;The Montwyn Hills&quot;, &quot;lake_larga&quot;=&gt;&quot;Lake Larga&quot;, &quot;lake_senfunda&quot;=&gt;&quot;Lake Senfunda&quot;, &quot;lake_malvarma&quot;=&gt;&quot;Lake Malvarma&quot;, &quot;steps&quot;=&gt;&quot;The Steps&quot;, &quot;kromrs&quot;=&gt;&quot;Kromrs&quot;, &quot;tondrantars&quot;=&gt;&quot;Tondrantars&quot;, &quot;malnurs&quot;=&gt;&quot;Malnurs&quot;, &quot;windhill_plains&quot;=&gt;&quot;The Windhill Steppe&quot;, &quot;varmego&quot;=&gt;&quot;Varmego&quot;, &quot;shorelands&quot;=&gt;&quot;The Shorelands&quot;, &quot;southern_sea&quot;=&gt;&quot;The Southern Sea&quot;, &quot;negata&quot;=&gt;&quot;Negata&quot;, &quot;narem&quot;=&gt;&quot;Narem&quot;, &quot;orem&quot;=&gt;&quot;Orem&quot;, &quot;capar&quot;=&gt;&quot;Cape Capar&quot;, &quot;eastern_shore&quot;=&gt;&quot;The Eastern Shore&quot;, &quot;chillbay&quot;=&gt;&quot;The Chillbay&quot;, &quot;duerbo&quot;=&gt;&quot;Duerbo&quot;, &quot;marcolo&quot;=&gt;&quot;Marcolo&quot;, &quot;buso&quot;=&gt;&quot;Buso&quot;}}",
+      "title": "{&quot;global&quot;=&gt;{&quot;tagline&quot;=&gt;&quot;English&quot;, &quot;about&quot;=&gt;&quot;About&quot;, &quot;worldname&quot;=&gt;&quot;Taliskarn&quot;, &quot;worldalias&quot;=&gt;&quot;The World of Unwritten Maps&quot;, &quot;english&quot;=&gt;&quot;English&quot;, &quot;russian&quot;=&gt;&quot;Русский&quot;, &quot;search_results&quot;=&gt;&quot;Search Results&quot;, &quot;search&quot;=&gt;&quot;Search&quot;, &quot;notification_banner&quot;=&gt;&quot;The World of Taliskarn is currently under development, and all content is in draft form. The English version will be updated once the pre-beta for the Russian version (the original development language) is complete. Thank you for your understanding! For more details, please visit &lt;a href=\&quot;/about\&quot; target=\&quot;_self\&quot;&gt;this page&lt;/a&gt;.&quot;, &quot;wip&quot;=&gt;&quot;Work in Progress&quot;, &quot;nope&quot;=&gt;404, &quot;auto&quot;=&gt;&quot;Autogenerated&quot;, &quot;news&quot;=&gt;&quot;News&quot;}, &quot;titles&quot;=&gt;{&quot;dd&quot;=&gt;&quot;Dev Diaries&quot;}, &quot;service&quot;=&gt;{&quot;open_in_full&quot;=&gt;&quot;Open in full size&quot;, &quot;note&quot;=&gt;&quot;Margin Scribble&quot;, &quot;tba&quot;=&gt;&quot;To Be Announced&quot;, &quot;wip&quot;=&gt;&quot;Work in Progress&quot;, &quot;idea&quot;=&gt;&quot;Questionable Idea&quot;, &quot;wip_disclaimer&quot;=&gt;&quot;&lt;strong&gt;Work in Progress&lt;/strong&gt;&lt;br&gt;I&apos;m actively working on creating Taliskarn right now. It&apos;s an enormous amount of tasks, so at this stage, many pages on this website contain only the most basic information – my thoughts and ideas that I am gradually turning into reality. &lt;br&gt;&lt;br&gt;For more details on what&apos;s coming next, you can check out the &lt;a href=\&quot;/about\&quot; target=\&quot;_self\&quot;&gt;Roadmap&lt;/a&gt;; I regularly publish current updates in the &lt;a href=\&quot;/extras/blog\&quot; target=\&quot;_self\&quot;&gt;Blog&lt;/a&gt;, and most importhantly, I&apos;m always open to feedback. Even more than that – I&apos;ll be incredibly grateful for it! &lt;br&gt;&lt;br&gt;If you have the time and inclination to read my notes, and if you happen to come up with any ideas, criticisms, or suggestions, please share them with me. All contact information is available on the &lt;a href=\&quot;/about#links\&quot; target=\&quot;_self\&quot;&gt;About&lt;/a&gt; page and in the header.&lt;br&gt;&lt;br&gt;And thank you for your interest in Taliskarn!&quot;, &quot;copyright&quot;=&gt;&quot;Powered by Orthan Thundy, 2025&quot;, &quot;filter_by_category&quot;=&gt;&quot;Filter by category&quot;, &quot;all_posts&quot;=&gt;&quot;All Posts&quot;, &quot;read_more&quot;=&gt;&quot;Read more&quot;, &quot;newer_posts&quot;=&gt;&quot;Newer Posts&quot;, &quot;older_posts&quot;=&gt;&quot;Older Posts&quot;, &quot;tta&quot;=&gt;&quot;To Think About&quot;, &quot;discord&quot;=&gt;&quot;Join Discord&quot;, &quot;show_more&quot;=&gt;&quot;Show More&quot;}, &quot;nav&quot;=&gt;{&quot;home&quot;=&gt;&quot;Home&quot;, &quot;core&quot;=&gt;&quot;Core&quot;, &quot;map&quot;=&gt;&quot;Map&quot;, &quot;races&quot;=&gt;&quot;Races&quot;, &quot;lore&quot;=&gt;&quot;Lore&quot;, &quot;stories&quot;=&gt;&quot;Stories&quot;, &quot;blog&quot;=&gt;&quot;Blog&quot;, &quot;arts&quot;=&gt;&quot;Arts&quot;, &quot;credits&quot;=&gt;&quot;Credits&quot;, &quot;links&quot;=&gt;&quot;Links&quot;, &quot;world_basics&quot;=&gt;&quot;World Basics&quot;, &quot;magic&quot;=&gt;&quot;Magic&quot;, &quot;for_dm&quot;=&gt;&quot;Taliskarn for DMs&quot;, &quot;two_taliskarns&quot;=&gt;&quot;The Two Taliskarns&quot;, &quot;taliskarn_dt&quot;=&gt;&quot;Dark Times (DT)&quot;, &quot;taliskarn_nd&quot;=&gt;&quot;New Dawn (ND)&quot;, &quot;faq&quot;=&gt;&quot;FAQ&quot;, &quot;myth&quot;=&gt;&quot;Myth&quot;, &quot;world&quot;=&gt;&quot;World&quot;, &quot;extras&quot;=&gt;&quot;Extras&quot;, &quot;roadmap&quot;=&gt;&quot;Roadmap&quot;, &quot;search&quot;=&gt;&quot;Search Results&quot;, &quot;pantheon&quot;=&gt;&quot;Pantheon&quot;, &quot;religions&quot;=&gt;&quot;Religions&quot;, &quot;bestiary&quot;=&gt;&quot;Bestiary&quot;, &quot;glossary&quot;=&gt;&quot;Glossary&quot;, &quot;denizens&quot;=&gt;&quot;Denizens&quot;, &quot;wonders&quot;=&gt;&quot;Wonders&quot;, &quot;chronicle&quot;=&gt;&quot;Chronicle&quot;, &quot;alchemy&quot;=&gt;&quot;Alchemy&quot;, &quot;license&quot;=&gt;&quot;License&quot;, &quot;templates&quot;=&gt;&quot;Guides Templates&quot;, &quot;template_malkona&quot;=&gt;&quot;A Guide to Malkona&quot;, &quot;template_region&quot;=&gt;&quot;Regional Guide&quot;, &quot;spirits&quot;=&gt;&quot;The Spirits of Verda&quot;}, &quot;places&quot;=&gt;{&quot;malkona&quot;=&gt;&quot;Malkona&quot;, &quot;places&quot;=&gt;&quot;Places&quot;, &quot;riku&quot;=&gt;&quot;Riku Highlands&quot;, &quot;verda&quot;=&gt;&quot;Verdant Verdas&quot;, &quot;bryleahn_jungles&quot;=&gt;&quot;Bryleahn Jungles&quot;, &quot;warm_sea&quot;=&gt;&quot;The Warm Sea&quot;, &quot;wilderreach&quot;=&gt;&quot;The Wilderreach&quot;, &quot;scarred_lands&quot;=&gt;&quot;Scarred Lands of Bruna&quot;, &quot;noctaria&quot;=&gt;&quot;Noctaria&quot;, &quot;flammarg_shards&quot;=&gt;&quot;Flammarg&apos;s Shards&quot;, &quot;sanguama&quot;=&gt;&quot;Sanguama&quot;, &quot;bryleahn_scar&quot;=&gt;&quot;Bryleahn Scar&quot;, &quot;azure_haven&quot;=&gt;&quot;Azure Haven&quot;, &quot;valley_of_the_source&quot;=&gt;&quot;Valley of the Source&quot;, &quot;meza&quot;=&gt;&quot;Meza&quot;, &quot;irmaris&quot;=&gt;&quot;Irmaris&quot;, &quot;fetid_fens&quot;=&gt;&quot;Fetid Fens&quot;, &quot;ashen_frontier&quot;=&gt;&quot;The Ashen Frontier&quot;, &quot;montwyn_hills&quot;=&gt;&quot;The Montwyn Hills&quot;, &quot;lake_larga&quot;=&gt;&quot;Lake Larga&quot;, &quot;lake_senfunda&quot;=&gt;&quot;Lake Senfunda&quot;, &quot;lake_malvarma&quot;=&gt;&quot;Lake Malvarma&quot;, &quot;steps&quot;=&gt;&quot;The Steps&quot;, &quot;windhill_plains&quot;=&gt;&quot;The Windhill Steppe&quot;, &quot;shorelands&quot;=&gt;&quot;The Shorelands&quot;, &quot;southern_sea&quot;=&gt;&quot;The Southern Sea&quot;, &quot;negata&quot;=&gt;&quot;Negata&quot;, &quot;narem&quot;=&gt;&quot;Narem&quot;, &quot;orem&quot;=&gt;&quot;Orem&quot;, &quot;capar&quot;=&gt;&quot;Cape Capar&quot;, &quot;eastern_shore&quot;=&gt;&quot;The Eastern Shore&quot;, &quot;chillbay&quot;=&gt;&quot;The Chillbay&quot;}, &quot;cities&quot;=&gt;{&quot;varmego&quot;=&gt;&quot;Varmego&quot;, &quot;duerbo&quot;=&gt;&quot;Duerbo&quot;, &quot;marcolo&quot;=&gt;&quot;Marcolo&quot;, &quot;buso&quot;=&gt;&quot;Buso&quot;}, &quot;races&quot;=&gt;{&quot;humans&quot;=&gt;&quot;Humans&quot;, &quot;prymars&quot;=&gt;&quot;Prymars&quot;, &quot;arydars&quot;=&gt;&quot;Arydars&quot;, &quot;kromrs&quot;=&gt;&quot;Kromrs&quot;, &quot;tondrantars&quot;=&gt;&quot;Tondrantars&quot;, &quot;malnurs&quot;=&gt;&quot;Malnurs&quot;, &quot;brunars&quot;=&gt;&quot;Brunars&quot;, &quot;saltuars&quot;=&gt;&quot;Saltuars&quot;, &quot;bryleahns&quot;=&gt;&quot;Bryleahns&quot;, &quot;kyonnhs&quot;=&gt;&quot;Kyönnhs&quot;, &quot;noctids&quot;=&gt;&quot;Noctids&quot;, &quot;flammars&quot;=&gt;&quot;Flammars&quot;, &quot;monti&quot;=&gt;&quot;Monti&quot;, &quot;senfenns&quot;=&gt;&quot;Senfenns&quot;, &quot;largars&quot;=&gt;&quot;Largars&quot;, &quot;sudians&quot;=&gt;&quot;Sudians&quot;, &quot;oremians&quot;=&gt;&quot;Oremians&quot;, &quot;malvars&quot;=&gt;&quot;Malvars&quot;}, &quot;pantheon&quot;=&gt;{&quot;fluere&quot;=&gt;&quot;Fluere&quot;, &quot;kaelesta&quot;=&gt;&quot;Kaelesta&quot;, &quot;solkalor&quot;=&gt;&quot;Solkalor&quot;, &quot;ferrude&quot;=&gt;&quot;Ferrude&quot;, &quot;aurehjo&quot;=&gt;&quot;Aurehjo&quot;, &quot;tranqa&quot;=&gt;&quot;Tranqa&quot;, &quot;kustopha&quot;=&gt;&quot;Kustopha&quot;, &quot;dhfhalbh&quot;=&gt;&quot;Dh’Fhalbh&quot;, &quot;flumorn&quot;=&gt;&quot;Flumorn&quot;}, &quot;bestiary&quot;=&gt;{&quot;moss_hide&quot;=&gt;&quot;Moss-Hide Beast&quot;, &quot;tensur&quot;=&gt;&quot;Tensur&quot;, &quot;shadowboar&quot;=&gt;&quot;Shadowboar&quot;, &quot;nabling&quot;=&gt;&quot;Nabling&quot;}, &quot;special&quot;=&gt;{&quot;lakrikael&quot;=&gt;&quot;Lakrikael&quot;, &quot;azurit&quot;=&gt;&quot;Azurit&quot;}, &quot;religions&quot;=&gt;{&quot;cult_of_currents&quot;=&gt;&quot;Cult of Currents&quot;, &quot;ancestor_cult&quot;=&gt;&quot;Ancestor Cult&quot;, &quot;cult_of_spirits&quot;=&gt;&quot;Cult of Spirits&quot;}, &quot;langs&quot;=&gt;{&quot;en&quot;=&gt;&quot;English&quot;, &quot;ru&quot;=&gt;&quot;Русский&quot;}, &quot;articles&quot;=&gt;{&quot;toc_title&quot;=&gt;&quot;Table of Content&quot;}, &quot;stories&quot;=&gt;{&quot;khurh_zan_ul&quot;=&gt;&quot;Khurh-zan-ul&quot;}, &quot;breadcrumbs&quot;=&gt;{&quot;nav&quot;=&gt;nil, &quot;home&quot;=&gt;&quot;Homepage&quot;, &quot;core&quot;=&gt;&quot;Core&quot;, &quot;map&quot;=&gt;&quot;Map&quot;, &quot;races&quot;=&gt;&quot;Races&quot;, &quot;lore&quot;=&gt;&quot;Lore&quot;, &quot;stories&quot;=&gt;&quot;Stories&quot;, &quot;blog&quot;=&gt;&quot;Blog&quot;, &quot;arts&quot;=&gt;&quot;Arts&quot;, &quot;credits&quot;=&gt;&quot;Credits&quot;, &quot;links&quot;=&gt;&quot;Links&quot;, &quot;news&quot;=&gt;&quot;News&quot;, &quot;world_basics&quot;=&gt;&quot;World Basics&quot;, &quot;magic&quot;=&gt;&quot;Magic&quot;, &quot;for_dm&quot;=&gt;&quot;Taliskarn for DMs&quot;, &quot;two_taliskarns&quot;=&gt;&quot;The Two Taliskarns&quot;, &quot;taliskarn_dt&quot;=&gt;&quot;Dark Times (DT)&quot;, &quot;taliskarn_nd&quot;=&gt;&quot;New Dawn (ND)&quot;, &quot;faq&quot;=&gt;&quot;FAQ&quot;, &quot;myth&quot;=&gt;&quot;Myth&quot;, &quot;world&quot;=&gt;&quot;World&quot;, &quot;extras&quot;=&gt;&quot;Extras&quot;, &quot;roadmap&quot;=&gt;&quot;Roadmap&quot;, &quot;search&quot;=&gt;&quot;Search Results&quot;, &quot;malkona&quot;=&gt;&quot;Malkona&quot;, &quot;places&quot;=&gt;&quot;Places&quot;, &quot;riku&quot;=&gt;&quot;Riku Highlands&quot;, &quot;verda&quot;=&gt;&quot;Verdant Verdas&quot;, &quot;bryleahn_jungles&quot;=&gt;&quot;Bryleahn Jungles&quot;, &quot;bryleah&quot;=&gt;&quot;Bryleah&quot;, &quot;warm_sea&quot;=&gt;&quot;The Warm Sea&quot;, &quot;wilderreach&quot;=&gt;&quot;The Wilderreach&quot;, &quot;scarred_lands&quot;=&gt;&quot;Scarred Lands of Bruna&quot;, &quot;noctaria&quot;=&gt;&quot;Noctaria&quot;, &quot;flammarg_shards&quot;=&gt;&quot;Flammarg&apos;s Shards&quot;, &quot;valley_of_the_source&quot;=&gt;&quot;Valley of the Source&quot;, &quot;humans&quot;=&gt;&quot;Humans&quot;, &quot;prymars&quot;=&gt;&quot;Prymars&quot;, &quot;arydars&quot;=&gt;&quot;Arydars&quot;, &quot;brunars&quot;=&gt;&quot;Brunars&quot;, &quot;saltuars&quot;=&gt;&quot;Saltuars&quot;, &quot;bryleahns&quot;=&gt;&quot;Bryleahns&quot;, &quot;kyonnhs&quot;=&gt;&quot;Kyönnhs&quot;, &quot;noctids&quot;=&gt;&quot;Noctids&quot;, &quot;flammars&quot;=&gt;&quot;Flammars&quot;, &quot;fluere&quot;=&gt;&quot;Fluere&quot;, &quot;kaelesta&quot;=&gt;&quot;Kaelesta&quot;, &quot;solkalor&quot;=&gt;&quot;Solkalor&quot;, &quot;ferrude&quot;=&gt;&quot;Ferrude&quot;, &quot;aurehjo&quot;=&gt;&quot;Aurehjo&quot;, &quot;tranqa&quot;=&gt;&quot;Tranqa&quot;, &quot;kustopha&quot;=&gt;&quot;Kustopha&quot;, &quot;dhfhalbh&quot;=&gt;&quot;Dh’Fhalbh&quot;, &quot;flumorn&quot;=&gt;&quot;Flumorn&quot;, &quot;pantheon&quot;=&gt;&quot;Pantheon&quot;, &quot;spirits&quot;=&gt;&quot;The Spirits of Verda&quot;, &quot;unfinished&quot;=&gt;&quot;WIP&quot;, &quot;cult_of_currents&quot;=&gt;&quot;Cult of Currents&quot;, &quot;religions&quot;=&gt;&quot;Religions&quot;, &quot;bryleahn_scar&quot;=&gt;&quot;Bryleahn Scar&quot;, &quot;azure_haven&quot;=&gt;&quot;Azure Haven&quot;, &quot;meza&quot;=&gt;&quot;Meza&quot;, &quot;bestiary&quot;=&gt;&quot;Bestiary&quot;, &quot;irmaris&quot;=&gt;&quot;Irmaris&quot;, &quot;glossary&quot;=&gt;&quot;Glossary&quot;, &quot;wonders&quot;=&gt;&quot;Wonders&quot;, &quot;denizens&quot;=&gt;&quot;Denizens&quot;, &quot;about&quot;=&gt;&quot;About&quot;, &quot;moss_hide&quot;=&gt;&quot;Moss-Hide Beast&quot;, &quot;tensur&quot;=&gt;&quot;Tensur&quot;, &quot;shadowboar&quot;=&gt;&quot;Shadowboar&quot;, &quot;nabling&quot;=&gt;&quot;Nabling&quot;, &quot;fetid_fens&quot;=&gt;&quot;Fetid Fens&quot;, &quot;chronicle&quot;=&gt;&quot;Chronicle&quot;, &quot;ancestor_cult&quot;=&gt;&quot;Ancestor Cult&quot;, &quot;cult_of_spirits&quot;=&gt;&quot;Cult of Spirits&quot;, &quot;alchemy&quot;=&gt;&quot;Alchemy&quot;, &quot;wip&quot;=&gt;&quot;Work in Progress&quot;, &quot;license&quot;=&gt;&quot;License&quot;, &quot;khurh_zan_ul&quot;=&gt;&quot;Khurh-zan-ul&quot;, &quot;templates&quot;=&gt;&quot;Guides Templates&quot;, &quot;template_malkona&quot;=&gt;&quot;A Guide to Malkona&quot;, &quot;template_region&quot;=&gt;&quot;Regional Guide&quot;, &quot;ashen_frontier&quot;=&gt;&quot;The Ashen Frontier&quot;, &quot;dev diaries&quot;=&gt;&quot;dev diaries&quot;, &quot;monti&quot;=&gt;&quot;Monti&quot;, &quot;senfenns&quot;=&gt;&quot;Senfenns&quot;, &quot;largars&quot;=&gt;&quot;Largars&quot;, &quot;sudians&quot;=&gt;&quot;Sudians&quot;, &quot;oremians&quot;=&gt;&quot;Oremians&quot;, &quot;malvars&quot;=&gt;&quot;Malvars&quot;, &quot;montwyn_hills&quot;=&gt;&quot;The Montwyn Hills&quot;, &quot;lake_larga&quot;=&gt;&quot;Lake Larga&quot;, &quot;lake_senfunda&quot;=&gt;&quot;Lake Senfunda&quot;, &quot;lake_malvarma&quot;=&gt;&quot;Lake Malvarma&quot;, &quot;steps&quot;=&gt;&quot;The Steps&quot;, &quot;kromrs&quot;=&gt;&quot;Kromrs&quot;, &quot;tondrantars&quot;=&gt;&quot;Tondrantars&quot;, &quot;malnurs&quot;=&gt;&quot;Malnurs&quot;, &quot;windhill_plains&quot;=&gt;&quot;The Windhill Steppe&quot;, &quot;varmego&quot;=&gt;&quot;Varmego&quot;, &quot;shorelands&quot;=&gt;&quot;The Shorelands&quot;, &quot;southern_sea&quot;=&gt;&quot;The Southern Sea&quot;, &quot;negata&quot;=&gt;&quot;Negata&quot;, &quot;narem&quot;=&gt;&quot;Narem&quot;, &quot;orem&quot;=&gt;&quot;Orem&quot;, &quot;capar&quot;=&gt;&quot;Cape Capar&quot;, &quot;eastern_shore&quot;=&gt;&quot;The Eastern Shore&quot;, &quot;chillbay&quot;=&gt;&quot;The Chillbay&quot;, &quot;duerbo&quot;=&gt;&quot;Duerbo&quot;, &quot;marcolo&quot;=&gt;&quot;Marcolo&quot;, &quot;buso&quot;=&gt;&quot;Buso&quot;}}",
       "content": "{% if page.xsl %}{% endif %}Jekyll{{ site.time | date_to_xmlschema }}{{ page.url | absolute_url | xml_escape }}{% assign title = site.title | default: site.name %}{% if page.collection != \"posts\" %}{% assign collection = page.collection | capitalize %}{% assign title = title | append: \" | \" | append: collection %}{% endif %}{% if page.category %}{% assign category = page.category | capitalize %}{% assign title = title | append: \" | \" | append: category %}{% endif %}{% if title %}{{ title | smartify | xml_escape }}{% endif %}{% if site.description %}{{ site.description | xml_escape }}{% endif %}{% if site.author %}{{ site.author.name | default: site.author | xml_escape }}{% if site.author.email %}{{ site.author.email | xml_escape }}{% endif %}{% if site.author.uri %}{{ site.author.uri | xml_escape }}{% endif %}{% endif %}{% if page.tags %}{% assign posts = site.tags[page.tags] %}{% else %}{% assign posts = site[page.collection] %}{% endif %}{% if page.category %}{% assign posts = posts | where: \"categories\", page.category %}{% endif %}{% unless site.show_drafts %}{% assign posts = posts | where_exp: \"post\", \"post.draft != true\" %}{% endunless %}{% assign posts = posts | sort: \"date\" | reverse %}{% assign posts_limit = site.feed.posts_limit | default: 10 %}{% for post in posts limit: posts_limit %}{% assign post_title = post.title | smartify | strip_html | normalize_whitespace | xml_escape %}{{ post_title }}{{ post.date | date_to_xmlschema }}{{ post.last_modified_at | default: post.date | date_to_xmlschema }}{{ post.id | absolute_url | xml_escape }}{% assign excerpt_only = post.feed.excerpt_only | default: site.feed.excerpt_only %}{% unless excerpt_only %}{% endunless %}{% assign post_author = post.author | default: post.authors[0] | default: site.author %}{% assign post_author = site.data.authors[post_author] | default: post_author %}{% assign post_author_email = post_author.email | default: nil %}{% assign post_author_uri = post_author.uri | default: nil %}{% assign post_author_name = post_author.name | default: post_author %}{{ post_author_name | default: \"\" | xml_escape }}{% if post_author_email %}{{ post_author_email | xml_escape }}{% endif %}{% if post_author_uri %}{{ post_author_uri | xml_escape }}{% endif %}{% if post.category %}{% elsif post.categories %}{% for category in post.categories %}{% endfor %}{% endif %}{% for tag in post.tags %}{% endfor %}{% assign post_summary = post.description | default: post.excerpt %}{% if post_summary and post_summary != empty %}{% endif %}{% assign post_image = post.image.path | default: post.image %}{% if post_image %}{% unless post_image contains \"://\" %}{% assign post_image = post_image | absolute_url %}{% endunless %}{% endif %}{% endfor %}",
       "url": "/feed.xml"
     }

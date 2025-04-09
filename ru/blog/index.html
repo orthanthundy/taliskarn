@@ -20,202 +20,1374 @@
 <body>
     <header role="banner" id="banner">
     <div class="header-content">
-
         <div class="header-brand">
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+  ☰
+</button>
 
-            <div class="nav-mobile">
-                <button id="burger-btn" class="burger-btn text-white focus:outline-none">
-                    ☰
-                </button>
-                <div id="mobile-menu" class="mobile-menu bg-gray-900 text-white p-4">
-                    <ul class="navigation">
-                        <li><a href="/ru/">Главная</a><span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li>
-                        <a href="/ru/two_taliskarns">Два Талискарна</a>
-                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
-                                <li><a href="/ru/two_taliskarns/taliskarn_dt">Тёмные Времена (ТВ)</a></li>
-                                <li><a href="/ru/two_taliskarns/taliskarn_nd">Новый Рассвет (НР)</a></li>
-                        </ul> -->
-                </li>
-                <!-- <li><a href="/ru/for_dm">Талискарн для ДМа</a></li> -->
-                <li><a href="/ru/faq">FAQ</a></li>
-        </ul>
-</li>
+<nav class="mobile-menu" aria-hidden="true">
+  <ul class="mobile-menu-list">
+    
+    
+  
 
-<li><a href="/ru/malkona">Места</a> <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li><a href="/ru/malkona/riku">Нагорье Рику</a></li>
-                <li><a href="/ru/malkona/verda">Зелёные Земли Верда</a>
-                        <ul class="submenu">
-                                <li><a href="/ru/malkona/verda/ashen_frontier">Золомежье</a></li>
-                                <li><a href="/ru/malkona/verda/montwyn_hills">Холмы Монтвин</a></li>
-                                <li><a href="/ru/malkona/verda/lake_larga">Озеро Ларга</a></li>
-                                <li><a href="/ru/malkona/verda/lake_senfunda">Озеро Сенфунда</a></li>
-                                <li><a href="/ru/malkona/verda/steps">Ступени</a></li>
-                                <li><a href="/ru/malkona/verda/lake_malvarma">Озеро Малварма</a></li>
-                                <li><a href="/ru/malkona/verda/windhill_plains">Бурестепье</a></li>
-                                <li><a href="/ru/malkona/verda/shorelands">Берега</a>
-                                        <ul class="submenu">
-                                                <li><a href="/ru/malkona/verda/shorelands/capar">Мыс Капар</a>
-                                                        <ul class="submenu">
-                                                                <li><a href="/ru/malkona/verda/shorelands/capar/varmego">Вармего</a></li>
-                                                        </ul>
-                                                </li>
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/">
+        
+          Главная
+        
+      </a>
 
-                                                <li><a href="/ru/malkona/verda/shorelands/orem">Орэм</a>
-                                                        <ul class="submenu">
-                                                                <li><a href="/ru/malkona/verda/shorelands/orem/duerbo">Дьюрбо</a></li>
-                                                        </ul>
-                                                </li>
-                                                <li><a href="/ru/malkona/verda/shorelands/narem">Нарэм</a>
-                                                        <ul class="submenu">
-                                                                <li><a href="/ru/malkona/verda/shorelands/narem/marcolo">Марколо</a></li>
-                                                        </ul>
-                                                </li>
-                                                <li><a href="/ru/malkona/verda/shorelands/eastern_shore">Восточное Побережье</a></li>
-                                                <li><a href="/ru/malkona/verda/shorelands/chillbay">Холодный Залив</a>
-                                                        <ul class="submenu">
-                                                                <li><a href="/ru/malkona/verda/shorelands/chillbay/buso">Бусо</a></li>
-                                                        </ul>
-                                                </li>
-                                        </ul>
-                        </ul>
-                </li>
-                <li><a href="/ru/malkona/southern_sea">Южное Море</a>
-                        <ul class="submenu">
-                                <li><a href="/ru/malkona/southern_sea/negata">Негата</a></li>
-                        </ul>
-                </li>
-                <li><a href="/ru/malkona/bryleahn_jungles">Брилийские Джунгли</a></li>
-                <li><a href="/ru/malkona/fetid_fens">Смрадные Топи</a></li>
-                <!-- <li><a href="/ru/malkona/valley_of_the_source">Долина Истока</a></li> -->
-                <li><a href="/ru/malkona/warm_sea">Тёплое Море</a></li>
-                <li><a href="/ru/malkona/wilderreach">Дикий Край</a></li>
-                <li><a href="/ru/malkona/scarred_lands">Израненные земли Бруна</a></li>
-                <li><a href="/ru/malkona/noctaria">Ноктария</a></li>
-                <li><a href="/ru/malkona/flammarg_shards">Осколки Фламмарга</a></li>
-                <li><a href="/ru/malkona/irmaris">Ирмарис</a></li>
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
 
-        </ul>
-</li>
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/two_taliskarns">
+        
+          Два Талискарна
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/faq">
+        
+          FAQ
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
 
 
+      </ul>
+    
+  </li>
 
-<li><a href="/ru/denizens">Обитатели</a>
-        <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li><a href="/ru/denizens/races/prymars">Примары</a></li>
-                <li><a href="/ru/denizens/races/arydars">Аридары</a>
-                        <ul class="submenu">
-                                <li><a href="/ru/denizens/races/arydars/malnurs">Мальнуры</a></li>
-                                <li><a href="/ru/denizens/races/arydars/tondrantars">Тондрантары</a></li>
-                                <li><a href="/ru/denizens/races/arydars/kromrs">Кромры</a></li>
-                        </ul>
-                </li>
-                <li> <a href="/ru/denizens/races/brunars">Брунары</a> </li>
-                <li><a href="/ru/denizens/races/saltuars">Салтуары</a>
-                        <ul class="submenu">
-                                <li><a href="/ru/denizens/races/saltuars/monti">Монти</a></li>
-                                <li><a href="/ru/denizens/races/saltuars/largars">Ларгары</a></li>
-                                <li><a href="/ru/denizens/races/saltuars/senfenns">Сенфенны</a></li>
-                                <li><a href="/ru/denizens/races/saltuars/malvars">Малвары</a></li>
-                                <li><a href="/ru/denizens/races/saltuars/sudians">Судийцы</a></li>
-                                <li><a href="/ru/denizens/races/saltuars/oremians">Орэмцы</a></li>
+  
 
-                        </ul>
-                </li>
-                <li><a href="/ru/denizens/races/bryleahns">Брилийцы</a></li>
-                <li><a href="/ru/denizens/races/kyonnhs">Кьённхи</a></li>
-                <li><a href="/ru/denizens/races/noctids">Ноктиды</a></li>
-                <li><a href="/ru/denizens/races/flammars">Фламмары</a></li>
-                <!-- <li>
-                        <a href="/ru/denizens/races">Народы</a>
-                        <span class="submenu-toggle">▾</span><ul class="submenu">
-                                <li>
-                                        <a href="/ru/denizens/races/humans">Люди</a>
-                                        <span class="submenu-toggle">▾</span><ul class="submenu">
-       
-                                        </ul>
-                                </li> 
- 
-                        </ul>
-                </li> -->
-                <!-- <li><a href="/ru/denizens/bestiary">Бестиарий</a></li> -->
-        </ul>
-</li>
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona">
+        
+          Места
+        
+      </a>
 
-<li><a href="/ru/wonders">Чудеса</a>
-        <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li>
-                        <a href="/ru/wonders/pantheon">Пантеон</a>
-                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
-                                <li><a href="/ru/wonders/pantheon/fluere">Флуэрэ</a></li>
-                                <li><a href="/ru/wonders/pantheon/kaelesta">Келеста</a></li>
-                                <li><a href="/ru/wonders/pantheon/solkalor">Солкалор</a></li>
-                                <li><a href="/ru/wonders/pantheon/ferrude">Феррудэ</a></li>
-                                <li><a href="/ru/wonders/pantheon/aurehjo">Аурехо</a></li>
-                                <li><a href="/ru/wonders/pantheon/tranqa">Транка</a></li>
-                                <li><a href="/ru/wonders/pantheon/kustopha">Кустофа</a></li>
-                                <li><a href="/ru/wonders/pantheon/dhfhalbh">Дх'Фхалбх</a></li>
-                                <li><a href="/ru/wonders/pantheon/flumorn">Флуморн</a></li>
-                        </ul> -->
-                </li>
-                <li>
-                        <a href="/ru/wonders/spirits">Духи Верда</a>
-                </li>
-                <!-- <li>
-                        <a href="/ru/">Религии</a>
-                        <span class="submenu-toggle">▾</span><ul class="submenu">
-                                <li><a href="/ru/wonders/religions/cult_of_currents">Культ Течений</a></li>
-                                <li><a href="/ru/wonders/religions/cult_of_spirits">Культ Духов</a></li>
-                                <li><a href="/ru/wonders/religions/ancestor_cult">Культ Предков</a></li>
-                        </ul>
-                </li> -->
-                <!-- <li> -->
-                <!-- <li><a href="/ru/">Магия</a></li> -->
-                <!-- </li> -->
-                <!-- <li><a href="/ru/wonders/alchemy">Алхимия</a></li> -->
-</li>
-</ul>
-</li>
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
 
-<li><a href="/ru/extras">Дополнения</a>
-        <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li><a href="/ru/extras/stories">Истории</a>
-                        <span class="submenu-toggle">▾</span>
-                        <ul class="submenu">
-                                <li><a href="/ru/extras/stories/myth">Миф</a></li>
-                        </ul>
-                </li>
-                <!-- <li><a href="/ru/extras/arts">Арты</a></li> -->
-                <li><a href="/ru/extras/blog">Блог</a></li>
-                <!-- <li><a href="/ru/extras/chronicle">Хроника</a></li>
-                <li><a href="/ru/extras/glossary">Глоссарий</a></li> -->
-        </ul>
-</li>
-<li><a href="/ru/about">О проекте</a>
-        <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li><a href="/ru/about/wip">В процессе работы</a></li>
-                <li><a href="/ru/license">License</a></li>
-                <li><a href="/ru/about/templates">Шаблоны путеводителей</a>
-                        <ul class="submenu">
-                                <li><a href="/ru/about/templates/template_malkona">Путеводитель по Мальконе</a></li>
-                                <li><a href="/ru/about/templates/template_region">Путеводитель по региону</a></li>
-                        </ul>
-                </li>
-                <!--   <li><a href="/ru/about/roadmap">Планы и Хроника</a></li>
-                <li><a href="/ru/about/credits">Авторы</a></li>
-                <li><a href="/ru/about/links">Ссылки</a></li>-->
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
 
-        </ul>
-</li>
-                    </ul>
-                </div>
-            </div>
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/riku">
+        
+          Нагорье Рику
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/verda">
+        
+          Зелёные Земли Верда
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/verda/ashen_frontier">
+        
+          Золомежье
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/verda/montwyn_hills">
+        
+          Холмы Монтвин
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/verda/lake_larga">
+        
+          Озеро Ларга
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/verda/lake_senfunda">
+        
+          Озеро Сенфунда
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/verda/steps">
+        
+          Ступени
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/verda/lake_malvarma">
+        
+          Озеро Малварма
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/verda/windhill_plains">
+        
+          Бурестепье
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/verda/shorelands">
+        
+          Берега
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/verda/shorelands/capar">
+        
+          Мыс Капар
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/verda/shorelands/capar/varmego">
+        
+          Вармего
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/verda/shorelands/orem">
+        
+          Орэм
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/verda/shorelands/orem/duerbo">
+        
+          Дьюрбо
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/verda/shorelands/narem">
+        
+          Нарэм
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/verda/shorelands/narem/marcolo">
+        
+          Марколо
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/verda/shorelands/eastern_shore">
+        
+          Восточное Побережье
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/verda/shorelands/chillbay">
+        
+          Холодный Залив
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/verda/shorelands/chillbay/buso">
+        
+          Бусо
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/southern_sea">
+        
+          Южное Море
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/southern_sea/negata">
+        
+          Негата
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/bryleahn_jungles">
+        
+          Брилийские Джунгли
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/fetid_fens">
+        
+          Смрадные Топи
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/warm_sea">
+        
+          Тёплое Море
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/wilderreach">
+        
+          Дикий Край
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/scarred_lands">
+        
+          Израненные земли Бруна
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/noctaria">
+        
+          Ноктария
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/flammarg_shards">
+        
+          Осколки Фламмарга
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/malkona/irmaris">
+        
+          Ирмарис
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/denizens">
+        
+          Обитатели
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/denizens/races/prymars">
+        
+          Примары
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/denizens/races/arydars">
+        
+          Аридары
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/denizens/races/arydars/malnurs">
+        
+          Мальнуры
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/denizens/races/arydars/tondrantars">
+        
+          Тондрантары
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/denizens/races/arydars/kromrs">
+        
+          Кромры
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/denizens/races/brunars">
+        
+          Брунары
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/denizens/races/saltuars">
+        
+          Салтуары
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/denizens/races/saltuars/monti">
+        
+          Монти
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/denizens/races/saltuars/largars">
+        
+          Ларгары
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/denizens/races/saltuars/senfenns">
+        
+          Сенфенны
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/denizens/races/saltuars/malvars">
+        
+          Малвары
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/denizens/races/saltuars/sudians">
+        
+          Судийцы
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/denizens/races/saltuars/oremians">
+        
+          Орэмцы
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/denizens/races/bryleahns">
+        
+          Брилийцы
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/denizens/races/kyonnhs">
+        
+          Кьённхи
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/denizens/races/noctids">
+        
+          Ноктиды
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/denizens/races/flammars">
+        
+          Фламмары
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/wonders">
+        
+          Чудеса
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/wonders/pantheon">
+        
+          Пантеон
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/wonders/spirits">
+        
+          Духи Верда
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/extras">
+        
+          Дополнения
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/extras/stories">
+        
+          Истории
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/extras/stories/myth">
+        
+          Миф
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/extras/blog">
+        
+          Блог
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/about">
+        
+          О проекте
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/about/wip">
+        
+          В процессе работы
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/license">
+        
+          License
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/about/templates">
+        
+          Шаблоны путеводителей
+        
+      </a>
+
+      
+        <!-- Кнопка-стрелка для аккордеона -->
+        <button class="mobile-submenu-toggle"
+                aria-expanded="false"
+                aria-label="Open submenu">
+          ▸
+        </button>
+      
+    </div>
+
+    
+      <ul class="mobile-submenu-list"
+          data-open="false">
+        
+        
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/about/templates/template_malkona">
+        
+          Путеводитель по Мальконе
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+  
+
+  <li class="mobile-nav-item">
+    <div class="mobile-nav-link-wrapper">
+      <a class="mobile-nav-link"
+         href="/ru/about/templates/template_region">
+        
+          Путеводитель по региону
+        
+      </a>
+
+      
+    </div>
+
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+
+      </ul>
+    
+  </li>
+
+
+  </ul>
+</nav>
+
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+  const toggleBtn = document.querySelector(".mobile-menu-toggle");
+  const mobileMenu = document.querySelector(".mobile-menu");
+
+  if (!toggleBtn || !mobileMenu) return; 
+
+  toggleBtn.addEventListener("click", function(){
+    const isOpen = mobileMenu.getAttribute("aria-hidden") === "false";
+    mobileMenu.setAttribute("aria-hidden", isOpen ? "true" : "false");
+  });
+
+  const submenuToggles = document.querySelectorAll(".mobile-submenu-toggle");
+
+  submenuToggles.forEach(function(btn){
+    btn.addEventListener("click", function(e){
+      e.preventDefault();
+      const parentLi = btn.closest("li");
+      if (!parentLi) return;
+      const subUl = parentLi.querySelector("ul");
+      if (!subUl) return;
+
+      const isExpanded = btn.getAttribute("aria-expanded") === "true";
+      btn.setAttribute("aria-expanded", isExpanded ? "false" : "true");
+      subUl.setAttribute("data-open", isExpanded ? "false" : "true");
+    });
+  });
+});
+</script>
 
             <h1 class="site-title">
                 <a href="/ru/">Талискарн</a>
@@ -224,216 +1396,1147 @@
                 <a href="https://discord.gg/Dr4BA8CCx3" class="contact-link"> Присоединяйтесь к Дискорду</a>
                 <!-- <br><a href="mailto:orthanthundy@gmail.com" class="contact-link">orthanthundy@gmail.com</a> -->
             </div>
-        </div>
-
-
-        <div class="header-actions">
-
-            <div class="language-switcher">
-                
-                
-                <a href="/blog/index.html">English</a>
-                
+            <div class="mobile-only">
+                <div class="language-switcher">
+                    
+                    
+                    <a href="/blog/index.html">English</a><br>
+                    
+                </div>
             </div>
+        </div>
 
-            <form class="header-search-form" action="/ru/search/" method="get">
-                <input type="text" id="search-box" name="query">
-                <input type="submit" value="search">
-            </form>
+        <div class="header-actions mobile-stack">
+            <div class="language-search">
+                <div class="desktop-only">
+                    <div class="language-switcher">
+                        
+                        
+                        <a href="/blog/index.html">English</a><br>
+                        
+                    </div>
+                </div>
+                <form class="header-search-form" action="/ru/search/" method="get">
+                    <input type="text" id="search-box" name="query" placeholder="Поиск">
+                    <button type="submit" class="search-button">🔍︎</button>
+                </form>
+            </div>
         </div>
     </div>
 
-    <div class="nav-desktop">
-        <ul class="navigation">
-            <li><a href="/ru/">Главная</a><span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li>
-                        <a href="/ru/two_taliskarns">Два Талискарна</a>
-                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
-                                <li><a href="/ru/two_taliskarns/taliskarn_dt">Тёмные Времена (ТВ)</a></li>
-                                <li><a href="/ru/two_taliskarns/taliskarn_nd">Новый Рассвет (НР)</a></li>
-                        </ul> -->
-                </li>
-                <!-- <li><a href="/ru/for_dm">Талискарн для ДМа</a></li> -->
-                <li><a href="/ru/faq">FAQ</a></li>
-        </ul>
-</li>
-
-<li><a href="/ru/malkona">Места</a> <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li><a href="/ru/malkona/riku">Нагорье Рику</a></li>
-                <li><a href="/ru/malkona/verda">Зелёные Земли Верда</a>
-                        <ul class="submenu">
-                                <li><a href="/ru/malkona/verda/ashen_frontier">Золомежье</a></li>
-                                <li><a href="/ru/malkona/verda/montwyn_hills">Холмы Монтвин</a></li>
-                                <li><a href="/ru/malkona/verda/lake_larga">Озеро Ларга</a></li>
-                                <li><a href="/ru/malkona/verda/lake_senfunda">Озеро Сенфунда</a></li>
-                                <li><a href="/ru/malkona/verda/steps">Ступени</a></li>
-                                <li><a href="/ru/malkona/verda/lake_malvarma">Озеро Малварма</a></li>
-                                <li><a href="/ru/malkona/verda/windhill_plains">Бурестепье</a></li>
-                                <li><a href="/ru/malkona/verda/shorelands">Берега</a>
-                                        <ul class="submenu">
-                                                <li><a href="/ru/malkona/verda/shorelands/capar">Мыс Капар</a>
-                                                        <ul class="submenu">
-                                                                <li><a href="/ru/malkona/verda/shorelands/capar/varmego">Вармего</a></li>
-                                                        </ul>
-                                                </li>
-
-                                                <li><a href="/ru/malkona/verda/shorelands/orem">Орэм</a>
-                                                        <ul class="submenu">
-                                                                <li><a href="/ru/malkona/verda/shorelands/orem/duerbo">Дьюрбо</a></li>
-                                                        </ul>
-                                                </li>
-                                                <li><a href="/ru/malkona/verda/shorelands/narem">Нарэм</a>
-                                                        <ul class="submenu">
-                                                                <li><a href="/ru/malkona/verda/shorelands/narem/marcolo">Марколо</a></li>
-                                                        </ul>
-                                                </li>
-                                                <li><a href="/ru/malkona/verda/shorelands/eastern_shore">Восточное Побережье</a></li>
-                                                <li><a href="/ru/malkona/verda/shorelands/chillbay">Холодный Залив</a>
-                                                        <ul class="submenu">
-                                                                <li><a href="/ru/malkona/verda/shorelands/chillbay/buso">Бусо</a></li>
-                                                        </ul>
-                                                </li>
-                                        </ul>
-                        </ul>
-                </li>
-                <li><a href="/ru/malkona/southern_sea">Южное Море</a>
-                        <ul class="submenu">
-                                <li><a href="/ru/malkona/southern_sea/negata">Негата</a></li>
-                        </ul>
-                </li>
-                <li><a href="/ru/malkona/bryleahn_jungles">Брилийские Джунгли</a></li>
-                <li><a href="/ru/malkona/fetid_fens">Смрадные Топи</a></li>
-                <!-- <li><a href="/ru/malkona/valley_of_the_source">Долина Истока</a></li> -->
-                <li><a href="/ru/malkona/warm_sea">Тёплое Море</a></li>
-                <li><a href="/ru/malkona/wilderreach">Дикий Край</a></li>
-                <li><a href="/ru/malkona/scarred_lands">Израненные земли Бруна</a></li>
-                <li><a href="/ru/malkona/noctaria">Ноктария</a></li>
-                <li><a href="/ru/malkona/flammarg_shards">Осколки Фламмарга</a></li>
-                <li><a href="/ru/malkona/irmaris">Ирмарис</a></li>
-
-        </ul>
-</li>
-
-
-
-<li><a href="/ru/denizens">Обитатели</a>
-        <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li><a href="/ru/denizens/races/prymars">Примары</a></li>
-                <li><a href="/ru/denizens/races/arydars">Аридары</a>
-                        <ul class="submenu">
-                                <li><a href="/ru/denizens/races/arydars/malnurs">Мальнуры</a></li>
-                                <li><a href="/ru/denizens/races/arydars/tondrantars">Тондрантары</a></li>
-                                <li><a href="/ru/denizens/races/arydars/kromrs">Кромры</a></li>
-                        </ul>
-                </li>
-                <li> <a href="/ru/denizens/races/brunars">Брунары</a> </li>
-                <li><a href="/ru/denizens/races/saltuars">Салтуары</a>
-                        <ul class="submenu">
-                                <li><a href="/ru/denizens/races/saltuars/monti">Монти</a></li>
-                                <li><a href="/ru/denizens/races/saltuars/largars">Ларгары</a></li>
-                                <li><a href="/ru/denizens/races/saltuars/senfenns">Сенфенны</a></li>
-                                <li><a href="/ru/denizens/races/saltuars/malvars">Малвары</a></li>
-                                <li><a href="/ru/denizens/races/saltuars/sudians">Судийцы</a></li>
-                                <li><a href="/ru/denizens/races/saltuars/oremians">Орэмцы</a></li>
-
-                        </ul>
-                </li>
-                <li><a href="/ru/denizens/races/bryleahns">Брилийцы</a></li>
-                <li><a href="/ru/denizens/races/kyonnhs">Кьённхи</a></li>
-                <li><a href="/ru/denizens/races/noctids">Ноктиды</a></li>
-                <li><a href="/ru/denizens/races/flammars">Фламмары</a></li>
-                <!-- <li>
-                        <a href="/ru/denizens/races">Народы</a>
-                        <span class="submenu-toggle">▾</span><ul class="submenu">
-                                <li>
-                                        <a href="/ru/denizens/races/humans">Люди</a>
-                                        <span class="submenu-toggle">▾</span><ul class="submenu">
-       
-                                        </ul>
-                                </li> 
- 
-                        </ul>
-                </li> -->
-                <!-- <li><a href="/ru/denizens/bestiary">Бестиарий</a></li> -->
-        </ul>
-</li>
-
-<li><a href="/ru/wonders">Чудеса</a>
-        <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li>
-                        <a href="/ru/wonders/pantheon">Пантеон</a>
-                        <!-- <span class="submenu-toggle">▾</span><ul class="submenu">
-                                <li><a href="/ru/wonders/pantheon/fluere">Флуэрэ</a></li>
-                                <li><a href="/ru/wonders/pantheon/kaelesta">Келеста</a></li>
-                                <li><a href="/ru/wonders/pantheon/solkalor">Солкалор</a></li>
-                                <li><a href="/ru/wonders/pantheon/ferrude">Феррудэ</a></li>
-                                <li><a href="/ru/wonders/pantheon/aurehjo">Аурехо</a></li>
-                                <li><a href="/ru/wonders/pantheon/tranqa">Транка</a></li>
-                                <li><a href="/ru/wonders/pantheon/kustopha">Кустофа</a></li>
-                                <li><a href="/ru/wonders/pantheon/dhfhalbh">Дх'Фхалбх</a></li>
-                                <li><a href="/ru/wonders/pantheon/flumorn">Флуморн</a></li>
-                        </ul> -->
-                </li>
-                <li>
-                        <a href="/ru/wonders/spirits">Духи Верда</a>
-                </li>
-                <!-- <li>
-                        <a href="/ru/">Религии</a>
-                        <span class="submenu-toggle">▾</span><ul class="submenu">
-                                <li><a href="/ru/wonders/religions/cult_of_currents">Культ Течений</a></li>
-                                <li><a href="/ru/wonders/religions/cult_of_spirits">Культ Духов</a></li>
-                                <li><a href="/ru/wonders/religions/ancestor_cult">Культ Предков</a></li>
-                        </ul>
-                </li> -->
-                <!-- <li> -->
-                <!-- <li><a href="/ru/">Магия</a></li> -->
-                <!-- </li> -->
-                <!-- <li><a href="/ru/wonders/alchemy">Алхимия</a></li> -->
-</li>
-</ul>
-</li>
-
-<li><a href="/ru/extras">Дополнения</a>
-        <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li><a href="/ru/extras/stories">Истории</a>
-                        <span class="submenu-toggle">▾</span>
-                        <ul class="submenu">
-                                <li><a href="/ru/extras/stories/myth">Миф</a></li>
-                        </ul>
-                </li>
-                <!-- <li><a href="/ru/extras/arts">Арты</a></li> -->
-                <li><a href="/ru/extras/blog">Блог</a></li>
-                <!-- <li><a href="/ru/extras/chronicle">Хроника</a></li>
-                <li><a href="/ru/extras/glossary">Глоссарий</a></li> -->
-        </ul>
-</li>
-<li><a href="/ru/about">О проекте</a>
-        <span class="submenu-toggle">▾</span>
-        <ul class="submenu">
-                <li><a href="/ru/about/wip">В процессе работы</a></li>
-                <li><a href="/ru/license">License</a></li>
-                <li><a href="/ru/about/templates">Шаблоны путеводителей</a>
-                        <ul class="submenu">
-                                <li><a href="/ru/about/templates/template_malkona">Путеводитель по Мальконе</a></li>
-                                <li><a href="/ru/about/templates/template_region">Путеводитель по региону</a></li>
-                        </ul>
-                </li>
-                <!--   <li><a href="/ru/about/roadmap">Планы и Хроника</a></li>
-                <li><a href="/ru/about/credits">Авторы</a></li>
-                <li><a href="/ru/about/links">Ссылки</a></li>-->
-
-        </ul>
-</li>
-        </ul>
+    <div class="header-contacts-mobile mobile-only">
+        <a href="https://discord.gg/Dr4BA8CCx3" class="contact-link"> Присоединяйтесь к Дискорду</a>
     </div>
 
-    <div class="header-contacts-mobile">
-       <a href="https://discord.gg/Dr4BA8CCx3" class="contact-link"> Присоединяйтесь к Дискорду</a>        <!-- | <a href="mailto:orthanthundy@gmail.com" class="contact-link">orthanthundy@gmail.com</a> -->
+    <div class="nav-desktop desktop-only">
+        <ul class="navigation">
+            
+
+<nav class="main-nav" role="navigation" aria-label="Main navigation">
+  <ul class="navigation">
+    
+
+<li class="nav-item has-submenu">
+  <a href="/ru/">
+    
+      Главная
+    
+  </a>
+
+  
+      <div class="mega-menu">
+        <div class="mega-menu-inner">
+          
+          
+          
+          
+          
+          
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/ru/two_taliskarns">
+                    
+                      Два Талискарна
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/ru/faq">
+                    
+                      FAQ
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+            </div>
+            
+          
+        </div>
+      </div>
+
+    
+  
+</li>
+
+
+<li class="nav-item has-submenu">
+  <a href="/ru/malkona">
+    
+      Места
+    
+  </a>
+
+  
+      <div class="mega-menu--places">
+        <div class="region-sidebar">
+            <div class="region-item" data-region-index="0">
+                <a href="/ru/malkona/riku">
+              
+                Нагорье Рику
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="1">
+                <a href="/ru/malkona/verda">
+              
+                Зелёные Земли Верда
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="2">
+                <a href="/ru/malkona/verda/shorelands">
+              
+                Берега
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="3">
+                <a href="/ru/malkona/southern_sea">
+              
+                Южное Море
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="4">
+                <a href="/ru/malkona/bryleahn_jungles">
+              
+                Брилийские Джунгли
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="5">
+                <a href="/ru/malkona/fetid_fens">
+              
+                Смрадные Топи
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="6">
+                <a href="/ru/malkona/warm_sea">
+              
+                Тёплое Море
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="7">
+                <a href="/ru/malkona/wilderreach">
+              
+                Дикий Край
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="8">
+                <a href="/ru/malkona/scarred_lands">
+              
+                Израненные земли Бруна
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="9">
+                <a href="/ru/malkona/noctaria">
+              
+                Ноктария
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="10">
+                <a href="/ru/malkona/flammarg_shards">
+              
+                Осколки Фламмарга
+              
+              </a>
+            </div>
+            <div class="region-item" data-region-index="11">
+                <a href="/ru/malkona/irmaris">
+              
+                Ирмарис
+              
+              </a>
+            </div>
+        </div>
+
+        <div class="region-content">
+            <div class="region-col" data-region-index="0">
+              
+            </div>
+            <div class="region-col" data-region-index="1">
+              
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/ru/malkona/verda/ashen_frontier">
+                        
+                          Золомежье
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/ru/malkona/verda/montwyn_hills">
+                        
+                          Холмы Монтвин
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/ru/malkona/verda/lake_larga">
+                        
+                          Озеро Ларга
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/ru/malkona/verda/lake_senfunda">
+                        
+                          Озеро Сенфунда
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/ru/malkona/verda/steps">
+                        
+                          Ступени
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/ru/malkona/verda/lake_malvarma">
+                        
+                          Озеро Малварма
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/ru/malkona/verda/windhill_plains">
+                        
+                          Бурестепье
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+              
+            </div>
+            <div class="region-col" data-region-index="2">
+              
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/ru/malkona/verda/shorelands/capar">
+                        
+                          Мыс Капар
+                        
+                      </a>
+                    </div>
+                    
+                      <ul>
+                        
+                          <li>
+                            <a href="/ru/malkona/verda/shorelands/capar/varmego">
+                              
+                                Вармего
+                              
+                            </a>
+                          </li>
+                        
+                      </ul>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/ru/malkona/verda/shorelands/orem">
+                        
+                          Орэм
+                        
+                      </a>
+                    </div>
+                    
+                      <ul>
+                        
+                          <li>
+                            <a href="/ru/malkona/verda/shorelands/orem/duerbo">
+                              
+                                Дьюрбо
+                              
+                            </a>
+                          </li>
+                        
+                      </ul>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/ru/malkona/verda/shorelands/narem">
+                        
+                          Нарэм
+                        
+                      </a>
+                    </div>
+                    
+                      <ul>
+                        
+                          <li>
+                            <a href="/ru/malkona/verda/shorelands/narem/marcolo">
+                              
+                                Марколо
+                              
+                            </a>
+                          </li>
+                        
+                      </ul>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/ru/malkona/verda/shorelands/eastern_shore">
+                        
+                          Восточное Побережье
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/ru/malkona/verda/shorelands/chillbay">
+                        
+                          Холодный Залив
+                        
+                      </a>
+                    </div>
+                    
+                      <ul>
+                        
+                          <li>
+                            <a href="/ru/malkona/verda/shorelands/chillbay/buso">
+                              
+                                Бусо
+                              
+                            </a>
+                          </li>
+                        
+                      </ul>
+                    
+                  </div>
+                
+              
+            </div>
+            <div class="region-col" data-region-index="3">
+              
+                
+                  <div class="region-group">
+                    <div class="group-title">
+                      <a href="/ru/malkona/southern_sea/negata">
+                        
+                          Негата
+                        
+                      </a>
+                    </div>
+                    
+                  </div>
+                
+              
+            </div>
+            <div class="region-col" data-region-index="4">
+              
+            </div>
+            <div class="region-col" data-region-index="5">
+              
+            </div>
+            <div class="region-col" data-region-index="6">
+              
+            </div>
+            <div class="region-col" data-region-index="7">
+              
+            </div>
+            <div class="region-col" data-region-index="8">
+              
+            </div>
+            <div class="region-col" data-region-index="9">
+              
+            </div>
+            <div class="region-col" data-region-index="10">
+              
+            </div>
+            <div class="region-col" data-region-index="11">
+              
+            </div>
+        </div>
+      </div>
+
+    
+  
+</li>
+
+
+<li class="nav-item has-submenu">
+  <a href="/ru/denizens">
+    
+      Обитатели
+    
+  </a>
+
+  
+      <div class="mega-menu">
+        <div class="mega-menu-inner">
+          
+          
+          
+          
+          
+          
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/ru/denizens/races/prymars">
+                    
+                      Примары
+                    
+                  </a>
+                  
+                </div>
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/ru/denizens/races/arydars">
+                    
+                      Аридары
+                    
+                  </a>
+                  
+                    <ul class="mega-submenu depth-2">
+                      
+
+<li class="nav-item">
+  <a href="/ru/denizens/races/arydars/malnurs">
+    
+      Мальнуры
+    
+  </a>
+
+  
+</li>
+
+
+<li class="nav-item">
+  <a href="/ru/denizens/races/arydars/tondrantars">
+    
+      Тондрантары
+    
+  </a>
+
+  
+</li>
+
+
+<li class="nav-item">
+  <a href="/ru/denizens/races/arydars/kromrs">
+    
+      Кромры
+    
+  </a>
+
+  
+</li>
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const navItems = document.querySelectorAll(".nav-item.has-submenu");
+
+  navItems.forEach(function(item) {
+    const megaMenuPlaces = item.querySelector(".mega-menu--places");
+    if (!megaMenuPlaces) return; 
+
+    item.addEventListener("mouseenter", function(){
+      megaMenuPlaces.style.display = "flex"; 
+    });
+    item.addEventListener("mouseleave", function(){
+      megaMenuPlaces.style.display = "none";
+    });
+    const regionItems = megaMenuPlaces.querySelectorAll(".region-item");
+    const regionCols  = megaMenuPlaces.querySelectorAll(".region-col");
+
+    if (regionItems.length === 0 || regionCols.length === 0) return;
+
+    function activateRegion(index) {
+      regionItems.forEach((ri, i) => {
+        ri.classList.toggle("active", i === index);
+      });
+      regionCols.forEach((rc, i) => {
+        rc.style.display = (i === index) ? "flex" : "none";
+      });
+    }
+
+    activateRegion(0);
+
+    regionItems.forEach((ri, idx) => {
+      ri.addEventListener("mouseenter", () => activateRegion(idx));
+    });
+  });
+});
+</script>
+
+                    </ul>
+                  
+                </div>
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/ru/denizens/races/brunars">
+                    
+                      Брунары
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/ru/denizens/races/saltuars">
+                    
+                      Салтуары
+                    
+                  </a>
+                  
+                    <ul class="mega-submenu depth-2">
+                      
+
+<li class="nav-item">
+  <a href="/ru/denizens/races/saltuars/monti">
+    
+      Монти
+    
+  </a>
+
+  
+</li>
+
+
+<li class="nav-item">
+  <a href="/ru/denizens/races/saltuars/largars">
+    
+      Ларгары
+    
+  </a>
+
+  
+</li>
+
+
+<li class="nav-item">
+  <a href="/ru/denizens/races/saltuars/senfenns">
+    
+      Сенфенны
+    
+  </a>
+
+  
+</li>
+
+
+<li class="nav-item">
+  <a href="/ru/denizens/races/saltuars/malvars">
+    
+      Малвары
+    
+  </a>
+
+  
+</li>
+
+
+<li class="nav-item">
+  <a href="/ru/denizens/races/saltuars/sudians">
+    
+      Судийцы
+    
+  </a>
+
+  
+</li>
+
+
+<li class="nav-item">
+  <a href="/ru/denizens/races/saltuars/oremians">
+    
+      Орэмцы
+    
+  </a>
+
+  
+</li>
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const navItems = document.querySelectorAll(".nav-item.has-submenu");
+
+  navItems.forEach(function(item) {
+    const megaMenuPlaces = item.querySelector(".mega-menu--places");
+    if (!megaMenuPlaces) return; 
+
+    item.addEventListener("mouseenter", function(){
+      megaMenuPlaces.style.display = "flex"; 
+    });
+    item.addEventListener("mouseleave", function(){
+      megaMenuPlaces.style.display = "none";
+    });
+    const regionItems = megaMenuPlaces.querySelectorAll(".region-item");
+    const regionCols  = megaMenuPlaces.querySelectorAll(".region-col");
+
+    if (regionItems.length === 0 || regionCols.length === 0) return;
+
+    function activateRegion(index) {
+      regionItems.forEach((ri, i) => {
+        ri.classList.toggle("active", i === index);
+      });
+      regionCols.forEach((rc, i) => {
+        rc.style.display = (i === index) ? "flex" : "none";
+      });
+    }
+
+    activateRegion(0);
+
+    regionItems.forEach((ri, idx) => {
+      ri.addEventListener("mouseenter", () => activateRegion(idx));
+    });
+  });
+});
+</script>
+
+                    </ul>
+                  
+                </div>
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/ru/denizens/races/bryleahns">
+                    
+                      Брилийцы
+                    
+                  </a>
+                  
+                </div>
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/ru/denizens/races/kyonnhs">
+                    
+                      Кьённхи
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/ru/denizens/races/noctids">
+                    
+                      Ноктиды
+                    
+                  </a>
+                  
+                </div>
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/ru/denizens/races/flammars">
+                    
+                      Фламмары
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+        </div>
+      </div>
+
+    
+  
+</li>
+
+
+<li class="nav-item has-submenu">
+  <a href="/ru/wonders">
+    
+      Чудеса
+    
+  </a>
+
+  
+      <div class="mega-menu">
+        <div class="mega-menu-inner">
+          
+          
+          
+          
+          
+          
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/ru/wonders/pantheon">
+                    
+                      Пантеон
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/ru/wonders/spirits">
+                    
+                      Духи Верда
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+            </div>
+            
+          
+        </div>
+      </div>
+
+    
+  
+</li>
+
+
+<li class="nav-item has-submenu">
+  <a href="/ru/extras">
+    
+      Дополнения
+    
+  </a>
+
+  
+      <div class="mega-menu">
+        <div class="mega-menu-inner">
+          
+          
+          
+          
+          
+          
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/ru/extras/stories">
+                    
+                      Истории
+                    
+                  </a>
+                  
+                    <ul class="mega-submenu depth-2">
+                      
+
+<li class="nav-item">
+  <a href="/ru/extras/stories/myth">
+    
+      Миф
+    
+  </a>
+
+  
+</li>
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const navItems = document.querySelectorAll(".nav-item.has-submenu");
+
+  navItems.forEach(function(item) {
+    const megaMenuPlaces = item.querySelector(".mega-menu--places");
+    if (!megaMenuPlaces) return; 
+
+    item.addEventListener("mouseenter", function(){
+      megaMenuPlaces.style.display = "flex"; 
+    });
+    item.addEventListener("mouseleave", function(){
+      megaMenuPlaces.style.display = "none";
+    });
+    const regionItems = megaMenuPlaces.querySelectorAll(".region-item");
+    const regionCols  = megaMenuPlaces.querySelectorAll(".region-col");
+
+    if (regionItems.length === 0 || regionCols.length === 0) return;
+
+    function activateRegion(index) {
+      regionItems.forEach((ri, i) => {
+        ri.classList.toggle("active", i === index);
+      });
+      regionCols.forEach((rc, i) => {
+        rc.style.display = (i === index) ? "flex" : "none";
+      });
+    }
+
+    activateRegion(0);
+
+    regionItems.forEach((ri, idx) => {
+      ri.addEventListener("mouseenter", () => activateRegion(idx));
+    });
+  });
+});
+</script>
+
+                    </ul>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/ru/extras/blog">
+                    
+                      Блог
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+            </div>
+            
+          
+        </div>
+      </div>
+
+    
+  
+</li>
+
+
+<li class="nav-item has-submenu">
+  <a href="/ru/about">
+    
+      О проекте
+    
+  </a>
+
+  
+      <div class="mega-menu">
+        <div class="mega-menu-inner">
+          
+          
+          
+          
+          
+          
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/ru/about/wip">
+                    
+                      В процессе работы
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/ru/license">
+                    
+                      License
+                    
+                  </a>
+                  
+                </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/ru/about/templates">
+                    
+                      Шаблоны путеводителей
+                    
+                  </a>
+                  
+                    <ul class="mega-submenu depth-2">
+                      
+
+<li class="nav-item">
+  <a href="/ru/about/templates/template_malkona">
+    
+      Путеводитель по Мальконе
+    
+  </a>
+
+  
+</li>
+
+
+<li class="nav-item">
+  <a href="/ru/about/templates/template_region">
+    
+      Путеводитель по региону
+    
+  </a>
+
+  
+</li>
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const navItems = document.querySelectorAll(".nav-item.has-submenu");
+
+  navItems.forEach(function(item) {
+    const megaMenuPlaces = item.querySelector(".mega-menu--places");
+    if (!megaMenuPlaces) return; 
+
+    item.addEventListener("mouseenter", function(){
+      megaMenuPlaces.style.display = "flex"; 
+    });
+    item.addEventListener("mouseleave", function(){
+      megaMenuPlaces.style.display = "none";
+    });
+    const regionItems = megaMenuPlaces.querySelectorAll(".region-item");
+    const regionCols  = megaMenuPlaces.querySelectorAll(".region-col");
+
+    if (regionItems.length === 0 || regionCols.length === 0) return;
+
+    function activateRegion(index) {
+      regionItems.forEach((ri, i) => {
+        ri.classList.toggle("active", i === index);
+      });
+      regionCols.forEach((rc, i) => {
+        rc.style.display = (i === index) ? "flex" : "none";
+      });
+    }
+
+    activateRegion(0);
+
+    regionItems.forEach((ri, idx) => {
+      ri.addEventListener("mouseenter", () => activateRegion(idx));
+    });
+  });
+});
+</script>
+
+                    </ul>
+                  
+                </div>
+              
+            </div>
+            
+          
+        </div>
+      </div>
+
+    
+  
+</li>
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const navItems = document.querySelectorAll(".nav-item.has-submenu");
+
+  navItems.forEach(function(item) {
+    const megaMenuPlaces = item.querySelector(".mega-menu--places");
+    if (!megaMenuPlaces) return; 
+
+    item.addEventListener("mouseenter", function(){
+      megaMenuPlaces.style.display = "flex"; 
+    });
+    item.addEventListener("mouseleave", function(){
+      megaMenuPlaces.style.display = "none";
+    });
+    const regionItems = megaMenuPlaces.querySelectorAll(".region-item");
+    const regionCols  = megaMenuPlaces.querySelectorAll(".region-col");
+
+    if (regionItems.length === 0 || regionCols.length === 0) return;
+
+    function activateRegion(index) {
+      regionItems.forEach((ri, i) => {
+        ri.classList.toggle("active", i === index);
+      });
+      regionCols.forEach((rc, i) => {
+        rc.style.display = (i === index) ? "flex" : "none";
+      });
+    }
+
+    activateRegion(0);
+
+    regionItems.forEach((ri, idx) => {
+      ri.addEventListener("mouseenter", () => activateRegion(idx));
+    });
+  });
+});
+</script>
+
+  </ul>
+</nav>
+
+        </ul>
     </div>
 </header>
 
@@ -456,27 +2559,8 @@
 </div>
 
 <script>
-
-
-    document.addEventListener('DOMContentLoaded', function () {
-        const burgerBtn = document.getElementById('burger-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-
-        burgerBtn.addEventListener('click', function () {
-            mobileMenu.classList.toggle('active');
-        });
-    });
-
-    console.log("Image modal script loaded!");
-
     document.addEventListener("DOMContentLoaded", function () {
-        document.querySelectorAll('.submenu-toggle').forEach(button => {
-            button.addEventListener('click', function (event) {
-                event.stopPropagation();
-                let parent = this.closest('.has-submenu');
-                parent.classList.toggle('open');
-            });
-        });
+        console.log("Image modal script loaded!");
 
         let images = Array.from(document.querySelectorAll("img.phb-image"));
         let modal = document.getElementById("imageModal");
@@ -495,6 +2579,7 @@
             modal.style.display = "flex";
             navButtons.style.display = images.length > 1 ? "flex" : "none";
         }
+
         function closeModal() {
             modal.style.display = "none";
         }
@@ -530,6 +2615,7 @@
         window.closeModal = closeModal;
         window.changeImage = changeImage;
     });
+
 </script>
     <main role="main" id="main" class="phb">
         <div class="wide" style="margin-bottom: 36px">
