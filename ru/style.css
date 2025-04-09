@@ -1642,4 +1642,41 @@ header {
   padding: 0;
 }
 
+/* =========================================================
+   WIKIFY TOOLTIP
+   ========================================================= */
+.has-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: help;
+}
+
+.tooltip-content {
+  position: fixed;
+  background: #2c1f14;
+  color: #f0e6d2;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  max-width: 80vw;
+  white-space: normal;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  z-index: 999999;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease;
+}
+@media (min-width: 768px) {
+  .tooltip-content {
+    max-width: 40vw;
+  }
+}
+@media (min-width: 1200px) {
+  .tooltip-content {
+    max-width: 25vw;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
