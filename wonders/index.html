@@ -1361,35 +1361,46 @@
 </nav>
 
 <script>
-document.addEventListener("DOMContentLoaded", function(){
-  const toggleBtn = document.querySelector(".mobile-menu-toggle");
-  const mobileMenu = document.querySelector(".mobile-menu");
-
-  if (!toggleBtn || !mobileMenu) return; 
-
-  toggleBtn.addEventListener("click", function(){
-    const isOpen = mobileMenu.getAttribute("aria-hidden") === "false";
-    mobileMenu.setAttribute("aria-hidden", isOpen ? "true" : "false");
-  });
-
-  const submenuToggles = document.querySelectorAll(".mobile-submenu-toggle");
-
-  submenuToggles.forEach(function(btn){
-    btn.addEventListener("click", function(e){
-      e.preventDefault();
-      const parentLi = btn.closest("li");
-      if (!parentLi) return;
-      const subUl = parentLi.querySelector("ul");
-      if (!subUl) return;
-
-      const isExpanded = btn.getAttribute("aria-expanded") === "true";
-      btn.setAttribute("aria-expanded", isExpanded ? "false" : "true");
-      subUl.setAttribute("data-open", isExpanded ? "false" : "true");
+  document.addEventListener("DOMContentLoaded", function(){
+    const toggleBtn = document.querySelector(".mobile-menu-toggle");
+    const mobileMenu = document.querySelector(".mobile-menu");
+  
+    if (!toggleBtn || !mobileMenu) return; 
+  
+    toggleBtn.addEventListener("click", function(e){
+      e.stopPropagation(); 
+      const isOpen = mobileMenu.getAttribute("aria-hidden") === "false";
+      mobileMenu.setAttribute("aria-hidden", isOpen ? "true" : "false");
+    });
+  
+    document.addEventListener("click", function(e){
+      const isOpen = mobileMenu.getAttribute("aria-hidden") === "false";
+      if (!isOpen) return;
+  
+      if (!mobileMenu.contains(e.target) && !toggleBtn.contains(e.target)) {
+        mobileMenu.setAttribute("aria-hidden", "true");
+      }
+    });
+  
+    const submenuToggles = document.querySelectorAll(".mobile-submenu-toggle");
+  
+    submenuToggles.forEach(function(btn){
+      btn.addEventListener("click", function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        const parentLi = btn.closest("li");
+        if (!parentLi) return;
+        const subUl = parentLi.querySelector("ul");
+        if (!subUl) return;
+  
+        const isExpanded = btn.getAttribute("aria-expanded") === "true";
+        btn.setAttribute("aria-expanded", isExpanded ? "false" : "true");
+        subUl.setAttribute("data-open", isExpanded ? "false" : "true");
+      });
     });
   });
-});
-</script>
-
+  </script>
+  
             <h1 class="site-title">
                 <a href="/">Taliskarn</a>
             </h1>
