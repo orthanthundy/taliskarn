@@ -1000,7 +1000,7 @@ body {
 }
 .mega-menu--places {
   min-width: 900px;
-  max-height: 60vh;
+  max-height: 70vh;
   overflow-y: auto;
 }
 .mega-menu--places .region-sidebar {
