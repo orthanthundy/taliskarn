@@ -1000,6 +1000,8 @@ body {
 }
 .mega-menu--places {
   min-width: 900px;
+  max-height: 60vh;
+  overflow-y: auto;
 }
 .mega-menu--places .region-sidebar {
   flex: 0 0 200px;
@@ -1028,20 +1030,25 @@ body {
 .mega-menu--places .region-content {
   flex: 1;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 3rem;
   padding-left: 2rem;
 }
 .mega-menu--places .region-content .region-col {
   min-width: 200px;
-  display: none;
+  display: block;
   flex-direction: column;
   gap: 1.5rem;
+  column-width: 220px;
+  column-gap: 2rem;
+  break-inside: avoid-column;
 }
 .mega-menu--places .region-content .region-col .region-group {
   display: flex;
   flex-direction: column;
+  break-inside: avoid-column;
   gap: 0.4rem;
+  margin-bottom: 1.2rem;
 }
 .mega-menu--places .region-content .region-col .region-group .group-title {
   font-weight: 700;
