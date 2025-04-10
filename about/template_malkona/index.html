@@ -1259,33 +1259,7 @@
   <li class="mobile-nav-item">
     <div class="mobile-nav-link-wrapper">
       <a class="mobile-nav-link"
-         href="/about/templates">
-        
-          Guides Templates
-        
-      </a>
-
-      
-        <!-- Кнопка-стрелка для аккордеона -->
-        <button class="mobile-submenu-toggle"
-                aria-expanded="false"
-                aria-label="Open submenu">
-          ▸
-        </button>
-      
-    </div>
-
-    
-      <ul class="mobile-submenu-list"
-          data-open="false">
-        
-        
-  
-
-  <li class="mobile-nav-item">
-    <div class="mobile-nav-link-wrapper">
-      <a class="mobile-nav-link"
-         href="/about/templates/template_malkona">
+         href="/about/template_malkona">
         
           A Guide to Malkona
         
@@ -1302,7 +1276,7 @@
   <li class="mobile-nav-item">
     <div class="mobile-nav-link-wrapper">
       <a class="mobile-nav-link"
-         href="/about/templates/template_region">
+         href="/about/template_region">
         
           Regional Guide
         
@@ -1311,11 +1285,6 @@
       
     </div>
 
-    
-  </li>
-
-
-      </ul>
     
   </li>
 
@@ -1380,7 +1349,7 @@
                 <div class="language-switcher">
                     
                     
-                    <a href="/ru/about/templates/template_malkona/">Русский</a>
+                    <a href="/ru/about/template_malkona/">Русский</a>
                     
                 </div>
             </div>
@@ -1392,7 +1361,7 @@
                     <div class="language-switcher">
                         
                         
-                        <a href="/ru/about/templates/template_malkona/">Русский</a>
+                        <a href="/ru/about/template_malkona/">Русский</a>
                         
                     </div>
                 </div>
@@ -2351,13 +2320,6 @@ document.addEventListener("DOMContentLoaded", function () {
                   
                 </div>
               
-            </div>
-            
-          
-            <div class="mega-col">
-              
-              
-              
                 
                 
                 <div class="mega-subsection submenu-group-start">
@@ -2379,78 +2341,31 @@ document.addEventListener("DOMContentLoaded", function () {
                 
                 
                 <div class="mega-subsection submenu-group-start">
-                  <a href="/about/templates">
+                  <a href="/about/template_malkona">
                     
-                      Guides Templates
+                      A Guide to Malkona
                     
                   </a>
                   
-                    <ul class="mega-submenu depth-2">
-                      
-
-<li class="nav-item">
-  <a href="/about/templates/template_malkona">
-    
-      A Guide to Malkona
-    
-  </a>
-
-  
-</li>
-
-
-<li class="nav-item">
-  <a href="/about/templates/template_region">
-    
-      Regional Guide
-    
-  </a>
-
-  
-</li>
-
-
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const navItems = document.querySelectorAll(".nav-item.has-submenu");
-
-  navItems.forEach(function(item) {
-    const megaMenuPlaces = item.querySelector(".mega-menu--places");
-    if (!megaMenuPlaces) return; 
-
-    item.addEventListener("mouseenter", function(){
-      megaMenuPlaces.style.display = "flex"; 
-    });
-    item.addEventListener("mouseleave", function(){
-      megaMenuPlaces.style.display = "none";
-    });
-    const regionItems = megaMenuPlaces.querySelectorAll(".region-item");
-    const regionCols  = megaMenuPlaces.querySelectorAll(".region-col");
-
-    if (regionItems.length === 0 || regionCols.length === 0) return;
-
-    function activateRegion(index) {
-      regionItems.forEach((ri, i) => {
-        ri.classList.toggle("active", i === index);
-      });
-      regionCols.forEach((rc, i) => {
-        rc.style.display = (i === index) ? "block" : "none";
-      });
-    }
-
-    activateRegion(0);
-
-    regionItems.forEach((ri, idx) => {
-      ri.addEventListener("mouseenter", () => activateRegion(idx));
-    });
-  });
-});
-</script>
-
-                    </ul>
+                </div>
+              
+                
+                
+                <div class="mega-subsection submenu-group-start">
+                  <a href="/about/template_region">
+                    
+                      Regional Guide
+                    
+                  </a>
                   
                 </div>
+              
+            </div>
+            
+          
+            <div class="mega-col">
+              
+              
               
             </div>
             
@@ -2550,24 +2465,16 @@ document.addEventListener("DOMContentLoaded", function () {
         
 
         
-            / <a href="/about/templates/">
-                Guides Templates
-            </a>
-        
-    
-        
-        
-        
-        
-        
-
-        
             / A Guide to Malkona
         
     
 </div></div> 
 
            <h1 id="taliskarn-notes-a-guide-to-malkona">Taliskarn Notes: A Guide to Malkona</h1>
+
+<blockquote>
+  <p><strong>Work in Progress</strong><br /> Templates for two guides: a general one for all of Malcone, and a regional one – I plan to release these for each of the major regions of the continent. Right now they are posted as a WIP structure so that they remain in the git</p>
+</blockquote>
 
 <p><strong>Purpose:</strong> Provide core information about Taliskarn and Malkona, clearly convey what and how to play, and depict the essence of the world.</p>
 
