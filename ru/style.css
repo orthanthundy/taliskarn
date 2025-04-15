@@ -163,6 +163,9 @@ body {
   list-style-position: outside;
   list-style-type: disc;
 }
+.phb p + ul {
+  margin-top: -1.2em;
+}
 .phb ol {
   margin-bottom: 0.8em;
   padding-left: 1.4em;
@@ -1690,6 +1693,10 @@ header {
   text-decoration: dotted underline;
   cursor: help;
   color: inherit;
+}
+
+.post-meta {
+  padding-bottom: 0.4em;
 }
 
 /*# sourceMappingURL=style.css.map */
