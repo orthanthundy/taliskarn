@@ -337,17 +337,12 @@
     
   </li>
 
-
-      </ul>
-    
-  </li>
-
   
 
   <li class="mobile-nav-item">
     <div class="mobile-nav-link-wrapper">
       <a class="mobile-nav-link"
-         href="/ru/malkona/warm_sea/limo">
+         href="/ru/malkona/warm_sea/sudjo/limo">
         
           Лимо
         
@@ -364,7 +359,7 @@
   <li class="mobile-nav-item">
     <div class="mobile-nav-link-wrapper">
       <a class="mobile-nav-link"
-         href="/ru/malkona/warm_sea/mallarga">
+         href="/ru/malkona/warm_sea/sudjo/mallarga">
         
           Малларга
         
@@ -373,6 +368,11 @@
       
     </div>
 
+    
+  </li>
+
+
+      </ul>
     
   </li>
 
@@ -1825,7 +1825,7 @@
                 <div class="language-switcher">
                     
                     
-                    <a href="/malkona/warm_sea/mallarga/">English</a><br>
+                    <a href="/malkona/warm_sea/sudjo/mallarga/">English</a><br>
                     
                 </div>
             </div>
@@ -1837,7 +1837,7 @@
                     <div class="language-switcher">
                         
                         
-                        <a href="/malkona/warm_sea/mallarga/">English</a><br>
+                        <a href="/malkona/warm_sea/sudjo/mallarga/">English</a><br>
                         
                     </div>
                 </div>
@@ -2111,29 +2111,23 @@
                             </a>
                           </li>
                         
+                          <li>
+                            <a href="/ru/malkona/warm_sea/sudjo/limo">
+                              
+                                Лимо
+                              
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="/ru/malkona/warm_sea/sudjo/mallarga">
+                              
+                                Малларга
+                              
+                            </a>
+                          </li>
+                        
                       </ul>
-                    
-                  </div>
-                
-                  <div class="region-group">
-                    <div class="group-title">
-                      <a href="/ru/malkona/warm_sea/limo">
-                        
-                          Лимо
-                        
-                      </a>
-                    </div>
-                    
-                  </div>
-                
-                  <div class="region-group">
-                    <div class="group-title">
-                      <a href="/ru/malkona/warm_sea/mallarga">
-                        
-                          Малларга
-                        
-                      </a>
-                    </div>
                     
                   </div>
                 
@@ -3190,6 +3184,18 @@ document.addEventListener("DOMContentLoaded", function () {
         
 
         
+            / <a href="/ru/malkona/warm_sea/sudjo/">
+                Судьо
+            </a>
+        
+    
+        
+        
+        
+        
+        
+
+        
             / Малларга
         
     
@@ -3201,8 +3207,62 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="article-content">
                     <div class="article-text">
                         <blockquote>
-  <p>Taliskarn is under active development. My native language is Russian, so the site was initially published in Russian, but I prepare the English version when the major update comes.</p>
+  <p><strong>Работа в процессе</strong><br /> Альфа</p>
 </blockquote>
+<div id="toc">
+    <h4>Содержание</h4>
+    <div class="toc-list"></div>
+  </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const headers = Array.from(document.querySelectorAll('h2, h3'));
+    const tocList = document.querySelector('.toc-list');
+    
+    headers.forEach(header => {
+      const level = header.tagName.toLowerCase();
+      const link = document.createElement('a');
+      
+      const anchor = document.createElement('a');
+      anchor.name = header.textContent.toLowerCase().replace(/ /g, '-');
+      header.parentNode.insertBefore(anchor, header);
+  
+      link.href = `#${anchor.name}`;
+      link.innerHTML = header.textContent;
+      link.className = `toc-${level}`;
+      
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = document.querySelector(`[name="${anchor.name}"]`);
+        window.scrollTo({
+          top: target.offsetTop - 100,
+          behavior: 'smooth'
+        });
+      });
+  
+      tocList.appendChild(link);
+    });
+  });
+  </script>
+
+<h2 id="география">География</h2>
+<p>Малларга стоит в глубоком заливе между Терьёнором и Лимо: в стороне от основных судоходных путей, зато очень удобно для того, чтобы здесь укрыться. Гавань окружена скалами и влажными лесами.</p>
+
+<h2 id="история">История</h2>
+<p>Город вырос из стоянки беглецов, изгнанников и отступников. Первыми были те, кто нарушил клятвы в других частях Тёплого Моря и нашёл укрытие в этом заливе. Со временем поселение разрослось, обросло тайными портами и преступными кланами.</p>
+
+<h2 id="устройство-города">Устройство города</h2>
+<p>Центральная часть — обветшалый порт и “Рынок Ломаных Слов”, где торгуют всем, что не разрешено в других городах. Вверх по склону лагерь кланов, трактиры, дома торговцев. У берега “Храмы Молчаливых”: ритуальные столбы забытых духов и разрушенных обетов.</p>
+
+<blockquote>
+  <p><strong>Заметка на полях</strong><br />Многие постройки делают из обломков кораблей или в их стиле: это почти ритуальная часть, дань уважения первым капитанам, основавшим Малларгу.</p>
+</blockquote>
+
+<h2 id="общество-и-власть">Общество и власть</h2>
+<p>Население ~3000 человек, в том числе десятки мелких кланов и банд. Официальной власти по факту нет, однако город управляется через Совет Шестерых — по числу первых капитанов-основателей. Это самые авторитетные и могущественные капитаны.</p>
+
+<h2 id="экономика-и-специализация">Экономика и специализация</h2>
+<p>Малларга — пиратская столица и неофициальный рынок всего запретного: контрабанда, поддельные клятвы и ритуалы, забытые артефакты и тд. Отсюда же стартует большая часть набегов на другие города и поселения Тёплого Моря.</p>
 
                     </div>
                 </div>

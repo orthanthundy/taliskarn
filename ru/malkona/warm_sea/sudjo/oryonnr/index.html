@@ -337,17 +337,12 @@
     
   </li>
 
-
-      </ul>
-    
-  </li>
-
   
 
   <li class="mobile-nav-item">
     <div class="mobile-nav-link-wrapper">
       <a class="mobile-nav-link"
-         href="/ru/malkona/warm_sea/limo">
+         href="/ru/malkona/warm_sea/sudjo/limo">
         
           Лимо
         
@@ -364,7 +359,7 @@
   <li class="mobile-nav-item">
     <div class="mobile-nav-link-wrapper">
       <a class="mobile-nav-link"
-         href="/ru/malkona/warm_sea/mallarga">
+         href="/ru/malkona/warm_sea/sudjo/mallarga">
         
           Малларга
         
@@ -373,6 +368,11 @@
       
     </div>
 
+    
+  </li>
+
+
+      </ul>
     
   </li>
 
@@ -2111,29 +2111,23 @@
                             </a>
                           </li>
                         
+                          <li>
+                            <a href="/ru/malkona/warm_sea/sudjo/limo">
+                              
+                                Лимо
+                              
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="/ru/malkona/warm_sea/sudjo/mallarga">
+                              
+                                Малларга
+                              
+                            </a>
+                          </li>
+                        
                       </ul>
-                    
-                  </div>
-                
-                  <div class="region-group">
-                    <div class="group-title">
-                      <a href="/ru/malkona/warm_sea/limo">
-                        
-                          Лимо
-                        
-                      </a>
-                    </div>
-                    
-                  </div>
-                
-                  <div class="region-group">
-                    <div class="group-title">
-                      <a href="/ru/malkona/warm_sea/mallarga">
-                        
-                          Малларга
-                        
-                      </a>
-                    </div>
                     
                   </div>
                 
@@ -3213,8 +3207,69 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="article-content">
                     <div class="article-text">
                         <blockquote>
-  <p>Taliskarn is under active development. My native language is Russian, so the site was initially published in Russian, but I prepare the English version when the major update comes.</p>
+  <p><strong>Работа в процессе</strong><br /> Альфа</p>
 </blockquote>
+<div id="toc">
+    <h4>Содержание</h4>
+    <div class="toc-list"></div>
+  </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const headers = Array.from(document.querySelectorAll('h2, h3'));
+    const tocList = document.querySelector('.toc-list');
+    
+    headers.forEach(header => {
+      const level = header.tagName.toLowerCase();
+      const link = document.createElement('a');
+      
+      const anchor = document.createElement('a');
+      anchor.name = header.textContent.toLowerCase().replace(/ /g, '-');
+      header.parentNode.insertBefore(anchor, header);
+  
+      link.href = `#${anchor.name}`;
+      link.innerHTML = header.textContent;
+      link.className = `toc-${level}`;
+      
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = document.querySelector(`[name="${anchor.name}"]`);
+        window.scrollTo({
+          top: target.offsetTop - 100,
+          behavior: 'smooth'
+        });
+      });
+  
+      tocList.appendChild(link);
+    });
+  });
+  </script>
+
+<h2 id="география">География</h2>
+<p>Орьённр — самый восточный из судийских городов, расположенный в узком, защищённом скалами заливе. С</p>
+
+<h2 id="история">История</h2>
+<p>Считается, что первые корабельщики Судьо выбрали это место не случайно — дух залива был благосклонен, и их лодки пережили шторма, когда остальные гибли. Позже вокруг гавани выросло поселение, а духу залива установили отдельный резной столб в капище.</p>
+
+<h2 id="устройство-города">Устройство города</h2>
+<p>Орьённр строился вокруг гавани:</p>
+<ul>
+  <li>нижний ярус — верфи, склады, пристани</li>
+  <li>средний — жилые дома, дома кланов, мастерские</li>
+  <li>верхний — капища, “Дом Матерей”, школа корабельных клятв</li>
+</ul>
+
+<p>Каждое судно, построенное в Орьённре, получает имя, обряд благословения и собственный плетёный узел, переданный от матери капитана.</p>
+
+<h2 id="общество-и-власть">Общество и власть</h2>
+<p>Население ~2000 человек. Управляется ярлом, которого избирают капитаны, но значительная власть сосредоточена и в руках Матерей: старших женщин рода, отвечающих за обеты, корабли и капища.</p>
+
+<h2 id="экономика-и-специализация">Экономика и специализация</h2>
+<p>Орьённр — центр кораблестроения на Тёплом Море:</p>
+<ul>
+  <li>Строят лодки, барки, малые суда</li>
+  <li>Активно занимаются рыболовством, охотой на морских тварей</li>
+</ul>
 
                     </div>
                 </div>

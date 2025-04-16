@@ -337,17 +337,12 @@
     
   </li>
 
-
-      </ul>
-    
-  </li>
-
   
 
   <li class="mobile-nav-item">
     <div class="mobile-nav-link-wrapper">
       <a class="mobile-nav-link"
-         href="/ru/malkona/warm_sea/limo">
+         href="/ru/malkona/warm_sea/sudjo/limo">
         
           Лимо
         
@@ -364,7 +359,7 @@
   <li class="mobile-nav-item">
     <div class="mobile-nav-link-wrapper">
       <a class="mobile-nav-link"
-         href="/ru/malkona/warm_sea/mallarga">
+         href="/ru/malkona/warm_sea/sudjo/mallarga">
         
           Малларга
         
@@ -373,6 +368,11 @@
       
     </div>
 
+    
+  </li>
+
+
+      </ul>
     
   </li>
 
@@ -2111,29 +2111,23 @@
                             </a>
                           </li>
                         
+                          <li>
+                            <a href="/ru/malkona/warm_sea/sudjo/limo">
+                              
+                                Лимо
+                              
+                            </a>
+                          </li>
+                        
+                          <li>
+                            <a href="/ru/malkona/warm_sea/sudjo/mallarga">
+                              
+                                Малларга
+                              
+                            </a>
+                          </li>
+                        
                       </ul>
-                    
-                  </div>
-                
-                  <div class="region-group">
-                    <div class="group-title">
-                      <a href="/ru/malkona/warm_sea/limo">
-                        
-                          Лимо
-                        
-                      </a>
-                    </div>
-                    
-                  </div>
-                
-                  <div class="region-group">
-                    <div class="group-title">
-                      <a href="/ru/malkona/warm_sea/mallarga">
-                        
-                          Малларга
-                        
-                      </a>
-                    </div>
                     
                   </div>
                 
@@ -3213,8 +3207,66 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="article-content">
                     <div class="article-text">
                         <blockquote>
-  <p>Taliskarn is under active development. My native language is Russian, so the site was initially published in Russian, but I prepare the English version when the major update comes.</p>
+  <p><strong>Работа в процессе</strong><br /> Альфа</p>
 </blockquote>
+<div id="toc">
+    <h4>Содержание</h4>
+    <div class="toc-list"></div>
+  </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const headers = Array.from(document.querySelectorAll('h2, h3'));
+    const tocList = document.querySelector('.toc-list');
+    
+    headers.forEach(header => {
+      const level = header.tagName.toLowerCase();
+      const link = document.createElement('a');
+      
+      const anchor = document.createElement('a');
+      anchor.name = header.textContent.toLowerCase().replace(/ /g, '-');
+      header.parentNode.insertBefore(anchor, header);
+  
+      link.href = `#${anchor.name}`;
+      link.innerHTML = header.textContent;
+      link.className = `toc-${level}`;
+      
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = document.querySelector(`[name="${anchor.name}"]`);
+        window.scrollTo({
+          top: target.offsetTop - 100,
+          behavior: 'smooth'
+        });
+      });
+  
+      tocList.appendChild(link);
+    });
+  });
+  </script>
+
+<h2 id="география">География</h2>
+<p>Терьёнор — главный порт и старейшее поселение Судьо, расположенный в широком, спокойном устье Тирганы. Город стоит среди лагун и речных островов, окружён древними рощами, считающимися священными.</p>
+
+<h2 id="история">История</h2>
+<p>По преданию, город был основан с согласия трёх старших юканов, которым до сих пор приносят подношения на главных праздниках.</p>
+
+<h2 id="устройство-города">Устройство города</h2>
+<p>Терьёнор вытянут вдоль русла реки, в месте её встречи с Тёплым Морем. Он стоит на восточном берегу:</p>
+<ul>
+  <li>центральная часть — укреплённая пристань и рыночная площадь;</li>
+  <li>севернее — жилые кварталы</li>
+  <li>восточнее — капища, склады и мелкие мастерские.</li>
+</ul>
+
+<p>Многие дома стоят на сваях, украшены резными узлами и охранными плетениями. Около пристаней “Дом Обетов””” и “Роща Согласия”, где принимаются важные решения.</p>
+
+<h2 id="общество-и-власть">Общество и власть</h2>
+<p>Население ~2500 человек.
+Город управляется ярлом, которого выбирает Совет Капитанов. Собирается каждые 3 сезона. Друиды играют важную роль как советники, судьи и хранители летописей (плюс капитаны Судьо в целом зачастую сами являются друидами).</p>
+
+<h2 id="экономика-и-торговля">Экономика и торговля</h2>
+<p>Основной торговый узел региона. Обмениваются пушнина, янтарь, соль, вяленая рыба, изделия из ламотника и солёной древесины — на металл, зерно и масло, прибывающее из Нордурбо.</p>
 
                     </div>
                 </div>

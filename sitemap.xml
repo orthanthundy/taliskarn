@@ -139,7 +139,7 @@
 <loc>http://localhost:4000/malkona/warm_sea/sudjo/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/two_taliskarns/</loc>
+<loc>http://localhost:4000/malkona/warm_sea/sudjo/mallarga/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/malkona/warm_sea/throat/</loc>
@@ -151,7 +151,7 @@
 <loc>http://localhost:4000/malkona/southern_sea/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/wonders/religions/</loc>
+<loc>http://localhost:4000/malkona/warm_sea/sudjo/limo/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/malkona/verda/capar/</loc>
@@ -172,13 +172,13 @@
 <loc>http://localhost:4000/malkona/verda/coppergrass_plains/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/two_taliskarns/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/wonders/religions/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/malkona/warm_sea/shu_gurranbor/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/malkona/warm_sea/mallarga/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/malkona/warm_sea/limo/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/malkona/warm_sea/harrowcoast/</loc>
