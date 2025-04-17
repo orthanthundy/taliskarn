@@ -42,7 +42,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -107,7 +106,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -133,7 +131,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -159,7 +156,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -207,7 +203,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -289,7 +284,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -427,7 +421,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -572,7 +565,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -620,7 +612,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -668,7 +659,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -733,7 +723,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -798,7 +787,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -931,7 +919,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -984,7 +971,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -1173,7 +1159,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -1216,7 +1201,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -1315,7 +1299,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -1521,7 +1504,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -1586,7 +1568,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -1612,7 +1593,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -1682,7 +1662,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -3207,8 +3186,66 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="article-content">
                     <div class="article-text">
                         <blockquote>
-  <p>Taliskarn is under active development. My native language is Russian, so the site was initially published in Russian, but I prepare the English version when the major update comes.</p>
+  <p><strong>Работа в процессе</strong><br /> Альфа</p>
 </blockquote>
+<div id="toc">
+    <h4>Содержание</h4>
+    <div class="toc-list"></div>
+  </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const headers = Array.from(document.querySelectorAll('h2, h3'));
+    const tocList = document.querySelector('.toc-list');
+    
+    headers.forEach(header => {
+      const level = header.tagName.toLowerCase();
+      const link = document.createElement('a');
+      
+      const anchor = document.createElement('a');
+      anchor.name = header.textContent.toLowerCase().replace(/ /g, '-');
+      header.parentNode.insertBefore(anchor, header);
+  
+      link.href = `#${anchor.name}`;
+      link.innerHTML = header.textContent;
+      link.className = `toc-${level}`;
+      
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = document.querySelector(`[name="${anchor.name}"]`);
+        window.scrollTo({
+          top: target.offsetTop - 100,
+          behavior: 'smooth'
+        });
+      });
+  
+      tocList.appendChild(link);
+    });
+  });
+  </script>
+
+<h2 id="география">География</h2>
+<p>Ши-Далар – самый южный город Шу-Гурранбора – стоит в совсем небольшой бухте на далеко выдающемся в море участке побережья, едва-едва прикрыт парой холмов. Побережье каменистое, с галечными пляжами. Берег густо порос жёстким кустарником и кривыми деревьями.</p>
+
+<h2 id="история">История</h2>
+<p>Город вырос на месте старой рыбацкой деревни салтуаров, она же до сих пор является его центром.</p>
+
+<h2 id="устройство-города">Устройство города</h2>
+<ul>
+  <li>Центр: капище духов моря, общинный дом салтуарского рода, морская школа, ремесленные мастерские</li>
+  <li>Порт: верфи, склады, доки, дома плотников</li>
+  <li>Стоянки: жилые кварталы аридаров на северо-западе города</li>
+</ul>
+
+<p>Окружён, как всегда, пастбищами и временными стоянками.</p>
+
+<h2 id="общество-и-власть">Общество и власть</h2>
+<p>Население ~2000–2500 человек, до 5000 в сезон зимовки. Управляет городом Далар-сур, но большое влияние имеет и Совет Штормов: собрание капитанов и мастеров-кораблестроителей.</p>
+<h2 id="экономика-и-специализация">Экономика и специализация</h2>
+<ul>
+  <li>Главные верфи Шу-Гурранбор: здесьи строят лёгкие суда, барки, костяные лодки для прибрежных и дальних походов</li>
+  <li>Морская охота, торговля морской солью, шкурами водяных зверей, рыбой</li>
+</ul>
 
                     </div>
                 </div>

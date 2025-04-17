@@ -42,7 +42,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -107,7 +106,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -133,7 +131,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -159,7 +156,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -207,7 +203,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -289,7 +284,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -427,7 +421,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -572,7 +565,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -620,7 +612,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -668,7 +659,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -733,7 +723,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -798,7 +787,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -931,7 +919,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -984,7 +971,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -1173,7 +1159,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -1216,7 +1201,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -1315,7 +1299,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -1521,7 +1504,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -1586,7 +1568,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -1612,7 +1593,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -1682,7 +1662,6 @@
       </a>
 
       
-        <!-- Кнопка-стрелка для аккордеона -->
         <button class="mobile-submenu-toggle"
                 aria-expanded="false"
                 aria-label="Open submenu">
@@ -3194,9 +3173,73 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 <div class="article-content">
                     <div class="article-text">
-                        <blockquote>
-  <p>Taliskarn is under active development. My native language is Russian, so the site was initially published in Russian, but I prepare the English version when the major update comes.</p>
-</blockquote>
+                        <p><strong>Работа в процессе</strong><br /> Альфа</p>
+
+<div id="toc">
+    <h4>Содержание</h4>
+    <div class="toc-list"></div>
+  </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const headers = Array.from(document.querySelectorAll('h2, h3'));
+    const tocList = document.querySelector('.toc-list');
+    
+    headers.forEach(header => {
+      const level = header.tagName.toLowerCase();
+      const link = document.createElement('a');
+      
+      const anchor = document.createElement('a');
+      anchor.name = header.textContent.toLowerCase().replace(/ /g, '-');
+      header.parentNode.insertBefore(anchor, header);
+  
+      link.href = `#${anchor.name}`;
+      link.innerHTML = header.textContent;
+      link.className = `toc-${level}`;
+      
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = document.querySelector(`[name="${anchor.name}"]`);
+        window.scrollTo({
+          top: target.offsetTop - 100,
+          behavior: 'smooth'
+        });
+      });
+  
+      tocList.appendChild(link);
+    });
+  });
+  </script>
+
+<p>Шу-Гурранбор — союз трёх прибрежных городов на западном берегу Тёплого Моря. Все три города выросли из сезонных стоянок тергиритов: из-за мягкого климата на берегах Тёплого Моря всё больше кочевников оставались на побережье, переключаясь на рыболовство и земледелие. Постепенно с ними ассимилировались местные салтуары, а три крупнейших стоянки оформились в полноценные города.</p>
+
+<h2 id="устройство-и-управление">Устройство и управление</h2>
+<p>Все три города похожи друг на друга: укреплённый центр вокруг порта и ремесленных кварталов, рядом рынок и склады, плавно переходящие в кочевые стоянки, пастбища и охотничьи земли.</p>
+
+<p>Архитектура в основном аридарская, с некоторыми салтуарскими мотивами (<em>столбы для юрт часто делают из дерева, а не из кости, большие здания – склады, ремесленные матерские и тд – нередко полностью строят из дерева</em>). Ремёсла тоже причудливо сочетают традиционные для степи техники резьбы по кости с салтуарскими способами обработки древесины, большую роль играют дары моря: ракушки, кости рыб и тд.</p>
+
+<p>Формально города независимы, но объединены Советом Союза, который собирается в Ши-Мтраше дважды в год. Там решаются вопросы торговли, безопасности, отношений с другими народами. В экстренных ситуациях города действуют как единое целое.</p>
+
+<h2 id="общество-и-культура">Общество и культура</h2>
+<p>Главная особенность Шу-Гурранбора — органичное слияние аридарского культа предков и салтуарского почитания духов природы: <br />
+морские юканы пользуются не меньшим уважением, чем пращуры.</p>
+
+<h2 id="ши-сувдрар-жемчужный-город">Ши-Сувдрар (“жемчужный город”)</h2>
+<p>Население: 2.5-3 тысячи человек живут здесь постоянно, во время зимовки может увеличиваться до 8-10 тысяч человек.</p>
+
+<p>Стоит на берегу глубокой узкой бухты с мелкой, прозрачной водой. Воды здесь спокойные, течения нередко приносят жемчужниц именно сюда, соответственно, главный центр жемчужного промысла.
+Окружён лагунами с полуостровами — много затонувших стоянок (археологические реликты, ритуальные “камни памяти” в воде).
+Уникальный культ Утопленницы: юкан, принимающая форму утонувшей женщины. Хозяйка гавани. Обожает украшения.
+Ши-Сувдрар в целом в большой степени специализируется на украшениях и амулетах.</p>
+
+<h2 id="ши-мтраш">Ши-Мтраш</h2>
+<p>Население: 4-4.5 тысячи человек постоянно, до 12-15 тысяч человек в сезон зимовки и торговли.</p>
+
+<p>Город в лагуне, миль 100 к югу от Ши-Сувдрара. Самый большой из всех, центр союза и его крупнейший рынок. Сюда приводят самые крупные стада, здесь центр разведения лошадей, тауроков и талардов. В целом “сердце скотоводства” на Тёплом Море.</p>
+
+<h2 id="ши-далар">Ши-Далар</h2>
+<p>Население: 2-2.5 тысячи человек постоянно, 4-5 тысяч в сезон зимовки.
+Ещё 100 миль к югу, стоит в совсем небольшой бухте на далеко выдающемся в море участке побережья, едва-едва прикрыт парой холмов. Ветра, течения. Здесь раньше была крупная салтуарская деревня, и её влияние очень заметно: город представляет собой верфи союза Гурранбор, занимается кораблями.</p>
 
                     </div>
                 </div>
