@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-04-17T23:30:56+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Taliskarn: The World of Unwritten Maps</title><subtitle>Welcome to the site of Taliskarn — a fantasy setting designed  for adventures using the D&amp;D 5e and Fate Core systems.</subtitle><author><name>benbalter</name></author><entry><title type="html">Dev Diaries, Issue 8</title><link href="http://localhost:4000/extras/blog/dd-8/" rel="alternate" type="text/html" title="Dev Diaries, Issue 8" /><published>2025-04-15T00:00:00+07:00</published><updated>2025-04-15T00:00:00+07:00</updated><id>http://localhost:4000/extras/blog/dd-8</id><content type="html" xml:base="http://localhost:4000/extras/blog/dd-8/"><![CDATA[<p>What can I say? A “steady week”: everything’s proceeding as planned. Slightly slower than I’d prefer, but at least it’s moving.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-04-24T21:17:56+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Taliskarn: The World of Unwritten Maps</title><subtitle>Welcome to the site of Taliskarn — a fantasy setting designed  for adventures using the D&amp;D 5e and Fate Core systems.</subtitle><author><name>benbalter</name></author><entry><title type="html">Dev Diaries, Issue 9</title><link href="http://localhost:4000/ru/extras/blog/dd-9/" rel="alternate" type="text/html" title="Dev Diaries, Issue 9" /><published>2025-04-22T00:00:00+07:00</published><updated>2025-04-22T00:00:00+07:00</updated><id>http://localhost:4000/ru/extras/blog/dd-9</id><content type="html" xml:base="http://localhost:4000/ru/extras/blog/dd-9/"><![CDATA[<h2 id="the-warm-sea">The Warm Sea</h2>
+<p>I had hoped to finish the Warm Sea region over the course of a week, but in reality, I wrapped it up in just two full days. The reason for this acceleration is that I’ve fully returned to the “alpha-draft” format: for each region and city, I just sketch a brief framework—enough for me to understand what’s going on, why, and how. Going any deeper right now doesn’t make sense—at least not for the Warm Sea.</p>
+
+<h2 id="unexpected-obstacles">Unexpected Obstacles</h2>
+<p>After finishing the Warm Sea, I planned to move on to Bryleah, but several things got in the way of those grand ambitions:</p>
+
+<ol>
+  <li>Work didn’t cancel itself.</li>
+  <li>The campaign I’m currently running didn’t disappear either—and I was smart enough to promise a “game Saturday,” so now I’ve got to deliver.</li>
+  <li>Before describing Bryleah, it would help to take a good look at the Bryleahns—and here’s the twist…</li>
+</ol>
+
+<h2 id="to-look-at-the-bryleahns-i-have-to-draw-them">To Look at the Bryleahns, I Have to Draw Them</h2>
+<p>I’ve spent the last two weeks dreading the moment I’d have to draw Ismeria: the protagonist of the first part of the planned story, a Bryleahn. It’s a complex character—non-human anatomy and the weight of high expectations (she <em>is</em> the main character, after all). And as of last Friday, I still hadn’t finalized the phenotype, culture, and features of the Bryleahn people. So yeah, challenge accepted.</p>
+
+<p>I took a deep breath, grabbed the stylus, and…</p>
+
+<h2 id="got-sucked-into-drawing-for-four-days">Got Sucked Into Drawing for Four Days</h2>
+<p>The stars aligned:</p>
+
+<ol>
+  <li>The Bryleahn concept is genuinely needed.</li>
+  <li>This Friday marks exactly two months since I decided to teach myself how to draw. Feels like a good time for a benchmark piece—to test what I’ve learned so far.
+    <ol>
+      <li>I’ve tried a new approach to sketching—dirtier, looser—I like it, but it still needs work.</li>
+      <li>Rendering isn’t coming out how I want yet—too glossy.</li>
+      <li>Dynamic poses are still tough.</li>
+      <li>Legs. It is <em>impossible</em> to draw legs. I thought hands would be the real problem, but nope—turns out the only hands that are truly problematic are my own. And I mean that seriously.</li>
+    </ol>
+  </li>
+</ol>
+
+<p>Basically, I’ve spent four days with my tablet practically glued to my hands, slamming my head against the granite wall of artistic barriers. There’s progress—some of it I’m even proud of—but there’s still a lot to do.</p>
+
+<h2 id="plans-for-the-coming-week">Plans for the Coming Week</h2>
+<p>Looks like I’ll keep drawing for another 2–3 days. Deep-dive sprints like this are paying off, and I’ve apparently built up enough skill and knowledge for some proper reflection. After that, I’ll finally move on to working on Bryleah. Hopefully I’ll have a good chunk done by the time of the next report.</p>
+
+<p>Until next week!</p>]]></content><author><name>Orthan Thundy</name></author><category term="dev diaries" /><summary type="html"><![CDATA[Little progress, lots of drawing, frozen on the threshold of Bryleah.]]></summary></entry><entry><title type="html">Dev Diaries, Issue 8</title><link href="http://localhost:4000/extras/blog/dd-8/" rel="alternate" type="text/html" title="Dev Diaries, Issue 8" /><published>2025-04-15T00:00:00+07:00</published><updated>2025-04-15T00:00:00+07:00</updated><id>http://localhost:4000/extras/blog/dd-8</id><content type="html" xml:base="http://localhost:4000/extras/blog/dd-8/"><![CDATA[<p>What can I say? A “steady week”: everything’s proceeding as planned. Slightly slower than I’d prefer, but at least it’s moving.</p>
 
 <h2 id="technical-updates">Technical updates</h2>
 <p>I finally gathered enough experience using my own website to realize: this can’t go on. I dedicated Wednesday and Thursday entirely to technical improvements, resulting in:</p>
