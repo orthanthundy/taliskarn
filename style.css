@@ -1699,4 +1699,10 @@ header {
   padding-bottom: 0.4em;
 }
 
+.phb-images-row {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
 /*# sourceMappingURL=style.css.map */
